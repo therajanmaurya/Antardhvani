@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="antardhvani.du.ac.in.antardhvani.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_touch_intercept_activity"
+        android:icon="@drawable/ic_next"
+        android:orderInCategory="200"
+        android:title="@string/next"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_tabs_using_library"
+        android:orderInCategory="300"
+        android:title="@string/action_tabs_using_library"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_vector_test_activity"
+        android:orderInCategory="300"
+        android:title="@string/action_vector_test_activity"
+        app:showAsAction="never" />
+
+</menu>

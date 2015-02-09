@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="antardhvani.du.ac.in.antardhvani" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="antardhvani.du.ac.in.antardhvani.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="antardhvani.du.ac.in.antardhvani.MainActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="antardhvani.du.ac.in.antardhvani.SubActivity"
+            android:label="@string/title_activity_sub" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="antardhvani.du.ac.in.antardhvani.MainActivity" />
+        </activity>
+        <activity
+            android:name="antardhvani.du.ac.in.antardhvani.ActivityWithSlidingTabLayout"
+            android:label="@string/title_activity_activity_using_tab_library" >
+        </activity>
+        <activity
+            android:name="antardhvani.du.ac.in.antardhvani.VectorTestActivity"
+            android:label="@string/title_activity_vector_test" >
+        </activity>
+    </application>
+
+</manifest>
