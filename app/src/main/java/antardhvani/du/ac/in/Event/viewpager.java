@@ -1,9 +1,8 @@
-package antardhvani.du.ac.in.antardhvani;
+package antardhvani.du.ac.in.Event;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
@@ -13,6 +12,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import antardhvani.du.ac.in.antardhvani.R;
 import it.neokree.materialtabs.MaterialTab;
 import it.neokree.materialtabs.MaterialTabHost;
 import it.neokree.materialtabs.MaterialTabListener;
@@ -40,7 +41,7 @@ public class viewpager extends Fragment implements MaterialTabListener {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater,ViewGroup container, Bundle savedInstanceState) {
         View layout = inflater.inflate(R.layout.viewpager, container, false);
         Bundle bundle = getArguments();
         tabHost = (MaterialTabHost) layout.findViewById(R.id.materialTabHost);

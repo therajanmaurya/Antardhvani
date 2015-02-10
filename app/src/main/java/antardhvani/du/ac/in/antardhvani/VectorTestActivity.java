@@ -12,8 +12,6 @@ import android.widget.ImageView;
 
 import com.telly.mrvector.MrVector;
 
-import antardhvani.du.ac.in.antardhvani.R;
-
 
 public class VectorTestActivity extends ActionBarActivity {
 

@@ -1,4 +1,4 @@
-package antardhvani.du.ac.in.antardhvani;
+package antardhvani.du.ac.in.Schedule;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -15,6 +15,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 
+import antardhvani.du.ac.in.antardhvani.R;
 import antardhvani.du.ac.in.network.VolleySingleton;
 
 /**
@@ -44,22 +45,4 @@ public class Schedule extends Fragment {
 
     }
 
-    /*
-    Havent called this method anywhere
-     */
-    private void demoNetworkCallWithVolley() {
-        RequestQueue requestQueue = VolleySingleton.getInstance().getRequestQueue();
-        StringRequest request = new StringRequest(Request.Method.GET, "http://php.net/", new Response.Listener<String>() {
-            @Override
-            public void onResponse(String response) {
-                Toast.makeText(getActivity(), "RESPONSE " + response, Toast.LENGTH_SHORT).show();
-            }
-        }, new Response.ErrorListener() {
-            @Override
-            public void onErrorResponse(VolleyError error) {
-                Toast.makeText(getActivity(), "ERROR " + error.getMessage(), Toast.LENGTH_SHORT).show();
-            }
-        });
-        requestQueue.add(request);
-    }
 }

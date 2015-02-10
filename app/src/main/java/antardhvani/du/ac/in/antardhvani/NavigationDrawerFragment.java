@@ -21,6 +21,12 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 
+import antardhvani.du.ac.in.Contact.Contact;
+import antardhvani.du.ac.in.Event.viewpager;
+import antardhvani.du.ac.in.FlowerShow.FlowerShow;
+import antardhvani.du.ac.in.Map.Map;
+import antardhvani.du.ac.in.Schedule.Schedule;
+
 
 /**
  * A simple {@link Fragment} subclass.
@@ -61,12 +67,10 @@ public class NavigationDrawerFragment extends Fragment {
     int in;
     static String[] titles = {"Home", "Events","Flower Show", "Schedule", "Contact","Map"};
     static  CharSequence mtitle;
-    Home home = new Home();
-    viewpager event = new viewpager();
-    FlowerShow flower = new FlowerShow();
-    Schedule schedule = new Schedule();
-    Contact cont =  new Contact();
-    Map map = new Map();
+
+
+
+
 
     public NavigationDrawerFragment() {
         // Required empty public constructor
@@ -122,27 +126,38 @@ public class NavigationDrawerFragment extends Fragment {
             @Override
             public void onClick(View view, int position) {
 
-                FragmentManager fm = getActivity().getSupportFragmentManager();
+                FragmentManager fm = getFragmentManager();
                 android.support.v4.app.FragmentTransaction ft = fm.beginTransaction();
 
                 switch (position) {
                     case 0:
 
+                        Home home = new Home();
                         ft.replace(R.id.frame_container, home);
                         break;
+
                     case 1:
+                        viewpager event = new viewpager();
                         ft.replace(R.id.frame_container, event);
                         break;
+
                     case 2:
+                        FlowerShow flower = new FlowerShow();
                         ft.replace(R.id.frame_container, flower);
                         break;
+
                     case 3:
+                        Schedule schedule = new Schedule();
                         ft.replace(R.id.frame_container, schedule);
                         break;
+
                     case 4:
+                        Contact cont =  new Contact();
                         ft.replace(R.id.frame_container, cont);
                         break;
+
                     case 5:
+                        Map map = new Map();
                         ft.replace(R.id.frame_container, map);
                         break;
                 }

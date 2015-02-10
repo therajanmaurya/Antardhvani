@@ -27,13 +27,12 @@
                 android:value="antardhvani.du.ac.in.antardhvani.MainActivity" />
         </activity>
         <activity
-            android:name="antardhvani.du.ac.in.antardhvani.ActivityWithSlidingTabLayout"
-            android:label="@string/title_activity_activity_using_tab_library" >
-        </activity>
-        <activity
             android:name="antardhvani.du.ac.in.antardhvani.VectorTestActivity"
             android:label="@string/title_activity_vector_test" >
         </activity>
+
+
+
     </application>
 
 </manifest>
