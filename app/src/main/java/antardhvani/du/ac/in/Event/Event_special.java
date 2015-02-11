@@ -14,24 +14,17 @@ import android.widget.ExpandableListView;
 import java.util.ArrayList;
 
 import antardhvani.du.ac.in.Adapter.Child;
-import antardhvani.du.ac.in.Adapter.Event_non_competitive_adapter;
+import antardhvani.du.ac.in.Adapter.Event_special_adapter;
 import antardhvani.du.ac.in.Adapter.Group;
 import antardhvani.du.ac.in.antardhvani.R;
 
-/**
- * Created by rajanmaurya on 11/2/15.
- */
-
-/**
- * Created by Windows on 23-01-2015.
- */
-public class Event_non_competitive extends Fragment {
-    private Event_non_competitive_adapter ExpAdapter;
+public class Event_special extends Fragment {
+    private Event_special_adapter ExpAdapter;
     private ArrayList<Group> ExpListItems;
     private ExpandableListView ExpandList;
 
-    public static Event_competitive getInstance(int position) {
-        Event_competitive myFragment = new Event_competitive();
+    public static Event_special getInstance(int position) {
+        Event_special myFragment = new Event_special();
         Bundle args = new Bundle();
         args.putInt("position", position);
         myFragment.setArguments(args);
@@ -44,7 +37,7 @@ public class Event_non_competitive extends Fragment {
 
         ExpandList = (ExpandableListView) layout.findViewById(R.id.activity_googlecards_listview);
         ExpListItems = SetStandardGroups();
-        ExpAdapter = new Event_non_competitive_adapter(getActivity(), ExpListItems);
+        ExpAdapter = new Event_special_adapter(getActivity(), ExpListItems);
         ExpandList.setAdapter(ExpAdapter);
 
         return layout;
@@ -54,7 +47,7 @@ public class Event_non_competitive extends Fragment {
 
     public ArrayList<Group> SetStandardGroups() {
 
-        String group_names[] = {"Innovation Plaza \n (Undergraduate research of Colleges)","International Plaza \nForeign Students Showcase their countries","University-Industry Interface","Sports Plaza","EOC Corner","Govt. of India Institutions","Skill Development Pavilion \n (NSDC,New Delhi)"
+        String group_names[] = {"Special Plaza \n (Undergraduate research of Colleges)","International Plaza \nForeign Students Showcase their countries","University-Industry Interface","Sports Plaza","EOC Corner","Govt. of India Institutions","Skill Development Pavilion \n (NSDC,New Delhi)"
                 ,"Gandhi Darshan","DU Heritage Walks And Archive Tour" , "DUWA-Delhi University Women's Association Stall","Teachers Training and Academic Orientation-CPDHE","Computerized Shooting Range-DUSC"};
 
         String country_names[] = { "This special area gathers various new initiatives at the University which have introduced a\n" +

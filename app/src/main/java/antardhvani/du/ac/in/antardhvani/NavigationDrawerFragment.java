@@ -67,7 +67,7 @@ public class NavigationDrawerFragment extends Fragment {
     int in;
     static String[] titles = {"Home", "Events","Flower Show", "Schedule", "Contact","Map"};
     static  CharSequence mtitle;
-
+    public static FragmentManager fragmentManager;
 
 
 

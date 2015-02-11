@@ -5,9 +5,15 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
-import antardhvani.du.ac.in.FlowerShow.FlowerShow;
+import com.google.android.gms.maps.CameraUpdateFactory;
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.MapView;
+import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
+
+import antardhvani.du.ac.in.antardhvani.NavigationDrawerFragment;
 import antardhvani.du.ac.in.antardhvani.R;
 
 /**
@@ -15,7 +21,10 @@ import antardhvani.du.ac.in.antardhvani.R;
  */
 
 public class Map extends Fragment {
-    private TextView textView;
+
+    MapView mapView;
+
+    GoogleMap googleMap;
 
     public static Map getInstance(int position) {
         Map myFragment = new Map();
@@ -27,10 +36,54 @@ public class Map extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View layout = inflater.inflate(R.layout.fragment_my, container, false);
+        View layout = inflater.inflate(R.layout.map, container, false);
+
+        mapView = (MapView) layout.findViewById(R.id.map);
+
+        mapView.onCreate(savedInstanceState);
+
+        if(mapView!=null)
+        {
+            googleMap = mapView.getMap();
+
+            googleMap.getUiSettings().setMyLocationButtonEnabled(false);
+
+            googleMap.setMyLocationEnabled(true);
+
+            googleMap.addMarker(new MarkerOptions().position(new LatLng( 28.690976,77.214166)).title("Marker"));
+
+            googleMap.getUiSettings().setZoomControlsEnabled(true);
+        }
 
         return layout;
 
     }
 
-}
+    @Override
+    public void onResume()
+    {
+        mapView.onResume();
+
+        super.onResume();
+    }
+    @Override
+    public void onDestroy()
+    {
+        super.onDestroy();
+
+        mapView.onDestroy();
+    }
+    @Override
+    public void onLowMemory()
+    {
+        super.onLowMemory();
+
+        mapView.onLowMemory();
+    }
+
+
+
+    }
+
+
+

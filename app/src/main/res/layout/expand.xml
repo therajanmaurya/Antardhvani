@@ -10,7 +10,7 @@
 
 
     <TextView
-        android:id="@+id/activity_googlecards_card_imageview"
+        android:id="@+id/activity_googlecards_card_imageview1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:scaleType="centerCrop"

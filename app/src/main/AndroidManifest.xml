@@ -3,6 +3,20 @@
     package="antardhvani.du.ac.in.antardhvani" >
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true"/>
+
+    <permission
+        android:name="antardhvani.du.ac.in.antardhvani.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature"/>
+    <uses-permission android:name="antardhvani.du.ac.in.antardhvani.permission.MAPS_RECEIVE"/>
 
     <application
         android:name="antardhvani.du.ac.in.antardhvani.MyApplication"
@@ -30,6 +44,11 @@
             android:name="antardhvani.du.ac.in.antardhvani.VectorTestActivity"
             android:label="@string/title_activity_vector_test" >
         </activity>
+
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyDyHdVP1aM2bl5kD1_w2QUP_yd9KrjL3nw"/>
 
 
 

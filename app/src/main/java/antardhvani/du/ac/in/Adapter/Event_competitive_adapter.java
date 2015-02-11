@@ -1,125 +1,101 @@
 package antardhvani.du.ac.in.Adapter;
 
 /**
- * Created by rajanmaurya on 10/2/15.
+ * Created by rajanmaurya on 11/2/15.
  */
-
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.TextView;
+import java.util.ArrayList;
+
 import antardhvani.du.ac.in.antardhvani.R;
 
-/**
- * Created by rajanmaurya on 10/2/15.
- */
 public class Event_competitive_adapter extends BaseExpandableListAdapter {
+
     private Context context;
+    private ArrayList<Group> groups;
 
-    static String[] non_com;
-    static String[][] non_com1;
-    protected LayoutInflater inflater = null;
-    //static int[] image = {R.drawable.sample_0,R.drawable.sample_1,R.drawable.sample_2,R.drawable.sample_3};
-    static String []parentlist = {"Products","ViewPDF","TODO List","Contacts"};
-    static String [][]childlist = {{"Products lists \n 1. Books \n 2. Copy \n 3.Table", "Books","Copy"},{"ViewPDF list \n 1.Adobe Reader \n 2. PDF Reader \n 3.All PDF"},{"TODO list"},{"Contacts list"}};
-    public Event_competitive_adapter(Context context) {
-        // TODO Auto-generated constructor stub
+    public Event_competitive_adapter (Context context, ArrayList<Group> groups) {
         this.context = context;
-
-    }
-
-    public Event_competitive_adapter(Context context, String[] non_competitive, String[][] non_competitive1) {
-        this.context = context;
-        non_com = non_competitive;
-        non_com1 = non_competitive1;
-    }
-
-    @Override
-    public int getGroupCount() {
-        // TODO Auto-generated method stub
-        return non_com.length;
-    }
-
-    @Override
-    public int getChildrenCount(int groupPosition) {
-        // TODO Auto-generated method stub
-        return non_com1[groupPosition].length;
-    }
-
-    @Override
-    public Object getGroup(int groupPosition) {
-        // TODO Auto-generated method stub
-        return groupPosition;
+        this.groups = groups;
     }
 
     @Override
     public Object getChild(int groupPosition, int childPosition) {
-        // TODO Auto-generated method stub
-
-        return 0;
-    }
-
-    @Override
-    public long getGroupId(int groupPosition) {
-        // TODO Auto-generated method stub
-        return groupPosition;
+        ArrayList<Child> chList = groups.get(groupPosition).getItems();
+        return chList.get(childPosition);
     }
 
     @Override
     public long getChildId(int groupPosition, int childPosition) {
-        // TODO Auto-generated method stub
-        return 0;
-    }
-
-    @Override
-    public boolean hasStableIds() {
-        // TODO Auto-generated method stub
-        return false;
-    }
-
-
-
-    @Override
-    public View getGroupView(int groupPosition, boolean isExpanded,
-                             View convertView, ViewGroup parent) {
-        // TODO Auto-generated method stub
-        if (convertView == null) {
-            LayoutInflater infalInflater = (LayoutInflater) this.context
-                    .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            convertView = infalInflater.inflate(R.layout.googlecardadapter, null);
-            TextView tv = (TextView) convertView.findViewById(R.id.activity_googlecards_card_textview);
-            tv.setText(non_com[groupPosition]);
-        }
-        ;
-
-        return convertView;
+        return childPosition;
     }
 
     @Override
     public View getChildView(int groupPosition, int childPosition,
                              boolean isLastChild, View convertView, ViewGroup parent) {
-        // TODO Auto-generated method stub
+
+        Child child = (Child) getChild(groupPosition, childPosition);
         if (convertView == null) {
-            LayoutInflater infalInflater = (LayoutInflater) this.context
-                    .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            LayoutInflater infalInflater = (LayoutInflater) context
+                    .getSystemService(context.LAYOUT_INFLATER_SERVICE);
             convertView = infalInflater.inflate(R.layout.expand, null);
         }
+        TextView tv = (TextView) convertView.findViewById(R.id.activity_googlecards_card_imageview1);
 
-        TextView txtListChild = (TextView) convertView
-                .findViewById(R.id.activity_googlecards_card_imageview);
-        txtListChild.setText(non_com1[groupPosition][childPosition]);
+
+        tv.setText(child.getName().toString());
 
 
         return convertView;
+    }
 
+    @Override
+    public int getChildrenCount(int groupPosition) {
+        ArrayList<Child> chList = groups.get(groupPosition).getItems();
+        return chList.size();
+    }
+
+    @Override
+    public Object getGroup(int groupPosition) {
+        return groups.get(groupPosition);
+    }
+
+    @Override
+    public int getGroupCount() {
+        return groups.size();
+    }
+
+    @Override
+    public long getGroupId(int groupPosition) {
+        return groupPosition;
+    }
+
+    @Override
+    public View getGroupView(int groupPosition, boolean isExpanded,
+                             View convertView, ViewGroup parent) {
+        Group group = (Group) getGroup(groupPosition);
+        if (convertView == null) {
+            LayoutInflater inf = (LayoutInflater) context
+                    .getSystemService(context.LAYOUT_INFLATER_SERVICE);
+            convertView = inf.inflate(R.layout.googlecardadapter, null);
+        }
+        TextView tv = (TextView) convertView.findViewById(R.id.activity_googlecards_card_textview);
+        tv.setText(group.getName());
+        return convertView;
+    }
+
+    @Override
+    public boolean hasStableIds() {
+        return true;
     }
 
     @Override
     public boolean isChildSelectable(int groupPosition, int childPosition) {
-        // TODO Auto-generated method stub
-        return true ;
+        return true;
     }
 
 }

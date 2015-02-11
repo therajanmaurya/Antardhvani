@@ -41,7 +41,7 @@ public class viewpager extends Fragment implements MaterialTabListener {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater,ViewGroup container, Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View layout = inflater.inflate(R.layout.viewpager, container, false);
         Bundle bundle = getArguments();
         tabHost = (MaterialTabHost) layout.findViewById(R.id.materialTabHost);
@@ -65,19 +65,16 @@ public class viewpager extends Fragment implements MaterialTabListener {
                             .setTabListener(this));
 
 
-
         }
 
 
         return layout;
 
 
-
-
     }
 
-    public Drawable getIcon( int position) {
-        return  getResources().getDrawable(icons[position]);
+    public Drawable getIcon(int position) {
+        return getResources().getDrawable(icons[position]);
     }
 
 
@@ -113,7 +110,21 @@ class ViewPagerAdapter extends FragmentStatePagerAdapter {
 
 
     public Fragment getItem(int num) {
-        return Event_non_competitive.getInstance(num);
+        switch (num) {
+            case 0: // Fragment # 0 - This will show image
+                //return Event_non_competitive.getInstance(num);
+                return new Event_non_competitive();
+            case 1: // Fragment # 1 - This will show image
+                return new Event_competitive();
+                //return Event_competitive.getInstance(num);
+            case 2:// Fragment # 2-9 - Will show list
+                return new Event_special();
+//            default:// Fragment # 2-9 - Will show list
+//                return Event_non_competitive.getInstance(num);
+
+        }
+        return null;
+        //return Expand.getInstance(num);
     }
 
 
@@ -138,7 +149,6 @@ class ViewPagerAdapter extends FragmentStatePagerAdapter {
         }
         return title;
     }
-
 
 
 }

@@ -3,6 +3,7 @@ package antardhvani.du.ac.in.Adapter;
 /**
  * Created by rajanmaurya on 11/2/15.
  */
+
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,12 +14,13 @@ import java.util.ArrayList;
 
 import antardhvani.du.ac.in.antardhvani.R;
 
-public class Event_non_competitive_adapter extends BaseExpandableListAdapter {
+
+public class Event_special_adapter extends BaseExpandableListAdapter {
 
     private Context context;
     private ArrayList<Group> groups;
 
-    public Event_non_competitive_adapter (Context context, ArrayList<Group> groups) {
+    public Event_special_adapter(Context context, ArrayList<Group> groups) {
         this.context = context;
         this.groups = groups;
     }
