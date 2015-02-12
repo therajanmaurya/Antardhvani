@@ -1,5 +1,6 @@
 package antardhvani.du.ac.in.FlowerShow;
 
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.app.Fragment;
@@ -25,7 +26,7 @@ import antardhvani.du.ac.in.antardhvani.ScreenSlidePageFragment;
 
 
 public class FlowerShow extends Fragment {
-    private TextView textView;
+    private TextView title, des;
     public static final int NUM_PAGES = 3;
 
     private ListView leftDrawerList;
@@ -49,6 +50,14 @@ public class FlowerShow extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View layout = inflater.inflate(R.layout.flowershow, container, false);
+
+
+        title = (TextView) layout.findViewById(R.id.title);
+        des = (TextView) layout.findViewById(R.id.titleShortDescription);
+        Typeface font = Typeface.createFromAsset(getActivity().getAssets(), "fonts/Sofia-Regular.otf");
+        title.setTypeface(font);
+        des.setTypeface(font);
+
 
         imageView =(KenBurnsView)layout.findViewById(R.id.header_picture);
         final Handler handler = new Handler();

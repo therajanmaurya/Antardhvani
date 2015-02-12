@@ -1,5 +1,6 @@
 package antardhvani.du.ac.in.Home;
 
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.annotation.Nullable;
@@ -26,7 +27,7 @@ import antardhvani.du.ac.in.antardhvani.ScreenSlidePageFragment;
  * Created by Windows on 23-01-2015.
  */
 public class Home extends Fragment {
-    private TextView textView;
+    private TextView title, des;
     int[] photos={R.drawable.slider_1_bg, R.drawable.slider_2_bg,R.drawable.slider_3_bg};
     KenBurnsView imageView;
     private ViewPager mPager;
@@ -35,6 +36,9 @@ public class Home extends Fragment {
     private int count =0;
     private boolean one_two_three=true;
     public static final int NUM_PAGES = 3;
+
+
+
     public static Home getInstance(int position) {
         Home myFragment = new Home();
         Bundle args = new Bundle();
@@ -46,6 +50,13 @@ public class Home extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View layout = inflater.inflate(R.layout.home, container, false);
+
+        title = (TextView) layout.findViewById(R.id.title);
+        des = (TextView) layout.findViewById(R.id.titleShortDescription);
+        Typeface font = Typeface.createFromAsset(getActivity().getAssets(), "fonts/Sofia-Regular.otf");
+        title.setTypeface(font);
+        des.setTypeface(font);
+
 
         imageView =(KenBurnsView)layout.findViewById(R.id.header_picture);
         final Handler handler = new Handler();

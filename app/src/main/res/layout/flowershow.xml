@@ -21,6 +21,13 @@
                 android:layout_height="match_parent"
                 android:src="@drawable/rps_5_4" />
 
+            <ImageView
+                android:id="@+id/header_thumbnail"
+                android:layout_width="fill_parent"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:src="@drawable/du_logo" />
+
 
         </FrameLayout>
 
@@ -31,7 +38,8 @@
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/header_height" />
+                android:layout_height="@dimen/header_height"
+                android:background="#800a860c"/>
 
             <android.support.v7.widget.CardView
                 android:id="@+id/cardView"
@@ -60,9 +68,10 @@
                             android:id="@+id/title"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text = "University Flower Show will be integrated with the Antardhvani Cultural Program"
+                            android:text = "Annual Flower show"
                             android:paddingLeft="15dp"
                             android:textColor="#000000"
+                            android:gravity="center"
                             android:textSize="30sp"
                             android:textStyle="bold" />
 
@@ -72,6 +81,7 @@
                             android:layout_height="wrap_content"
                             android:paddingLeft="15dp"
                             android:textColor="#000000"
+                            android:gravity="center"
                             android:textSize="19sp"
                             android:text = "The tradition of holding a spectacular FLOWER SHOW annually continues with its practice of inviting competitive and non-competitive entries from all its Gardens and Colleges. It's an occasion to honour our teams of  horticulturalists and those who oversee their work. Bonsai shows and gardening material will be on display and sale."
                             android:textStyle="italic" />

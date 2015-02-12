@@ -21,6 +21,12 @@
                 android:layout_height="match_parent"
                 android:src="@drawable/slider_1_bg" />
 
+            <ImageView
+                android:id="@+id/header_thumbnail"
+                android:layout_width="fill_parent"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:src="@drawable/du_logo" />
 
         </FrameLayout>
 
@@ -29,9 +35,14 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
+
+
             <View
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/header_height" />
+                android:layout_height="@dimen/header_height"
+                android:background="#b32f8394"
+
+            />
 
             <android.support.v7.widget.CardView
                 android:id="@+id/cardView"
@@ -60,10 +71,11 @@
                             android:id="@+id/title"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text = "Welcome to Antardhvani Cultural Festival"
+                            android:text = "Welcome to Antardhvani 2015 Cultural Festival"
                             android:paddingLeft="15dp"
                             android:textColor="#000000"
                             android:textSize="30sp"
+                            android:gravity="center"
                             android:textStyle="bold" />
 
                         <TextView
@@ -72,9 +84,10 @@
                             android:layout_height="wrap_content"
                             android:paddingLeft="15dp"
                             android:textColor="#000000"
-                            android:textSize="19sp"
+                            android:textSize="22sp"
+                            android:gravity="center"
                             android:text = "The DU Antardhvani Cultural Festival was conceptualized and started in 2011 and has become the showpiece event of India's highest rated university. In the brief duration of two years it has emerged as the medium for profiling the university’s cultural, sports and academic achievements. The last Antardhvani attracted about 1, 50,000 footfalls in three days. \n The annual Cultural Festival of the University of Delhi was named 'Antardhvani' by Vice Chancellor, Professor Dinesh Singh. By listening to the 'inner voice', a student will discover his/ her calling in life, and be guided in the path of right action."
-                            android:textStyle="italic" />
+                            android:textStyle="normal" />
 
                     </LinearLayout>
 

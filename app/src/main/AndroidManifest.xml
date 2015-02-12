@@ -26,7 +26,8 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="antardhvani.du.ac.in.antardhvani.MainActivity"
-            android:label="@string/title_activity_main" >
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -35,6 +36,7 @@
         </activity>
         <activity
             android:name="antardhvani.du.ac.in.antardhvani.SubActivity"
+            android:screenOrientation="portrait"
             android:label="@string/title_activity_sub" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -42,6 +44,7 @@
         </activity>
         <activity
             android:name="antardhvani.du.ac.in.antardhvani.VectorTestActivity"
+            android:screenOrientation="portrait"
             android:label="@string/title_activity_vector_test" >
         </activity>
 
