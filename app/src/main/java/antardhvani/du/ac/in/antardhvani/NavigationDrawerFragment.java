@@ -24,6 +24,7 @@ import java.util.List;
 import antardhvani.du.ac.in.Contact.Contact;
 import antardhvani.du.ac.in.Event.viewpager;
 import antardhvani.du.ac.in.FlowerShow.FlowerShow;
+import antardhvani.du.ac.in.Home.Home;
 import antardhvani.du.ac.in.Map.Map;
 import antardhvani.du.ac.in.Schedule.Schedule;
 
@@ -166,7 +167,7 @@ public class NavigationDrawerFragment extends Fragment {
 
 
 
-                Toast.makeText(getActivity(),"home",Toast.LENGTH_LONG).show();
+               // Toast.makeText(getActivity(),"home",Toast.LENGTH_LONG).show();
 
 
                 recyclerView.setSelected(true);

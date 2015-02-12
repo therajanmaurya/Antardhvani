@@ -15,6 +15,7 @@ import android.view.MenuItem;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
+import antardhvani.du.ac.in.Home.Home;
 import it.neokree.materialtabs.MaterialTab;
 import it.neokree.materialtabs.MaterialTabHost;
 import it.neokree.materialtabs.MaterialTabListener;
@@ -40,6 +41,14 @@ public class MainActivity extends ActionBarActivity{
                 getSupportFragmentManager().findFragmentById(R.id.fragment_navigation_drawer);
         drawerFragment.setUp(R.id.fragment_navigation_drawer, (DrawerLayout) findViewById(R.id.drawer_layout), toolbar);
 
+        if (savedInstanceState == null) {
+            Home home = new Home();
+            getSupportFragmentManager()
+
+                    .beginTransaction().replace(R.id.frame_container, home)
+                    .commit();
+
+        }
 
     }
 
@@ -63,13 +72,8 @@ public class MainActivity extends ActionBarActivity{
             Toast.makeText(this, "Hey you just hit " + item.getTitle(), Toast.LENGTH_SHORT).show();
             return true;
         }
-        if (id == R.id.action_touch_intercept_activity) {
-            startActivity(new Intent(this, SubActivity.class));
-        }
 
-        if (R.id.action_vector_test_activity == id) {
-            startActivity(new Intent(this, VectorTestActivity.class));
-        }
+
         return super.onOptionsItemSelected(item);
     }
 

@@ -2,6 +2,38 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="antardhvani.du.ac.in.antardhvani.MainActivity">
+
+
+    <item
+        android:id="@+id/facebook"
+        android:orderInCategory="100"
+        android:title="@string/facebook"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/brochure"
+        android:orderInCategory="200"
+        android:title="@string/brochure"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/notice"
+        android:orderInCategory="300"
+        android:title="@string/notice"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/rate"
+        android:orderInCategory="400"
+        android:title="@string/rate"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/share"
+        android:orderInCategory="500"
+        android:title="@string/share"
+        app:showAsAction="never" />
+    <!--
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
@@ -23,5 +55,8 @@
         android:orderInCategory="300"
         android:title="@string/action_vector_test_activity"
         app:showAsAction="never" />
+
+     -->
+
 
 </menu>

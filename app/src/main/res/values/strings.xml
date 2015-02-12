@@ -25,5 +25,10 @@
     <string name="action_tabs_using_library">SlidingTabLayoutExample</string>
     <string name="title_activity_vector_test">VectorTestActivity</string>
     <string name="action_vector_test_activity">VectorTestActivity</string>
+    <string name="facebook">Like us on facebook</string>
+    <string name="brochure">Download Brochure</string>
+    <string name="notice">Important Notice</string>
+    <string name="rate">Rate App</string>
+    <string name="share">Share App</string>
 
 </resources>

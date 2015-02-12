@@ -1,7 +1,8 @@
-package antardhvani.du.ac.in.FlowerShow;
+package antardhvani.du.ac.in.Home;
 
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
@@ -10,12 +11,10 @@ import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ListView;
 import android.widget.TextView;
 
 import com.flaviofaria.kenburnsview.KenBurnsView;
 
-import java.util.ArrayList;
 import java.util.Random;
 import java.util.Timer;
 import java.util.TimerTask;
@@ -23,23 +22,21 @@ import java.util.TimerTask;
 import antardhvani.du.ac.in.antardhvani.R;
 import antardhvani.du.ac.in.antardhvani.ScreenSlidePageFragment;
 
-
-public class FlowerShow extends Fragment {
+/**
+ * Created by Windows on 23-01-2015.
+ */
+public class Home extends Fragment {
     private TextView textView;
-    public static final int NUM_PAGES = 3;
-
-    private ListView leftDrawerList;
-    private ArrayList<String> stringArrayAdapter;
+    int[] photos={R.drawable.slider_1_bg, R.drawable.slider_2_bg,R.drawable.slider_3_bg};
+    KenBurnsView imageView;
     private ViewPager mPager;
     private PagerAdapter mPagerAdapter;
     private Timer timer;
     private int count =0;
     private boolean one_two_three=true;
-    int[] photos={R.drawable.rps_5_1, R.drawable.rps_5_2,R.drawable.rps_5_3,R.drawable.rps_5_4};
-    KenBurnsView imageView;
-
-    public static FlowerShow getInstance(int position) {
-        FlowerShow myFragment = new FlowerShow();
+    public static final int NUM_PAGES = 3;
+    public static Home getInstance(int position) {
+        Home myFragment = new Home();
         Bundle args = new Bundle();
         args.putInt("position", position);
         myFragment.setArguments(args);
@@ -47,8 +44,8 @@ public class FlowerShow extends Fragment {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View layout = inflater.inflate(R.layout.flowershow, container, false);
+    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        View layout = inflater.inflate(R.layout.home, container, false);
 
         imageView =(KenBurnsView)layout.findViewById(R.id.header_picture);
         final Handler handler = new Handler();
@@ -70,7 +67,7 @@ public class FlowerShow extends Fragment {
         };
         handler.postDelayed(runnable, 7000); //for initial delay..
 
-        mPager = (ViewPager) layout.findViewById(R.id.pager);
+        mPager = (ViewPager) layout.findViewById(R.id.pager1);
         mPagerAdapter = new ScreenSlidePagerAdapter(getActivity().getSupportFragmentManager());
         mPager.setAdapter(mPagerAdapter);
         mPager.setOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {
@@ -80,7 +77,7 @@ public class FlowerShow extends Fragment {
                 // on which page is currently active. An alternative approach is to have each
                 // fragment expose actions itself (rather than the activity exposing actions),
                 // but for simplicity, the activity provides the actions in this sample.
-              //invalidateOptionsMenu(getActivity());
+                //invalidateOptionsMenu(getActivity());
             }
         });
         final Handler handler1 = new Handler();
