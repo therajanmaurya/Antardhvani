@@ -11,6 +11,13 @@
         app:showAsAction="never" />
 
     <item
+        android:id="@+id/rules"
+        android:orderInCategory="199"
+        android:title="@string/rules"
+        app:showAsAction="never" />
+
+
+    <item
         android:id="@+id/brochure"
         android:orderInCategory="200"
         android:title="@string/brochure"
@@ -33,6 +40,13 @@
         android:orderInCategory="500"
         android:title="@string/share"
         app:showAsAction="never" />
+
+    <item
+        android:id="@+id/code"
+        android:orderInCategory="600"
+        android:title="@string/code"
+        app:showAsAction="never" />
+
     <!--
     <item
         android:id="@+id/action_settings"

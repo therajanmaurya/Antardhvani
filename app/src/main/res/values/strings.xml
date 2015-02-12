@@ -30,5 +30,7 @@
     <string name="notice">Important Notice</string>
     <string name="rate">Rate App</string>
     <string name="share">Share App</string>
+    <string name="rules">Rules for Competitive Events</string>
+    <string name="code">Source code on Github</string>
 
 </resources>

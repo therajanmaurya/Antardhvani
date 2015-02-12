@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="antardhvani.du.ac.in.antardhvani" >
+    package="antardhvani.du.ac.in.antardhvani">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <uses-feature
         android:glEsVersion="0x00020000"
-        android:required="true"/>
+        android:required="true" />
 
     <permission
         android:name="antardhvani.du.ac.in.antardhvani.permission.MAPS_RECEIVE"
-        android:protectionLevel="signature"/>
-    <uses-permission android:name="antardhvani.du.ac.in.antardhvani.permission.MAPS_RECEIVE"/>
+        android:protectionLevel="signature" />
+    <uses-permission android:name="antardhvani.du.ac.in.antardhvani.permission.MAPS_RECEIVE" />
 
     <application
         android:name="antardhvani.du.ac.in.antardhvani.MyApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
         <activity
             android:name="antardhvani.du.ac.in.antardhvani.MainActivity"
             android:label="@string/title_activity_main"
@@ -36,23 +36,21 @@
         </activity>
         <activity
             android:name="antardhvani.du.ac.in.antardhvani.SubActivity"
-            android:screenOrientation="portrait"
-            android:label="@string/title_activity_sub" >
+            android:label="@string/title_activity_sub"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="antardhvani.du.ac.in.antardhvani.MainActivity" />
         </activity>
         <activity
             android:name="antardhvani.du.ac.in.antardhvani.VectorTestActivity"
-            android:screenOrientation="portrait"
-            android:label="@string/title_activity_vector_test" >
-        </activity>
+            android:label="@string/title_activity_vector_test"
+            android:screenOrientation="portrait"></activity>
 
 
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyCBsOt_xE05CaQ5JoQb_7CJ6vFuv-7Zl4I"/>
-
+            android:value="AIzaSyCBsOt_xE05CaQ5JoQb_7CJ6vFuv-7Zl4I" />
 
 
     </application>

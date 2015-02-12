@@ -2,6 +2,7 @@ package antardhvani.du.ac.in.antardhvani;
 
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -22,7 +23,7 @@ import it.neokree.materialtabs.MaterialTabListener;
 import antardhvani.du.ac.in.antardhvani.R;
 
 
-public class MainActivity extends ActionBarActivity{
+public class MainActivity extends ActionBarActivity {
 
     public static Toolbar toolbar;
     public static MaterialTabHost tabHost;
@@ -68,8 +69,56 @@ public class MainActivity extends ActionBarActivity{
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            Toast.makeText(this, "Hey you just hit " + item.getTitle(), Toast.LENGTH_SHORT).show();
+       //Like us on faceboook link
+        if (id == R.id.facebook) {
+            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/UniversityofDelhi"));
+            startActivity(browserIntent);
+            return true;
+        }
+
+        //Rules for competitive events link
+        if (id == R.id.rules) {
+            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://antardhvani2015.du.ac.in/pdf/06022015Rulesforcompetitiveevents.pdf"));
+            startActivity(browserIntent);
+            return true;
+        }
+
+        //Download Brochure link
+        if (id == R.id.brochure) {
+            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://antardhvani2015.du.ac.in/pdf/01022015Flowershowbooklet2015.pdf"));
+            startActivity(browserIntent);
+            return true;
+        }
+
+        //Important notices link
+        if (id == R.id.notice) {
+            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://antardhvani2015.du.ac.in/notifications.html"));
+            startActivity(browserIntent);
+            return true;
+        }
+
+        //Rate app link
+        if (id == R.id.rate) {
+            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("play.google.com/store/apps/details?id=antardhvani.du.ac.in.antardhvani"));
+            startActivity(browserIntent);
+            return true;
+        }
+
+        //Share app link
+        if (id == R.id.share) {
+            Intent sendIntent = new Intent();
+            sendIntent.setAction(Intent.ACTION_SEND);
+            sendIntent.putExtra(Intent.EXTRA_TEXT,
+                    "Have a look at Antardhvani 2015 app here :  play.google.com/store/apps/details?id=antardhvani.du.ac.in.antardhvani");
+            sendIntent.setType("text/plain");
+            startActivity(sendIntent);
+            return true;
+        }
+
+        //Source code on github link
+        if (id == R.id.code) {
+            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/teamDAPSR/Antardhvani"));
+            startActivity(browserIntent);
             return true;
         }
 

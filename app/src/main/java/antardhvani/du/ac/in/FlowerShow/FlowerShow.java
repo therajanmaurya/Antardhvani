@@ -34,9 +34,9 @@ public class FlowerShow extends Fragment {
     private ViewPager mPager;
     private PagerAdapter mPagerAdapter;
     private Timer timer;
-    private int count =0;
-    private boolean one_two_three=true;
-    int[] photos={R.drawable.rps_5_1, R.drawable.rps_5_2,R.drawable.rps_5_3,R.drawable.rps_5_4};
+    private int count = 0;
+    private boolean one_two_three = true;
+    int[] photos = {R.drawable.rps_5_1, R.drawable.rps_5_2, R.drawable.rps_5_3, R.drawable.rps_5_4};
     KenBurnsView imageView;
 
     public static FlowerShow getInstance(int position) {
@@ -59,20 +59,20 @@ public class FlowerShow extends Fragment {
         des.setTypeface(font);
 
 
-        imageView =(KenBurnsView)layout.findViewById(R.id.header_picture);
+        imageView = (KenBurnsView) layout.findViewById(R.id.header_picture);
         final Handler handler = new Handler();
         Runnable runnable = new Runnable() {
-            int i=0;
+            int i = 0;
+
             public void run() {
                 // change images randomly
-                Random ran=new Random();
-                int i=ran.nextInt(photos.length);
+                Random ran = new Random();
+                int i = ran.nextInt(photos.length);
                 //set image resources
                 imageView.setImageResource(photos[i]);
                 i++;
-                if(i>photos.length-1)
-                {
-                    i=0;
+                if (i > photos.length - 1) {
+                    i = 0;
                 }
                 handler.postDelayed(this, 7000);  //for interval...
             }
@@ -89,23 +89,23 @@ public class FlowerShow extends Fragment {
                 // on which page is currently active. An alternative approach is to have each
                 // fragment expose actions itself (rather than the activity exposing actions),
                 // but for simplicity, the activity provides the actions in this sample.
-              //invalidateOptionsMenu(getActivity());
+                //invalidateOptionsMenu(getActivity());
             }
         });
         final Handler handler1 = new Handler();
 
         final Runnable Update = new Runnable() {
             public void run() {
-                if(one_two_three){
-                    mPager.setCurrentItem(count++, true);}
-                else{
-                    mPager.setCurrentItem(count--,true);
+                if (one_two_three) {
+                    mPager.setCurrentItem(count++, true);
+                } else {
+                    mPager.setCurrentItem(count--, true);
                 }
-                if(count==0){
-                    one_two_three=true;
+                if (count == 0) {
+                    one_two_three = true;
                 }
-                if(count==NUM_PAGES){
-                    one_two_three=false;
+                if (count == NUM_PAGES) {
+                    one_two_three = false;
                 }
 
             }
@@ -123,6 +123,7 @@ public class FlowerShow extends Fragment {
         return layout;
 
     }
+
     private class ScreenSlidePagerAdapter extends FragmentStatePagerAdapter {
         public ScreenSlidePagerAdapter(FragmentManager fm) {
             super(fm);
