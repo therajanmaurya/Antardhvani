@@ -1,5 +1,8 @@
 package antardhvani.du.ac.in.antardhvani;
 
+import android.animation.ArgbEvaluator;
+import android.animation.ObjectAnimator;
+import android.animation.ValueAnimator;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -9,23 +12,32 @@ import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 
 public class Splash extends ActionBarActivity {
-    public static ImageView du_logo;
+    public static ImageView du_logo, haathi;
+    public static TextView antar, university;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splash);
-
+        try{
+            Thread.sleep(5000);
+        }catch (Exception e)
+        {
+            e.printStackTrace();
+        }
         // Animations of splash screen.
         du_logo = (ImageView) findViewById(R.id.du_logo);
+        haathi = (ImageView) findViewById(R.id.haathi);
+        antar = (TextView) findViewById(R.id.antardhwani);
+        university = (TextView) findViewById(R.id.du_name);
 
         fadein();
-        // Calling MainActivity after Splash ends.
-/*        Intent intent = new Intent(this, MainActivity.class);
-        this.startActivity(intent);
-        finish();*/
+
     }
 
     private void fadein()
@@ -48,13 +60,14 @@ public class Splash extends ActionBarActivity {
                 ;
             }
         });
-        fade.startNow();
+        du_logo.startAnimation(fade);
     }
 
     private void shrinkAndTranslate()
     {
         Animation shrinkNtranslate = AnimationUtils.loadAnimation(this, R.anim.shrink);
         shrinkNtranslate.setRepeatCount(0);
+        shrinkNtranslate.setFillAfter(true);
         shrinkNtranslate.setAnimationListener(new Animation.AnimationListener() {
             @Override
             public void onAnimationStart(Animation animation) {
@@ -71,7 +84,76 @@ public class Splash extends ActionBarActivity {
 
             }
         });
-        shrinkNtranslate.startNow();
+        du_logo.startAnimation(shrinkNtranslate);
+    }
+
+    private void fadeText()
+    {
+        Animation fadetext1 = AnimationUtils.loadAnimation(this, R.anim.fadein);
+        fadetext1.setRepeatCount(0);
+        fadetext1.setFillAfter(true);
+        fadetext1.setAnimationListener(new Animation.AnimationListener() {
+            @Override
+            public void onAnimationStart(Animation animation) {
+                antar.setVisibility(View.VISIBLE);
+                university.setVisibility(View.VISIBLE);
+            }
+
+            @Override
+            public void onAnimationEnd(Animation animation) {
+                logo();
+            }
+
+            @Override
+            public void onAnimationRepeat(Animation animation) {
+
+            }
+        });
+        antar.startAnimation(fadetext1);
+        university.startAnimation(fadetext1);
+    }
+
+    private void logo()
+    {
+        final RelativeLayout splash = (RelativeLayout)findViewById(R.id.splashScreen);
+
+        Animation fade = AnimationUtils.loadAnimation(this, R.anim.grow);
+        fade.setRepeatCount(0);
+        fade.setFillAfter(true);
+        fade.setAnimationListener(new Animation.AnimationListener() {
+            @Override
+            public void onAnimationStart(Animation animation) {
+                haathi.setVisibility(View.VISIBLE);
+            }
+
+            @Override
+            public void onAnimationEnd(Animation animation) {
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                end();
+
+            }
+
+            @Override
+            public void onAnimationRepeat(Animation animation) {
+
+            }
+        });
+        haathi.startAnimation(fade);
+        ObjectAnimator.ofObject(splash, "backgroundColor", new ArgbEvaluator(), 0x222222ff, 0xFFFF7207)
+                .setDuration(1000).start();
+
+    }
+
+    private void end()
+    {
+        // Calling MainActivity after Splash ends.
+        Intent intent = new Intent(this, MainActivity.class);
+        this.startActivity(intent);
+        finish();
     }
 
 
@@ -96,4 +178,5 @@ public class Splash extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
 }
