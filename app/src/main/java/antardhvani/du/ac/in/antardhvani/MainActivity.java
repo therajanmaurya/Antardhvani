@@ -1,6 +1,5 @@
 package antardhvani.du.ac.in.antardhvani;
 
-import android.app.DialogFragment;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -16,6 +15,7 @@ import android.widget.TextView;
 import java.net.URLEncoder;
 
 import antardhvani.du.ac.in.Home.Home;
+import antardhvani.du.ac.in.Rules.Rules;
 import it.neokree.materialtabs.MaterialTabHost;
 
 
@@ -83,9 +83,10 @@ public class MainActivity extends ActionBarActivity {
 
 // 3. Get the AlertDialog from create()
 
-
-            DialogFragment aboutD = new RulesFragment();
-            aboutD.show(getFragmentManager(), "ABOUT_DIALOG");
+           // startActivity(new Intent(this, SubActivity.class));
+            startActivity(new Intent(this, Rules.class));
+//            DialogFragment aboutD = new RulesFragment();
+//            aboutD.show(getFragmentManager(), "ABOUT_DIALOG");
             return true;
 
 

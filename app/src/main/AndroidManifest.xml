@@ -42,6 +42,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="antardhvani.du.ac.in.antardhvani.MainActivity" />
         </activity>
+
+        <activity
+            android:name="antardhvani.du.ac.in.Rules.Rules"
+            android:label="@string/title_activity_sub"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="antardhvani.du.ac.in.antardhvani.MainActivity" />
+        </activity>
         <activity
             android:name="antardhvani.du.ac.in.antardhvani.VectorTestActivity"
             android:label="@string/title_activity_vector_test"
