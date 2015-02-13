@@ -1,11 +1,11 @@
 package antardhvani.du.ac.in.Schedule;
 
 import android.content.Context;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
+import android.support.v4.view.PagerTabStrip;
 import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,7 +13,6 @@ import android.view.ViewGroup;
 
 import antardhvani.du.ac.in.antardhvani.R;
 import it.neokree.materialtabs.MaterialTab;
-import it.neokree.materialtabs.MaterialTabHost;
 import it.neokree.materialtabs.MaterialTabListener;
 
 /**
@@ -21,13 +20,10 @@ import it.neokree.materialtabs.MaterialTabListener;
  */
 public class Schedule_viewpager extends Fragment implements MaterialTabListener {
 
-    public static MaterialTabHost tabHost;
+    public static PagerTabStrip tabHost;
     public static ViewPager viewPager;
 
-    int icons[] = {R.drawable.ic_action_home,
-            R.drawable.ic_action_articles,
-            R.drawable.ic_action_personal,
-            R.drawable.ic_action_home};
+
 
     public static Schedule_viewpager getInstance(int position) {
         Schedule_viewpager myFragment = new Schedule_viewpager();
@@ -41,28 +37,28 @@ public class Schedule_viewpager extends Fragment implements MaterialTabListener 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View layout = inflater.inflate(R.layout.schedule_viewpager, container, false);
         Bundle bundle = getArguments();
-        tabHost = (MaterialTabHost) layout.findViewById(R.id.materialTabHost);
+        tabHost = (PagerTabStrip) layout.findViewById(R.id.materialTabHost);
         viewPager = (ViewPager) layout.findViewById(R.id.viewPager);
 
         ViewPagerAdapter adapter = new ViewPagerAdapter(getActivity().getSupportFragmentManager());
         viewPager.setAdapter(adapter);
-        viewPager.setOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {
-            @Override
-            public void onPageSelected(int position) {
-                tabHost.setSelectedNavigationItem(position);
-            }
-        });
-
-        for (int i = 0; i < adapter.getCount(); i++) {
-            tabHost.addTab(
-                    tabHost.newTab()
-                            //.setIcon(adapter.getPageTitle(i))
-                            .setText(adapter.getPageTitle(i))
-
-                            .setTabListener(this));
-
-
-        }
+//        viewPager.setOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {
+//            @Override
+//            public void onPageSelected(int position) {
+//                tabHost.setSelectedNavigationItem(position);
+//            }
+//        });
+//
+//        for (int i = 0; i < adapter.getCount(); i++) {
+//            tabHost.addTab(
+//                    tabHost.newTab()
+//                            //.setIcon(adapter.getPageTitle(i))
+//                            .setText(adapter.getPageTitle(i))
+//
+//                            .setTabListener(this));
+//
+//
+//        }
 
 
         return layout;
@@ -70,9 +66,7 @@ public class Schedule_viewpager extends Fragment implements MaterialTabListener 
 
     }
 
-    public Drawable getIcon(int position) {
-        return getResources().getDrawable(icons[position]);
-    }
+
 
 
     @Override
@@ -93,10 +87,7 @@ public class Schedule_viewpager extends Fragment implements MaterialTabListener 
 
 class ViewPagerAdapter extends FragmentStatePagerAdapter {
 
-    int icons[] = {R.drawable.ic_action_home,
-            R.drawable.ic_action_articles,
-            R.drawable.ic_action_personal,
-            R.drawable.ic_action_home};
+
     public Context context;
 
     public ViewPagerAdapter(FragmentManager fm) {
