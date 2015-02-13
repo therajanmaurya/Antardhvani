@@ -1,168 +1,174 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:weightSum="1">
-
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="ADDRESS"
-        android:id="@+id/addressHead"
-        android:paddingLeft="10sp"
-        android:paddingTop="10sp"
-        android:paddingBottom="10sp"
-        android:paddingRight="10sp"
-        android:textStyle="bold"
-        android:textSize="20sp"
-        android:textIsSelectable="false"
-        android:textColor="#222222" />
-
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="Antardhvani Secretariat at University Information Centre (UIC)"
-        android:id="@+id/addressContent"
-        android:textSize="14sp"
-        android:textColor="#555555"
-        android:textIsSelectable="true"
-        android:layout_gravity="left"
-        android:paddingBottom="10sp"
-        android:paddingLeft="15sp"
-        android:paddingTop="15sp"
-        android:paddingRight="15sp" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="011-27006900 (all working days 9.00 am to 5.00 pm)"
-        android:id="@+id/adressNumber"
-        android:textSize="14sp"
-        android:textColor="#555555"
-        android:textIsSelectable="true"
-        android:layout_gravity="left|center_horizontal"
-        android:paddingTop="10sp"
-        android:paddingLeft="15sp"
-        android:paddingRight="15sp"
-        android:paddingBottom="15sp" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="infocentre@du.ac.in"
-        android:id="@+id/adressMail1"
-        android:textSize="18sp"
-        android:textColor="#5555ff"
-        android:textIsSelectable="true"
-        android:layout_gravity="left|center_horizontal"
-        android:paddingTop="5sp"
-        android:paddingLeft="15sp"
-        android:paddingRight="15sp"
-        android:paddingBottom="10sp"
-        android:onClick="sendMail"/>
-
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="incharge@uic.du.ac.in"
-        android:id="@+id/addressMail2"
-        android:textSize="18sp"
-        android:textColor="#5555ff"
-        android:textIsSelectable="true"
-        android:layout_gravity="center_horizontal"
-        android:paddingTop="5sp"
-        android:paddingLeft="15sp"
-        android:paddingRight="15sp"
-        android:paddingBottom="10sp"
-        android:onClick="sendMail"/>
-
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="dsw@du.ac.in"
-        android:id="@+id/addressMail3"
-        android:textSize="18sp"
-        android:textColor="#5555ff"
-        android:textIsSelectable="true"
-        android:layout_gravity="center_horizontal"
-        android:paddingTop="5sp"
-        android:paddingLeft="15sp"
-        android:paddingRight="15sp"
-        android:paddingBottom="10sp"
-        android:onClick="sendMail"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="VENUE"
-        android:id="@+id/venueHead"
-        android:paddingLeft="10sp"
-        android:paddingTop="10sp"
-        android:paddingBottom="10sp"
-        android:paddingRight="10sp"
-        android:textStyle="bold"
-        android:textSize="20sp"
-        android:textIsSelectable="false"
-        android:textColor="#222222" />
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
 
     <LinearLayout
-        android:id="@+id/venue"
-        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingRight="20sp"
-        android:paddingTop="10sp"
-        android:paddingBottom="10sp"
-        android:paddingLeft="0dp">
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <TextView
+            android:id="@+id/addressHead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10sp"
+            android:paddingLeft="10sp"
+            android:paddingRight="10sp"
+            android:paddingTop="10sp"
+            android:text="ADDRESS"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#222222"
+            android:textIsSelectable="false"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/addressContent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:paddingBottom="10sp"
+            android:paddingLeft="15sp"
+            android:paddingRight="15sp"
+            android:paddingTop="15sp"
+            android:text="Antardhvani Secretariat at University Information Centre (UIC)"
+            android:textColor="#555555"
+            android:textIsSelectable="true"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/adressNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_horizontal"
+            android:paddingBottom="15sp"
+            android:paddingLeft="15sp"
+            android:paddingRight="15sp"
+            android:paddingTop="10sp"
+            android:text="011-27006900 (all working days 9.00 am to 5.00 pm)"
+            android:textColor="#555555"
+            android:textIsSelectable="true"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/adressMail1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_horizontal"
+            android:onClick="sendMail"
+            android:paddingBottom="10sp"
+            android:paddingLeft="15sp"
+            android:paddingRight="15sp"
+            android:paddingTop="5sp"
+            android:text="infocentre@du.ac.in"
+            android:textColor="#5555ff"
+            android:textIsSelectable="true"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/addressMail2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="sendMail"
+            android:paddingBottom="10sp"
+            android:paddingLeft="15sp"
+            android:paddingRight="15sp"
+            android:paddingTop="5sp"
+            android:text="incharge@uic.du.ac.in"
+            android:textColor="#5555ff"
+            android:textIsSelectable="true"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/addressMail3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="sendMail"
+            android:paddingBottom="10sp"
+            android:paddingLeft="15sp"
+            android:paddingRight="15sp"
+            android:paddingTop="5sp"
+            android:text="dsw@du.ac.in"
+            android:textColor="#5555ff"
+            android:textIsSelectable="true"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/venueHead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10sp"
+            android:paddingLeft="10sp"
+            android:paddingRight="10sp"
+            android:paddingTop="10sp"
+            android:text="VENUE"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#222222"
+            android:textIsSelectable="false"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="fill_parent"
-            android:layout_weight="0.4"
-            android:orientation="vertical">
+            android:id="@+id/venue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="10sp"
+            android:paddingLeft="0dp"
+            android:paddingRight="20sp"
+            android:paddingTop="10sp">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Sports Complex\nFEB 20-22, 2015"
-                android:id="@+id/venue1"
-                android:textSize="14sp"
-                android:textColor="#555555"
-                android:textIsSelectable="true"
-                android:layout_gravity="left|center_horizontal"
-                android:paddingBottom="10sp"
-                android:paddingLeft="15sp"
-                android:paddingTop="15sp"
-                android:paddingRight="15sp" />
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.4"
+                android:orientation="vertical">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="University of Delhi,\nNorth Campus Delhi-110007"
-                android:id="@+id/venue2"
-                android:textSize="14sp"
-                android:textColor="#555555"
-                android:textIsSelectable="true"
-                android:layout_gravity="left|center_horizontal"
-                android:paddingBottom="10sp"
-                android:paddingLeft="15sp"
-                android:paddingTop="15sp"
-                android:paddingRight="15sp" />
+                <TextView
+                    android:id="@+id/venue1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_horizontal"
+                    android:paddingBottom="10sp"
+                    android:paddingLeft="15sp"
+                    android:paddingRight="15sp"
+                    android:paddingTop="15sp"
+                    android:text="Sports Complex\nFEB 20-22, 2015"
+                    android:textColor="#555555"
+                    android:textIsSelectable="true"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/venue2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_horizontal"
+                    android:paddingBottom="10sp"
+                    android:paddingLeft="15sp"
+                    android:paddingRight="15sp"
+                    android:paddingTop="15sp"
+                    android:text="University of Delhi,\nNorth Campus Delhi-110007"
+                    android:textColor="#555555"
+                    android:textIsSelectable="true"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+
+            <fragment
+                android:name="antardhvani.du.ac.in.Map.Map"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.6">
+
+            </fragment>
+
         </LinearLayout>
 
-        
-        <fragment
-            android:layout_width="0dp"
-            android:layout_height="fill_parent"
-            android:name="antardhvani.du.ac.in.Map.Map"
-            android:layout_weight="0.6">
 
-        </fragment>
-        
-        </LinearLayout>
-
-
-</LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -67,9 +67,8 @@ public class NavigationDrawerFragment extends Fragment {
     private View containerView;
     private boolean isDrawerOpened = false;
     int in;
-    static String[] titles = {"Home", "Events","Flower Show", "Schedule", "Contact","Map", "About" ,"Painting Competition"};
-    static  CharSequence mtitle;
-    public static FragmentManager fragmentManager;
+    static String[] titles = {"Home", "Events","Flower Show", "Painting Competition" ,"Schedule", "Contact","Map", "About" };
+
 
 
 
@@ -81,7 +80,7 @@ public class NavigationDrawerFragment extends Fragment {
     public static List<Information> getData() {
         //load only static data inside a drawer
         List<Information> data = new ArrayList<>();
-        int[] icons = {R.drawable.ic_home_black_24dp, R.drawable.ic_event_note_black_24dp, R.drawable.ic_filter_vintage_black_24dp,R.drawable.ic_schedule_black_24dp, R.drawable.ic_quick_contacts_dialer_black_24dp,R.drawable.ic_directions_black_24dp ,R.drawable.ic_tag_faces_black_24dp,R.drawable.ic_brush_black_24dp};
+        int[] icons = {R.drawable.ic_home_black_24dp, R.drawable.ic_event_note_black_24dp, R.drawable.ic_filter_vintage_black_24dp,R.drawable.ic_brush_black_24dp,R.drawable.ic_schedule_black_24dp, R.drawable.ic_quick_contacts_dialer_black_24dp,R.drawable.ic_directions_black_24dp ,R.drawable.ic_tag_faces_black_24dp};
 
         for (int i = 0; i < 8; i++) {
             Information current = new Information();
@@ -149,29 +148,31 @@ public class NavigationDrawerFragment extends Fragment {
                         break;
 
                     case 3:
+                        Painting pain = new Painting();
+                        ft.replace(R.id.frame_container, pain);
+                        break;
+
+                    case 4:
                         Schedule_viewpager schedule = new Schedule_viewpager();
                         ft.replace(R.id.frame_container, schedule);
                         break;
 
-                    case 4:
+                    case 5:
                         Contact cont =  new Contact();
                         ft.replace(R.id.frame_container, cont);
                         break;
 
-                    case 5:
+                    case 6:
                         Map map = new Map();
                         ft.replace(R.id.frame_container, map);
                         break;
 
-                    case 6:
+                    case 7:
                         About about1 = new About();
                         ft.replace(R.id.frame_container, about1);
                         break;
 
-                    case 7:
-                        Painting pain = new Painting();
-                        ft.replace(R.id.frame_container, pain);
-                        break;
+
                 }
                 ft.commit();
 

@@ -1,13 +1,8 @@
 package antardhvani.du.ac.in.antardhvani;
 
 import android.content.Intent;
-import android.graphics.drawable.Drawable;
 import android.net.Uri;
-import android.os.Build;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarActivity;
@@ -15,15 +10,10 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import antardhvani.du.ac.in.Home.Home;
-import it.neokree.materialtabs.MaterialTab;
 import it.neokree.materialtabs.MaterialTabHost;
-import it.neokree.materialtabs.MaterialTabListener;
-import antardhvani.du.ac.in.antardhvani.R;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -117,12 +107,7 @@ public class MainActivity extends ActionBarActivity {
             return true;
         }
 
-        //Source code on github link
-        if (id == R.id.code) {
-            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/teamDAPSR/Antardhvani"));
-            startActivity(browserIntent);
-            return true;
-        }
+
 
 
         return super.onOptionsItemSelected(item);

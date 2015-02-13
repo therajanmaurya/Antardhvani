@@ -3,7 +3,6 @@ package antardhvani.du.ac.in.Home;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
@@ -28,7 +27,7 @@ import antardhvani.du.ac.in.antardhvani.ScreenSlidePageFragment;
  */
 public class Home extends Fragment {
     private TextView title, des, vcmsg;
-    int[] photos = {R.drawable.vc,R.drawable.rps_4_4,R.drawable.slider_1_bg, R.drawable.slider_2_bg, R.drawable.slider_3_bg};
+    int[] photos = {R.drawable.slider_2_bg, R.drawable.slider_3_bg};
     KenBurnsView imageView;
     private ViewPager mPager;
     private PagerAdapter mPagerAdapter;
@@ -47,7 +46,7 @@ public class Home extends Fragment {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater,  ViewGroup container,   Bundle savedInstanceState) {
         View layout = inflater.inflate(R.layout.home, container, false);
 
         title = (TextView) layout.findViewById(R.id.title);
