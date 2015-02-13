@@ -50,7 +50,7 @@ public class Event_non_competitive_adapter extends BaseExpandableListAdapter {
 
 
         tv.setText(child.getName().toString());
-        tv.setTextSize(15);
+        tv.setTextSize(13);
 
 
         return convertView;
@@ -88,7 +88,7 @@ public class Event_non_competitive_adapter extends BaseExpandableListAdapter {
         }
         TextView tv = (TextView) convertView.findViewById(R.id.activity_googlecards_card_textview);
         tv.setText(group.getName());
-        tv.setTextSize(25);
+        tv.setTextSize(20);
         tv.setTypeface(Typeface.DEFAULT_BOLD);
         return convertView;
     }
