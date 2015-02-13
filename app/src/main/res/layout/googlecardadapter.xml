@@ -14,17 +14,22 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-light"
-        android:paddingBottom="8dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="8dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
         android:textColor="@color/colorPrimary"
         tools:ignore="UnusedAttribute"
-        android:gravity="center"/>
+        android:gravity="left|center_vertical"
+        android:textStyle="bold"
+        android:textSize="18sp" />
 
-    <TextView
-        android:id="@+id/activity_googlecards_card_imageview"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:scaleType="centerCrop"
-        android:textColor="@color/colorPrimary"
-        tools:ignore="ContentDescription" />
+    <!--<TextView-->
+        <!--android:id="@+id/activity_googlecards_card_imageview"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:scaleType="centerCrop"-->
+        <!--android:textColor="@color/colorPrimary"-->
+        <!--tools:ignore="ContentDescription" />-->
 
 </LinearLayout>

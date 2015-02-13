@@ -15,6 +15,10 @@
         android:layout_height="wrap_content"
         android:scaleType="centerCrop"
         android:textColor="@color/colorPrimary"
-        tools:ignore="ContentDescription" />
+        tools:ignore="ContentDescription"
+        android:padding="5dp"
+        android:gravity="center"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
 
 </LinearLayout>

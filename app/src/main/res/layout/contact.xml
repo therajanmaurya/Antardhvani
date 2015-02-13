@@ -12,7 +12,7 @@
 
         <TextView
             android:id="@+id/addressHead"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingBottom="10sp"
             android:paddingLeft="10sp"
@@ -20,10 +20,12 @@
             android:paddingTop="10sp"
             android:text="ADDRESS"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:textColor="#222222"
+            android:textColor="#dddddd"
             android:textIsSelectable="false"
             android:textSize="20sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="#FF1A7209" />
 
         <TextView
             android:id="@+id/addressContent"
@@ -66,7 +68,8 @@
             android:text="infocentre@du.ac.in"
             android:textColor="#5555ff"
             android:textIsSelectable="true"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:clickable="true" />
 
         <TextView
             android:id="@+id/addressMail2"
@@ -81,7 +84,8 @@
             android:text="incharge@uic.du.ac.in"
             android:textColor="#5555ff"
             android:textIsSelectable="true"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:clickable="true" />
 
         <TextView
             android:id="@+id/addressMail3"
@@ -96,11 +100,12 @@
             android:text="dsw@du.ac.in"
             android:textColor="#5555ff"
             android:textIsSelectable="true"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:clickable="true" />
 
         <TextView
             android:id="@+id/venueHead"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingBottom="10sp"
             android:paddingLeft="10sp"
@@ -108,10 +113,12 @@
             android:paddingTop="10sp"
             android:text="VENUE"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:textColor="#222222"
+            android:textColor="#dddddd"
             android:textIsSelectable="false"
             android:textSize="20sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:background="#FF1A7209"
+            android:gravity="center_vertical|center_horizontal" />
 
         <LinearLayout
             android:id="@+id/venue"
@@ -162,7 +169,7 @@
             <fragment
                 android:name="antardhvani.du.ac.in.Map.Map"
                 android:layout_width="0dp"
-                android:layout_height="fill_parent"
+                android:layout_height="200dp"
                 android:layout_weight="0.6">
 
             </fragment>
