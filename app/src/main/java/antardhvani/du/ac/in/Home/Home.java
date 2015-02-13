@@ -27,7 +27,7 @@ import antardhvani.du.ac.in.antardhvani.ScreenSlidePageFragment;
  * Created by Windows on 23-01-2015.
  */
 public class Home extends Fragment {
-    private TextView title, des;
+    private TextView title, des, venue, schedule;
     int[] photos = {R.drawable.slider_1_bg, R.drawable.slider_2_bg, R.drawable.slider_3_bg};
     KenBurnsView imageView;
     private ViewPager mPager;

@@ -34,12 +34,10 @@ public class Schedule extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View layout = inflater.inflate(R.layout.fragment_my, container, false);
+        View layout = inflater.inflate(R.layout.schedule, container, false);
         textView = (TextView) layout.findViewById(R.id.position);
         Bundle bundle = getArguments();
-        if (bundle != null) {
-            textView.setText("The Page Selected Is " + bundle.getInt("position"));
-        }
+
 
         return layout;
 
