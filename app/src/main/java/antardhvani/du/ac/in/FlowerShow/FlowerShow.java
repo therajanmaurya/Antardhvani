@@ -26,7 +26,7 @@ import antardhvani.du.ac.in.antardhvani.ScreenSlidePageFragment;
 
 
 public class FlowerShow extends Fragment {
-    private TextView title, des;
+    private TextView title, des, venue, schedule, sch, ven;
     public static final int NUM_PAGES = 3;
 
     private ListView leftDrawerList;
@@ -54,9 +54,17 @@ public class FlowerShow extends Fragment {
 
         title = (TextView) layout.findViewById(R.id.title);
         des = (TextView) layout.findViewById(R.id.titleShortDescription);
+        schedule = (TextView) layout.findViewById(R.id.schedule2);
+        venue = (TextView) layout.findViewById(R.id.venue);
+        sch = (TextView) layout.findViewById(R.id.venue2);
+        ven = (TextView) layout.findViewById(R.id.schedule3);
         Typeface font = Typeface.createFromAsset(getActivity().getAssets(), "fonts/Sofia-Regular.otf");
         title.setTypeface(font);
         des.setTypeface(font);
+        schedule.setTypeface(font);
+        venue.setTypeface(font);
+        sch.setTypeface(font);
+        ven.setTypeface(font);
 
 
         imageView = (KenBurnsView) layout.findViewById(R.id.header_picture);

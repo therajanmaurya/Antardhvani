@@ -27,8 +27,8 @@ import antardhvani.du.ac.in.antardhvani.ScreenSlidePageFragment;
  * Created by Windows on 23-01-2015.
  */
 public class Home extends Fragment {
-    private TextView title, des;
-    int[] photos = {R.drawable.slider_1_bg, R.drawable.slider_2_bg, R.drawable.slider_3_bg};
+    private TextView title, des, vcmsg;
+    int[] photos = {R.drawable.vc,R.drawable.rps_4_4,R.drawable.slider_1_bg, R.drawable.slider_2_bg, R.drawable.slider_3_bg};
     KenBurnsView imageView;
     private ViewPager mPager;
     private PagerAdapter mPagerAdapter;
@@ -52,6 +52,7 @@ public class Home extends Fragment {
 
         title = (TextView) layout.findViewById(R.id.title);
         des = (TextView) layout.findViewById(R.id.titleShortDescription);
+        vcmsg = (TextView) layout.findViewById(R.id.vcmsg);
         Typeface font = Typeface.createFromAsset(getActivity().getAssets(), "fonts/Sofia-Regular.otf");
         Typeface font2 = Typeface.createFromAsset(getActivity().getAssets(), "fonts/D Day Stencil.ttf");
         title.setTypeface(font2);
