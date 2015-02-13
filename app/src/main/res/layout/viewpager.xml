@@ -34,6 +34,8 @@
             android:background="@color/colorPrimary"
             app:accentColor="@color/colorAccent"
             app:iconColor="@android:color/white"
-            app:primaryColor="@color/colorPrimary" />
+            app:primaryColor="@color/colorPrimary"
+            android:textAppearance="@style/PagerTabStripText"
+            />
     </android.support.v4.view.ViewPager>
 </LinearLayout>
