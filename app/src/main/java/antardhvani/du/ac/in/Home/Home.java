@@ -54,7 +54,8 @@ public class Home extends Fragment {
         vcmsg = (TextView) layout.findViewById(R.id.vcmsg);
         Typeface font = Typeface.createFromAsset(getActivity().getAssets(), "fonts/Sofia-Regular.otf");
         Typeface font2 = Typeface.createFromAsset(getActivity().getAssets(), "fonts/D Day Stencil.ttf");
-        title.setTypeface(font2);
+        Typeface font3 = Typeface.createFromAsset(getActivity().getAssets(), "fonts/anu.ttf");
+        title.setTypeface(font3);
         des.setTypeface(font);
 
 

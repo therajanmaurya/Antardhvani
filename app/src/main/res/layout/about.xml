@@ -15,6 +15,7 @@
             android:layout_height="wrap_content"
             android:background="@color/accent_material_dark">
             <TextView
+                android:id="@+id/official"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Official"
@@ -27,6 +28,7 @@
             android:orientation="vertical"
             android:padding="5dp">
             <TextView
+                android:id="@+id/ch"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Prof. Malashri Lal"
@@ -34,6 +36,7 @@
                 android:textSize="25dp"
                 android:textStyle="bold"/>
             <TextView
+                android:id="@+id/ch2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="( Dean of College )\nChairPerson , Antardhvani 2015"
@@ -52,6 +55,7 @@
         android:padding="5dp"
         >
         <TextView
+            android:id="@+id/sa"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Satish Kumar"
@@ -59,6 +63,7 @@
             android:textSize="25dp"
             android:textStyle="bold"/>
         <TextView
+            android:id="@+id/sa2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Member Secretary, Antardhvani 2015"
@@ -76,6 +81,7 @@
             android:orientation="vertical"
             android:padding="5dp">
             <TextView
+                android:id="@+id/gs"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Dr. Gurpreet Singh Tuteja"
@@ -83,6 +89,7 @@
                 android:textSize="25dp"
                 android:textStyle="bold"/>
             <TextView
+                android:id="@+id/gs2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Dean, Students Welfare"
@@ -100,6 +107,7 @@
             android:layout_height="wrap_content"
             android:background="@color/accent_material_dark">
             <TextView
+                android:id="@+id/team"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Developer Team"
@@ -111,6 +119,7 @@
             android:layout_height="wrap_content"
             android:background="@color/accent_material_dark">
             <TextView
+                android:id="@+id/dapsr"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="\@teamDAPSR"
@@ -124,6 +133,7 @@
             android:orientation="vertical"
             android:padding="5dp">
             <TextView
+                android:id="@+id/rajan"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Rajan Maurya"
@@ -131,6 +141,7 @@
                 android:textSize="25dp"
                 android:textStyle="bold"/>
             <TextView
+                android:id="@+id/rajan2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Student, Cluster Innovation Centre "
@@ -148,6 +159,7 @@
             android:orientation="vertical"
             android:padding="5dp">
             <TextView
+                android:id="@+id/dk"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Davesh Khandelwal"
@@ -155,6 +167,7 @@
                 android:textSize="25dp"
                 android:textStyle="bold"/>
             <TextView
+                android:id="@+id/dk2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Student, Cluster Innovation Centre "
@@ -172,6 +185,7 @@
             android:orientation="vertical"
             android:padding="5dp">
             <TextView
+                android:id="@+id/pa1pal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Pawan Pal"
@@ -179,6 +193,7 @@
                 android:textSize="25dp"
                 android:textStyle="bold"/>
             <TextView
+                android:id="@+id/pa1pal2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Student, Cluster Innovation Centre "
@@ -196,6 +211,7 @@
             android:orientation="vertical"
             android:padding="5dp">
             <TextView
+                android:id="@+id/ak"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Akshay"
@@ -203,6 +219,7 @@
                 android:textSize="25dp"
                 android:textStyle="bold"/>
             <TextView
+                android:id="@+id/ak2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Student, Cluster Innovation Centre "
@@ -220,6 +237,7 @@
             android:padding="5dp"
             android:orientation="vertical">
             <TextView
+                android:id="@+id/sagar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Sagar"
@@ -227,6 +245,7 @@
                 android:textSize="25dp"
                 android:textStyle="bold"/>
             <TextView
+                android:id="@+id/sagar2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Student, Cluster Innovation Centre "
@@ -242,6 +261,7 @@
             android:background="@color/accent_material_dark"
             android:onClick="sendDevMail">
             <TextView
+                android:id="@+id/mail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Mail To Developer"

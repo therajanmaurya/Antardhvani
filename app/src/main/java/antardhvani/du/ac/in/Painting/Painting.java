@@ -34,7 +34,8 @@ public class Painting extends Fragment {
         sch = (TextView) layout.findViewById(R.id.venue2);
         ven = (TextView) layout.findViewById(R.id.schedule3);
         Typeface font = Typeface.createFromAsset(getActivity().getAssets(), "fonts/Sofia-Regular.otf");
-        title.setTypeface(font);
+        Typeface font2 = Typeface.createFromAsset(getActivity().getAssets(), "fonts/anu.ttf");
+        title.setTypeface(font2);
         schedule.setTypeface(font);
         venue.setTypeface(font);
         sch.setTypeface(font);

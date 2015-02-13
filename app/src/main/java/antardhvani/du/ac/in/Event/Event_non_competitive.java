@@ -57,22 +57,8 @@ public class Event_non_competitive extends Fragment {
         String group_names[] = {"Innovation Plaza   (Undergraduate research of Colleges)","International Plaza  Foreign Students Showcase their countries","University-Industry Interface","Sports Plaza","EOC Corner","Govt. of India Institutions","Skill Development Pavilion   (NSDC,New Delhi)"
                 ,"Gandhi Darshan","DU Heritage Walks And Archive Tour" , "DUWA-Delhi University Women's Association Stall","Teachers Training and Academic Orientation-CPDHE","Computerized Shooting Range-DUSC"};
 
-        String country_names[] = { "This special area gathers various new initiatives at the University which have introduced a " +
-                "project dimension to knowledge creation. " +
-                "i. Recently 25 1 Innovation Projects in Colleges were awarded grants in 2013 and most " +
-                "of them are enthusiastic about the start up. 1 13 Projects were successfully completed " +
-                "in the previous round and are ready to show their ﬁndings " +
-                "(contact Dr. Deepika Bhaskar /Innovation Desk; innovationsdu@gmail.com). " +
-                " The Cluster Innovation Centre curriculum promotes projects and new thinking. " +
-                "Offering three specially designed degree programmes this ﬂagship unit has opened " +
-                "new horizons in the Humanities and the sciences (contact Dr. Sukrita Paul Kumar " +
-                "(sukrita.paulkumar@gmail.com), Dr. Pankaj Tyagi (pankajtyagicicdu@gmail.com) " +
-                "& Dr. Shobha Bagai_(shobhabagai@gmail.com) " +
-                " The Institute of Life Long Learning has been creative in developing innovative " +
-                "teaching material through the full time work of its Fellows. By now the dedicated " +
-                "ILLL website carries several hundred lessons using that range over lectures, e-labs, " +
-                "videos, theatre, panel discussions, ﬁlms and more. (Contact Dr. Amrit Kaur Basra; " +
-                "amritdcac@gmail. com). Coordinator: Dr. DeepikaBhaskar.( )", "More than 1500 international students ﬁom about 65 diiferent countries are currently " +
+        String country_names[] = { "This special area gathers various new initiatives at the University which have introduced a  project dimension to knowledge creation i. Recently 25 1 Innovation Projects in Colleges were awarded grants in 2013 and most of them are enthusiastic about the start up. 1 13 Projects were successfully completed in the previous round and are ready to show their ﬁndings (contact Dr. Deepika Bhaskar /Innovation Desk; innovationsdu@gmail.com)  The Cluster Innovation Centre curriculum promotes projects and new thinking. Offering three specially designed degree programmes this ﬂagship unit has opened new horizons in the Humanities and the sciences (contact Dr. Sukrita Paul Kumar (sukrita.paulkumar@gmail.com), Dr. Pankaj Tyagi (pankajtyagicicdu@gmail.com) & Dr. Shobha Bagai_(shobhabagai@gmail.com) The Institute of Life Long Learning has been creative in developing innovative teaching material through the full time work of its Fellows. By now the dedicated ILLL website carries several hundred lessons using that range over lectures, e-labs, videos, theatre, panel discussions, ﬁlms and more. (Contact Dr. Amrit Kaur Basra; amritdcac@gmail. com). Coordinator: Dr. DeepikaBhaskar.( )",
+                "More than 1500 international students ﬁom about 65 diiferent countries are currently " +
                 "enrolled in courses at the University of Delhi. The International Plaza will introduce the " +
                 "culture and traditions of more than 20 countries from where they come, such as“ " +
                 "£l__t'g,lianistan, Armenia, China, Cambodia, Ethiopia, Eritrea, Japan, Indonesia, Iran, " +
