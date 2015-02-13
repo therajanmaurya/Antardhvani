@@ -32,5 +32,6 @@
     <string name="share">Share App</string>
     <string name="rules">Rules for Competitive Events</string>
     <string name="code">Source code on Github</string>
+    <string name="title_activity_splash">Splash</string>
 
 </resources>

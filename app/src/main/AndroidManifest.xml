@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="antardhvani.du.ac.in.antardhvani">
+    package="antardhvani.du.ac.in.antardhvani" >
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
@@ -16,44 +16,45 @@
     <permission
         android:name="antardhvani.du.ac.in.antardhvani.permission.MAPS_RECEIVE"
         android:protectionLevel="signature" />
+
     <uses-permission android:name="antardhvani.du.ac.in.antardhvani.permission.MAPS_RECEIVE" />
 
     <application
-        android:name="antardhvani.du.ac.in.antardhvani.MyApplication"
+        android:name=".MyApplication"
         android:allowBackup="true"
         android:icon="@drawable/antardhvanilogo"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme" >
         <activity
-            android:name="antardhvani.du.ac.in.antardhvani.MainActivity"
+            android:name=".MainActivity"
             android:label="@string/title_activity_main"
-            android:screenOrientation="portrait">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="antardhvani.du.ac.in.antardhvani.SubActivity"
+            android:name=".SubActivity"
             android:label="@string/title_activity_sub"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="antardhvani.du.ac.in.antardhvani.MainActivity" />
         </activity>
         <activity
-            android:name="antardhvani.du.ac.in.antardhvani.VectorTestActivity"
+            android:name=".VectorTestActivity"
             android:label="@string/title_activity_vector_test"
-            android:screenOrientation="portrait"></activity>
-
-
+            android:screenOrientation="portrait" />
 
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
             android:value="AIzaSyCBsOt_xE05CaQ5JoQb_7CJ6vFuv-7Zl4I" />
 
-
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
