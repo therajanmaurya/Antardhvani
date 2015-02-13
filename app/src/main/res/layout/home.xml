@@ -19,7 +19,7 @@
                 android:id="@+id/header_picture"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/vc" />
+                android:src="@drawable/rps_4_4" />
 
             <ImageView
                 android:id="@+id/header_thumbnail"
@@ -106,7 +106,7 @@
 
 
             <android.support.v7.widget.CardView
-                android:id="@+id/schedule_card"
+                android:id="@+id/vc_card"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
@@ -118,7 +118,7 @@
 
 
                 <LinearLayout
-                    android:id="@+id/schedule_layout"
+                    android:id="@+id/vcl"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
@@ -126,7 +126,7 @@
                     >
 
                     <TextView
-                        android:id="@+id/schedule3"
+                        android:id="@+id/vc_layout"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text = "VC's Message"
@@ -137,14 +137,18 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/schedule2"
+                        android:id="@+id/vcmsg"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text = "Friday, 20th February, 2015\n 12:00 noon to 5:00 pm"
+                        android:text = "The primary duty of a university is to give direction to society and to channelize the energies of youth for productive and creative purposes. This has to be accompalished through education.
+
+The Undergraduate Programme places the student at the centre of its philosophy and its curriculum. One definition of education is that one must understand the call of the inner voice, the antardhvani, and respond to this call. The new programme gives the student a strong education and a wide range of subject choices for specialisation, backed by skill based, applied courses. Moreover a student can select 'minor' areas of interest. Technology and contemporary classrooms will offer the best in teaching-learning methods. The inspiration of Mahatma Gandhi and Dr. Ambedkar will guide thoughts on inclusive education.
+
+I welcome the new students and urge them to explore their talent and abilities through the Undergraduate Programme. It will help you to know the grand challenges of India; it will help you to find a place in its dynamic environment. The courses have been carefully designed to bring out the best in each and every student. My colleagues and I are here to guide and help you through this important journey of your life. We value your trust in DU, your presence and your contribution in making this University ever greater."
                         android:paddingLeft="15dp"
                         android:textColor="#000000"
                         android:gravity="center"
-                        android:textSize="20sp"
+                        android:textSize="16sp"
                         android:textStyle="normal" />
 
 
