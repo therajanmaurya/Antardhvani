@@ -93,6 +93,11 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:onClick="sendDevPage">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:background="@color/accent_material_dark">
             <TextView
                 android:layout_width="match_parent"
@@ -111,6 +116,7 @@
                 android:text="\@teamDAPSR"
                 android:textSize="28dp"
                 android:gravity="center"/>
+        </LinearLayout>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"

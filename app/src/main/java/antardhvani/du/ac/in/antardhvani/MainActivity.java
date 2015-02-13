@@ -160,5 +160,20 @@ public class MainActivity extends ActionBarActivity {
         intent.setData(Uri.parse(x));
         startActivity(intent);
     }
+    public void sendDevPage(View v)
+    {
 
+        /*Intent intent = new Intent(Intent.ACTION_SEND);
+        intent.setType("text/plain");
+        intent.putExtra(Intent.EXTRA_)
+        intent.putExtra(Intent.EXTRA_EMAIL, textView.getText());
+        intent.putExtra(Intent.EXTRA_SUBJECT, "Re: Antardhwani via Official App");
+
+        startActivity(Intent.createChooser(intent, "Send Email"));*/
+
+        String url = "https://github.com/teamDAPSR";
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(url));
+        startActivity(i);
+    }
 }
