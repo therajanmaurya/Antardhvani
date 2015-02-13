@@ -3,6 +3,7 @@ package antardhvani.du.ac.in.antardhvani;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -13,7 +14,9 @@ import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import antardhvani.du.ac.in.Home.Home;
@@ -33,7 +36,6 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
 
         toolbar = (Toolbar) findViewById(R.id.app_bar);
         setSupportActionBar(toolbar);
@@ -124,6 +126,23 @@ public class MainActivity extends ActionBarActivity {
 
 
         return super.onOptionsItemSelected(item);
+    }
+
+
+    public void sendMail(View view)
+    {
+        TextView textView = (TextView) view;
+        /*Intent intent = new Intent(Intent.ACTION_SEND);
+        intent.setType("text/plain");
+        intent.putExtra(Intent.EXTRA_)
+        intent.putExtra(Intent.EXTRA_EMAIL, textView.getText());
+        intent.putExtra(Intent.EXTRA_SUBJECT, "Re: Antardhwani via Official App");
+
+        startActivity(Intent.createChooser(intent, "Send Email"));*/
+
+        Intent intent = new Intent(Intent.ACTION_SENDTO);
+        intent.setData(Uri.parse("mailto:" + textView.getText()));
+        startActivity(intent);
     }
 
 }

@@ -4,23 +4,20 @@
     android:id="@+id/linear"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
     <!--<include-->
-        <!--android:id="@+id/app_bar"-->
-        <!--layout="@layout/app_bar" />-->
+    <!--android:id="@+id/app_bar"-->
+    <!--layout="@layout/app_bar" />-->
 
-    <it.neokree.materialtabs.MaterialTabHost
-        android:id="@+id/materialTabHost"
+    <TabHost
+        android:id="@+id/tabHost"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:layout_below="@+id/app_bar"
-        app:accentColor="#ffffff"
-        app:iconColor="@android:color/white"
-        app:primaryColor="@color/colorPrimary" />
+        android:layout_below="@+id/app_bar" />
 
     <android.support.v4.view.ViewPager
-        android:id="@+id/viewPager"
+        android:id="@+id/viewPagerCompat"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/materialTabHost"

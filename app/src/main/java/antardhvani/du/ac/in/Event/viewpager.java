@@ -2,6 +2,7 @@ package antardhvani.du.ac.in.Event;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -11,6 +12,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TabHost;
 import android.widget.TextView;
 
 import antardhvani.du.ac.in.antardhvani.R;
@@ -25,6 +27,7 @@ public class viewpager extends Fragment implements MaterialTabListener {
     private TextView textView;
     private Toolbar toolbar;
     public static MaterialTabHost tabHost;
+    public static TabHost oldTabHost;
     public static ViewPager viewPager;
 
     int icons[] = {R.drawable.ic_action_home,
@@ -42,32 +45,65 @@ public class viewpager extends Fragment implements MaterialTabListener {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View layout = inflater.inflate(R.layout.viewpager, container, false);
-        Bundle bundle = getArguments();
-        tabHost = (MaterialTabHost) layout.findViewById(R.id.materialTabHost);
-        viewPager = (ViewPager) layout.findViewById(R.id.viewPager);
+        View layout;
 
-        ViewPagerAdapter adapter = new ViewPagerAdapter(getActivity().getSupportFragmentManager());
-        viewPager.setAdapter(adapter);
-        viewPager.setOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {
-            @Override
-            public void onPageSelected(int position) {
-                tabHost.setSelectedNavigationItem(position);
+        if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.ICE_CREAM_SANDWICH) {
+            layout = inflater.inflate(R.layout.viewpager, container, false);
+            Bundle bundle = getArguments();
+            tabHost = (MaterialTabHost) layout.findViewById(R.id.materialTabHost);
+            viewPager = (ViewPager) layout.findViewById(R.id.viewPager);
+
+            ViewPagerAdapter adapter = new ViewPagerAdapter(getActivity().getSupportFragmentManager());
+            viewPager.setAdapter(adapter);
+            viewPager.setOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {
+                @Override
+                public void onPageSelected(int position) {
+                    tabHost.setSelectedNavigationItem(position);
+                }
+            });
+
+            for (int i = 0; i < adapter.getCount(); i++) {
+                tabHost.addTab(
+                        tabHost.newTab()
+                                //.setIcon(adapter.getPageTitle(i))
+                                .setText(adapter.getPageTitle(i))
+
+                                .setTabListener(this));
+
+
             }
-        });
-
-        for (int i = 0; i < adapter.getCount(); i++) {
-            tabHost.addTab(
-                    tabHost.newTab()
-                            //.setIcon(adapter.getPageTitle(i))
-                            .setText(adapter.getPageTitle(i))
-
-                            .setTabListener(this));
 
 
         }
+        else {
+
+            layout = inflater.inflate(R.layout.viewpager_compat, container, false);
+            Bundle bundle = getArguments();
+            oldTabHost = (TabHost) layout.findViewById(R.id.tabHost);
+            viewPager = (ViewPager) layout.findViewById(R.id.viewPagerCompat);
+
+            ViewPagerAdapter adapter = new ViewPagerAdapter(getActivity().getSupportFragmentManager());
+            viewPager.setAdapter(adapter);
+            viewPager.setOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {
+                @Override
+                public void onPageSelected(int position) {
+                    oldTabHost.setCurrentTab(position);
+                }
+            });
+
+            for (int i = 0; i < adapter.getCount(); i++) {
+                oldTabHost.addTab(
+                        oldTabHost.newTabSpec("Str").setIndicator(adapter.getPageTitle(i)));
+                                //.setIcon(adapter.getPageTitle(i))
+                                //.setText(adapter.getPageTitle(i))
+
+                                //.setTabListener(this));
 
 
+            }
+
+
+        }
         return layout;
 
 
