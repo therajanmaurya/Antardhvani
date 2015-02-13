@@ -1,4 +1,4 @@
-package antardhvani.du.ac.in.Schedule;
+package antardhvani.du.ac.in.About;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -9,13 +9,13 @@ import android.view.ViewGroup;
 import antardhvani.du.ac.in.antardhvani.R;
 
 /**
- * Created by Windows on 23-01-2015.
+ * Created by rajanmaurya on 13/2/15.
  */
-public class Schedule extends Fragment {
+public class About extends Fragment {
 
 
-    public static Schedule getInstance(int position) {
-        Schedule myFragment = new Schedule();
+    public static About getInstance(int position) {
+        About myFragment = new About();
         Bundle args = new Bundle();
         args.putInt("position", position);
         myFragment.setArguments(args);
@@ -23,12 +23,12 @@ public class Schedule extends Fragment {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater,  ViewGroup container,  Bundle savedInstanceState) {
-        View layout = inflater.inflate(R.layout.schedule, container, false);
-
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        View layout = inflater.inflate(R.layout.about, container, false);
 
         return layout;
 
     }
+
 
 }

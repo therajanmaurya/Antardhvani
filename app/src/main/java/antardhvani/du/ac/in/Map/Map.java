@@ -13,6 +13,7 @@ import com.google.android.gms.location.LocationListener;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapView;
+import com.google.android.gms.maps.MapsInitializer;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
@@ -42,37 +43,22 @@ public class Map extends Fragment implements LocationListener{
         View layout = inflater.inflate(R.layout.map, container, false);
 
         mapView = (MapView) layout.findViewById(R.id.map);
-
+        MapsInitializer.initialize(getActivity());
         mapView.onCreate(savedInstanceState);
 
         if(mapView!=null)
         {
             googleMap = mapView.getMap();
 
-            googleMap.getUiSettings().setMyLocationButtonEnabled(false);
+            googleMap.getUiSettings().setMyLocationButtonEnabled(true);
 
             googleMap.setMyLocationEnabled(true);
 
 
-
-//            CameraUpdate camera = CameraUpdateFactory.newLatLng(new LatLng( 28.690976,77.214166));
-//            googleMap.animateCamera(camera);
-
             googleMap.addMarker(new MarkerOptions().position(new LatLng( 28.690976,77.214166)).title("Cluster Innovation centre"));
+            googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng( 28.690976,77.214166),16));
 
 
-//            SupportMapFragment supportMapFragment =
-//                    (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.googleMap);
-//            googleMap = supportMapFragment.getMap();
-//            googleMap.setMyLocationEnabled(true);
-//            LocationManager locationManager = (LocationManager)getActivity().getSystemService(LOCATION_SERVICE);
-//            Criteria criteria = new Criteria();
-//            String bestProvider = locationManager.getBestProvider(criteria, true);
-//            Location location = locationManager.getLastKnownLocation(bestProvider);
-//            if (location != null) {
-//                onLocationChanged(location);
-//            }
-//           // locationManager.requestLocationUpdates(bestProvider, 20000, 0, getActivity());
         }
 
         return layout;

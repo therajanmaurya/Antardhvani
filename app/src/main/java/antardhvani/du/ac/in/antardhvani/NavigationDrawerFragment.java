@@ -16,17 +16,18 @@ import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import antardhvani.du.ac.in.About.About;
 import antardhvani.du.ac.in.Contact.Contact;
 import antardhvani.du.ac.in.Event.viewpager;
 import antardhvani.du.ac.in.FlowerShow.FlowerShow;
 import antardhvani.du.ac.in.Home.Home;
 import antardhvani.du.ac.in.Map.Map;
-import antardhvani.du.ac.in.Schedule.Schedule;
+import antardhvani.du.ac.in.Painting.Painting;
+import antardhvani.du.ac.in.Schedule.Schedule_viewpager;
 
 
 /**
@@ -66,7 +67,7 @@ public class NavigationDrawerFragment extends Fragment {
     private View containerView;
     private boolean isDrawerOpened = false;
     int in;
-    static String[] titles = {"Home", "Events","Flower Show", "Schedule", "Contact","Map"};
+    static String[] titles = {"Home", "Events","Flower Show", "Schedule", "Contact","Map", "About" ,"Painting Competition"};
     static  CharSequence mtitle;
     public static FragmentManager fragmentManager;
 
@@ -80,9 +81,9 @@ public class NavigationDrawerFragment extends Fragment {
     public static List<Information> getData() {
         //load only static data inside a drawer
         List<Information> data = new ArrayList<>();
-        int[] icons = {R.drawable.ic_home_black_24dp, R.drawable.ic_event_note_black_24dp, R.drawable.ic_filter_vintage_black_24dp,R.drawable.ic_schedule_black_24dp, R.drawable.ic_quick_contacts_dialer_black_24dp,R.drawable.ic_directions_black_24dp};
+        int[] icons = {R.drawable.ic_home_black_24dp, R.drawable.ic_event_note_black_24dp, R.drawable.ic_filter_vintage_black_24dp,R.drawable.ic_schedule_black_24dp, R.drawable.ic_quick_contacts_dialer_black_24dp,R.drawable.ic_directions_black_24dp ,R.drawable.ic_tag_faces_black_24dp,R.drawable.ic_brush_black_24dp};
 
-        for (int i = 0; i < 6; i++) {
+        for (int i = 0; i < 8; i++) {
             Information current = new Information();
             current.iconId = icons[i % icons.length];
             current.title = titles[i % titles.length];
@@ -148,7 +149,7 @@ public class NavigationDrawerFragment extends Fragment {
                         break;
 
                     case 3:
-                        Schedule schedule = new Schedule();
+                        Schedule_viewpager schedule = new Schedule_viewpager();
                         ft.replace(R.id.frame_container, schedule);
                         break;
 
@@ -160,6 +161,16 @@ public class NavigationDrawerFragment extends Fragment {
                     case 5:
                         Map map = new Map();
                         ft.replace(R.id.frame_container, map);
+                        break;
+
+                    case 6:
+                        About about1 = new About();
+                        ft.replace(R.id.frame_container, about1);
+                        break;
+
+                    case 7:
+                        Painting pain = new Painting();
+                        ft.replace(R.id.frame_container, pain);
                         break;
                 }
                 ft.commit();
