@@ -63,8 +63,6 @@ public class Map extends Fragment implements LocationListener {
 
         }
 
-
-
         return layout;
 
     }

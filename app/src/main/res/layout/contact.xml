@@ -8,38 +8,34 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:weightSum="1">
-
-
-        <LinearLayout
-            android:layout_width="match_parent"
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#7C4DFF"
+    >
+        <TextView
+            android:id="@+id/addressHead"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:padding="10dp">
+            android:paddingBottom="10sp"
+            android:paddingLeft="10sp"
+            android:paddingRight="10sp"
+            android:paddingTop="10sp"
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/colorPrimary"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/addressHead"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:paddingBottom="10sp"
-                    android:paddingLeft="10sp"
-                    android:paddingRight="10sp"
-                    android:paddingTop="10sp"
-
-                    android:text="ADDRESS"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:textColor="#222222"
-                    android:textIsSelectable="false"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
-        </LinearLayout>
-
+            android:text="ADDRESS"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#222222"
+            android:textIsSelectable="false"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+</LinearLayout>
+</LinearLayout>
         <TextView
             android:id="@+id/addressContent"
             android:layout_width="fill_parent"
@@ -112,37 +108,32 @@
             android:textColor="#5555ff"
             android:textIsSelectable="true"
             android:textSize="18sp" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#7C4DFF">
+        <TextView
+            android:id="@+id/venueHead"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:padding="10dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/colorPrimary"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/venueHead"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:paddingBottom="10sp"
-                    android:paddingLeft="10sp"
-                    android:paddingRight="10sp"
-                    android:paddingTop="10sp"
-                    android:text="VENUE"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:textColor="#222222"
-                    android:textIsSelectable="false"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
+            android:paddingBottom="10sp"
+            android:paddingLeft="10sp"
+            android:paddingRight="10sp"
+            android:paddingTop="10sp"
+            android:text="VENUE"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#222222"
+            android:textIsSelectable="false"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+</LinearLayout>
         </LinearLayout>
-
-
         <LinearLayout
             android:id="@+id/venue"
             android:layout_width="match_parent"

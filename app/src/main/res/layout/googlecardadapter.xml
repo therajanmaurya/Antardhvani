@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     android:background="@drawable/card_background_white"
     android:orientation="vertical"
-    android:padding="16dp"
+    android:padding="20dp"
     tools:ignore="overdraw" >
 
     <TextView
@@ -14,17 +14,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-light"
-        android:paddingBottom="8dp"
+        android:padding="10dp"
         android:textColor="@color/colorPrimary"
         tools:ignore="UnusedAttribute"
         android:gravity="center"/>
-
-    <TextView
-        android:id="@+id/activity_googlecards_card_imageview"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:scaleType="centerCrop"
-        android:textColor="@color/colorPrimary"
-        tools:ignore="ContentDescription" />
-
 </LinearLayout>
