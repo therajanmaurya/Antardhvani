@@ -1,7 +1,6 @@
 package antardhvani.du.ac.in.Adapter;
 
 import android.content.Context;
-import android.graphics.Typeface;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -50,7 +49,7 @@ public class Schedule_pre_event_adapter extends BaseExpandableListAdapter {
 
 
         tv.setText(child.getName().toString());
-        tv.setTextSize(15);
+
 
         return convertView;
     }
@@ -87,8 +86,6 @@ public class Schedule_pre_event_adapter extends BaseExpandableListAdapter {
         }
         TextView tv = (TextView) convertView.findViewById(R.id.activity_googlecards_card_textview);
         tv.setText(group.getName());
-        tv.setTextSize(25);
-        tv.setTypeface(Typeface.DEFAULT_BOLD);
         return convertView;
     }
 

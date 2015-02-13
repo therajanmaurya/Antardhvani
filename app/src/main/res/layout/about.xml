@@ -3,8 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:textAlignment="center"
-    android:background="#D1C4E9">
+    android:textAlignment="center">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,7 +13,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#7E57C2">
+            android:background="@color/accent_material_dark">
             <TextView
                 android:id="@+id/official"
                 android:layout_width="match_parent"
@@ -106,7 +105,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#7E57C2">
+            android:background="@color/accent_material_dark">
             <TextView
                 android:id="@+id/team"
                 android:layout_width="match_parent"
@@ -118,7 +117,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#7E57C2">
+            android:background="@color/accent_material_dark">
             <TextView
                 android:id="@+id/dapsr"
                 android:layout_width="match_parent"
@@ -259,7 +258,7 @@
             android:layout_width="match_parent"
             android:layout_height="45dp"
             android:padding="5dp"
-            android:background="#7E57C2"
+            android:background="@color/accent_material_dark"
             android:onClick="sendDevMail">
             <TextView
                 android:id="@+id/mail"

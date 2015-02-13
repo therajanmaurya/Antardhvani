@@ -32,7 +32,7 @@
             app:accentColor="@color/colorAccent"
             app:iconColor="@android:color/white"
             app:primaryColor="#ffffff"
-            android:textAppearance="@style/PagerTabStripText"
+
             android:background="@color/colorPrimary"
             />
     </android.support.v4.view.ViewPager>
