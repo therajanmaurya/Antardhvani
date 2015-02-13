@@ -7,21 +7,34 @@
     android:orientation="vertical">
 
 
-    <it.neokree.materialtabs.MaterialTabHost
-        android:id="@+id/materialTabHost"
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:layout_below="@+id/app_bar"
-        app:accentColor="@color/colorAccent"
-        app:iconColor="@android:color/white"
-        app:primaryColor="@color/colorPrimary" />
+    <!--<it.neokree.materialtabs.MaterialTabHost-->
+        <!--android:id="@+id/materialTabHost"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="48dp"-->
+        <!--android:layout_below="@+id/app_bar"-->
+        <!--app:accentColor="@color/colorAccent"-->
+        <!--app:iconColor="@android:color/white"-->
+        <!--app:primaryColor="@color/colorPrimary" />-->
 
     <android.support.v4.view.ViewPager
-
-
+        
         android:id="@+id/viewPager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/materialTabHost"
-        android:layout_weight="1" />
+        android:layout_weight="1" >
+
+        <android.support.v4.view.PagerTabStrip
+            android:id="@+id/materialTabHost"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@+id/app_bar"
+            app:accentColor="@color/colorAccent"
+            app:iconColor="@android:color/white"
+            app:primaryColor="#ffffff"
+
+            android:background="@color/colorPrimary"
+            />
+    </android.support.v4.view.ViewPager>
+
 </LinearLayout>

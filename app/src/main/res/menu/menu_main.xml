@@ -41,11 +41,7 @@
         android:title="@string/share"
         app:showAsAction="never" />
 
-    <item
-        android:id="@+id/code"
-        android:orderInCategory="600"
-        android:title="@string/code"
-        app:showAsAction="never" />
+
 
     <!--
     <item
