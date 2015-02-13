@@ -48,6 +48,7 @@
             android:screenOrientation="portrait"></activity>
 
 
+
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
             android:value="AIzaSyCBsOt_xE05CaQ5JoQb_7CJ6vFuv-7Zl4I" />

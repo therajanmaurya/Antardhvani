@@ -1,5 +1,7 @@
 package antardhvani.du.ac.in.antardhvani;
 
+import android.app.AlertDialog;
+import android.app.DialogFragment;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
@@ -80,9 +82,22 @@ public class MainActivity extends ActionBarActivity {
 
         //Rules for competitive events link
         if (id == R.id.rules) {
-            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://antardhvani2015.du.ac.in/pdf/06022015Rulesforcompetitiveevents.pdf"));
-            startActivity(browserIntent);
+/*            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://antardhvani2015.du.ac.in/pdf/06022015Rulesforcompetitiveevents.pdf"));
+            startActivity(browserIntent);*/
+// 1. Instantiate an AlertDialog.Builder with its constructor
+
+
+// 2. Chain together various setter methods to set the dialog characteristics
+
+
+// 3. Get the AlertDialog from create()
+
+
+            DialogFragment aboutD = new RulesFragment();
+            aboutD.show(getFragmentManager(), "ABOUT_DIALOG");
             return true;
+
+
         }
 
         //Download Brochure link
