@@ -42,23 +42,6 @@ public class Schedule_viewpager extends Fragment implements MaterialTabListener 
 
         ViewPagerAdapter adapter = new ViewPagerAdapter(getActivity().getSupportFragmentManager());
         viewPager.setAdapter(adapter);
-//        viewPager.setOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {
-//            @Override
-//            public void onPageSelected(int position) {
-//                tabHost.setSelectedNavigationItem(position);
-//            }
-//        });
-//
-//        for (int i = 0; i < adapter.getCount(); i++) {
-//            tabHost.addTab(
-//                    tabHost.newTab()
-//                            //.setIcon(adapter.getPageTitle(i))
-//                            .setText(adapter.getPageTitle(i))
-//
-//                            .setTabListener(this));
-//
-//
-//        }
 
 
         return layout;

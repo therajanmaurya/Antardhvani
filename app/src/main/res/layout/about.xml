@@ -2,529 +2,275 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_height="fill_parent"
+    android:textAlignment="center"
+    android:background="#D1C4E9">
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
-
-
-        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#7E57C2">
+            <TextView
+                android:id="@+id/official"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Official"
+                android:textSize="30dp"
+                android:gravity="center"/>
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+            <TextView
+                android:id="@+id/ch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prof. Malashri Lal"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/ch2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="( Dean of College )\nChairPerson , Antardhvani 2015"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textStyle="italic"/>
+            </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#000"></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        >
+        <TextView
+            android:id="@+id/sa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Satish Kumar"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/sa2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Member Secretary, Antardhvani 2015"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="italic"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000"></LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+            <TextView
+                android:id="@+id/gs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dr. Gurpreet Singh Tuteja"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/gs2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dean, Students Welfare"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textStyle="italic"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:onClick="sendDevPage">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#7E57C2">
+            <TextView
+                android:id="@+id/team"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Developer Team"
+                android:textSize="30dp"
+                android:gravity="center"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#7E57C2">
+            <TextView
+                android:id="@+id/dapsr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\@teamDAPSR"
+                android:textSize="28dp"
+                android:gravity="center"/>
+        </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+            <TextView
+                android:id="@+id/rajan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rajan Maurya"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/rajan2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Student, Cluster Innovation Centre "
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textStyle="italic"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000"></LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+            <TextView
+                android:id="@+id/dk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Davesh Khandelwal"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/dk2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Student, Cluster Innovation Centre "
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textStyle="italic"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000"></LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+            <TextView
+                android:id="@+id/pa1pal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pawan Pal"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/pa1pal2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Student, Cluster Innovation Centre "
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textStyle="italic"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000"></LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+            <TextView
+                android:id="@+id/ak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Akshay"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/ak2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Student, Cluster Innovation Centre "
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textStyle="italic"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000"></LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
             android:orientation="vertical">
-
-            <android.support.v7.widget.CardView
-                android:id="@+id/about_cardView"
+            <TextView
+                android:id="@+id/sagar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                app:cardPreventCornerOverlap="true"
-
-                app:cardUseCompatPadding="true">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-
-                    <LinearLayout
-                        android:id="@+id/about"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical"
-
-                        >
-
-                        <TextView
-                            android:id="@+id/about2"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:paddingLeft="15dp"
-                            android:text="About Us"
-                            android:textColor="#000000"
-                            android:textSize="30sp"
-                            android:textStyle="bold" />
-
-
-                    </LinearLayout>
-
-                </LinearLayout>
-
-            </android.support.v7.widget.CardView>
-
-            <android.support.v7.widget.CardView
-                android:id="@+id/chairperson_cardView"
+                android:text="Sagar"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/sagar2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                app:cardPreventCornerOverlap="true"
-
-                app:cardUseCompatPadding="true">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-
-                    <LinearLayout
-                        android:id="@+id/chlayout1"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical"
-
-                        >
-                        />
-
-                        <TextView
-                            android:id="@+id/chp"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:paddingLeft="15dp"
-                            android:text="Prof. Malashri Lal"
-                            android:textColor="#000000"
-                            android:textSize="25sp"
-                            android:textStyle="normal" />
-
-                        <TextView
-                            android:id="@+id/chptitle"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:paddingLeft="15dp"
-                            android:text="Dean of College and ChairPerson,Antardhvani,2015"
-                            android:textColor="#000000"
-                            android:textSize="19sp"
-                            android:textStyle="italic" />
-
-                    </LinearLayout>
-
-                </LinearLayout>
-
-            </android.support.v7.widget.CardView>
-
-
-            <android.support.v7.widget.CardView
-                android:id="@+id/satishcardView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                app:cardPreventCornerOverlap="true"
-
-                app:cardUseCompatPadding="true">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-
-                    <LinearLayout
-                        android:id="@+id/slayout1"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical"
-
-                        >
-                        />
-
-                        <TextView
-                            android:id="@+id/stitleShortDescription"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:paddingLeft="15dp"
-                            android:text="Satish Kumar"
-                            android:textColor="#000000"
-                            android:textSize="25sp"
-                            android:textStyle="normal" />
-
-                        <TextView
-                            android:id="@+id/stitle"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:paddingLeft="15dp"
-                            android:text="Member Secretary, Antardhvani 2015"
-                            android:textColor="#000000"
-                            android:textSize="19sp"
-                            android:textStyle="italic" />
-
-                    </LinearLayout>
-
-                </LinearLayout>
-
-            </android.support.v7.widget.CardView>
-
-            <android.support.v7.widget.CardView
-                android:id="@+id/gcardView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                app:cardPreventCornerOverlap="true"
-
-                app:cardUseCompatPadding="true">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-
-                    <LinearLayout
-                        android:id="@+id/glayout1"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical"
-
-                        >
-                        />
-
-                        <TextView
-                            android:id="@+id/tuteja"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:paddingLeft="15dp"
-                            android:text="Dr. Gurpreet Singh Tuteja"
-                            android:textColor="#000000"
-                            android:textSize="25sp"
-                            android:textStyle="normal" />
-
-                        <TextView
-                            android:id="@+id/dsw"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:paddingLeft="15dp"
-                            android:text="Dean, Students Welfare"
-                            android:textColor="#000000"
-                            android:textSize="19sp"
-                            android:textStyle="italic" />
-
-                    </LinearLayout>
-
-                </LinearLayout>
-
-            </android.support.v7.widget.CardView>
-
-
-            <android.support.v7.widget.CardView
-                android:id="@+id/cardView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                app:cardPreventCornerOverlap="true"
-
-                app:cardUseCompatPadding="true">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-
-                    <LinearLayout
-                        android:id="@+id/layout1"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical"
-
-                        >
-                        />
-
-                        <TextView
-                            android:id="@+id/titleShortDescription"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:paddingLeft="15dp"
-                            android:text="Developed By\n teamDAPSR"
-                            android:textColor="#000000"
-                            android:textSize="25sp"
-                            android:textStyle="normal" />
-
-
-                    </LinearLayout>
-
-                </LinearLayout>
-
-            </android.support.v7.widget.CardView>
-
-
-            <android.support.v7.widget.CardView
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                app:cardPreventCornerOverlap="true"
-
-                app:cardUseCompatPadding="true">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-
-                    <LinearLayout
-
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical"
-
-                        >
-                        />
-
-                        <TextView
-                            android:id="@+id/rtitleShortDescription"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:paddingLeft="15dp"
-                            android:text="Rajan Maurya "
-                            android:textColor="#000000"
-                            android:textSize="25sp"
-                            android:textStyle="normal" />
-
-                        <TextView
-                            android:id="@+id/rjtitleShortDescription"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:paddingLeft="15dp"
-                            android:text="Cluster Innovation Centre "
-                            android:textColor="#000000"
-                            android:textSize="16sp"
-                            android:textStyle="normal" />
-
-
-                    </LinearLayout>
-
-                </LinearLayout>
-
-            </android.support.v7.widget.CardView>
-
-            <android.support.v7.widget.CardView
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                app:cardPreventCornerOverlap="true"
-
-                app:cardUseCompatPadding="true">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-
-                    <LinearLayout
-
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical"
-
-                        >
-                        />
-
-                        <TextView
-                            android:id="@+id/satitleShortDescription"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:paddingLeft="15dp"
-                            android:text="Sagar "
-                            android:textColor="#000000"
-                            android:textSize="25sp"
-                            android:textStyle="normal" />
-
-                        <TextView
-                            android:id="@+id/sagjtitleShortDescription"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:paddingLeft="15dp"
-                            android:text="Cluster Innovation Centre "
-                            android:textColor="#000000"
-                            android:textSize="16sp"
-                            android:textStyle="normal" />
-
-
-                    </LinearLayout>
-
-                </LinearLayout>
-
-            </android.support.v7.widget.CardView>
-
-            <android.support.v7.widget.CardView
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                app:cardPreventCornerOverlap="true"
-
-                app:cardUseCompatPadding="true">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-
-                    <LinearLayout
-
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical"
-
-                        >
-                        />
-
-                        <TextView
-                            android:id="@+id/patitleShortDescription"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:paddingLeft="15dp"
-                            android:text="Pawan Pal"
-                            android:textColor="#000000"
-                            android:textSize="25sp"
-                            android:textStyle="normal" />
-
-                        <TextView
-                            android:id="@+id/pawjtitleShortDescription"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:paddingLeft="15dp"
-                            android:text="Cluster Innovation Centre "
-                            android:textColor="#000000"
-                            android:textSize="16sp"
-                            android:textStyle="normal" />
-
-
-                    </LinearLayout>
-
-                </LinearLayout>
-
-            </android.support.v7.widget.CardView>
-
-            <android.support.v7.widget.CardView
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                app:cardPreventCornerOverlap="true"
-
-                app:cardUseCompatPadding="true">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-
-                    <LinearLayout
-
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical"
-
-                        >
-                        />
-
-                        <TextView
-                            android:id="@+id/dtitleShortDescription"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:paddingLeft="15dp"
-                            android:text="Devesh Khandelwal "
-                            android:textColor="#000000"
-                            android:textSize="25sp"
-                            android:textStyle="normal" />
-
-                        <TextView
-                            android:id="@+id/dejtitleShortDescription"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:paddingLeft="15dp"
-                            android:text="Cluster Innovation Centre "
-                            android:textColor="#000000"
-                            android:textSize="16sp"
-                            android:textStyle="normal" />
-
-
-                    </LinearLayout>
-
-                </LinearLayout>
-
-            </android.support.v7.widget.CardView>
-
-            <android.support.v7.widget.CardView
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                app:cardPreventCornerOverlap="true"
-
-                app:cardUseCompatPadding="true">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-
-                    <LinearLayout
-
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical"
-
-                        >
-                        />
-
-                        <TextView
-                            android:id="@+id/atitleShortDescription"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:paddingLeft="15dp"
-                            android:text="Akshay"
-                            android:textColor="#000000"
-                            android:textSize="25sp"
-                            android:textStyle="normal" />
-
-                        <TextView
-                            android:id="@+id/akjtitleShortDescription"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:paddingLeft="15dp"
-                            android:text="Cluster Innovation Centre "
-                            android:textColor="#000000"
-                            android:textSize="16sp"
-                            android:textStyle="normal" />
-
-
-                    </LinearLayout>
-
-                </LinearLayout>
-
-            </android.support.v7.widget.CardView>
-
-
+                android:text="Student, Cluster Innovation Centre "
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textStyle="italic"/>
         </LinearLayout>
 
-    </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:padding="5dp"
+            android:background="#7E57C2"
+            android:onClick="sendDevMail">
+            <TextView
+                android:id="@+id/mail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mail To Developer"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:gravity="center"
+                />
+        </LinearLayout>
+    </LinearLayout>
 
-</ScrollView>
+    </ScrollView>

@@ -1,7 +1,9 @@
 package antardhvani.du.ac.in.Map;
 
+
 import android.location.Location;
 import android.os.Bundle;
+
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -23,7 +25,7 @@ import antardhvani.du.ac.in.antardhvani.R;
  * Created by rajanmaurya on 10/2/15.
  */
 
-public class Map extends Fragment implements LocationListener{
+public class Map extends Fragment implements LocationListener {
 
     MapView mapView;
 

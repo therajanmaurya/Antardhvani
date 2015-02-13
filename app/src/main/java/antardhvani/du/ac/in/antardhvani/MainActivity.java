@@ -1,6 +1,5 @@
 package antardhvani.du.ac.in.antardhvani;
 
-import android.app.AlertDialog;
 import android.app.DialogFragment;
 import android.content.Intent;
 import android.net.Uri;
@@ -13,6 +12,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
+
+import java.net.URLEncoder;
 
 import antardhvani.du.ac.in.Home.Home;
 import it.neokree.materialtabs.MaterialTabHost;
@@ -31,6 +32,7 @@ public class MainActivity extends ActionBarActivity {
 
         toolbar = (Toolbar) findViewById(R.id.app_bar);
         setSupportActionBar(toolbar);
+
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         NavigationDrawerFragment drawerFragment = (NavigationDrawerFragment)
                 getSupportFragmentManager().findFragmentById(R.id.fragment_navigation_drawer);
@@ -144,5 +146,35 @@ public class MainActivity extends ActionBarActivity {
         intent.setData(Uri.parse("mailto:" + textView.getText()));
         startActivity(intent);
     }
+    public void sendDevMail(View v)
+    {
 
+        /*Intent intent = new Intent(Intent.ACTION_SEND);
+        intent.setType("text/plain");
+        intent.putExtra(Intent.EXTRA_)
+        intent.putExtra(Intent.EXTRA_EMAIL, textView.getText());
+        intent.putExtra(Intent.EXTRA_SUBJECT, "Re: Antardhwani via Official App");
+
+        startActivity(Intent.createChooser(intent, "Send Email"));*/
+        String x="mailto: " + "kumarsagar15795@gmail.com,"+"rajanmaurya154@gmail.com,"+"devesh.khandelwal@outlook.com,"+"akoli0082@gmail.com,"+"pawanpal004@gmail.com"+"?subject=" + URLEncoder.encode("Re: From Official Du Antardhvani App");
+        Intent intent = new Intent(Intent.ACTION_SENDTO);
+        intent.setData(Uri.parse(x));
+        startActivity(intent);
+    }
+    public void sendDevPage(View v)
+    {
+
+        /*Intent intent = new Intent(Intent.ACTION_SEND);
+        intent.setType("text/plain");
+        intent.putExtra(Intent.EXTRA_)
+        intent.putExtra(Intent.EXTRA_EMAIL, textView.getText());
+        intent.putExtra(Intent.EXTRA_SUBJECT, "Re: Antardhwani via Official App");
+
+        startActivity(Intent.createChooser(intent, "Send Email"));*/
+
+        String url = "https://github.com/teamDAPSR";
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(url));
+        startActivity(i);
+    }
 }

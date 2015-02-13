@@ -8,8 +8,17 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:weightSum="1">
-
-
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#7C4DFF"
+    >
         <TextView
             android:id="@+id/addressHead"
             android:layout_width="match_parent"
@@ -18,15 +27,22 @@
             android:paddingLeft="10sp"
             android:paddingRight="10sp"
             android:paddingTop="10sp"
+
             android:text="ADDRESS"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="#dddddd"
             android:textIsSelectable="false"
             android:textSize="20sp"
+<<<<<<< HEAD
             android:textStyle="bold"
             android:gravity="center_vertical|center_horizontal"
             android:background="#FF1A7209" />
 
+=======
+            android:textStyle="bold" />
+</LinearLayout>
+</LinearLayout>
+>>>>>>> master
         <TextView
             android:id="@+id/addressContent"
             android:layout_width="fill_parent"
@@ -100,9 +116,23 @@
             android:text="dsw@du.ac.in"
             android:textColor="#5555ff"
             android:textIsSelectable="true"
+<<<<<<< HEAD
             android:textSize="18sp"
             android:clickable="true" />
 
+=======
+            android:textSize="18sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#7C4DFF">
+>>>>>>> master
         <TextView
             android:id="@+id/venueHead"
             android:layout_width="match_parent"
@@ -116,10 +146,16 @@
             android:textColor="#dddddd"
             android:textIsSelectable="false"
             android:textSize="20sp"
+<<<<<<< HEAD
             android:textStyle="bold"
             android:background="#FF1A7209"
             android:gravity="center_vertical|center_horizontal" />
 
+=======
+            android:textStyle="bold" />
+</LinearLayout>
+        </LinearLayout>
+>>>>>>> master
         <LinearLayout
             android:id="@+id/venue"
             android:layout_width="match_parent"
