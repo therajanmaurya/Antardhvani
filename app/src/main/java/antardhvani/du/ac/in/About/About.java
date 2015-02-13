@@ -60,13 +60,13 @@ public class About extends Fragment {
         of.setTypeface(font3);
         team.setTypeface(font3);
 
-        ch.setTypeface(font4);
+        ch.setTypeface(font2);
         ch2.setTypeface(font);
 
-        sa.setTypeface(font4);
+        sa.setTypeface(font2);
         sa2.setTypeface(font);
 
-        gs.setTypeface(font4);
+        gs.setTypeface(font2);
         gs2.setTypeface(font);
 
         ra.setTypeface(font2);
@@ -83,6 +83,8 @@ public class About extends Fragment {
 
         sagar.setTypeface(font2);
         sagar2.setTypeface(font);
+
+        mail.setTypeface(font3);
 
 
 
