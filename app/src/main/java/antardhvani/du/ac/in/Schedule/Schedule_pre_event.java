@@ -47,8 +47,8 @@ public class Schedule_pre_event extends Fragment {
 
     public ArrayList<Group> SetStandardGroups() {
 
-        String group_names[] = {"Rock Band ","DU Artist\n","Choreography","Classical Dance\n","Creative Writing and Translation\n","Debate-Vaad Vivaad\n","Folk Dance\n"
-                ,"Group Songs\n","Instrumental Music - Solo\n" , "Music - Vocal Solo\n","Photography\n","Quiz Time -Prashnottri\n", "Rangoli\n", "Short Film\n"};
+        String group_names[] = {"Rock Band ","DU Artist","Choreography","Classical Dance","Creative Writing and Translation","Debate-Vaad Vivaad","Folk Dance"
+                ,"Group Songs","Instrumental Music - Solo" , "Music - Vocal Solo","Photography","Quiz Time -Prashnottri", "Rangoli", "Short Film"};
 
         String country_names[] = {"Meeting on 16 February at 3:00 PM at Multipurpose Hall, University Stadium  to confirm their participation.\n culturecouncil_du@rediffmail.com\n"
 

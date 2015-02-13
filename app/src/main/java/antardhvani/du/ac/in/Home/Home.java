@@ -26,7 +26,7 @@ import antardhvani.du.ac.in.antardhvani.ScreenSlidePageFragment;
  * Created by Windows on 23-01-2015.
  */
 public class Home extends Fragment {
-    private TextView title, des, vcmsg;
+    private TextView title, des,vc_title, vcmsg;
     int[] photos = {R.drawable.slider_2_bg, R.drawable.slider_3_bg};
     KenBurnsView imageView;
     private ViewPager mPager;
@@ -51,14 +51,16 @@ public class Home extends Fragment {
 
         title = (TextView) layout.findViewById(R.id.title);
         des = (TextView) layout.findViewById(R.id.titleShortDescription);
+        vc_title =(TextView) layout.findViewById(R.id.vc_layout);
+        vcmsg=(TextView)layout.findViewById(R.id.vcmsg);
         vcmsg = (TextView) layout.findViewById(R.id.vcmsg);
         Typeface font = Typeface.createFromAsset(getActivity().getAssets(), "fonts/Sofia-Regular.otf");
         Typeface font2 = Typeface.createFromAsset(getActivity().getAssets(), "fonts/D Day Stencil.ttf");
         Typeface font3 = Typeface.createFromAsset(getActivity().getAssets(), "fonts/anu.ttf");
         title.setTypeface(font3);
         des.setTypeface(font);
-
-
+        vc_title.setTypeface(font3);
+        vcmsg.setTypeface(font);
         imageView = (KenBurnsView) layout.findViewById(R.id.header_picture);
         final Handler handler = new Handler();
         Runnable runnable = new Runnable() {
