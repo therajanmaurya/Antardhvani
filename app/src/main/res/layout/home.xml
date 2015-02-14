@@ -41,7 +41,7 @@
             <View
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/header_height"
-                android:background="#8b26b598"
+                android:background="#80b542b1"
 
             />
 

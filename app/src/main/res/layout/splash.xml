@@ -5,7 +5,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="antardhvani.du.ac.in.antardhvani.Splash"
-    android:background="#22ee44"
+    android:background="#afa30512"
     android:id="@+id/splashScreen">
 
     <ImageView
@@ -27,6 +27,8 @@
         android:visibility="invisible"/>
 
     <TextView
+
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -34,8 +36,8 @@
         android:id="@+id/du_name"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:textColor="#dddddd"
-        android:textSize="24sp"
+        android:textColor="#ffddc6ca"
+        android:textSize="28sp"
         android:visibility="invisible"
         android:paddingLeft="10sp"
         android:paddingTop="10sp"

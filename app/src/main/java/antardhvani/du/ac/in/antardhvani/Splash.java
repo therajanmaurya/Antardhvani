@@ -4,6 +4,7 @@ import android.animation.ArgbEvaluator;
 import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -19,7 +20,7 @@ import android.widget.TextView;
 
 public class Splash extends ActionBarActivity {
     public static ImageView du_logo, haathi;
-    public static TextView antar, university;
+    public  TextView antar, university;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,6 +36,9 @@ public class Splash extends ActionBarActivity {
         haathi = (ImageView) findViewById(R.id.haathi);
         antar = (TextView) findViewById(R.id.antardhwani);
         university = (TextView) findViewById(R.id.du_name);
+
+
+
 
         fadein();
 
