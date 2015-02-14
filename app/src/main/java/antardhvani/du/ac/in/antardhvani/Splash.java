@@ -2,18 +2,15 @@ package antardhvani.du.ac.in.antardhvani;
 
 import android.animation.ArgbEvaluator;
 import android.animation.ObjectAnimator;
-import android.animation.ValueAnimator;
 import android.content.Intent;
-import android.graphics.Typeface;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -25,12 +22,7 @@ public class Splash extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splash);
-        try{
-            Thread.sleep(5000);
-        }catch (Exception e)
-        {
-            e.printStackTrace();
-        }
+
         // Animations of splash screen.
         du_logo = (ImageView) findViewById(R.id.du_logo);
         haathi = (ImageView) findViewById(R.id.haathi);
@@ -147,14 +139,14 @@ public class Splash extends ActionBarActivity {
             }
         });
         haathi.startAnimation(fade);
-        ObjectAnimator.ofObject(splash, "backgroundColor", new ArgbEvaluator(), 0x222222ff, 0xFFFF7207)
+        ObjectAnimator.ofObject(splash, "backgroundColor", new ArgbEvaluator(), 0xff222222, 0xffdd6a0f)
                 .setDuration(1000).start();
 
     }
 
     private void end()
     {
-        // Calling MainActivity after Splash ends.
+        // Calling MainActivity after Splash ends.0xFFFF72070xFFFF7207
         Intent intent = new Intent(this, MainActivity.class);
         this.startActivity(intent);
         finish();

@@ -27,8 +27,6 @@
         android:visibility="invisible"/>
 
     <TextView
-
-
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -36,8 +34,8 @@
         android:id="@+id/du_name"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:textColor="#ffddc6ca"
-        android:textSize="28sp"
+        android:textColor="#ddddc6ca"
+        android:textSize="22dp"
         android:visibility="invisible"
         android:paddingLeft="10sp"
         android:paddingTop="10sp"
@@ -52,8 +50,8 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:padding="20sp"
-        android:textColor="#eeeeee"
-        android:textSize="40sp"
+        android:textColor="#dddddd"
+        android:textSize="40dp"
         android:visibility="invisible"/>
 
 </RelativeLayout>
