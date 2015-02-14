@@ -5,7 +5,6 @@ package antardhvani.du.ac.in.Adapter;
  */
 
 import android.content.Context;
-import android.graphics.Typeface;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -90,7 +89,7 @@ public class Event_special_adapter extends BaseExpandableListAdapter {
         TextView tv = (TextView) convertView.findViewById(R.id.activity_googlecards_card_textview);
         tv.setText(group.getName());
         tv.setTextSize(20);
-        tv.setTypeface(Typeface.DEFAULT_BOLD);
+        //tv.setTypeface(Typeface.DEFAULT_BOLD);
         return convertView;
     }
 

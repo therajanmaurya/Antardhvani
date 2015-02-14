@@ -166,7 +166,7 @@
                 android:id="@+id/dk"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Davesh Khandelwal"
+                android:text="Devesh Khandelwal"
                 android:gravity="center"
                 android:textSize="25dp"
                 android:textStyle="bold"/>
