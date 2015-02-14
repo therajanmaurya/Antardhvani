@@ -58,7 +58,7 @@ public class Event_competitive extends Fragment {
                 "performers, carry themes that are reflective of modern angst. " +
                 "Delhi University groups will be presenting their talent at Antardhvani using minimal " +
                 "facilities so as to bring out their musical creativity to the utmost. " +
-                "Coordinator: Dr. Suchitra Gupta (culturecouncil_du@rediffmail.com)"
+                "\n\nCoordinator: Dr. Suchitra Gupta (culturecouncil_du@rediffmail.com)"
 
                 ,"Quiz is a most enjoyable activity that is based on a basic instinct for demonstrating " +
                 "competitive intelligence. A test of knowledge, memory, response time and smartness, a " +
@@ -66,8 +66,8 @@ public class Event_competitive extends Fragment {
                 "teams from colleges and departments will be asked questions on primarily four areas: " +
                 "Literature and culture, sports and science. The Quiz Master is a well-known media person " +
                 "with several years in show time. " +
-                "Co-ordinators:Dr. Prem Kumari Srivastava (premksri@gmail.com) " +
-                "Dr Shikha Gupta (shikhapgupta@gmail.com)"
+                "\n\nCo-ordinators:Dr. Prem Kumari Srivastava (premksri@gmail.com) " +
+                "\n                Dr Shikha Gupta (shikhapgupta@gmail.com)"
 
 
                 ,"Choreography in Delhi University has evolved quite rapidly in recent times. It represents " +
@@ -77,21 +77,21 @@ public class Event_competitive extends Fragment {
                 "impose order upon dance beyond the level of pure improvisation. It uses the three " +
                 "dimensions of space and also the potential of human body. The choreography competition " +
                 "will explore relevant social theme. " +
-                "Coordinator: Dr. Suchitra Gupta (culturecouncil_du@rediffmail.com)"
+                "\n\nCoordinator: Dr. Suchitra Gupta (culturecouncil_du@rediffmail.com)"
 
 
                 ,"Take a few moments off from the din around and you will have ears for ‘antardhvani’, " +
                 "sounds that emerge from deep within …urges that find their way to poetry, to creative " +
                 "churnings that connect the inside with the outside! " +
-                "All are invited to send " +
-                "i. Poetry: Original poetry in Hindi and/or English: Only one entry, up to 15 lines, from " +
-                "each person for each language, with a self-certification of originality. " +
-                "ii. Poetry and translation: Hindi and/or English. Entries must be received by 9 February " +
-                "2015 at the Antardhvani secretariat or by email. The translation must be submitted " +
+                "All are invited to send \n" +
+                "   i) Poetry: Original poetry in Hindi and/or English: Only one entry, up to 15 lines, from " +
+                "each person for each language, with a self-certification of originality. \n" +
+                "   ii) Poetry and translation: Hindi and/or English. Entries must be received by 9 February " +
+                " 2015 at the Antardhvani secretariat or by email.\n The translation must be submitted " +
                 "along with the original. Only one poem per person, the first 15 lines will be judged " +
                 "for the competition. " +
-                "Advisor: Dr. Sukrita Paul Kumar. " +
-                "Entries to be submitted to Dr. Saleem Mir (msaleemir@gmail.com), 9818995351"
+                "\n\n  Advisor:                 Dr. Sukrita Paul Kumar. " +
+                "\nEntries to be submitted to Dr. Saleem Mir (msaleemir@gmail.com), 9818995351"
 
 
                 ,"The exhibition at Antardhvani will have depictions of “Life in Delhi University”. " +
@@ -103,7 +103,7 @@ public class Event_competitive extends Fragment {
                 "also get recognition for their creativity. In this large and diverse institution the experience " +
                 "of college and campus life would vary immensely. The attempt is to capture the diversity " +
                 "through images. The short listed entries will be displayed prominently at the gallery. " +
-                "Coordinator: Dr. G.S.Tuteja (gstuteja@gmail.com) "
+                "\n\nCoordinator: Dr. G.S.Tuteja (gstuteja@gmail.com) "
 
 
                 ,"Woven in rhythm, music and movements, folk dances are reflections of culture, traditions " +
@@ -118,7 +118,7 @@ public class Event_competitive extends Fragment {
                 "heritage. The aim is to make the younger generation aware of the rainbow hues of our " +
                 "culture and enable appreciation of various folk dance forms, and provide insight into the " +
                 "basic philosophies of existence – joy of togetherness and collaboration. " +
-                "Coordinator: Dr. Suchitra Gupta (culturecouncil_du@rediffmail.com) "
+                "\n\nCoordinator: Dr. Suchitra Gupta (culturecouncil_du@rediffmail.com) "
 
 
                 ,"The solo singer has a long tradition in India and the repertoire ranges from the classical to " +
@@ -130,7 +130,7 @@ public class Event_competitive extends Fragment {
                 "sources or from a film or private album and may be presented inany official Indian " +
                 "language. Fusion music is also allowed. The judgment will be made on the basis of voice " +
                 "quality, song selection,rhythm, and melody. " +
-                "Coordinator: Dr. Suchitra Gupta (culturecouncil_du@rediffmail.com) "
+                "\n\nCoordinator: Dr. Suchitra Gupta (culturecouncil_du@rediffmail.com) "
 
 
                 ,"The tradition of Instrumental solo is a venerable one and celebrated in ancient texts and " +
@@ -139,7 +139,7 @@ public class Event_competitive extends Fragment {
                 "The competition at Antardhvani encourages our students to present the fruit of their training " +
                 "in instrumental music, emphasising their creativity, artistry and skill. No pre-recorded " +
                 "music or sample sound is allowed as accompaniment. " +
-                "Coordinator: Dr. Suchitra Gupta (culturecouncil_du@rediffmail.com)"
+                "\n\nCoordinator: Dr. Suchitra Gupta (culturecouncil_du@rediffmail.com)"
 
 
                 ,"The vigour of group songs carries an extraordinary energy. All communities in India build a " +
@@ -153,7 +153,7 @@ public class Event_competitive extends Fragment {
                 "limited. Accompanying instruments are also limited to Harmonium, Keyboard, Tabla, " +
                 "Percussion etc. The judgment will be made on the basis of voice quality, song " +
                 "selection, rhythm, and melody. " +
-                "Coordinator: Dr. Suchitra Gupta (culturecouncil_du@rediffmail.com)"
+                "\n\nCoordinator: Dr. Suchitra Gupta (culturecouncil_du@rediffmail.com)"
 
 
                 ,"Short films are not short because of small budgets or lesser known actors. They are brief " +
@@ -163,7 +163,7 @@ public class Event_competitive extends Fragment {
                 "through their favorite device that is the mobile phone. It needs a special talent to capture " +
                 "something unique in the university on that mobile and create a narrative. This challenge and " +
                 "opportunity can bring out the potential to be a film director or a film producer. " +
-                "Coordinator: Dr. G.S.Tuteja (gstuteja@gmail.com)"
+                "\n\nCoordinator: Dr. G.S.Tuteja (gstuteja@gmail.com)"
 
 
                 ,"Welcome to the world of colours by participating in a Rangoli competition. It is an integral " +
@@ -176,7 +176,7 @@ public class Event_competitive extends Fragment {
                 "usually prepared for the purpose of decoration, it is also thought to bring good luck. Rangoli " +
                 "reflects traditions and practices that are unique to a geographical area or a community. " +
                 "College teams will present the variety that resides in the University of Delhi. " +
-                "Coordinator: Dr. Amrita Bajaj (amrita.dse@gmail.com)"
+                "\n\nCoordinator: Dr. Amrita Bajaj (amrita.dse@gmail.com)"
 
 
                 ,"Originating in the treatise on Natya Shastra by Bharat, the classical dance in India offers a " +
@@ -186,7 +186,7 @@ public class Event_competitive extends Fragment {
                 "performers are also adept musicians and choreographers. Antardhvani offers university " +
                 "students an opportunity to present their talent in dance. The totality of expression through " +
                 "tal, story/bhav, rhythm, costume, music will be considered by the jury. " +
-                "Coordinator: Dr. Suchitra Gupta (culturecouncil_du@rediffmail.com) ",
+                "\n\nCoordinator: Dr. Suchitra Gupta (culturecouncil_du@rediffmail.com) ",
 
 
                 "Street Theatre is a popular activity in the University. It aims at sensitizing masses to social " +
@@ -205,8 +205,9 @@ public class Event_competitive extends Fragment {
                         "repeat audience. With participants sitting at the same level as the audience, it shuns " +
                         "hierarchy. The unpolished performance gives it the power to reach people. Street Theatre " +
                         "helps not only actors to evolve but also the audience to understand its social context. " +
-                        "Coordinator: Shri. Munna K. Pandey (makpandeydu@gmail.com) " +
-                        " Mr. Amitesh Kumar (amitesh0@gmail.com) "
+                        "\n" +
+                        "\nCoordinator: Shri. Munna K. Pandey (makpandeydu@gmail.com) " +
+                        "\n             Mr. Amitesh Kumar (amitesh0@gmail.com) "
 
 
                 ,"The topic to be announced a few days before Antardhvani will take debaters into several " +
@@ -219,8 +220,9 @@ public class Event_competitive extends Fragment {
                 "solutions. The quality and depth of a debate improves with knowledge and skill of its " +
                 "participants as debaters. Antardhvani is creating an opportunity for students across colleges " +
                 "and departments to participate in its debating competition. " +
-                "Coordinator: Dr. Amrita Bajaj (amrita.dse@gmail.com), 9811351872 " +
-                " Dr. Rakesh Kumar Parashar (rakeshkp@email.com), 9810348999 "
+                "\n" +
+                "\nCoordinator: Dr. Amrita Bajaj (amrita.dse@gmail.com), 9811351872 " +
+                "\n             Dr. Rakesh Kumar Parashar (rakeshkp@email.com), 9810348999 "
         };
 
 

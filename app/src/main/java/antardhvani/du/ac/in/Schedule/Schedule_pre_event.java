@@ -50,45 +50,45 @@ public class Schedule_pre_event extends Fragment {
         String group_names[] = {"Rock Band ","DU Artist","Choreography","Classical Dance","Creative Writing and Translation","Debate-Vaad Vivaad","Folk Dance"
                 ,"Group Songs","Instrumental Music - Solo" , "Music - Vocal Solo","Photography","Quiz Time -Prashnottri", "Rangoli", "Short Film"};
 
-        String country_names[] = {"Meeting on 16 February at 3:00 PM at Multipurpose Hall, University Stadium  to confirm their participation.\n culturecouncil_du@rediffmail.com\n"
+        String country_names[] = {"Meeting on 16 February at 3:00 PM at Multipurpose Hall, University Stadium  to confirm their participation.\n\n culturecouncil_du@rediffmail.com"
 
-                ,"The exhibits/painting to be submitted by 17 February 4 PM, NCWEB Office, II Floor Tutorial Building, Arts Faculty, North Campus, Delhi University.\n anjjuguptaa@rediffmail.com, Shakhuranag@gmail.com\n"
-
-
-                ,"Meeting on 16 February at 3:00 PM at Multipurpose Hall, University Stadium  to confirm their participation.\n  culturecouncil_du@rediffmail.com\n"
+                ,"The exhibits/painting to be submitted by 17 February 4 PM, NCWEB Office, II Floor Tutorial Building, Arts Faculty, North Campus, Delhi University.\n\n anjjuguptaa@rediffmail.com\n Shakhuranag@gmail.com"
 
 
-                ,"Meeting on 16 February at 3:00 PM at Multipurpose Hall, University Stadium  to confirm their participation.\n  culturecouncil_du@rediffmail.com\n"
+                ,"Meeting on 16 February at 3:00 PM at Multipurpose Hall, University Stadium  to confirm their participation.\n\n  culturecouncil_du@rediffmail.com"
 
 
-                ,"Entries must be Submitted by 9 February 2015 through Email at msaleemir@gmail.com\n  msaleemir@gmail.com\n"
+                ,"Meeting on 16 February at 3:00 PM at Multipurpose Hall, University Stadium  to confirm their participation.\n\n  culturecouncil_du@rediffmail.com"
 
 
-                ,"All registered participants are requested to report at 9.30 AM Conference Centre, Opposite Botany Department on 16.02.15 and 17.02.15 as per Schedule to be displayed on Antardhvani Website.\n  amrita.dse@gmail.com, rakeshp@email.com\n"
+                ,"Entries must be Submitted by 9 February 2015 through Email at msaleemir@gmail.com\n\n  msaleemir@gmail.com"
 
 
-                ,"Meeting on 16 February at 3:00 PM at Multipurpose Hall, University Stadium  to confirm their participation.\n  culturecouncil_du@rediffmail.com\n"
+                ,"All registered participants are requested to report at 9.30 AM Conference Centre, Opposite Botany Department on 16.02.15 and 17.02.15 as per Schedule to be displayed on Antardhvani Website.\n\n  amrita.dse@gmail.com, rakeshp@email.com"
 
 
-                ,"Meeting on 16 February at 3:00 PM at Multipurpose Hall, University Stadium  to confirm their participation.\n  culturecouncil_du@rediffmail.com\n"
+                ,"Meeting on 16 February at 3:00 PM at Multipurpose Hall, University Stadium  to confirm their participation.\n\n  culturecouncil_du@rediffmail.com"
 
 
-                ,"Meeting on 16 February at 3:00 PM at Multipurpose Hall, University Stadium  to confirm their participation.\n  culturecouncil_du@rediffmail.com\n"
+                ,"Meeting on 16 February at 3:00 PM at Multipurpose Hall, University Stadium  to confirm their participation.\n\n  culturecouncil_du@rediffmail.com"
+
+                
+                ,"Meeting on 16 February at 3:00 PM at Multipurpose Hall, University Stadium  to confirm their participation.\n\n  culturecouncil_du@rediffmail.com"
 
 
-                ,"Meeting on 16 February at 3:00 PM at Multipurpose Hall, University Stadium  to confirm their participation.\n  culturecouncil_du@rediffmail.com\n"
+                ,"Meeting on 16 February at 3:00 PM at Multipurpose Hall, University Stadium  to confirm their participation.\n\n  culturecouncil_du@rediffmail.com"
 
 
-                ,"The Photographs to be submitted by 17 February 3 PM, Conference Centre, Opposite Botany Department, North Campus\n  gstuteja@gmail.com\n"
+                ,"The Photographs to be submitted by 17 February 3 PM, Conference Centre, Opposite Botany Department, North Campus\n\n  gstuteja@gmail.com"
 
 
-                ,"All registered participants for the quiz are required to report at the university Indoor Stadium at 12.30 PM on the 17th of February 2015 for verification of their college ID Cards.\n  premksri@gmail.com), gitschawla@gmail.com \n",
+                ,"All registered participants for the quiz are required to report at the university Indoor Stadium at 12.30 PM on the 17th of February 2015 for verification of their college ID Cards.\n\n  premksri@gmail.com, gitschawla@gmail.com ",
 
 
-                "Registered candidates report at venue directly on the day of event.\n  amrita.dse@gmail.com\n"
+                "Registered candidates report at venue directly on the day of event.\n\n  amrita.dse@gmail.com"
 
 
-                ,"Final cut of the Film to be submitted by 17 February 3PM, Conference Centre, Opposite Botany Department, North Campus.\n  gstuteja@gmail.com\n"
+                ,"Final cut of the Film to be submitted by 17 February 3PM, Conference Centre, Opposite Botany Department, North Campus.\n\n  gstuteja@gmail.com"
         };
 
 
