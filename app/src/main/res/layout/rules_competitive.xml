@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_background_white"
+            android:orientation="vertical"
+            android:padding="16dp"
+            tools:ignore="overdraw">
+
+            <TextView
+                android:id="@+id/rulestitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:scaleType="centerCrop"
+                android:text="RULES FOR SPECIFIC COMPETITIVE EVENTS"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/rules_subtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="ContentDescription" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_background_white"
+            android:orientation="vertical"
+            android:padding="16dp"
+            tools:ignore="overdraw">
+
+            <TextView
+                android:id="@+id/subtitile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|right"
+                android:gravity="left"
+                android:scaleType="centerCrop"
+                android:text="1. Music and Dance Items: \n General Rule: \n Organizing Committee shall not provide any instruments/accompanists. The contestants have to arrange the musical accompanists/play ready music cassettes/CDs of their own. The play ready music cassettes/CDs and playing electronic instrument should be installed much before the actual performance. No extra time shall be given for this purpose. \n \n a. Classical Dance (Solo): \n* Must not exceed 5 minutes. \n*The music/song for the performance should be classical (Non-film Song).\n*The contestants have to introduce the composition/dance form with all the necessary details viz. the form, Tal, Story/Bhav etc. \n \nb. Folk Dance: \n*Must not exceed 5 minutes.\n*Kindly note this is a group event (number of participant minimum 6 and maximum 12).\n*The music/song for the performance should be non-filmi.
+                \n c. Instrumental Music (Solo): must not exceed 5 minutes. \n \nd. Group Song: \n*Must not exceed 2 minutes.\n*The composition has to be a song either from a Film or Private Album etc in any official Indian language, however fusion is allowed.\n*The contestant may introduce the composition but it will be mandatory if the song is in language/languages other than Hindi."
+                android:textColor="@color/colorPrimary"
+                tools:ignore="ContentDescription" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_background_white"
+            android:orientation="vertical"
+            android:padding="16dp"
+            tools:ignore="overdraw">
+
+            <TextView
+                android:id="@+id/subtitile1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|right"
+                android:gravity="left"
+                android:scaleType="centerCrop"
+                android:text="2. Rock Band- must not exceed 15 minutes."
+                android:textColor="@color/colorPrimary"
+                tools:ignore="ContentDescription" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_background_white"
+            android:orientation="vertical"
+            android:padding="16dp"
+            tools:ignore="overdraw">
+
+            <TextView
+                android:id="@+id/subtitile2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|right"
+                android:gravity="left"
+                android:scaleType="centerCrop"
+                android:text="3. Street Play (Nukkad Natak)\n*Maximum time is 15 minutes per entry. Socially relevant themes will be presented in Hindi or English. The aesthetics and language should be appropriate. Size of team is limited to 15 persons per team."
+                android:textColor="@color/colorPrimary"
+                tools:ignore="ContentDescription" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_background_white"
+            android:orientation="vertical"
+            android:padding="16dp"
+            tools:ignore="overdraw">
+
+            <TextView
+                android:id="@+id/subtitile3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|right"
+                android:gravity="left"
+                android:scaleType="centerCrop"
+                android:text="4. Creative Writing: \ni. Poetry: Original poetry in Hindi and/or English: Only one entry, up to 15 lines, from each person for each language, with a self-certification of originality. \n \n ii. Poetry in translation: Hindi and/or English. The translation must be submitted along with the original. Only one poem per person, the first 15 lines will be judged for the competition. Entries may be submitted to session coordinator through email to msaleemir@gmail.com by 15 February 2015.
+"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="ContentDescription" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_background_white"
+            android:orientation="vertical"
+            android:padding="16dp"
+            tools:ignore="overdraw">
+
+            <TextView
+                android:id="@+id/subtitile4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|right"
+                android:gravity="left"
+                android:scaleType="centerCrop"
+                android:text="5. Art Gallery- DU Artist:\nOriginal entries, signed, using any medium, within the size 3’x 4’ maybe submitted in the original hard copy at the Antardhvani secretariat by 15 February 2015. Artistic and original computer art also qualifies. Only one entry will be accepted from each person."
+                android:textColor="@color/colorPrimary"
+                tools:ignore="ContentDescription" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_background_white"
+            android:orientation="vertical"
+            android:padding="16dp"
+            tools:ignore="overdraw">
+
+            <TextView
+                android:id="@+id/subtitile5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|right"
+                android:gravity="left"
+                android:scaleType="centerCrop"
+                android:text="6. Photography:\ni. Photographs, in black and white or colour, must be original and taken by the students. It should capture images of life at the University of Delhi and its colleges. The photograph should be specially taken for the competition using any consumer or professional camera. All submissions will be judged on the basis of form and theme, technical aspects, and photographic representation of the theme. \n\nii. Each student can send a maximum of 2 photographs. Entries must be in digital format suitable for on line transmission and must carry technical information. Photograph should not be edited using effects from Photoshop.Hard copies of photographs must be submitted at the Antardhvani secretariat by 15 February printed on either a matt or glossy printing paper between 100-120gsm of size not be less than A4 and not more than A3. \nThe back of the photograph must carry the information: \nName,\nDepartment and Year,\nName of the College/Department,\nMobile Number and Email.\nThe envelope must be marked “Antardhvani 2015 (Photography Competition) Name and Address:…..”\n \niii. Photographs shall be the property of the University and students are advised to make their personal copy.
+                \n \n7. Short Film: Life in DU:\nThe ‘shorts’ are limited to 5 minutes and must capture life at the University of Delhi.\na. The file has to be submitted on CD and it should be in common compatible Video formats (in HD 1024 X 768 pixel) which may be shot by DV cams, Handy cams, mobile phones, web cams etc.\nb. The participants shall submit their films (preferably in mpeg format) by 15 February 2015 the Antardhvani Secretariat.\nc. Film should have a meaningful story line with a title and participant’s contact details.\nd. Film submitted to the University of  Delhi will become the property of the University."
+                android:textColor="@color/colorPrimary"
+                tools:ignore="ContentDescription" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_background_white"
+            android:orientation="vertical"
+            android:padding="16dp"
+            tools:ignore="overdraw">
+
+            <TextView
+                android:id="@+id/subtitile6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|right"
+                android:gravity="left"
+                android:scaleType="centerCrop"
+                android:text="6. Photography:\ni. Photographs, in black and white or colour, must be original and taken by the students. It should capture images of life at the University of Delhi and its colleges. The photograph should be specially taken for the competition using any consumer or professional camera. All submissions will be judged on the basis of form and theme, technical aspects, and photographic representation of the theme. \n\nii. Each student can send a maximum of 2 photographs. Entries must be in digital format suitable for on line transmission and must carry technical information. Photograph should not be edited using effects from Photoshop.Hard copies of photographs must be submitted at the Antardhvani secretariat by 15 February printed on either a matt or glossy printing paper between 100-120gsm of size not be less than A4 and not more than A3. \nThe back of the photograph must carry the information: \nName,\nDepartment and Year,\nName of the College/Department,\nMobile Number and Email.\nThe envelope must be marked “Antardhvani 2015 (Photography Competition) Name and Address:…..”\n \niii. Photographs shall be the property of the University and students are advised to make their personal copy.
+                \n \n7. Short Film: Life in DU:\nThe ‘shorts’ are limited to 5 minutes and must capture life at the University of Delhi.\na. The file has to be submitted on CD and it should be in common compatible Video formats (in HD 1024 X 768 pixel) which may be shot by DV cams, Handy cams, mobile phones, web cams etc.\nb. The participants shall submit their films (preferably in mpeg format) by 15 February 2015 the Antardhvani Secretariat.\nc. Film should have a meaningful story line with a title and participant’s contact details.\nd. Film submitted to the University of  Delhi will become the property of the University."
+                android:textColor="@color/colorPrimary"
+                tools:ignore="ContentDescription" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_background_white"
+            android:orientation="vertical"
+            android:padding="16dp"
+            tools:ignore="overdraw">
+
+            <TextView
+                android:id="@+id/subtitile7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|right"
+                android:gravity="left"
+                android:scaleType="centerCrop"
+                android:text="8. Quiz Time : Prashnottri:\ni. Only students who have registered online will be allowed to participate. Teams of two students each may participate in the quiz. Both participants should register online.\nii. Questions from science, social science, arts, culture, current affairs and general knowledge will be asked. The quiz questions may be in both English and Hindi.\niii. Registered students will be required to report on a specified date and time before Antardhvani to stream-line the process of selection.\niv. There will be at least three rounds – preliminary, semi-final and final. Substitution of any participant during the rounds of the quiz will not be permitted. Some of the rounds could be crossfire round, buzzer round, audio/visual round and rapid fire round etc."
+                android:textColor="@color/colorPrimary"
+                tools:ignore="ContentDescription" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_background_white"
+            android:orientation="vertical"
+            android:padding="16dp"
+            tools:ignore="overdraw">
+
+            <TextView
+                android:id="@+id/subtitile8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|right"
+                android:gravity="left"
+                android:scaleType="centerCrop"
+                android:text="9. Debate: Vaad Vivaad:\ni. A team of two students can register for the Debate. A single participant registration will not be entertained. One team member must speak for the motion while the other shall speak against the motion.\nii. Preliminary rounds will be held on 16th and 17th February, and the final rounds according to the schedule of Antardhvani.\niii. The Debate structure would be conventional. Each speaker will get 2+1 minute to speak in the preliminary rounds while in the final rounds, each speaker get 3+1 minute.\niv. The motions for the all the debates will be announced on the website two days prior to the schedules announced for Antardhvani.\nv. Interjection will be permitted only in the Finals. One interjection will be allowed after each team speaks. Interjections have to come from among the competing participants. The best interjector will qualify for a prize."
+                android:textColor="@color/colorPrimary"
+                tools:ignore="ContentDescription" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_background_white"
+            android:orientation="vertical"
+            android:padding="16dp"
+            tools:ignore="overdraw">
+
+            <TextView
+                android:id="@+id/subtitile9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|right"
+                android:gravity="left"
+                android:scaleType="centerCrop"
+                android:text="10. Rangoli:\nThis is an intercollege competition for which a team of 2 students can participate per college. Designs should be less than 3 x 3 ft. participants must bring their own material. Only flowers/grass/edible items/natural materials/natural colours are to be used. Paints, synthetic powder or sticky substances are not allowed. The maximum time limit is 2 hours. No electrical/electronic help is allowed."
+                android:textColor="@color/colorPrimary"
+                tools:ignore="ContentDescription" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_background_white"
+            android:orientation="vertical"
+            android:padding="16dp"
+            tools:ignore="overdraw">
+
+            <TextView
+                android:id="@+id/subtitile10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|right"
+                android:gravity="left"
+                android:scaleType="centerCrop"
+                android:text="11. Choreography:\nThe rules of this competition are as follows :\n1. Only 1 team per college is allowed.\n2. The theme of the performance should have social relevance.\n3. Maximum members allowed per team are 13 onstage/performing and 4 backstage helpers (including lights and sound).\n4. Maximum time limit is 10 minutes, including the voice over. Voice over should be in the beginning and/or at the end and should not exceed 2 minutes (total).\n5. No props should be used to depict the theme.\n6. No lyrics, shlokas, aalaps and fading of words are allowed.\n7. Judging categories: Theme depiction, Choreography, Synchronization,Coordination, Costumes (their relevance to the theme).\n8. Teams must carry the music in audio CDs and pen drives (2 copies)."
+                android:textColor="@color/colorPrimary"
+                tools:ignore="ContentDescription" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_background_white"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:ignore="overdraw">
+
+        <TextView
+            android:id="@+id/rulestitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:gravity="center"
+            android:text="RULES FOR ANTARDHVANI COMPETITIONS"
+            android:textColor="@color/colorPrimary"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/rules_subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:textColor="@color/colorPrimary"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_background_white"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:ignore="overdraw">
+
+        <TextView
+            android:id="@+id/subtitile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:gravity="left"
+            android:text="1.   The registrations for competitive events are to be done on-line (http://antardhvani2015.du.ac.in). Kindly retain a copy of registration form for reference. Application forms must be e-submitted to the Antardhvani Secretariat by 9 February 2015. Acceptance list by coordinators will be placed on the Antardhvani website by 13 February 2015. In case of queries, kindly contact Antardhvani Helpdesk at University Information Centre (UIC) at 011-27006900. \n \n 2. The programme is only for current bona-fide students of the University of Delhi and its colleges, School of Open Learning, NCWEB, and post graduate departments, Institutes and Centres. In case the student does not fulfil this condition, his/her participation will be cancelled. Participants must carry a valid student I-Card to show at competition venue. \n \n 3. Team members must be bona fide students from the same college. \n \n 4. Musical accompanists wherever required should preferably be students of University of Delhi.
+            \n \n 5. The organizing Committee reserves the right to change the venue and time, and modify the rules, if necessary. \n \n 6. Rules for each specific event will be displayed separately, if required. \n \n 7. Contestants must bring their own costumes and props. \n \n 8. Copyright items, if used, must be acknowledged. The University will not be    responsible for any violations. \n \n 9. The contestants are strictly advised not to disclose the name of their College/Institution to the jury/audience while introducing any item on stage. Time limits must be followed. \n \n10. Each participant will be given a Participation Certificate by the University of Delhi during the days of the Antardhvani programme. First, Second, and one Runner Up will be announced. Winners will receive attractive prizes. \n \n  11. Colleges and University Departments will be assessed by a jury and recognized  with Awards of Good Practice where so determined. Separate guidelines are issued. \n \n 12. The decision of Judges will be final and binding in all competitions. \n \n 13. There is no registration fee for entering any competition at Antardhvani. \n \n 14. Only 2 entries from Non-Collegiate Women's Education Board (NCWEB) for each event and 4 entries from School of Open Learning (SOL) for each event shall be accepted. All entries should be duly verified from the office of NCWEB and SOL respectively and should be submitted to the Antardhvani Secretariat in hard copy only. \n \n 15.  GOLDEN RULE: Individual and Team Entries for competitive events must be received on-line by 9 February 2015 and retain a print-out for reference. http://antardhvani2015.du.ac.in"
+            android:textColor="@color/colorPrimary"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
