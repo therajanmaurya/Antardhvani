@@ -13,7 +13,8 @@
 
         <include
             android:id="@+id/app_bar"
-            layout="@layout/app_bar" />
+            layout="@layout/app_bar"
+            />
 
         <FrameLayout
             android:id="@+id/frame_container"
