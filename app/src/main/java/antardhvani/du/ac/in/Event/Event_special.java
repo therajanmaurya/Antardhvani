@@ -61,7 +61,9 @@ public class Event_special extends Fragment {
                         "Delhi’s famed street food, and a third venue will offer Indian quick foods, meals on a " +
                         "platter. Tea, coffee and beverages are available at all food courts and all items will be " +
                         "moderately priced. " +
-                        "Coordinators: Prof. Mridula Gupta (mridula du@yahoo.com)"
+                        "\n" +
+                        "\nCoordinators: Prof. Mridula Gupta (mridula_du@yahoo.com)" +
+                        "\n              Lt.Parminder Sehgal(parmindersehgal@gmail.com)"
 
 
                 , "The elephant in DU’s logo will join the festivities and greet Antardhvani visitors. " +
@@ -71,7 +73,8 @@ public class Event_special extends Fragment {
                 "mascot elephant. Tee shirts and caps, mugs with photos, stationary, table clocks and other " +
                 "items, all with the famous logo of the DU elephant. These introductory items are " +
                 "moderately priced to encourage popular use. " +
-                "Coordinator: University Information Centre"
+                "\n" +
+                "\nCoordinator: University Information Centre"
 
 
                 , "Linked to the NCC programme at DU, focus on mountaineering will bring attention to " +
@@ -80,24 +83,29 @@ public class Event_special extends Fragment {
                 "pamphlets, films, photos, videos and films. Coordinated by DU students who have " +
                 "outstanding achievements in mountaineering, the stall will encourage interaction to " +
                 "understand the physical and psychological advantages of such sports. " +
-                "Coordinator: NCC in charge Lt Parminder Sehgal , " +
-                "Student Akash Jindal (akash Q dal7Q1ahoo.eom)"
+                "\n" +
+                "\nCoordinator: NCC in charge Lt Parminder Sehgal(parmindersehgal@gmail.com) , " +
+                "\n             Student Akash Jindal (akash_jindal@yahoo.com)"
 
 
                 , "No data available"
 
-                , "No data available"
+                , "Do you want to be on Air? Don't worry, DUCR 90.4 MHz will make you audible to everyone at Antardhwani-2015. The center of attraction will be ' R.J. Hunt ' and ' DUCR IDOL-2015 '. Hey, there is an anchor inside you!!!\n\n     Listen your voice. Be loud, be aloud and be audible. DUCR IDOL-2015 will provide you opportunity to record your Dialogues/song/poetry in your own voice. Get a chance to visit to Delhi University Community Radio. Prepare, Participate and Present you will be dully rewarded. For more information visit http://ducr.du.ac.in/"+
+                "\n\nCoordinator: R.K. Singh(9891138542,ducr90.4@gmail.com) "+
+                "\n Contact us 011-27662334,27662336"
                 , "Organized by the Sports Council, this is a 10 X 10 over match, a fiiendly encounter slated " +
                 "to bring to the field the hidden talent among administrators, teachers and nonteaching staffi " +
                 "The team led by the Vice Chancellor, will play the Principals’ team. Food and sofl drinks " +
                 "will be available in plenty, so will good cheer and encouragement from the stands. Look " +
                 "out for the stars, the men and women of the match! Special prizes. " +
-                "Coordinator: Registrar’s office"
+                "\n" +
+                "\nCoordinator: Registrar’s office"
 
 
                 , "NSS of the Govt. of India started in 1969. Its motto is \"Not Me, Not You but We”. NSS will " +
                 "present its current activities and awareness raising programme at Antardhvani. " +
-                "Coordinator: Dr. Aaratl Saxena, (aaratisaxena@gEll.oom)"
+                "\n" +
+                "\nCoordinator: Dr. Aarati Saxena, (aaratisaxena@gmail.com)"
 
 
                 , "NCC is a Tri-Services Organisation comprising the Army, Navy and Air Force, engaged in " +
@@ -108,14 +116,14 @@ public class Event_special extends Fragment {
                 "and marches through the stadium area of the campus. Students also display skills in combat, " +
                 "first aid, disaster management, firefighting and other forms of civic assistance. NCC and " +
                 "College volunteers will be ensuring law and order at Antardhvani. " +
-                "Coordinator: Lt. Panninder Sehgal (Erminde§hgg3@gail.com)"
+                "Coordinator: Lt. Panninder Sehgal (parmindersehgal3@gail.com)"
 
 
                 , "The Institute of Life Long Learning has been creative in developing innovative " +
                 "teaching material through the full time work of its Fellows. By now the dedicated " +
                 "ILLL website carries several hundred lessons using that range over lectures, e-labs, " +
                 "videos, theatre, panel discussions, films and more. (Contact Dr. Amrit Kaur Basra; " +
-                "amritdcac@gmail. com). Coordinator: Dr. DeepikaBhaskar.( )"
+                "amritdcac@gmail. com). \n\nCoordinator: Dr. DeepikaBhaskar.(biodeepika@gmail.com )"
 
                 , "No Data Available"};
 
