@@ -29,11 +29,6 @@
         android:title="@string/notice"
         app:showAsAction="never" />
 
-    <item
-        android:id="@+id/rate"
-        android:orderInCategory="400"
-        android:title="@string/rate"
-        app:showAsAction="never" />
 
     <item
         android:id="@+id/share"

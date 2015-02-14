@@ -106,12 +106,7 @@ public class MainActivity extends ActionBarActivity {
             return true;
         }
 
-        //Rate app link
-        if (id == R.id.rate) {
-            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("play.google.com/store/apps/details?id=antardhvani.du.ac.in.antardhvani"));
-            startActivity(browserIntent);
-            return true;
-        }
+
 
         //Share app link
         if (id == R.id.share) {

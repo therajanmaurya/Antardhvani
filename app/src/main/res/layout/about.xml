@@ -4,7 +4,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:textAlignment="center"
-    android:background="#D1C4E9">
+    android:background="#ffe1eee7">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,12 +14,13 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#7E57C2">
+            android:background="#c132725f">
             <TextView
                 android:id="@+id/official"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Official"
+                android:textColor="#fff"
                 android:textSize="30dp"
                 android:gravity="center"/>
             </LinearLayout>
@@ -106,24 +107,26 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#7E57C2">
+            android:background="#c132725f">
             <TextView
                 android:id="@+id/team"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Developer Team"
+                android:textColor="#fff"
                 android:textSize="30dp"
                 android:gravity="center"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#7E57C2">
+            android:background="#c132725f">
             <TextView
                 android:id="@+id/dapsr"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="\@teamDAPSR"
+                android:textColor="#fff"
                 android:textSize="28dp"
                 android:gravity="center"/>
         </LinearLayout>
@@ -259,7 +262,7 @@
             android:layout_width="match_parent"
             android:layout_height="45dp"
             android:padding="5dp"
-            android:background="#7E57C2"
+            android:background="#c132725f"
             android:onClick="sendDevMail">
             <TextView
                 android:id="@+id/mail"
@@ -267,7 +270,8 @@
                 android:layout_height="wrap_content"
                 android:text="Mail To Developer"
                 android:textStyle="bold"
-                android:textSize="25dp"
+                android:textColor="#fff"
+                android:textSize="26dp"
                 android:gravity="center"
                 />
         </LinearLayout>
