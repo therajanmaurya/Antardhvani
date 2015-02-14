@@ -16,6 +16,7 @@ import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -135,11 +136,14 @@ public class NavigationDrawerFragment extends Fragment {
 
                         Home home = new Home();
                         ft.replace(R.id.frame_container, home);
+
                         break;
 
                     case 1:
                         viewpager event = new viewpager();
                         ft.replace(R.id.frame_container, event);
+                        Toast.makeText(getActivity().getApplicationContext(), "Click for more detail",
+                                Toast.LENGTH_SHORT).show();
                         break;
 
                     case 2:
@@ -155,6 +159,8 @@ public class NavigationDrawerFragment extends Fragment {
                     case 4:
                         Schedule_viewpager schedule = new Schedule_viewpager();
                         ft.replace(R.id.frame_container, schedule);
+                        Toast.makeText(getActivity().getApplicationContext(), "Click for more detail",
+                                Toast.LENGTH_SHORT).show();
                         break;
 
                     case 5:

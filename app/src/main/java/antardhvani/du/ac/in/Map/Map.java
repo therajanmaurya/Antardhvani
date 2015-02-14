@@ -57,7 +57,7 @@ public class Map extends Fragment implements LocationListener {
             googleMap.setMyLocationEnabled(true);
 
 
-            googleMap.addMarker(new MarkerOptions().position(new LatLng( 28.690976,77.214166)).title("Cluster Innovation centre"));
+            googleMap.addMarker(new MarkerOptions().position(new LatLng( 28.690976,77.214166)).title("University Stadium"));
             googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng( 28.690976,77.214166),16));
 
 
