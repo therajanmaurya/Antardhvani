@@ -53,7 +53,7 @@ public class About extends Fragment {
 
 
         Typeface font = Typeface.createFromAsset(getActivity().getAssets(), "fonts/Sofia-Regular.otf");
-        Typeface font2 = Typeface.createFromAsset(getActivity().getAssets(), "fonts/anu.ttf");
+        Typeface font2 = Typeface.createFromAsset(getActivity().getAssets(), "fonts/CaviarDreams.ttf");
         Typeface font3 = Typeface.createFromAsset(getActivity().getAssets(), "fonts/3Dumb.ttf");
         Typeface font4 = Typeface.createFromAsset(getActivity().getAssets(), "fonts/D Day Stencil.ttf");
 

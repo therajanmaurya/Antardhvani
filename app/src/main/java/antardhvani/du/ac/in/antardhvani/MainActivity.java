@@ -64,6 +64,14 @@ public class MainActivity extends ActionBarActivity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
+
+        if (id == R.id.news) {
+            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://antardhvani2015.du.ac.in/"));
+            startActivity(browserIntent);
+            return true;
+        }
+
+
         //noinspection SimplifiableIfStatement
        //Like us on faceboook link
         if (id == R.id.facebook) {
@@ -91,6 +99,8 @@ public class MainActivity extends ActionBarActivity {
 
 
         }
+
+
 
         //Download Brochure link
         if (id == R.id.brochure) {
