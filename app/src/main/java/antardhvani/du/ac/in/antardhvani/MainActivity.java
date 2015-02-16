@@ -102,12 +102,12 @@ public class MainActivity extends ActionBarActivity {
 
 
 
-        //Download Brochure link
-        if (id == R.id.brochure) {
-            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://antardhvani2015.du.ac.in/pdf/01022015Flowershowbooklet2015.pdf"));
-            startActivity(browserIntent);
-            return true;
-        }
+//        //Download Brochure link
+//        if (id == R.id.brochure) {
+//            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://antardhvani2015.du.ac.in/pdf/01022015Flowershowbooklet2015.pdf"));
+//            startActivity(browserIntent);
+//            return true;
+//        }
 
         //Important notices link
         if (id == R.id.notice) {

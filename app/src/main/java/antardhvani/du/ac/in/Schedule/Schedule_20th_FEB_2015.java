@@ -36,10 +36,10 @@ public class Schedule_20th_FEB_2015 extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View layout = inflater.inflate(R.layout.schedule_20th, container, false);
 
-        ExpandList = (ExpandableListView) layout.findViewById(R.id.activity_googlecards_listview_Schedule);
-        ExpListItems = SetStandardGroups();
-        ExpAdapter = new Schedule_pre_event_adapter(getActivity(), ExpListItems);
-        ExpandList.setAdapter(ExpAdapter);
+//        ExpandList = (ExpandableListView) layout.findViewById(R.id.activity_googlecards_listview_Schedule);
+//        ExpListItems = SetStandardGroups();
+//        ExpAdapter = new Schedule_pre_event_adapter(getActivity(), ExpListItems);
+//        ExpandList.setAdapter(ExpAdapter);
 
         return layout;
 
@@ -47,9 +47,14 @@ public class Schedule_20th_FEB_2015 extends Fragment {
 
     public ArrayList<Group> SetStandardGroups() {
 
-        String group_names[] = {"INAUGURAL CEREMONY", " DU ART GALLERY/ IGNCA/ RANGOLI /Equal Opportunity Cell", "INNOVATION PLAZA", "CLUSTER INNOVATION\n" +
-                "CENTRE ON PATIO", "Creative Writing and Translation", "Debate-Vaad Vivaad", "Folk Dance"
-                , "Group Songs", "Instrumental Music - Solo", "Music - Vocal Solo", "Photography", "Quiz Time -Prashnottri", "Rangoli", "Short Film"};
+        String group_names[] = {"INAUGURAL CEREMONY",
+                " DU ART GALLERY/ IGNCA/ RANGOLI /Equal Opportunity Cell",
+                "INNOVATION PLAZA", "CLUSTER INNOVATION" +
+                "CENTRE ON PATIO", "CLASSICAL DANCE Debate-Vaad Vivaad", " DU ART GALLERY/ IGNCA/ RANGOLI/EOC"
+                , "CREATIVE  WRITING/ TRANSLATION", "INNOVATION PLAZA / 12 noon Inauguration", "NSDC /SKILL COUNSELLING", "ROCK BAND", "DEBATE", "INSTRUMENTAL MUSIC", "DU ART GALLERY/ IGNCA/ RANGOLI /EOC","CREATIVE WRITING/TRANSLATION"
+        ,"INNOVATION PLAZA","NSDC SKILL COUNSELLING " , "VOCAL SOLO" ,"DEBATE" ,"FOLK DANCE" ,"DU ART GALLERY/ IGNCA/ RANGOLI EOC /","CREATIVE WRITING/ TRANSLATION"
+        ,"INNOVATION PLAZA","SHORT FILM-LIFE IN DU" , "DEBATE" , "CHOREGRAPHY" ,"DU ART GALLERY/ IGNCA/ RANGOLI/EOC" ,"CREATIVE WRITING/TRANSLATION","INNOVATION PLAZA"
+        ,"SHORT FILM-LIFE IN DU" ,"DEBATE"};
 
         String country_names[] = {"Meeting on 16 February at 3:00 PM at Multipurpose Hall, University Stadium  to confirm their participation.\n\n culturecouncil_du@rediffmail.com"
 
