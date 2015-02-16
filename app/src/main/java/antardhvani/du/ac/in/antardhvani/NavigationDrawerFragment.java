@@ -12,6 +12,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.GestureDetector;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
@@ -69,6 +70,7 @@ public class NavigationDrawerFragment extends Fragment {
     private View containerView;
     private boolean isDrawerOpened = false;
     int in;
+    boolean scheduleSelected;
     static String[] titles = {"Home", "Events","Flower Show","Gyanodaya", "Painting Competition" ,"Schedule", "Contact","Map", "About Us" };
 
 
@@ -120,6 +122,7 @@ public class NavigationDrawerFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
 
+        scheduleSelected=false;
         View layout = inflater.inflate(R.layout.fragment_navigation_drawer, container, false);
         recyclerView = (RecyclerView) layout.findViewById(R.id.drawerList);
         adapter = new AntardhvaniAdapter(getActivity(), getData());
@@ -163,10 +166,33 @@ public class NavigationDrawerFragment extends Fragment {
                         break;
 
                     case 5:
-                        Schedule_viewpager schedule = new Schedule_viewpager();
-                        ft.replace(R.id.frame_container, schedule);
-                        Toast.makeText(getActivity().getApplicationContext(), "Click for more detail",
-                                Toast.LENGTH_SHORT).show();
+                        if (!scheduleSelected)
+                        {
+
+                            Information current = new Information();
+                            current.title = "Pre-event";
+                            adapter.data.add(6, current);
+                            current.title = "Day 1 - Feb 20th";
+                            adapter.data.add(7, current);
+                            current.title = "Day 2 - Feb 21th";
+                            adapter.data.add(8, current);
+                            current.title = "Day 3 - Feb 23th";
+                            adapter.data.add(9, current);
+                            scheduleSelected=true;
+                            adapter.notifyDataSetChanged();
+                            mDrawerLayout.openDrawer(Gravity.LEFT);
+                        }
+                        else
+                        {
+
+                            adapter.data.remove(6);
+                            adapter.data.remove(6);
+                            adapter.data.remove(6);
+                            adapter.data.remove(6);
+                            scheduleSelected=false;
+                            adapter.notifyDataSetChanged();
+                            mDrawerLayout.openDrawer(Gravity.LEFT);
+                        }
                         break;
 
                     case 6:

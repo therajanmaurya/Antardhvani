@@ -36,30 +36,29 @@ public class Schedule_20th_FEB_2015 extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View layout = inflater.inflate(R.layout.schedule_20th, container, false);
 
-<<<<<<< HEAD
         ExpandList = (ExpandableListView) layout.findViewById(R.id.activity_googlecards_listview_Schedule);
         ExpListItems = SetStandardGroups();
         ExpAdapter = new Schedule_pre_event_adapter(getActivity(), ExpListItems);
         ExpandList.setAdapter(ExpAdapter);
-=======
+
 //        ExpandList = (ExpandableListView) layout.findViewById(R.id.activity_googlecards_listview_Schedule);
 //        ExpListItems = SetStandardGroups();
 //        ExpAdapter = new Schedule_pre_event_adapter(getActivity(), ExpListItems);
 //        ExpandList.setAdapter(ExpAdapter);
 
->>>>>>> 8d8afa1b83cf641acffa4e3807248590d96abf5a
+
         return layout;
 
     }
 
     public ArrayList<Group> SetStandardGroups() {
 
-<<<<<<< HEAD
 
-        String group_names[] = {"INAUGURAL CEREMONY", " DU ART GALLERY/ IGNCA/ RANGOLI /Equal Opportunity Cell", "INNOVATION PLAZA", "CLUSTER INNOVATION\n" +
+
+/*        String group_names[] = {"INAUGURAL CEREMONY", " DU ART GALLERY/ IGNCA/ RANGOLI /Equal Opportunity Cell", "INNOVATION PLAZA", "CLUSTER INNOVATION\n" +
                 "CENTRE ON PATIO", "Creative Writing and Translation", "Debate-Vaad Vivaad", "Folk Dance"
-                , "Group Songs", "Instrumental Music - Solo", "Music - Vocal Solo", "Photography", "Quiz Time -Prashnottri", "Rangoli", "Short Film"};
-=======
+                , "Group Songs", "Instrumental Music - Solo", "Music - Vocal Solo", "Photography", "Quiz Time -Prashnottri", "Rangoli", "Short Film"};*/
+
         String group_names[] = {"INAUGURAL CEREMONY",
                 " DU ART GALLERY/ IGNCA/ RANGOLI /Equal Opportunity Cell",
                 "INNOVATION PLAZA", "CLUSTER INNOVATION" +
@@ -68,7 +67,7 @@ public class Schedule_20th_FEB_2015 extends Fragment {
         ,"INNOVATION PLAZA","NSDC SKILL COUNSELLING " , "VOCAL SOLO" ,"DEBATE" ,"FOLK DANCE" ,"DU ART GALLERY/ IGNCA/ RANGOLI EOC /","CREATIVE WRITING/ TRANSLATION"
         ,"INNOVATION PLAZA","SHORT FILM-LIFE IN DU" , "DEBATE" , "CHOREGRAPHY" ,"DU ART GALLERY/ IGNCA/ RANGOLI/EOC" ,"CREATIVE WRITING/TRANSLATION","INNOVATION PLAZA"
         ,"SHORT FILM-LIFE IN DU" ,"DEBATE"};
->>>>>>> 8d8afa1b83cf641acffa4e3807248590d96abf5a
+
 
         String country_names[] = {"Meeting on 16 February at 3:00 PM at Multipurpose Hall, University Stadium  to confirm their participation.\n\n culturecouncil_du@rediffmail.com"
 
