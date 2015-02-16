@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="venues">
+		<item>Indoor Stadium, Ground Floor</item>
+		<item>Indoor Stadium, Ground Floor Rooms</item>
+		<item>Indoor Stadium, First Floor Hall-BAITHAK</item>
+		<item>Indoor Stadium, Basement and nearby area</item>
+		<item>Rugby Sevens, G-20 A</item>
+		<item>Open Air Stage (Next to  UIC)</item>
+		<item>Rugby Sevens, G-20 B and C</item>
+	</string-array>
+</resources>

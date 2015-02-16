@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string-array name="day21">
+		<item>
+CLASSICAL DANCE
+		</item>
+		<item>
+GROUP SONG
+		</item>
+		<item>
+CHOREOGRAPHY
+		</item>
+		<item>
+INSTRUMENTAL MUSIC
+		</item>
+		<item>
+FOLK DANCE
+		</item>
+	</string-array>
+
+	<string-array name="day22">
+		<item>
+DU ART GALLERY/ IGNCA/ RANGOLI/ Equal Opportunity Cell
+		</item>
+		<item>
+DU ART GALLERY/ IGNCA/ RANGOLI EOC /
+		</item>
+		<item>
+DU ART GALLERY/ IGNCA/ RANGOLI/ EOC
+		</item>
+		<item>
+DU ART GALLERY/ IGNCA/ RANGOLI/
+		</item>
+		<item>
+DU ART GALLERY/ IGNCA/ RANGOLI/ EOC
+		</item>
+	</string-array>
+
+	<string-array name="day23">
+		<item>
+CREATIVE     WRITING/
+TRANSLATION
+		</item>
+		<item>
+CREATIVE WRITING/
+TRANSLATION
+		</item>
+		<item>
+CREATIVE WRITING/
+TRANSLATION
+		</item>
+		<item>
+CREATIVE WRITING/
+TRANSLATION
+		</item>
+		<item>
+CREATIVE WRITING/
+TRANSLATION
+		</item>
+	</string-array>
+
+	<string-array name="day24">
+		<item>
+INNOVATION PLAZA
+		</item>
+		<item>
+INNOVATION PLAZA
+		</item>
+		<item>
+INNOVATION PLAZA
+		</item>
+		<item>
+INNOVATION PLAZA
+		</item>
+		<item>
+INNOVATION PLAZA
+		</item>
+	</string-array>
+
+	<string-array name="day25">
+		<item>
+CLUSTER INNOVATION
+CENTRE ON PATIO
+		</item>
+		<item>
+NSDC
+SKILL
+COUNSELLING
+		</item>
+		<item>
+NSDC
+SKILL
+COUNSELLING
+		</item>
+		<item>
+SHORT FILM-LIFE IN DU
+		</item>
+		<item>
+SHORT FILM-LIFE IN DU
+		</item>
+	</string-array>
+
+	<string-array name="day26">
+		<item>
+QUIZ TIME
+IN BASEMENT
+OF MULTIPURPOSE
+INDOOR STADIUM
+		</item>
+		<item>
+ROCK BAND
+		</item>
+		<item>
+VOCAL SOLO
+		</item>
+		<item>
+QUIZ TIME
+IN BASEMENT
+OF MULTIPURPOSE
+INDOOR STADIUM
+		</item>
+		<item>
+QUIZ TIME
+IN BASEMENT
+OF MULTIPURPOSE
+INDOOR STADIUM
+		</item>
+	</string-array>
+
+	<string-array name="day27">
+		<item>
+DEBATE
+		</item>
+		<item>
+DEBATE
+		</item>
+		<item>
+DEBATE
+		</item>
+		<item>
+DEBATE
+		</item>
+		<item>
+DEBATE
+		</item>
+	</string-array>
+</resources>

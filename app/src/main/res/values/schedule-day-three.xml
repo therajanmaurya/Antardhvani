@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string-array name="day31">
+		<item>
+CLASSICAL DANCE
+		</item>
+		<item>
+GROUP SONG
+		</item>
+		<item>
+INSTRUMENTAL MUSIC
+		</item>
+		<item>
+KABADDI MATCH
+VC’ S   TEAM VS  PRINCIPALS’ TEAM
+		</item>
+		<item>
+VALEDICTORY PROGRAMME
+		</item>
+	</string-array>
+
+	<string-array name="day32">
+		<item>
+DU ART GALLERY/ IGNCA/ RANGOLI/Equal Opportunity Cell
+		</item>
+		<item>
+DU ART GALLERY/ IGNCA/ RANGOLI/ EOC
+		</item>
+		<item>
+DU ART GALLERY/ IGNCA/ RANGOLI/ EOC
+		</item>
+		<item>
+DU ART GALLERY/ IGNCA/ RANGOLI/ EOC
+		</item>
+		<item>
+DU ART GALLERY/ IGNCA/ RANGOLI/ EOC
+		</item>
+	</string-array>
+
+	<string-array name="day33">
+		<item>
+CREATIVE  WRITING/  TRANSLATION
+		</item>
+		<item>
+CREATIVE  WRITING/  TRANSLATION
+		</item>
+		<item>
+CREATIVE  WRITING/  TRANSLATION
+		</item>
+		<item>
+NULL
+		</item>
+		<item>
+NULL
+		</item>
+	</string-array>
+
+	<string-array name="day34">
+		<item>
+INNOVATION PLAZA
+		</item>
+		<item>
+INNOVATION PLAZA
+		</item>
+		<item>
+INNOVATION PLAZA
+		</item>
+		<item>
+INNOVATION PLAZA
+		</item>
+		<item>
+INNOVATION PLAZA
+		</item>
+	</string-array>
+
+	<string-array name="day35">
+		<item>
+CLUSTER INNOVATION
+CENTRE
+		</item>
+		<item>
+SHORT FILM-LIFE IN DU
+		</item>
+		<item>
+SHORT FILM-LIFE IN DU
+		</item>
+		<item>
+NULL
+		</item>
+		<item>
+NULL
+		</item>
+	</string-array>
+
+	<string-array name="day36">
+		<item>
+QUIZ TIME
+		</item>
+		<item>
+ROCK BAND
+		</item>
+		<item>
+QUIZ TIME
+		</item>
+		<item>
+NULL
+		</item>
+		<item>
+NULL
+		</item>
+	</string-array>
+
+	<string-array name="day37">
+		<item>
+NULL
+		</item>
+		<item>
+NULL
+		</item>
+		<item>
+NULL
+		</item>
+		<item>
+NULL
+		</item>
+		<item>
+NULL
+		</item>
+	</string-array>
+</resources>
