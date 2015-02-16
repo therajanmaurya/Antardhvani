@@ -46,8 +46,9 @@ public class Event_special extends Fragment {
 
 
     public ArrayList<Group> SetStandardGroups() {
-
-        String group_names[] = {"University of Delhi\nMeeting the challenges of India\n(Showcasing good practices)", "Food Courts", "DU Souvenir shop\nHaathi mera saathi", "Adventure sports\nAn introduction to mountaineering", "Gyanodaya Express\nDU's colleges on wheels", "Community Radio Stall", "Fiendly Kabaddi and Kho Kho match"
+        String group_names[] = getResources().getStringArray(R.array.specialHeads);
+        String country_names[] = getResources().getStringArray(R.array.special);
+        /*String group_names[] = {"University of Delhi\nMeeting the challenges of India\n(Showcasing good practices)", "Food Courts", "DU Souvenir shop\nHaathi mera saathi", "Adventure sports\nAn introduction to mountaineering", "Gyanodaya Express\nDU's colleges on wheels", "Community Radio Stall", "Fiendly Kabaddi and Kho Kho match"
                 , "NSS\n National Service Scheme", "NCC Parade", "Institute of Life Long Learning", "CIC\nCluster Innovation Centre"};
 
         String country_names[] = {"No data available",
@@ -127,7 +128,7 @@ public class Event_special extends Fragment {
 
                 , "No Data Available"};
 
-
+*/
         ArrayList<Group> list = new ArrayList<Group>();
 
         ArrayList<Child> ch_list;

@@ -44,9 +44,12 @@ public class Event_competitive extends Fragment {
 
 
     public ArrayList<Group> SetStandardGroups() {
-
+        String group_names[] = getResources().getStringArray(R.array.competitiveHeads);
+        String country_names[] = getResources().getStringArray(R.array.competitive);
+/*
         String group_names[] = {"Rock Band   ","Quiz Time Prashnotri","Choreography","Creative Writing & Translation","Photography Competition","Folk Dance","Music-Vocal  Solo"
                 ,"Instrumental Music   Solo","Group Songs" , "Short Film- Life in DU","Rangoli","Classical Dance", "Street Play", "Debate-Vaad Vivad"};
+
 
         String country_names[] = {"The Rock Band has its vital links with several forms of popular music and developed from " +
                 "the 1960s to become an immensely attractive genre using primarily the guitar, drums and a " +
@@ -225,6 +228,7 @@ public class Event_competitive extends Fragment {
                 "\n             Dr. Rakesh Kumar Parashar (rakeshkp@email.com), 9810348999 "
         };
 
+*/
 
 
         ArrayList<Group> list = new ArrayList<Group>();

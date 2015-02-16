@@ -53,10 +53,27 @@ public class Event_non_competitive extends Fragment {
 
 
     public ArrayList<Group> SetStandardGroups() {
+/*
 
         String group_names[] = {"Innovation Plaza  \n(Undergraduate research of Colleges)","International Plaza \nForeign Students Showcase their countries","University-Industry Interface","Sports Plaza","EOC Corner","Govt. of India Institutions","Skill Development Pavilion   \n(NSDC,New Delhi)"
                 ,"Gandhi Darshan","DU Heritage \nWalks And Archive Tour" , "DUWA-Delhi University Women's Association Stall","Teachers Training and Academic Orientation-CPDHE","Computerized Shooting Range-DUSC"};
-
+*/
+/*        String group_names[] = {
+                "Innovation Plaza\nUndergraduate research in Colleges",
+                "International Plaza\nForeign Students Showcase their Countries",
+                "University\nIndustry Interface",
+                "Sports Plaza",
+                "EOC Corner",
+                "Govt. of India Institutions",
+                "Skill Development Pavilion (NSDC, New Delhi)",
+                "DU Heritage Walks and Archive Tour",
+                "Delhi University Women’s Association Stall",
+                "Teachers Training and Academic Orientation",
+                "Computerized Shooting Range-DUSC"
+        };*/
+        String group_names[] = getResources().getStringArray(R.array.noncompetitiveHeads);
+        {
+/*
         String country_names[] = { "This special area gathers various new initiatives at the University which have introduced a  project dimension to knowledge creation.\n\n i) Recently 25 1 Innovation Projects in Colleges were awarded grants in 2013 and most of them are enthusiastic about the start up. 113 Projects were successfully completed in the previous round and are ready to show their ﬁndings (contact Dr. Deepika Bhaskar /Innovation Desk; innovationsdu@gmail.com) \n\nii) The Cluster Innovation Centre curriculum promotes projects and new thinking. Offering three specially designed degree programmes this ﬂagship unit has opened new horizons in the Humanities and the sciences (contact Dr. Sukrita Paul Kumar (sukrita.paulkumar@gmail.com), Dr. Pankaj Tyagi (pankajtyagicicdu@gmail.com) & Dr. Shobha Bagai(shobhabagai@gmail.com)\n\niii) The Institute of Life Long Learning has been creative in developing innovative teaching material through the full time work of its Fellows. By now the dedicated ILLL website carries several hundred lessons using that range over lectures, e-labs, videos, theatre, panel discussions, ﬁlms and more. (Contact Dr. Amrit Kaur Basra; amritdcac@gmail.com). Coordinator: Dr. DeepikaBhaskar.( biodeepika@gmail.com)",
                 "More than 1500 international students ﬁom about 65 diiferent countries are currently " +
                 "enrolled in courses at the University of Delhi. The International Plaza will introduce the " +
@@ -130,7 +147,10 @@ public class Event_non_competitive extends Fragment {
                 "Italy", "England", "France", "Switzerland", "Ecuador",
                 "Honduras", "Agrentina", "Nigeria", "Bosnia and Herzegovina",
                 "Iran", "Germany", "United States", "Portugal", "Ghana" };
+*/
+        }
 
+        String country_names[] = getResources().getStringArray(R.array.noncompetitive);
 
         ArrayList<Group> list = new ArrayList<Group>();
 
