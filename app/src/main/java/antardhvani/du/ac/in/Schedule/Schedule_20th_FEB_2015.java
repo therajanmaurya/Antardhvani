@@ -40,12 +40,12 @@ public class Schedule_20th_FEB_2015 extends Fragment {
         ExpListItems = SetStandardGroups();
         ExpAdapter = new Schedule_pre_event_adapter(getActivity(), ExpListItems);
         ExpandList.setAdapter(ExpAdapter);
-
         return layout;
 
     }
 
     public ArrayList<Group> SetStandardGroups() {
+
 
         String group_names[] = {"INAUGURAL CEREMONY", " DU ART GALLERY/ IGNCA/ RANGOLI /Equal Opportunity Cell", "INNOVATION PLAZA", "CLUSTER INNOVATION\n" +
                 "CENTRE ON PATIO", "Creative Writing and Translation", "Debate-Vaad Vivaad", "Folk Dance"
