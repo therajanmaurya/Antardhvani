@@ -1,5 +1,4 @@
-package antardhvani.du.ac.in.antardhvani;
-
+package antardhvani.du.ac.in.Adapter;
 
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -10,15 +9,17 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
+import antardhvani.du.ac.in.antardhvani.R;
+
 /**
- * Created by lusifer on 13/1/15.
+ * Created by rajanmaurya on 16/2/15.
  */
-public class ScreenSlidePageFragment extends Fragment {
+public class Screen_slide_gyanodaya extends Fragment {
     public static final String ARG_PAGE = "page";
     private int mPageNumber;
 
-    public static ScreenSlidePageFragment create(int pageNumber) {
-        ScreenSlidePageFragment fragment = new ScreenSlidePageFragment();
+    public static Screen_slide_gyanodaya create(int pageNumber) {
+        Screen_slide_gyanodaya fragment = new Screen_slide_gyanodaya();
         Bundle args = new Bundle();
         args.putInt(ARG_PAGE, pageNumber);
         fragment.setArguments(args);
@@ -39,16 +40,22 @@ public class ScreenSlidePageFragment extends Fragment {
         ImageView image = (ImageView) rootView.findViewById(R.id.imageView3);
         switch (mPageNumber) {
             case 0:
-                new_image = getResources().getDrawable(R.drawable.slider_1_bg);
+                new_image = getResources().getDrawable(R.drawable.gyanodaya1);
                 break;
             case 1:
-                new_image = getResources().getDrawable(R.drawable.slider_2_bg);
+                new_image = getResources().getDrawable(R.drawable.gyanodaya2);
                 break;
             case 2:
-                new_image = getResources().getDrawable(R.drawable.slider_3_bg);
+                new_image = getResources().getDrawable(R.drawable.gyanodaya3);
+                break;
+            case 3:
+                new_image = getResources().getDrawable(R.drawable.gyanodaya4);
+                break;
+            case 4:
+                new_image = getResources().getDrawable(R.drawable.gyanodaya5);
                 break;
             default:
-                new_image = getResources().getDrawable(R.drawable.slider_1_bg);
+                new_image = getResources().getDrawable(R.drawable.gyanodaya1);
                 break;
         }
 

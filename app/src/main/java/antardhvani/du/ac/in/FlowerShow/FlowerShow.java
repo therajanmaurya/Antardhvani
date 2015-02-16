@@ -22,7 +22,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 import antardhvani.du.ac.in.antardhvani.R;
-import antardhvani.du.ac.in.antardhvani.ScreenSlidePageFragment;
+import antardhvani.du.ac.in.Adapter.ScreenSlidePageFragment;
 
 
 public class FlowerShow extends Fragment {

@@ -25,6 +25,7 @@ import antardhvani.du.ac.in.About.About;
 import antardhvani.du.ac.in.Contact.Contact;
 import antardhvani.du.ac.in.Event.viewpager;
 import antardhvani.du.ac.in.FlowerShow.FlowerShow;
+import antardhvani.du.ac.in.Gyanodaya.Gyanodaya;
 import antardhvani.du.ac.in.Home.Home;
 import antardhvani.du.ac.in.Map.Map;
 import antardhvani.du.ac.in.Painting.Painting;
@@ -68,7 +69,7 @@ public class NavigationDrawerFragment extends Fragment {
     private View containerView;
     private boolean isDrawerOpened = false;
     int in;
-    static String[] titles = {"Home", "Events","Flower Show", "Painting Competition" ,"Schedule", "Contact","Map", "About" };
+    static String[] titles = {"Home", "Events","Flower Show","Gyanodaya", "Painting Competition" ,"Schedule", "Contact","Map", "About Us" };
 
 
 
@@ -81,9 +82,9 @@ public class NavigationDrawerFragment extends Fragment {
     public static List<Information> getData() {
         //load only static data inside a drawer
         List<Information> data = new ArrayList<>();
-        int[] icons = {R.drawable.ic_home_black_24dp, R.drawable.ic_event_note_black_24dp, R.drawable.ic_filter_vintage_black_24dp,R.drawable.ic_brush_black_24dp,R.drawable.ic_schedule_black_24dp, R.drawable.ic_quick_contacts_dialer_black_24dp,R.drawable.ic_directions_black_24dp ,R.drawable.ic_tag_faces_black_24dp};
+        int[] icons = {R.drawable.ic_home_black_24dp, R.drawable.ic_event_note_black_24dp, R.drawable.ic_filter_vintage_black_24dp,R.drawable.ic_directions_train_black_24dp,R.drawable.ic_brush_black_24dp,R.drawable.ic_schedule_black_24dp, R.drawable.ic_quick_contacts_dialer_black_24dp,R.drawable.ic_directions_black_24dp ,R.drawable.ic_tag_faces_black_24dp };
 
-        for (int i = 0; i < 8; i++) {
+        for (int i = 0; i < 9; i++) {
             Information current = new Information();
             current.iconId = icons[i % icons.length];
             current.title = titles[i % titles.length];
@@ -152,31 +153,38 @@ public class NavigationDrawerFragment extends Fragment {
                         break;
 
                     case 3:
+                        Gyanodaya gyanod = new Gyanodaya();
+                        ft.replace(R.id.frame_container, gyanod);
+                        break;
+
+                    case 4:
                         Painting pain = new Painting();
                         ft.replace(R.id.frame_container, pain);
                         break;
 
-                    case 4:
+                    case 5:
                         Schedule_viewpager schedule = new Schedule_viewpager();
                         ft.replace(R.id.frame_container, schedule);
                         Toast.makeText(getActivity().getApplicationContext(), "Click for more detail",
                                 Toast.LENGTH_SHORT).show();
                         break;
 
-                    case 5:
+                    case 6:
                         Contact cont =  new Contact();
                         ft.replace(R.id.frame_container, cont);
                         break;
 
-                    case 6:
+                    case 7:
                         Map map = new Map();
                         ft.replace(R.id.frame_container, map);
                         break;
 
-                    case 7:
+                    case 8:
                         About about1 = new About();
                         ft.replace(R.id.frame_container, about1);
                         break;
+
+
 
 
                 }

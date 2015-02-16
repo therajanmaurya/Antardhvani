@@ -1,4 +1,4 @@
-package antardhvani.du.ac.in.Home;
+package antardhvani.du.ac.in.Gyanodaya;
 
 import android.graphics.Typeface;
 import android.os.Bundle;
@@ -11,34 +11,39 @@ import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
 import android.widget.TextView;
 
 import com.flaviofaria.kenburnsview.KenBurnsView;
 
+import java.util.ArrayList;
 import java.util.Random;
 import java.util.Timer;
 import java.util.TimerTask;
 
+import antardhvani.du.ac.in.Adapter.Screen_slide_gyanodaya;
 import antardhvani.du.ac.in.antardhvani.R;
-import antardhvani.du.ac.in.Adapter.ScreenSlidePageFragment;
 
 /**
- * Created by Windows on 23-01-2015.
+ * Created by rajanmaurya on 15/2/15.
  */
-public class Home extends Fragment {
-    private TextView title, des,vc_title, vcmsg;
-    int[] photos = {R.drawable.slider_2_bg, R.drawable.slider_3_bg};
-    KenBurnsView imageView;
+
+public class Gyanodaya extends Fragment {
+    private TextView title, des, venue, schedule, sch, ven;
+    public static final int NUM_PAGES = 3;
+
+    private ListView leftDrawerList;
+    private ArrayList<String> stringArrayAdapter;
     private ViewPager mPager;
     private PagerAdapter mPagerAdapter;
     private Timer timer;
     private int count = 0;
     private boolean one_two_three = true;
-    public static final int NUM_PAGES = 3;
+    int[] photos = {R.drawable.gyanodaya2, R.drawable.gyanodaya3, R.drawable.gyanodaya5};
+    KenBurnsView imageView;
 
-
-    public static Home getInstance(int position) {
-        Home myFragment = new Home();
+    public static Gyanodaya getInstance(int position) {
+        Gyanodaya myFragment = new Gyanodaya();
         Bundle args = new Bundle();
         args.putInt("position", position);
         myFragment.setArguments(args);
@@ -46,21 +51,25 @@ public class Home extends Fragment {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater,  ViewGroup container,   Bundle savedInstanceState) {
-        View layout = inflater.inflate(R.layout.home, container, false);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        View layout = inflater.inflate(R.layout.gyanodaya, container, false);
+
 
         title = (TextView) layout.findViewById(R.id.title);
         des = (TextView) layout.findViewById(R.id.titleShortDescription);
-        vc_title =(TextView) layout.findViewById(R.id.vc_layout);
-        vcmsg=(TextView)layout.findViewById(R.id.vcmsg);
-        vcmsg = (TextView) layout.findViewById(R.id.vcmsg);
+        schedule = (TextView) layout.findViewById(R.id.schedule2);
+        venue = (TextView) layout.findViewById(R.id.venue);
+        sch = (TextView) layout.findViewById(R.id.venue2);
+        ven = (TextView) layout.findViewById(R.id.schedule3);
         Typeface font = Typeface.createFromAsset(getActivity().getAssets(), "fonts/Sofia-Regular.otf");
-        Typeface font2 = Typeface.createFromAsset(getActivity().getAssets(), "fonts/D Day Stencil.ttf");
-        Typeface font3 = Typeface.createFromAsset(getActivity().getAssets(), "fonts/anu.ttf");
-        title.setTypeface(font3);
+        title.setTypeface(font);
         des.setTypeface(font);
-        vc_title.setTypeface(font3);
-        vcmsg.setTypeface(font);
+        schedule.setTypeface(font);
+        venue.setTypeface(font);
+        sch.setTypeface(font);
+        ven.setTypeface(font);
+
+
         imageView = (KenBurnsView) layout.findViewById(R.id.header_picture);
         final Handler handler = new Handler();
         Runnable runnable = new Runnable() {
@@ -81,7 +90,7 @@ public class Home extends Fragment {
         };
         handler.postDelayed(runnable, 7000); //for initial delay..
 
-        mPager = (ViewPager) layout.findViewById(R.id.pager1);
+        mPager = (ViewPager) layout.findViewById(R.id.pager);
         mPagerAdapter = new ScreenSlidePagerAdapter(getActivity().getSupportFragmentManager());
         mPager.setAdapter(mPagerAdapter);
         mPager.setOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {
@@ -133,7 +142,7 @@ public class Home extends Fragment {
 
         @Override
         public Fragment getItem(int position) {
-            return ScreenSlidePageFragment.create(position);
+            return Screen_slide_gyanodaya.create(position);
         }
 
         @Override
