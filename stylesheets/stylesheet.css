@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   color:#222222;
   font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
-  letter-spacing: -1px;
+  letter-spacing: 2px;
 }
 
 h1 {
@@ -103,7 +103,7 @@ footer p {
 
 a {
   text-decoration: none;
-  color: #007edf;
+  color: #00ce2f;
   text-shadow: none;
 
   transition: color 0.5s ease;
@@ -266,7 +266,7 @@ Full-Width Styles
 
 .inner {
   position: relative;
-  max-width: 640px;
+  max-width: 960px;
   padding: 20px 10px;
   margin: 0 auto;
 }
