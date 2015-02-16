@@ -100,16 +100,6 @@
 
                     >
 
-                    <TextView
-                        android:id="@+id/schedule3"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:paddingLeft="15dp"
-                        android:text="Schedule"
-                        android:textColor="#000000"
-                        android:textSize="30sp"
-                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/schedule2"
@@ -117,94 +107,10 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:paddingLeft="15dp"
-                        android:text=""
+                        android:text="‘Gyanodaya’, the unique programme of taking about 900 students and 100 supporting staff on a train journey. Placing the itinerary in the context of Gandhi and hands-on learning, the philosophy urges young people to understand India, to appreciate its diversity, and to carry the message of good will. The project contributed immensely towards nation building by instilling these students with a pride in our North-East region as the latest journey, Gyanodaya V, had students visiting all the 8 states in the North-East and conducting micro projects. A book on the journey will be released at Antardhvani, 2015."
                         android:textColor="#000000"
                         android:textSize="20sp"
                         android:textStyle="normal" />
-
-
-                </LinearLayout>
-
-
-            </android.support.v7.widget.CardView>
-
-            <android.support.v7.widget.CardView
-                android:id="@+id/venuecard"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                app:cardPreventCornerOverlap="true"
-
-                app:cardUseCompatPadding="true">
-
-
-                <LinearLayout
-                    android:id="@+id/venue_layout"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-
-                    >
-
-
-                    <TextView
-                        android:id="@+id/venue2"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:paddingLeft="15dp"
-                        android:text="Venue"
-                        android:textColor="#000000"
-                        android:textSize="30sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:id="@+id/venue"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:paddingLeft="15dp"
-                        android:text=""
-                        android:textColor="#000000"
-                        android:textSize="20sp"
-                        android:textStyle="normal" />
-
-
-                </LinearLayout>
-
-
-            </android.support.v7.widget.CardView>
-
-
-            <android.support.v7.widget.CardView
-                android:id="@+id/cardView2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                app:cardPreventCornerOverlap="true"
-
-                app:cardUseCompatPadding="true">
-
-
-                <LinearLayout
-                    android:id="@+id/layout3"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-
-                    >
-
-
-                    <TextView
-                        android:id="@+id/titleShortDescription"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:paddingLeft="15dp"
-                        android:text=""
-                        android:textColor="#000000"
-                        android:textSize="19sp"
-                        android:textStyle="italic" />
 
 
                 </LinearLayout>
