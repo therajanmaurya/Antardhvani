@@ -24,11 +24,7 @@
         app:showAsAction="never" />
 
 
-    <item
-        android:id="@+id/brochure"
-        android:orderInCategory="200"
-        android:title="@string/brochure"
-        app:showAsAction="never" />
+
 
     <item
         android:id="@+id/notice"
