@@ -86,7 +86,7 @@ class ViewPagerAdapter extends FragmentStatePagerAdapter {
                 //return Event_non_competitive.getInstance(num);
                 return new Schedule_pre_event();
             case 1: // Fragment # 1 - This will show image
-                return new Schedule();
+                return new Schedule_20th_FEB_2015();
             //return Event_competitive.getInstance(num);
 
 
