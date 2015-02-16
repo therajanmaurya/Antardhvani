@@ -41,7 +41,7 @@
                 android:id="@+id/ch2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="( Dean of College )\nChairPerson , Antardhvani 2015"
+                android:text="( Dean of Colleges )\nChairPerson , Antardhvani 2015"
                 android:gravity="center"
                 android:textSize="20dp"
                 android:textStyle="italic"/>
