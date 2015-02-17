@@ -14,9 +14,9 @@ import android.widget.TextView;
 import antardhvani.du.ac.in.antardhvani.R;
 
 /**
- * Created by rajanmaurya on 13/2/15.
+ * Created by rajanmaurya on 17/2/15.
  */
-public class Schedule_viewpager extends Fragment {
+public class Schedule_21_viewpager extends Fragment {
 
 
     public static ViewPager viewPager;
@@ -24,8 +24,8 @@ public class Schedule_viewpager extends Fragment {
     static String[] venues;
 
 
-    public static Schedule_viewpager getInstance(int position) {
-        Schedule_viewpager myFragment = new Schedule_viewpager();
+    public static Schedule_21_viewpager getInstance(int position) {
+        Schedule_21_viewpager myFragment = new Schedule_21_viewpager();
         Bundle args = new Bundle();
         args.putInt("position", position);
         myFragment.setArguments(args);
@@ -38,10 +38,11 @@ public class Schedule_viewpager extends Fragment {
         Bundle bundle = getArguments();
 
         viewPager = (ViewPager) layout.findViewById(R.id.viewPager);
-         venue = (TextView)layout.findViewById(R.id.venueId);
+        venue = (TextView) layout.findViewById(R.id.venueId);
         venues = getResources().getStringArray(R.array.venues);
-        ViewPagerAdapter adapter = new ViewPagerAdapter(getActivity().getSupportFragmentManager());
+        ViewPagerAdapter1 adapter = new ViewPagerAdapter1(getActivity().getSupportFragmentManager());
         viewPager.setAdapter(adapter);
+
         viewPager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
@@ -60,7 +61,6 @@ public class Schedule_viewpager extends Fragment {
 
             }
         });
-
         return layout;
 
 
@@ -68,12 +68,12 @@ public class Schedule_viewpager extends Fragment {
 
 }
 
-class ViewPagerAdapter extends FragmentStatePagerAdapter {
-
+class ViewPagerAdapter1 extends FragmentStatePagerAdapter {
 
 
     public Context context;
-    public ViewPagerAdapter(FragmentManager fm) {
+
+    public ViewPagerAdapter1(FragmentManager fm) {
         super(fm);
 
 
@@ -82,7 +82,8 @@ class ViewPagerAdapter extends FragmentStatePagerAdapter {
 
     public Fragment getItem(int num) {
 
-        return Schedule_20th_FEB_2015.getInstance(num);
+        return Schedule_21st_Feb_2015.getInstance(num);
+
 
     }
 
@@ -92,5 +93,6 @@ class ViewPagerAdapter extends FragmentStatePagerAdapter {
         return 7;
     }
 
-}
 
+
+}

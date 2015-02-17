@@ -30,9 +30,8 @@ import antardhvani.du.ac.in.Gyanodaya.Gyanodaya;
 import antardhvani.du.ac.in.Home.Home;
 import antardhvani.du.ac.in.Map.Map;
 import antardhvani.du.ac.in.Painting.Painting;
-import antardhvani.du.ac.in.Schedule.Schedule_20th_FEB_2015;
-import antardhvani.du.ac.in.Schedule.Schedule_21st_Feb_2015;
-import antardhvani.du.ac.in.Schedule.Schedule_22nd_FEBRUARY_2015;
+import antardhvani.du.ac.in.Schedule.Schedule_21_viewpager;
+import antardhvani.du.ac.in.Schedule.Schedule_22_viewpager;
 import antardhvani.du.ac.in.Schedule.Schedule_pre_event;
 import antardhvani.du.ac.in.Schedule.Schedule_viewpager;
 
@@ -250,7 +249,7 @@ public class NavigationDrawerFragment extends Fragment {
                             ft.commit();
                             mDrawerLayout.closeDrawers();
                         } else {
-                            Schedule_pre_event schedulePreEvent = new Schedule_pre_event();
+                            Schedule_viewpager schedulePreEvent = new Schedule_viewpager();
                             ft.replace(R.id.frame_container, schedulePreEvent);
                             ft.commit();
                             mDrawerLayout.closeDrawers();
@@ -264,7 +263,7 @@ public class NavigationDrawerFragment extends Fragment {
                             ft.commit();
                             mDrawerLayout.closeDrawers();
                         } else {
-                            Schedule_pre_event schedulePreEvent = new Schedule_pre_event();
+                            Schedule_21_viewpager schedulePreEvent = new Schedule_21_viewpager();
                             ft.replace(R.id.frame_container, schedulePreEvent);
                             ft.commit();
                             mDrawerLayout.closeDrawers();
@@ -272,7 +271,7 @@ public class NavigationDrawerFragment extends Fragment {
                         break;
 
                     case 9:
-                        Schedule_pre_event schedulePreEvent = new Schedule_pre_event();
+                        Schedule_22_viewpager schedulePreEvent = new Schedule_22_viewpager();
                         ft.replace(R.id.frame_container, schedulePreEvent);
                         ft.commit();
                         mDrawerLayout.closeDrawers();
