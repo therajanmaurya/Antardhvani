@@ -66,7 +66,15 @@ public class GcmIntentService extends IntentService {
 
                 NotificationSQL db=new NotificationSQL(getApplication());
                 Log.e("ADDNotification","okkkk");
-                String [] x= message.split("@");
+                String [] x=null;
+                if(message.contains("@")){
+                    x= message.split("@");
+                }else{
+                   x=new String [2];
+                   x[0]=message;
+                   x[1]="";
+                }
+
                 Log.e(db.getLastNotification(),message);
 
 
@@ -103,7 +111,7 @@ public class GcmIntentService extends IntentService {
         Notification notification = new Notification(icon, message, when);
         String title = x2;
 
-        Intent notificationIntent = new Intent(context, MainActivity.class);
+        Intent notificationIntent = new Intent(context, antardhvani.du.ac.in.Notification.Notification.class);
         // set intent so it does not start a new activity
         notificationIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP |
                 Intent.FLAG_ACTIVITY_SINGLE_TOP);

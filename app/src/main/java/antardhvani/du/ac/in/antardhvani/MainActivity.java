@@ -1,5 +1,7 @@
 package antardhvani.du.ac.in.antardhvani;
 
+import android.app.NotificationManager;
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.drawable.LayerDrawable;
 import android.net.Uri;
@@ -74,6 +76,8 @@ public class MainActivity extends ActionBarActivity {
 
     public void onResume(){
         super.onResume();
+        NotificationManager notificationManager = (NotificationManager)getSystemService(Context.NOTIFICATION_SERVICE);
+        notificationManager.cancel(0);
         x=true;
         try {
             timer = new Timer();
