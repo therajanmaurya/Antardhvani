@@ -1,12 +1,16 @@
 package antardhvani.du.ac.in.antardhvani;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.graphics.drawable.LayerDrawable;
 import android.net.Uri;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -14,30 +18,51 @@ import android.widget.TextView;
 
 import java.net.URLEncoder;
 
+import antardhvani.du.ac.in.Database.NotificationSQL;
+import antardhvani.du.ac.in.Gcm.GcmRegistrationAsyncTask;
 import antardhvani.du.ac.in.Home.Home;
 import antardhvani.du.ac.in.Rules.Rules_viewpager;
 import it.neokree.materialtabs.MaterialTabHost;
 
 
 public class MainActivity extends ActionBarActivity {
-
+    public static NotificationSQL db;
     public static Toolbar toolbar;
     public static MaterialTabHost tabHost;
     public static ViewPager viewPager;
-
+    public static String MY_PREFS_NAME="RegStatus";
+    public static String KEY="Status";
+    private int mNotificationsCount = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         toolbar = (Toolbar) findViewById(R.id.app_bar);
         setSupportActionBar(toolbar);
-
+        db=new NotificationSQL(this);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
         NavigationDrawerFragment drawerFragment = (NavigationDrawerFragment)
                 getSupportFragmentManager().findFragmentById(R.id.fragment_navigation_drawer);
         drawerFragment.setUp(R.id.fragment_navigation_drawer, (DrawerLayout) findViewById(R.id.drawer_layout), toolbar);
 
+        SharedPreferences sharPref = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
+
+        boolean restoredText = sharPref.getBoolean(KEY,false);
+        Log.e("error",( restoredText==false) ? "yes false" : "yes true");
+        if(!restoredText){
+            SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
+            new GcmRegistrationAsyncTask(this).execute();
+            editor.putBoolean(KEY,true);
+            editor.commit();
+
+        }
+
+        if(!GcmRegistrationAsyncTask.status){
+            SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
+            editor.putBoolean(KEY,false);
+            editor.commit();
+        }
         if (savedInstanceState == null) {
             Home home = new Home();
             getSupportFragmentManager()
@@ -46,15 +71,14 @@ public class MainActivity extends ActionBarActivity {
                     .commit();
 
         }
+        Log.e("where","before ");
+        //db = new NotificationSQL(this);
+       // db123.addNotification("hello","sagar");
 
-    }
+        db.close();
+        Log.e("where", "after");
+        new FetchCountTask().execute();
 
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
     }
 
     @Override
@@ -63,7 +87,11 @@ public class MainActivity extends ActionBarActivity {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
+        if(id==R.id.action_notifications){
 
+            db.close();
+            return true;
+        }
         //noinspection SimplifiableIfStatement
        //Like us on faceboook link
         if (id == R.id.facebook) {
@@ -171,5 +199,60 @@ public class MainActivity extends ActionBarActivity {
         Intent i = new Intent(Intent.ACTION_VIEW);
         i.setData(Uri.parse(url));
         startActivity(i);
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        //db.close();
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+
+        // Get the notifications MenuItem and
+        // its LayerDrawable (layer-list)
+        MenuItem item = menu.findItem(R.id.action_notifications);
+        LayerDrawable icon = (LayerDrawable) item.getIcon();
+
+        // Update LayerDrawable's BadgeDrawable
+        Utils.setBadgeCount(this, icon, mNotificationsCount);
+
+        return true;
+    }
+
+
+    /*
+    Updates the count of notifications in the ActionBar.
+     */
+    private void updateNotificationsBadge(int count) {
+        mNotificationsCount = count;
+
+        // force the ActionBar to relayout its MenuItems.
+        // onCreateOptionsMenu(Menu) will be called again.
+        invalidateOptionsMenu();
+    }
+
+    /*
+    Sample AsyncTask to fetch the notifications count
+    */
+    class FetchCountTask extends AsyncTask<Void, Void, Integer> {
+
+        @Override
+        protected Integer doInBackground(Void... params) {
+            // example count. This is where you'd
+            // query your data store for the actual count.
+            db=new NotificationSQL(getApplication());
+            int x=db.unread_Num();
+            db.close();
+            return x ;
+        }
+
+        @Override
+        public void onPostExecute(Integer count) {
+            updateNotificationsBadge(count);
+        }
+
     }
 }

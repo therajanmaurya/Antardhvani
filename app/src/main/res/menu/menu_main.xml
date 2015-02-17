@@ -2,8 +2,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="antardhvani.du.ac.in.antardhvani.MainActivity">
-
-
+    <item android:id="@+id/action_notifications"
+        android:title="Notifications"
+        android:icon="@drawable/ic_menu_notifications"
+        app:showAsAction="always"/>
     <item
         android:id="@+id/facebook"
         android:orderInCategory="100"
