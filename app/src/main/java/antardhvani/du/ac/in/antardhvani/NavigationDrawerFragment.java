@@ -12,6 +12,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.GestureDetector;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
@@ -29,6 +30,10 @@ import antardhvani.du.ac.in.Gyanodaya.Gyanodaya;
 import antardhvani.du.ac.in.Home.Home;
 import antardhvani.du.ac.in.Map.Map;
 import antardhvani.du.ac.in.Painting.Painting;
+import antardhvani.du.ac.in.Schedule.Schedule_20th_FEB_2015;
+import antardhvani.du.ac.in.Schedule.Schedule_21st_Feb_2015;
+import antardhvani.du.ac.in.Schedule.Schedule_22nd_FEBRUARY_2015;
+import antardhvani.du.ac.in.Schedule.Schedule_pre_event;
 import antardhvani.du.ac.in.Schedule.Schedule_viewpager;
 
 
@@ -69,7 +74,23 @@ public class NavigationDrawerFragment extends Fragment {
     private View containerView;
     private boolean isDrawerOpened = false;
     int in;
+    boolean scheduleSelected;
     static String[] titles = {"Home", "Events","Flower Show","Gyanodaya", "Painting Competition" ,"Schedule", "Contact","Map", "About Us" };
+    static String[] titlesNew = {
+            "Home",
+            "Events",
+            "Flower Show",
+            "Gyanodaya",
+            "Painting Competition",
+            "Schedule",
+            "Pre-Event",
+            "Day 1 - Feb 20th",
+            "Day 2 - Feb 21th",
+            "Day 3 - Feb 22th",
+            "Contact",
+            "Map",
+            "About Us"
+    };
 
 
 
@@ -120,6 +141,7 @@ public class NavigationDrawerFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
 
+        scheduleSelected=false;
         View layout = inflater.inflate(R.layout.fragment_navigation_drawer, container, false);
         recyclerView = (RecyclerView) layout.findViewById(R.id.drawerList);
         adapter = new AntardhvaniAdapter(getActivity(), getData());
@@ -137,6 +159,8 @@ public class NavigationDrawerFragment extends Fragment {
 
                         Home home = new Home();
                         ft.replace(R.id.frame_container, home);
+                        ft.commit();
+                        mDrawerLayout.closeDrawers();
 
                         break;
 
@@ -145,60 +169,147 @@ public class NavigationDrawerFragment extends Fragment {
                         ft.replace(R.id.frame_container, event);
                         Toast.makeText(getActivity().getApplicationContext(), "Click for more detail",
                                 Toast.LENGTH_SHORT).show();
+                        ft.commit();
+                        mDrawerLayout.closeDrawers();
                         break;
 
                     case 2:
                         FlowerShow flower = new FlowerShow();
                         ft.replace(R.id.frame_container, flower);
+                        ft.commit();
+                        mDrawerLayout.closeDrawers();
                         break;
 
                     case 3:
                         Gyanodaya gyanod = new Gyanodaya();
                         ft.replace(R.id.frame_container, gyanod);
+                        ft.commit();
+                        mDrawerLayout.closeDrawers();
                         break;
 
                     case 4:
                         Painting pain = new Painting();
                         ft.replace(R.id.frame_container, pain);
+                        ft.commit();
+                        mDrawerLayout.closeDrawers();
                         break;
 
                     case 5:
-                        Schedule_viewpager schedule = new Schedule_viewpager();
-                        ft.replace(R.id.frame_container, schedule);
-                        Toast.makeText(getActivity().getApplicationContext(), "Click for more detail",
-                                Toast.LENGTH_SHORT).show();
+                        if (!scheduleSelected)
+                        {
+                            Information current = new Information();
+                            current.title = "   Pre-event";
+                            adapter.data.add(6, current);
+                            current = null;
+                            current = new Information();
+                            current.title = "   Day 1 - Feb 20th";
+                            adapter.data.add(7, current);
+                            current = null;
+                            current = new Information();
+                            current.title = "   Day 2 - Feb 21th";
+                            adapter.data.add(8, current);
+                            current = null;
+                            current = new Information();
+                            current.title = "   Day 3 - Feb 22th";
+                            adapter.data.add(9, current);
+                            scheduleSelected=true;
+                            adapter.notifyDataSetChanged();
+                            mDrawerLayout.openDrawer(Gravity.LEFT);
+                        }
+                        else
+                        {
+
+                            adapter.data.remove(6);
+                            adapter.data.remove(6);
+                            adapter.data.remove(6);
+                            adapter.data.remove(6);
+                            scheduleSelected=false;
+                            adapter.notifyDataSetChanged();
+                            mDrawerLayout.openDrawer(Gravity.LEFT);
+                        }
                         break;
 
                     case 6:
-                        Contact cont =  new Contact();
-                        ft.replace(R.id.frame_container, cont);
+                        if (!scheduleSelected) {
+                            Contact cont =  new Contact();
+                            ft.replace(R.id.frame_container, cont);
+                            ft.commit();
+                            mDrawerLayout.closeDrawers();
+                        } else {
+                            Schedule_pre_event schedulePreEvent = new Schedule_pre_event();
+                            ft.replace(R.id.frame_container, schedulePreEvent);
+                            ft.commit();
+                            mDrawerLayout.closeDrawers();
+                        }
                         break;
 
                     case 7:
-                        Map map = new Map();
-                        ft.replace(R.id.frame_container, map);
+                        if (!scheduleSelected) {
+                            Map map = new Map();
+                            ft.replace(R.id.frame_container, map);
+                            ft.commit();
+                            mDrawerLayout.closeDrawers();
+                        } else {
+                            Schedule_pre_event schedulePreEvent = new Schedule_pre_event();
+                            ft.replace(R.id.frame_container, schedulePreEvent);
+                            ft.commit();
+                            mDrawerLayout.closeDrawers();
+                        }
                         break;
 
                     case 8:
+                        if (!scheduleSelected) {
+                            About about1 = new About();
+                            ft.replace(R.id.frame_container, about1);
+                            ft.commit();
+                            mDrawerLayout.closeDrawers();
+                        } else {
+                            Schedule_pre_event schedulePreEvent = new Schedule_pre_event();
+                            ft.replace(R.id.frame_container, schedulePreEvent);
+                            ft.commit();
+                            mDrawerLayout.closeDrawers();
+                        }
+                        break;
+
+                    case 9:
+                        Schedule_pre_event schedulePreEvent = new Schedule_pre_event();
+                        ft.replace(R.id.frame_container, schedulePreEvent);
+                        ft.commit();
+                        mDrawerLayout.closeDrawers();
+                        break;
+
+                    case 10:
+                        Contact cont =  new Contact();
+                        ft.replace(R.id.frame_container, cont);
+                        ft.commit();
+                        mDrawerLayout.closeDrawers();
+                        break;
+
+                    case 11:
+                        Map map = new Map();
+                        ft.replace(R.id.frame_container, map);
+                        ft.commit();
+                        mDrawerLayout.closeDrawers();
+                        break;
+
+                    case 12:
                         About about1 = new About();
                         ft.replace(R.id.frame_container, about1);
+                        ft.commit();
+                        mDrawerLayout.closeDrawers();
                         break;
 
 
 
 
                 }
-                ft.commit();
-
-
-
-
-               // Toast.makeText(getActivity(),"home",Toast.LENGTH_LONG).show();
-
 
                 recyclerView.setSelected(true);
-                MainActivity.toolbar.setTitle(titles[position]);
-                mDrawerLayout.closeDrawers();
+                if (!scheduleSelected)
+                    MainActivity.toolbar.setTitle(titles[position]);
+                else
+                    MainActivity.toolbar.setTitle(titlesNew[position]);
+
             }
 
 

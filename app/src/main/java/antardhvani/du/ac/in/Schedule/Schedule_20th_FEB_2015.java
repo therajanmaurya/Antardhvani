@@ -13,6 +13,7 @@ import java.util.ArrayList;
 import antardhvani.du.ac.in.Adapter.Child;
 import antardhvani.du.ac.in.Adapter.Group;
 import antardhvani.du.ac.in.Adapter.Schedule_day_adapter;
+import antardhvani.du.ac.in.Adapter.Schedule_pre_event_adapter;
 import antardhvani.du.ac.in.antardhvani.R;
 
 /**
@@ -35,7 +36,12 @@ public class Schedule_20th_FEB_2015 extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+
+        View layout = inflater.inflate(R.layout.schedule_20th, container, false);
+
+
         View layout = inflater.inflate(R.layout.schedule_expandable, container, false);
+
         Display display = getActivity().getWindowManager().getDefaultDisplay();
         int height = display.getHeight();
         height = height - 36;
@@ -83,13 +89,63 @@ public class Schedule_20th_FEB_2015 extends Fragment {
             ExpAdapter6 = new Schedule_day_adapter(getActivity(), ExpListItems6, height);
             ExpandList6.setAdapter(ExpAdapter6);
         }
+        ExpandList = (ExpandableListView) layout.findViewById(R.id.activity_googlecards_listview_Schedule);
+        ExpListItems = SetStandardGroups();
+        ExpAdapter = new Schedule_pre_event_adapter(getActivity(), ExpListItems);
+        ExpandList.setAdapter(ExpAdapter);
 
+//        ExpandList = (ExpandableListView) layout.findViewById(R.id.activity_googlecards_listview_Schedule);
+//        ExpListItems = SetStandardGroups();
+//        ExpAdapter = new Schedule_pre_event_adapter(getActivity(), ExpListItems);
+//        ExpandList.setAdapter(ExpAdapter);
 
         return layout;
 
     }
 
+
     public ArrayList<Group> SetStandardGroups(String[] data) {
+
+    public ArrayList<Group> SetStandardGroups() {
+
+
+
+/*        String group_names[] = {"INAUGURAL CEREMONY", " DU ART GALLERY/ IGNCA/ RANGOLI /Equal Opportunity Cell", "INNOVATION PLAZA", "CLUSTER INNOVATION\n" +
+                "CENTRE ON PATIO", "Creative Writing and Translation", "Debate-Vaad Vivaad", "Folk Dance"
+<<<<<<< HEAD
+                , "Group Songs", "Instrumental Music - Solo", "Music - Vocal Solo", "Photography", "Quiz Time -Prashnottri", "Rangoli", "Short Film"};*/
+
+        String group_names[] = {"INAUGURAL CEREMONY",
+                " DU ART GALLERY/ IGNCA/ RANGOLI /Equal Opportunity Cell",
+                "INNOVATION PLAZA", "CLUSTER INNOVATION" +
+                "CENTRE ON PATIO", "CLASSICAL DANCE Debate-Vaad Vivaad", " DU ART GALLERY/ IGNCA/ RANGOLI/EOC"
+                , "CREATIVE  WRITING/ TRANSLATION", "INNOVATION PLAZA / 12 noon Inauguration", "NSDC /SKILL COUNSELLING", "ROCK BAND", "DEBATE", "INSTRUMENTAL MUSIC", "DU ART GALLERY/ IGNCA/ RANGOLI /EOC","CREATIVE WRITING/TRANSLATION"
+        ,"INNOVATION PLAZA","NSDC SKILL COUNSELLING " , "VOCAL SOLO" ,"DEBATE" ,"FOLK DANCE" ,"DU ART GALLERY/ IGNCA/ RANGOLI EOC /","CREATIVE WRITING/ TRANSLATION"
+        ,"INNOVATION PLAZA","SHORT FILM-LIFE IN DU" , "DEBATE" , "CHOREGRAPHY" ,"DU ART GALLERY/ IGNCA/ RANGOLI/EOC" ,"CREATIVE WRITING/TRANSLATION","INNOVATION PLAZA"
+        ,"SHORT FILM-LIFE IN DU" ,"DEBATE"};
+
+                , "Group Songs", "Instrumental Music - Solo", "Music - Vocal Solo", "Photography", "Quiz Time -Prashnottri", "Rangoli", "Short Film"};
+
+
+
+
+
+        String country_names[] = {"Meeting on 16 February at 3:00 PM at Multipurpose Hall, University Stadium  to confirm their participation.\n\n culturecouncil_du@rediffmail.com"
+
+                , "The exhibits/painting to be submitted by 17 February 4 PM, NCWEB Office, II Floor Tutorial Building, Arts Faculty, North Campus, Delhi University.\n\n anjjuguptaa@rediffmail.com\n Shakhuranag@gmail.com"
+
+
+                , "Meeting on 16 February at 3:00 PM at Multipurpose Hall, University Stadium  to confirm their participation.\n\n  culturecouncil_du@rediffmail.com"
+
+
+                , "Meeting on 16 February at 3:00 PM at Multipurpose Hall, University Stadium  to confirm their participation.\n\n  culturecouncil_du@rediffmail.com"
+
+
+                , "Entries must be Submitted by 9 February 2015 through Email at msaleemir@gmail.com\n\n  msaleemir@gmail.com"
+
+
+                , "All registered participants are requested to report at 9.30 AM Conference Centre, Opposite Botany Department on 16.02.15 and 17.02.15 as per Schedule to be displayed on Antardhvani Website.\n\n  amrita.dse@gmail.com, rakeshp@email.com"
+
 
 
         String group_names[] = data;
