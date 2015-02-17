@@ -71,8 +71,8 @@ public class Schedule_viewpager extends Fragment implements MaterialTabListener 
 class ViewPagerAdapter extends FragmentStatePagerAdapter {
 
 
-    public Context context;
 
+    public Context context;
     public ViewPagerAdapter(FragmentManager fm) {
         super(fm);
 
@@ -82,12 +82,32 @@ class ViewPagerAdapter extends FragmentStatePagerAdapter {
 
     public Fragment getItem(int num) {
         switch (num) {
-            case 0: // Fragment # 0 - This will show image
-                //return Event_non_competitive.getInstance(num);
-                return new Schedule_pre_event();
-            case 1: // Fragment # 1 - This will show image
-                return new Schedule_20th_FEB_2015();
-            //return Event_competitive.getInstance(num);
+            case 0:
+                return Schedule_20th_FEB_2015.getInstance(num);
+
+            case 1:
+                return Schedule_20th_FEB_2015.getInstance(num);
+
+            case 2:
+                return Schedule_20th_FEB_2015.getInstance(num);
+
+            case 3:
+                return Schedule_20th_FEB_2015.getInstance(num);
+
+            case 4:
+                return Schedule_20th_FEB_2015.getInstance(num);
+
+            case 5:
+                return Schedule_20th_FEB_2015.getInstance(num);
+
+            case 6:
+                return Schedule_20th_FEB_2015.getInstance(num);
+
+            case 7:
+                return Schedule_20th_FEB_2015.getInstance(num);
+
+
+              //return Event_competitive.getInstance(num);
 
 
         }
@@ -98,7 +118,7 @@ class ViewPagerAdapter extends FragmentStatePagerAdapter {
 
     @Override
     public int getCount() {
-        return 2;
+        return 7;
     }
 
     @Override
@@ -106,10 +126,25 @@ class ViewPagerAdapter extends FragmentStatePagerAdapter {
         String title = null;
         switch (position) {
             case 0:
-                title = "PreEvent Schedule";
+                title = "Indoor Stadium, Ground Floor";
                 break;
             case 1:
-                title = "Schedule";
+                title = "Indoor Stadium, Ground Floor Rooms";
+                break;
+            case 2:
+                title = "Indoor Stadium, First Floor Hall-BAITHAK";
+                break;
+            case 3:
+                title = "Indoor Stadium, Basement & nearby Grounds";
+                break;
+            case 4:
+                title = "Rugby Sevens,G-20- A";
+                break;
+            case 5:
+                title = "Open Air Stage (Next to  UIC)";
+                break;
+            case 6:
+                title = "Rugby Sevens,G-20- B & C";
                 break;
 
         }
