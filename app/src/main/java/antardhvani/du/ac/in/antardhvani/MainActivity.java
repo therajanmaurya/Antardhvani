@@ -1,8 +1,10 @@
 package antardhvani.du.ac.in.antardhvani;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
+import android.preference.Preference;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarActivity;
@@ -31,7 +33,11 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
         toolbar = (Toolbar) findViewById(R.id.app_bar);
         setSupportActionBar(toolbar);
-
+        int h=toolbar.getHeight();
+        SharedPreferences sharedPreferences = getSharedPreferences("Prefs", 0);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putInt("toolBarHeight", toolbar.getHeight());
+        editor.commit();
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
         NavigationDrawerFragment drawerFragment = (NavigationDrawerFragment)

@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ExpandableListView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -38,8 +39,8 @@ public class Schedule_20th_FEB_2015 extends Fragment {
         View layout = inflater.inflate(R.layout.schedule_expandable, container, false);
         Display display = getActivity().getWindowManager().getDefaultDisplay();
         int height = display.getHeight();
-        height = height - 36;
-        height = height / 5;
+//        height=((TextView)container.getRootView().findViewById(R.id.lastTimeSlot)).getHeight();
+//        height=((TextView)(getActivity().findViewById(R.id.lastTimeSlot))).getHeight();
         Bundle bundle = getArguments();
         if (bundle.getInt("position") == 0) {
             ExpandList = (ExpandableListView) layout.findViewById(R.id.activity_googlecards_listview_Schedule);
