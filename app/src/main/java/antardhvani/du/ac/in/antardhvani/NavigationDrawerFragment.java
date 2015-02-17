@@ -76,6 +76,21 @@ public class NavigationDrawerFragment extends Fragment {
     int in;
     boolean scheduleSelected;
     static String[] titles = {"Home", "Events","Flower Show","Gyanodaya", "Painting Competition" ,"Schedule", "Contact","Map", "About Us" };
+    static String[] titlesNew = {
+            "Home",
+            "Events",
+            "Flower Show",
+            "Gyanodaya",
+            "Painting Competition",
+            "Schedule",
+            "Pre-Event",
+            "Day 1 - Feb 20th",
+            "Day 2 - Feb 21th",
+            "Day 3 - Feb 22th",
+            "Contact",
+            "Map",
+            "About Us"
+    };
 
 
 
@@ -182,15 +197,20 @@ public class NavigationDrawerFragment extends Fragment {
                     case 5:
                         if (!scheduleSelected)
                         {
-
                             Information current = new Information();
-                            current.title = "Pre-event";
+                            current.title = "   Pre-event";
                             adapter.data.add(6, current);
-                            current.title = "Day 1 - Feb 20th";
+                            current = null;
+                            current = new Information();
+                            current.title = "   Day 1 - Feb 20th";
                             adapter.data.add(7, current);
-                            current.title = "Day 2 - Feb 21th";
+                            current = null;
+                            current = new Information();
+                            current.title = "   Day 2 - Feb 21th";
                             adapter.data.add(8, current);
-                            current.title = "Day 3 - Feb 23th";
+                            current = null;
+                            current = new Information();
+                            current.title = "   Day 3 - Feb 22th";
                             adapter.data.add(9, current);
                             scheduleSelected=true;
                             adapter.notifyDataSetChanged();
@@ -230,8 +250,8 @@ public class NavigationDrawerFragment extends Fragment {
                             ft.commit();
                             mDrawerLayout.closeDrawers();
                         } else {
-                            Schedule_20th_FEB_2015 schedule20 = new Schedule_20th_FEB_2015();
-                            ft.replace(R.id.frame_container, schedule20);
+                            Schedule_pre_event schedulePreEvent = new Schedule_pre_event();
+                            ft.replace(R.id.frame_container, schedulePreEvent);
                             ft.commit();
                             mDrawerLayout.closeDrawers();
                         }
@@ -244,16 +264,16 @@ public class NavigationDrawerFragment extends Fragment {
                             ft.commit();
                             mDrawerLayout.closeDrawers();
                         } else {
-                            Schedule_21st_Feb_2015 schedule21 = new Schedule_21st_Feb_2015();
-                            ft.replace(R.id.frame_container, schedule21);
+                            Schedule_pre_event schedulePreEvent = new Schedule_pre_event();
+                            ft.replace(R.id.frame_container, schedulePreEvent);
                             ft.commit();
                             mDrawerLayout.closeDrawers();
                         }
                         break;
 
                     case 9:
-                        Schedule_22nd_FEBRUARY_2015 schedule22 = new Schedule_22nd_FEBRUARY_2015();
-                        ft.replace(R.id.frame_container, schedule22);
+                        Schedule_pre_event schedulePreEvent = new Schedule_pre_event();
+                        ft.replace(R.id.frame_container, schedulePreEvent);
                         ft.commit();
                         mDrawerLayout.closeDrawers();
                         break;
@@ -285,7 +305,10 @@ public class NavigationDrawerFragment extends Fragment {
                 }
 
                 recyclerView.setSelected(true);
-                MainActivity.toolbar.setTitle(titles[position]);
+                if (!scheduleSelected)
+                    MainActivity.toolbar.setTitle(titles[position]);
+                else
+                    MainActivity.toolbar.setTitle(titlesNew[position]);
 
             }
 
