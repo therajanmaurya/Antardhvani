@@ -30,6 +30,10 @@ import antardhvani.du.ac.in.Gyanodaya.Gyanodaya;
 import antardhvani.du.ac.in.Home.Home;
 import antardhvani.du.ac.in.Map.Map;
 import antardhvani.du.ac.in.Painting.Painting;
+import antardhvani.du.ac.in.Schedule.Schedule_20th_FEB_2015;
+import antardhvani.du.ac.in.Schedule.Schedule_21st_Feb_2015;
+import antardhvani.du.ac.in.Schedule.Schedule_22nd_FEBRUARY_2015;
+import antardhvani.du.ac.in.Schedule.Schedule_pre_event;
 import antardhvani.du.ac.in.Schedule.Schedule_viewpager;
 
 
@@ -140,6 +144,8 @@ public class NavigationDrawerFragment extends Fragment {
 
                         Home home = new Home();
                         ft.replace(R.id.frame_container, home);
+                        ft.commit();
+                        mDrawerLayout.closeDrawers();
 
                         break;
 
@@ -148,21 +154,29 @@ public class NavigationDrawerFragment extends Fragment {
                         ft.replace(R.id.frame_container, event);
                         Toast.makeText(getActivity().getApplicationContext(), "Click for more detail",
                                 Toast.LENGTH_SHORT).show();
+                        ft.commit();
+                        mDrawerLayout.closeDrawers();
                         break;
 
                     case 2:
                         FlowerShow flower = new FlowerShow();
                         ft.replace(R.id.frame_container, flower);
+                        ft.commit();
+                        mDrawerLayout.closeDrawers();
                         break;
 
                     case 3:
                         Gyanodaya gyanod = new Gyanodaya();
                         ft.replace(R.id.frame_container, gyanod);
+                        ft.commit();
+                        mDrawerLayout.closeDrawers();
                         break;
 
                     case 4:
                         Painting pain = new Painting();
                         ft.replace(R.id.frame_container, pain);
+                        ft.commit();
+                        mDrawerLayout.closeDrawers();
                         break;
 
                     case 5:
@@ -196,35 +210,83 @@ public class NavigationDrawerFragment extends Fragment {
                         break;
 
                     case 6:
-                        Contact cont =  new Contact();
-                        ft.replace(R.id.frame_container, cont);
+                        if (!scheduleSelected) {
+                            Contact cont =  new Contact();
+                            ft.replace(R.id.frame_container, cont);
+                            ft.commit();
+                            mDrawerLayout.closeDrawers();
+                        } else {
+                            Schedule_pre_event schedulePreEvent = new Schedule_pre_event();
+                            ft.replace(R.id.frame_container, schedulePreEvent);
+                            ft.commit();
+                            mDrawerLayout.closeDrawers();
+                        }
                         break;
 
                     case 7:
-                        Map map = new Map();
-                        ft.replace(R.id.frame_container, map);
+                        if (!scheduleSelected) {
+                            Map map = new Map();
+                            ft.replace(R.id.frame_container, map);
+                            ft.commit();
+                            mDrawerLayout.closeDrawers();
+                        } else {
+                            Schedule_20th_FEB_2015 schedule20 = new Schedule_20th_FEB_2015();
+                            ft.replace(R.id.frame_container, schedule20);
+                            ft.commit();
+                            mDrawerLayout.closeDrawers();
+                        }
                         break;
 
                     case 8:
+                        if (!scheduleSelected) {
+                            About about1 = new About();
+                            ft.replace(R.id.frame_container, about1);
+                            ft.commit();
+                            mDrawerLayout.closeDrawers();
+                        } else {
+                            Schedule_21st_Feb_2015 schedule21 = new Schedule_21st_Feb_2015();
+                            ft.replace(R.id.frame_container, schedule21);
+                            ft.commit();
+                            mDrawerLayout.closeDrawers();
+                        }
+                        break;
+
+                    case 9:
+                        Schedule_22nd_FEBRUARY_2015 schedule22 = new Schedule_22nd_FEBRUARY_2015();
+                        ft.replace(R.id.frame_container, schedule22);
+                        ft.commit();
+                        mDrawerLayout.closeDrawers();
+                        break;
+
+                    case 10:
+                        Contact cont =  new Contact();
+                        ft.replace(R.id.frame_container, cont);
+                        ft.commit();
+                        mDrawerLayout.closeDrawers();
+                        break;
+
+                    case 11:
+                        Map map = new Map();
+                        ft.replace(R.id.frame_container, map);
+                        ft.commit();
+                        mDrawerLayout.closeDrawers();
+                        break;
+
+                    case 12:
                         About about1 = new About();
                         ft.replace(R.id.frame_container, about1);
+                        ft.commit();
+                        mDrawerLayout.closeDrawers();
                         break;
 
 
 
 
                 }
-                ft.commit();
-
-
-
-
-               // Toast.makeText(getActivity(),"home",Toast.LENGTH_LONG).show();
-
 
                 recyclerView.setSelected(true);
                 MainActivity.toolbar.setTitle(titles[position]);
-                mDrawerLayout.closeDrawers();
+
             }
 
 
