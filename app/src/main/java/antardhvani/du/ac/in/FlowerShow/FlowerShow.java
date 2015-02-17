@@ -22,7 +22,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 import antardhvani.du.ac.in.antardhvani.R;
-import antardhvani.du.ac.in.antardhvani.ScreenSlidePageFragment;
+import antardhvani.du.ac.in.Adapter.ScreenSlidePageFragment;
 
 
 public class FlowerShow extends Fragment {
@@ -58,7 +58,7 @@ public class FlowerShow extends Fragment {
         venue = (TextView) layout.findViewById(R.id.venue);
         sch = (TextView) layout.findViewById(R.id.venue2);
         ven = (TextView) layout.findViewById(R.id.schedule3);
-        Typeface font = Typeface.createFromAsset(getActivity().getAssets(), "fonts/Sofia-Regular.otf");
+        Typeface font = Typeface.createFromAsset(getActivity().getAssets(), "fonts/CaviarDreams.ttf");
         title.setTypeface(font);
         des.setTypeface(font);
         schedule.setTypeface(font);

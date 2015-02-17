@@ -1,11 +1,6 @@
 package antardhvani.du.ac.in.Adapter;
 
-/**
- * Created by rajanmaurya on 11/2/15.
- */
-
 import android.content.Context;
-import android.graphics.Typeface;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,13 +11,15 @@ import java.util.ArrayList;
 
 import antardhvani.du.ac.in.antardhvani.R;
 
-
-public class Event_special_adapter extends BaseExpandableListAdapter {
+/**
+ * Created by rajanmaurya on 13/2/15.
+ */
+public class Notificaton_adapter extends BaseExpandableListAdapter {
 
     private Context context;
     private ArrayList<Group> groups;
 
-    public Event_special_adapter(Context context, ArrayList<Group> groups) {
+    public Notificaton_adapter(Context context, ArrayList<Group> groups) {
         this.context = context;
         this.groups = groups;
     }
@@ -30,7 +27,7 @@ public class Event_special_adapter extends BaseExpandableListAdapter {
     @Override
     public Object getChild(int groupPosition, int childPosition) {
         ArrayList<Child> chList = groups.get(groupPosition).getItems();
-        return chList.get(childPosition);
+        return 0;
     }
 
     @Override
@@ -53,14 +50,14 @@ public class Event_special_adapter extends BaseExpandableListAdapter {
 
         tv.setText(child.getName().toString());
 
-        tv.setTextSize(13);
-        return convertView;
+
+        return null;
     }
 
     @Override
     public int getChildrenCount(int groupPosition) {
         ArrayList<Child> chList = groups.get(groupPosition).getItems();
-        return chList.size();
+        return 0;
     }
 
     @Override
@@ -74,6 +71,7 @@ public class Event_special_adapter extends BaseExpandableListAdapter {
     }
 
     @Override
+
     public long getGroupId(int groupPosition) {
         return groupPosition;
     }
@@ -85,12 +83,11 @@ public class Event_special_adapter extends BaseExpandableListAdapter {
         if (convertView == null) {
             LayoutInflater inf = (LayoutInflater) context
                     .getSystemService(context.LAYOUT_INFLATER_SERVICE);
-            convertView = inf.inflate(R.layout.googlecardadapter, null);
+            convertView = inf.inflate(R.layout.notification_card, null);
         }
         TextView tv = (TextView) convertView.findViewById(R.id.activity_googlecards_card_textview);
+        TextView tv1 = (TextView) convertView.findViewById(R.id.activity_googlecards_card_imageview);
         tv.setText(group.getName());
-        tv.setTextSize(20);
-        tv.setTypeface(Typeface.DEFAULT_BOLD);
         return convertView;
     }
 
@@ -105,3 +102,4 @@ public class Event_special_adapter extends BaseExpandableListAdapter {
     }
 
 }
+

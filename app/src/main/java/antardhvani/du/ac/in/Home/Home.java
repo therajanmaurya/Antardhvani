@@ -20,7 +20,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 import antardhvani.du.ac.in.antardhvani.R;
-import antardhvani.du.ac.in.antardhvani.ScreenSlidePageFragment;
+import antardhvani.du.ac.in.Adapter.ScreenSlidePageFragment;
 
 /**
  * Created by Windows on 23-01-2015.
@@ -55,12 +55,13 @@ public class Home extends Fragment {
         vcmsg=(TextView)layout.findViewById(R.id.vcmsg);
         vcmsg = (TextView) layout.findViewById(R.id.vcmsg);
         Typeface font = Typeface.createFromAsset(getActivity().getAssets(), "fonts/Sofia-Regular.otf");
-        Typeface font2 = Typeface.createFromAsset(getActivity().getAssets(), "fonts/D Day Stencil.ttf");
+        Typeface font2 = Typeface.createFromAsset(getActivity().getAssets(), "fonts/CaviarDreams.ttf");
         Typeface font3 = Typeface.createFromAsset(getActivity().getAssets(), "fonts/anu.ttf");
-        title.setTypeface(font3);
-        des.setTypeface(font);
-        vc_title.setTypeface(font3);
-        vcmsg.setTypeface(font);
+        Typeface font4 = Typeface.createFromAsset(getActivity().getAssets(), "fonts/Calibri.ttf");
+        title.setTypeface(font2);
+        des.setTypeface(font4);
+        vc_title.setTypeface(font2);
+        vcmsg.setTypeface(font4);
         imageView = (KenBurnsView) layout.findViewById(R.id.header_picture);
         final Handler handler = new Handler();
         Runnable runnable = new Runnable() {

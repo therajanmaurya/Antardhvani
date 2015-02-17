@@ -76,10 +76,10 @@
                             android:id="@+id/title"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text = "Welcome to\nAntardhvani 2015\nCultural Festival"
+                            android:text = "Welcome to\nAntardhvani 2015\nAcademic and Cultural Festival"
                             android:paddingLeft="15dp"
                             android:textColor="#000000"
-                            android:textSize="28sp"
+                            android:textSize="26sp"
                             android:gravity="center"
                             android:textStyle="bold" />
                         <LinearLayout
@@ -98,7 +98,7 @@
                             android:textColor="#000000"
                             android:textSize="22sp"
                             android:gravity="center"
-                            android:text = "The DU Antardhvani Cultural Festival was conceptualized and started in 2011 and has become the showpiece event of India's highest rated university. In the brief duration of two years it has emerged as the medium for profiling the university’s cultural, sports and academic achievements. The last Antardhvani attracted about 1, 50,000 footfalls in three days. \n The annual Cultural Festival of the University of Delhi was named 'Antardhvani' by Vice Chancellor, Professor Dinesh Singh. By listening to the 'inner voice', a student will discover his/ her calling in life, and be guided in the path of right action."
+                            android:text = "The DU Antardhvani Academic and Cultural Festival was conceptualized and started in 2011 and has become the showpiece event of India's highest rated university. In the brief duration of four years it has emerged as the medium for profiling the university’s cultural, sports and academic achievements. The last Antardhvani attracted about 1, 50,000 footfalls in three days. \n The annual Academic and Cultural Festival of the University of Delhi was named 'Antardhvani' by Vice Chancellor, Professor Dinesh Singh. By listening to the 'inner voice', a student will discover his/ her calling in life, and be guided in the path of right action."
                             android:textStyle="normal" />
 
                     </LinearLayout>
@@ -166,13 +166,13 @@
                         android:layout_height="wrap_content"
                         android:text = "The primary duty of a university is to give direction to society and to channelize the energies of youth for productive and creative purposes. This has to be accompalished through education.
 
-The Undergraduate Programme places the student at the centre of its philosophy and its curriculum. One definition of education is that one must understand the call of the inner voice, the antardhvani, and respond to this call. The new programme gives the student a strong education and a wide range of subject choices for specialisation, backed by skill based, applied courses. Moreover a student can select 'minor' areas of interest. Technology and contemporary classrooms will offer the best in teaching-learning methods. The inspiration of Mahatma Gandhi and Dr. Ambedkar will guide thoughts on inclusive education.
+The Undergraduate Programme places the student at the centre of its philosophy and its curriculum. One definition of education is that one must understand the call of the inner voice, the antardhvani, and respond to this call. The inspiration of Mahatma Gandhi and Dr. Ambedkar will guide thoughts on inclusive education.
 
-I welcome the new students and urge them to explore their talent and abilities through the Undergraduate Programme. It will help you to know the grand challenges of India; it will help you to find a place in its dynamic environment. The courses have been carefully designed to bring out the best in each and every student. My colleagues and I are here to guide and help you through this important journey of your life. We value your trust in DU, your presence and your contribution in making this University ever greater."
+I welcome the new students and urge them to explore their talent and abilities through the Undergraduate Programme. It will help you to know the grand challenges of India; it will help you to find a place in its dynamic environment. My colleagues and I are here to guide and help you through this important journey of your life. We value your trust in DU, your presence and your contribution in making this University ever greater."
                         android:paddingLeft="15dp"
                         android:textColor="#000000"
                         android:gravity="center"
-                        android:textSize="16sp"
+                        android:textSize="20sp"
                         android:textStyle="normal" />
 
 

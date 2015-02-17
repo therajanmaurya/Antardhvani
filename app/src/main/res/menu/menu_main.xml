@@ -7,10 +7,17 @@
         android:icon="@drawable/ic_menu_notifications"
         app:showAsAction="always"/>
     <item
+        android:id="@+id/news"
+        android:orderInCategory="99"
+        android:title="Latest news"
+        app:showAsAction="never" />
+
+    <item
         android:id="@+id/facebook"
         android:orderInCategory="100"
         android:title="@string/facebook"
         app:showAsAction="never" />
+
 
     <item
         android:id="@+id/rules"
@@ -19,11 +26,7 @@
         app:showAsAction="never" />
 
 
-    <item
-        android:id="@+id/brochure"
-        android:orderInCategory="200"
-        android:title="@string/brochure"
-        app:showAsAction="never" />
+
 
     <item
         android:id="@+id/notice"

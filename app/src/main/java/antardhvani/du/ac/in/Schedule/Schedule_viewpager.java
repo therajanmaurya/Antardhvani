@@ -5,24 +5,23 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
-import android.support.v4.view.PagerTabStrip;
 import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import antardhvani.du.ac.in.antardhvani.R;
-import it.neokree.materialtabs.MaterialTab;
-import it.neokree.materialtabs.MaterialTabListener;
 
 /**
  * Created by rajanmaurya on 13/2/15.
  */
-public class Schedule_viewpager extends Fragment implements MaterialTabListener {
+public class Schedule_viewpager extends Fragment {
 
-    public static PagerTabStrip tabHost;
+
     public static ViewPager viewPager;
-
+    public static TextView venue;
+    static String[] venues;
 
 
     public static Schedule_viewpager getInstance(int position) {
@@ -35,44 +34,45 @@ public class Schedule_viewpager extends Fragment implements MaterialTabListener 
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View layout = inflater.inflate(R.layout.schedule_viewpager, container, false);
+        final View layout = inflater.inflate(R.layout.schedule_viewpager, container, false);
         Bundle bundle = getArguments();
-        tabHost = (PagerTabStrip) layout.findViewById(R.id.materialTabHost);
-        viewPager = (ViewPager) layout.findViewById(R.id.viewPager);
 
+        viewPager = (ViewPager) layout.findViewById(R.id.viewPager);
+         venue = (TextView)layout.findViewById(R.id.venueId);
+        venues = getResources().getStringArray(R.array.venues);
         ViewPagerAdapter adapter = new ViewPagerAdapter(getActivity().getSupportFragmentManager());
         viewPager.setAdapter(adapter);
+        viewPager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+            @Override
+            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+                TextView venue = (TextView)layout.findViewById(R.id.venueId);
+                venue.setText(venues[position]);
+            }
 
+            @Override
+            public void onPageSelected(int position) {
+                TextView venue = (TextView)layout.findViewById(R.id.venueId);
+                venue.setText(venues[position]);
+            }
+
+            @Override
+            public void onPageScrollStateChanged(int state) {
+
+            }
+        });
 
         return layout;
 
 
     }
 
-
-
-
-    @Override
-    public void onTabSelected(MaterialTab materialTab) {
-        viewPager.setCurrentItem(materialTab.getPosition());
-    }
-
-    @Override
-    public void onTabReselected(MaterialTab materialTab) {
-
-    }
-
-    @Override
-    public void onTabUnselected(MaterialTab materialTab) {
-
-    }
 }
 
 class ViewPagerAdapter extends FragmentStatePagerAdapter {
 
 
-    public Context context;
 
+    public Context context;
     public ViewPagerAdapter(FragmentManager fm) {
         super(fm);
 
@@ -81,41 +81,16 @@ class ViewPagerAdapter extends FragmentStatePagerAdapter {
 
 
     public Fragment getItem(int num) {
-        switch (num) {
-            case 0: // Fragment # 0 - This will show image
-                //return Event_non_competitive.getInstance(num);
-                return new Schedule_pre_event();
-            case 1: // Fragment # 1 - This will show image
-                return new Schedule();
-            //return Event_competitive.getInstance(num);
 
-
-        }
-        return null;
+        return Schedule_20th_FEB_2015.getInstance(num);
 
     }
 
 
     @Override
     public int getCount() {
-        return 2;
+        return 7;
     }
-
-    @Override
-    public CharSequence getPageTitle(int position) {
-        String title = null;
-        switch (position) {
-            case 0:
-                title = "PreEvent Schedule";
-                break;
-            case 1:
-                title = "Schedule";
-                break;
-
-        }
-        return title;
-    }
-
 
 }
 

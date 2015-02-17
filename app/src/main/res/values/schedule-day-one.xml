@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string-array name="day11">
+		<item>
+			INAUGURAL CEREMONY
+		</item>
+		<item>
+			CLASSICAL DANCE
+		</item>
+		<item>
+			INSTRUMENTAL MUSIC
+		</item>
+		<item>
+FOLK DANCE
+		</item>
+		<item>
+CHOREGRAPHY
+		</item>
+	</string-array>
+
+	<string-array name="day12">
+		<item>
+DU ART GALLERY/ IGNCA/ RANGOLI/
+Equal Opportunity Cell
+		</item>
+		<item>
+DU ART GALLERY/ IGNCA/ RANGOLI/EOC
+		</item>
+		<item>
+DU ART GALLERY/ IGNCA/ RANGOLI /EOC
+		</item>
+		<item>
+DU ART GALLERY/ IGNCA/ RANGOLI EOC /
+		</item>
+		<item>
+DU ART GALLERY/ IGNCA/ RANGOLI/  EOC
+		</item>
+	</string-array>
+
+	<string-array name="day13">
+		<item>
+NILL
+		</item>
+		<item>
+CREATIVE  WRITING/
+TRANSLATION
+		</item>
+		<item>
+CREATIVE WRITING/
+TRANSLATION
+		</item>
+		<item>
+CREATIVE WRITING/
+TRANSLATION
+		</item>
+		<item>
+CREATIVE WRITING/
+TRANSLATION
+		</item>
+	</string-array>
+
+	<string-array name="day14">
+		<item>
+INNOVATION PLAZA
+		</item>
+		<item>
+INNOVATION PLAZA
+    12 noon Inauguration
+		</item>
+		<item>
+INNOVATION PLAZA
+		</item>
+		<item>
+INNOVATION PLAZA
+		</item>
+		<item>
+INNOVATION PLAZA
+		</item>
+	</string-array>
+
+	<string-array name="day15">
+		<item>
+CLUSTER INNOVATION
+CENTRE ON PATIO
+		</item>
+		<item>
+NSDC
+SKILL COUNSELLING
+		</item>
+		<item>
+NSDC
+ SKILL COUNSELLING
+		</item>
+		<item>
+SHORT FILM-LIFE IN DU
+		</item>
+		<item>
+SHORT FILM-LIFE IN DU
+		</item>
+	</string-array>
+
+	<string-array name="day16">
+		<item>
+NULL
+		</item>
+		<item>
+ROCK BAND
+		</item>
+		<item>
+VOCAL SOLO
+
+
+		</item>
+		<item>
+NULL
+		</item>
+		<item>
+NULL
+		</item>
+	</string-array>
+
+	<string-array name="day17">
+		<item>
+NULL
+		</item>
+		<item>
+DEBATE
+		</item>
+		<item>
+DEBATE
+		</item>
+		<item>
+DEBATE
+		</item>
+		<item>
+DEBATE
+		</item>
+	</string-array>
+</resources>

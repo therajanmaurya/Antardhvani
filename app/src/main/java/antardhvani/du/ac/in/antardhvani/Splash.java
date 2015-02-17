@@ -40,6 +40,7 @@ public class Splash extends ActionBarActivity {
     {
         Animation fade = AnimationUtils.loadAnimation(this, R.anim.fadein);
         fade.setRepeatCount(0);
+        fade.setDuration(1000);
         fade.setAnimationListener(new Animation.AnimationListener() {
             @Override
             public void onAnimationStart(Animation animation) {
@@ -48,6 +49,11 @@ public class Splash extends ActionBarActivity {
 
             @Override
             public void onAnimationEnd(Animation animation) {
+                try {
+                    Thread.sleep(500);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
                 shrinkAndTranslate();
             }
 

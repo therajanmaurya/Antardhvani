@@ -10,7 +10,6 @@ import android.support.v4.view.PagerTabStrip;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
 import android.view.MenuItem;
 
 import antardhvani.du.ac.in.antardhvani.R;
@@ -45,12 +44,6 @@ public class Rules_viewpager extends ActionBarActivity implements MaterialTabLis
     }
 
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_sub, menu);
-        return true;
-    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -60,9 +53,6 @@ public class Rules_viewpager extends ActionBarActivity implements MaterialTabLis
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
         if (id == android.R.id.home) {
             NavUtils.navigateUpFromSameTask(this);
         }

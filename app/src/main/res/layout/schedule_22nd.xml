@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExpandableListView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_googlecards_listview_Schedule"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e2e2e2"
+    android:clipToPadding="false"
+    android:divider="@null"
+    android:dividerHeight="1dp"
+    android:groupIndicator="@android:color/transparent"
+    android:fadingEdge="none"
+    android:fitsSystemWindows="true"
+    android:padding="4dp"
+    android:scrollbarStyle="outsideOverlay"
+    tools:ignore="overdraw" />

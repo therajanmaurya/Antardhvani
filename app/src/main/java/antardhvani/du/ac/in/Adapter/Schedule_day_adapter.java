@@ -1,33 +1,34 @@
 package antardhvani.du.ac.in.Adapter;
 
-/**
- * Created by rajanmaurya on 11/2/15.
- */
 import android.content.Context;
-import android.graphics.Typeface;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.TextView;
+
 import java.util.ArrayList;
 
 import antardhvani.du.ac.in.antardhvani.R;
 
-public class Event_competitive_adapter extends BaseExpandableListAdapter {
+/**
+ * Created by rajanmaurya on 17/2/15.
+ */
+public class Schedule_day_adapter extends BaseExpandableListAdapter {
 
     private Context context;
     private ArrayList<Group> groups;
-
-    public Event_competitive_adapter (Context context, ArrayList<Group> groups) {
+    int height;
+    public Schedule_day_adapter(Context context, ArrayList<Group> groups, int height) {
         this.context = context;
         this.groups = groups;
+        this.height = height;
     }
 
     @Override
     public Object getChild(int groupPosition, int childPosition) {
         ArrayList<Child> chList = groups.get(groupPosition).getItems();
-        return chList.get(childPosition);
+        return 0;
     }
 
     @Override
@@ -51,13 +52,13 @@ public class Event_competitive_adapter extends BaseExpandableListAdapter {
         tv.setText(child.getName().toString());
         tv.setTextSize(13);
 
-        return convertView;
+        return null;
     }
 
     @Override
     public int getChildrenCount(int groupPosition) {
         ArrayList<Child> chList = groups.get(groupPosition).getItems();
-        return chList.size();
+        return 0;
     }
 
     @Override
@@ -86,8 +87,11 @@ public class Event_competitive_adapter extends BaseExpandableListAdapter {
         }
         TextView tv = (TextView) convertView.findViewById(R.id.activity_googlecards_card_textview);
         tv.setText(group.getName());
-        tv.setTextSize(20);
-        tv.setTypeface(Typeface.DEFAULT_BOLD);
+        tv.setTextSize(13);
+
+
+        convertView.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, this.height));
+        //tv.setTypeface(Typeface.DEFAULT_BOLD);
         return convertView;
     }
 
