@@ -14,12 +14,12 @@ import antardhvani.du.ac.in.antardhvani.R;
 /**
  * Created by rajanmaurya on 13/2/15.
  */
-public class Rules_adapter extends BaseExpandableListAdapter {
+public class Notificaton_adapter extends BaseExpandableListAdapter {
 
     private Context context;
     private ArrayList<Group> groups;
 
-    public Rules_adapter(Context context, ArrayList<Group> groups) {
+    public Notificaton_adapter(Context context, ArrayList<Group> groups) {
         this.context = context;
         this.groups = groups;
     }
@@ -27,7 +27,7 @@ public class Rules_adapter extends BaseExpandableListAdapter {
     @Override
     public Object getChild(int groupPosition, int childPosition) {
         ArrayList<Child> chList = groups.get(groupPosition).getItems();
-        return chList.get(childPosition);
+        return 0;
     }
 
     @Override
@@ -51,13 +51,13 @@ public class Rules_adapter extends BaseExpandableListAdapter {
         tv.setText(child.getName().toString());
 
 
-        return convertView;
+        return null;
     }
 
     @Override
     public int getChildrenCount(int groupPosition) {
         ArrayList<Child> chList = groups.get(groupPosition).getItems();
-        return chList.size();
+        return 0;
     }
 
     @Override
@@ -71,6 +71,7 @@ public class Rules_adapter extends BaseExpandableListAdapter {
     }
 
     @Override
+
     public long getGroupId(int groupPosition) {
         return groupPosition;
     }
@@ -82,9 +83,10 @@ public class Rules_adapter extends BaseExpandableListAdapter {
         if (convertView == null) {
             LayoutInflater inf = (LayoutInflater) context
                     .getSystemService(context.LAYOUT_INFLATER_SERVICE);
-            convertView = inf.inflate(R.layout.googlecardadapter, null);
+            convertView = inf.inflate(R.layout.notification_card, null);
         }
         TextView tv = (TextView) convertView.findViewById(R.id.activity_googlecards_card_textview);
+        TextView tv1 = (TextView) convertView.findViewById(R.id.activity_googlecards_card_imageview);
         tv.setText(group.getName());
         return convertView;
     }
