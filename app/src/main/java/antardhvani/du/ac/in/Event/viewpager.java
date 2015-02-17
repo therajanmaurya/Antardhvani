@@ -84,14 +84,13 @@ public class viewpager extends Fragment implements MaterialTabListener {
             switch (num) {
                 case 0: // Fragment # 0 - This will show image
                     //return Event_non_competitive.getInstance(num);
-                    return new Event_non_competitive();
+                    return  Event_non_competitive.getInstance(num);
                 case 1: // Fragment # 1 - This will show image
-                    return new Event_competitive();
+                    return  Event_non_competitive.getInstance(num);
                 //return Event_competitive.getInstance(num);
                 case 2:// Fragment # 2-9 - Will show list
-                    return new Event_special();
-//            default:// Fragment # 2-9 - Will show list
-//                return Event_non_competitive.getInstance(num);
+                    return  Event_non_competitive.getInstance(num);
+
 
             }
             return null;
