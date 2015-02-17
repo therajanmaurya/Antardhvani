@@ -80,6 +80,7 @@ public class Notificaton_adapter extends BaseExpandableListAdapter {
     public View getGroupView(int groupPosition, boolean isExpanded,
                              View convertView, ViewGroup parent) {
         Group group = (Group) getGroup(groupPosition);
+
         if (convertView == null) {
             LayoutInflater inf = (LayoutInflater) context
                     .getSystemService(context.LAYOUT_INFLATER_SERVICE);
@@ -88,6 +89,7 @@ public class Notificaton_adapter extends BaseExpandableListAdapter {
         TextView tv = (TextView) convertView.findViewById(R.id.activity_googlecards_card_textview);
         TextView tv1 = (TextView) convertView.findViewById(R.id.activity_googlecards_card_imageview);
         tv.setText(group.getName());
+
         return convertView;
     }
 

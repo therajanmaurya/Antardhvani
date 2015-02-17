@@ -21,7 +21,7 @@ public  class GcmRegistrationAsyncTask extends AsyncTask<Void, Void, String> {
     private Context context;
     public static boolean status;
     // TODO: change to your own sender ID to Google Developers Console project number, as per instructions above
-    private static final String SENDER_ID = "123456789";
+    private static final String SENDER_ID = "607073612213";
 
     public GcmRegistrationAsyncTask(Context context) {
         this.context = context;
@@ -34,7 +34,7 @@ public  class GcmRegistrationAsyncTask extends AsyncTask<Void, Void, String> {
                     new AndroidJsonFactory(), null)
                     // Need setRootUrl and setGoogleClientRequestInitializer only for local testing,
                     // otherwise they can be skipped
-                    .setRootUrl("https://192.168.1.1/_ah/api/");
+                    .setRootUrl("https://fleet-rite-858.appspot.com/_ah/api/");
 
             // end of optional local run code
 
