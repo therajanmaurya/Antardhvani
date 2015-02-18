@@ -1,7 +1,5 @@
 package antardhvani.du.ac.in.Notification;
 
-import android.app.NotificationManager;
-import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
@@ -40,7 +38,7 @@ public class Notification extends ActionBarActivity {
 
         getSupportActionBar().setHomeButtonEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        toolbar.setTitle("Latest Alert");
+        toolbar.setTitle("Notification");
         mRecyclerView = (RecyclerView) findViewById(R.id.list_main);
         // use this setting to improve performance if you know that changes
         // in content do not change the layout size of the RecyclerView

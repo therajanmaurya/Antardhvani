@@ -22,6 +22,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 import antardhvani.du.ac.in.Database.NotificationSQL;
+import antardhvani.du.ac.in.Gcm.GcmRegistrationAsyncTask;
 import antardhvani.du.ac.in.Home.Home;
 import antardhvani.du.ac.in.Notification.Notification;
 import antardhvani.du.ac.in.Rules.Rules_viewpager;
@@ -57,6 +58,7 @@ public class MainActivity extends ActionBarActivity {
         Log.e("where","before ");
         //db = new NotificationSQL(this);
        // db123.addNotification("hello","sagar");
+        new GcmRegistrationAsyncTask(this).execute();
         update();
         db.close();
         Log.e("where", "after");

@@ -72,7 +72,7 @@ public class GcmIntentService extends IntentService {
                 }else{
                    x=new String [2];
                    x[0]=message;
-                   x[1]="";
+                   x[1]=message;
                 }
 
                 Log.e(db.getLastNotification(),message);
