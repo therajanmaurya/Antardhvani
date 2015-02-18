@@ -3,15 +3,11 @@ package antardhvani.du.ac.in.antardhvani;
 import android.app.NotificationManager;
 import android.content.Context;
 import android.content.Intent;
-<<<<<<< HEAD
 import android.content.SharedPreferences;
-=======
 import android.graphics.drawable.LayerDrawable;
->>>>>>> 5b649fe808d5d8a60c79cb553dd8e952295c91c9
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.preference.Preference;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarActivity;
