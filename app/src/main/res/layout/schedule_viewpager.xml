@@ -10,7 +10,12 @@
         android:layout_width="fill_parent"
         android:layout_height="48dp"
         android:id="@+id/venueId"
-        android:background="@drawable/text_view_background"/>
+        android:background="@drawable/text_view_background"
+		android:textColor="#dddddd"
+		android:gravity="center"
+		android:padding="10dp"
+		android:textSize="16sp"/>
+
     <LinearLayout
         android:id="@+id/linear"
         android:layout_width="match_parent"
@@ -40,56 +45,62 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Time Slots"
+                android:text="10:00\nTO\n11:30"
                 android:padding="5sp"
                 android:background="@drawable/text_view_background"
                 android:textColor="#dddddd"
                 android:layout_weight="0.2"
-                android:gravity="center" />
+                android:gravity="center"
+				android:textSize="16sp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Time Slots"
+                android:text="11:30\nTO\n13:00"
                 android:padding="5sp"
                 android:background="@drawable/text_view_background"
                 android:textColor="#dddddd"
                 android:layout_weight="0.2"
-                android:gravity="center" />
+                android:gravity="center"
+				android:textSize="16sp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Time Slots"
+                android:text="13:00\nTO\n14:30"
                 android:padding="5sp"
                 android:background="@drawable/text_view_background"
                 android:textColor="#dddddd"
                 android:layout_weight="0.2"
-                android:gravity="center" />
+                android:gravity="center"
+				android:textSize="16sp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Time Slots"
+                android:text="14:30\nTO\n16:00"
                 android:padding="5sp"
                 android:background="@drawable/text_view_background"
                 android:textColor="#dddddd"
                 android:layout_weight="0.2"
-                android:gravity="center" />
+                android:gravity="center"
+				android:textSize="16sp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Time Slots"
+                android:text="16:00\nTO\n17:30"
                 android:padding="5sp"
                 android:background="@drawable/text_view_background"
                 android:textColor="#dddddd"
                 android:layout_weight="0.2"
-                android:gravity="center" />
+                android:gravity="center"
+				android:textSize="16sp"
+				android:id="@+id/lastTimeSlot"/>
         </LinearLayout>
 
         <android.support.v4.view.ViewPager

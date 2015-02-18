@@ -9,6 +9,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
+import android.os.Vibrator;
 import android.util.Log;
 
 import com.google.android.gms.gcm.GoogleCloudMessaging;
@@ -62,12 +63,43 @@ public class GcmIntentService extends IntentService {
                // mBuilder.setContentTitle(data.get(0));
                // mBuilder.setContentText(data.get(1));
                // db.addNotification("xyz", message);
+
                 NotificationSQL db=new NotificationSQL(getApplication());
                 Log.e("ADDNotification","okkkk");
-                String [] x= message.split("@");
-                db.addNotification(x[0],x[1]);
-                //Toast.makeText(getApplicationContext(), message, Toast.LENGTH_LONG).show();
-                generateNotification(getApplicationContext(),x[0],x[1]);
+                String [] x=null;
+                if(message.contains("@")){
+                    x= message.split("@");
+                }else{
+                   x=new String [2];
+                   x[0]=message;
+                   x[1]="";
+                }
+
+                Log.e(db.getLastNotification(),message);
+
+
+
+                if(!db.getLastNotification().equals(message)) {
+                    if(!MainActivity.x){
+
+                    db.addNotification(x[0], x[1]);
+                    db.close();
+
+                    generateNotification(getApplicationContext(), x[0], x[1]);
+                }else{
+                        //Toast.makeText(getApplicationContext(), "New Notification", Toast.LENGTH_SHORT).show();
+                        db.addNotification(x[0], x[1]);
+                        db.close();
+                        long pattern[]={0,200,100,300,400};
+
+                        //Start the vibration
+                        Vibrator vibrator = (Vibrator)getSystemService(Context.VIBRATOR_SERVICE);
+                        //start vibration with repeated count, use -1 if you don't want to repeat the vibration
+                        vibrator.vibrate(pattern, -1);
+                    }
+
+                }
+
             }
         });
     }
@@ -79,7 +111,7 @@ public class GcmIntentService extends IntentService {
         Notification notification = new Notification(icon, message, when);
         String title = x2;
 
-        Intent notificationIntent = new Intent(context, MainActivity.class);
+        Intent notificationIntent = new Intent(context, antardhvani.du.ac.in.Notification.Notification.class);
         // set intent so it does not start a new activity
         notificationIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP |
                 Intent.FLAG_ACTIVITY_SINGLE_TOP);

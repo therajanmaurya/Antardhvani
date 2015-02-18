@@ -1,5 +1,7 @@
 package antardhvani.du.ac.in.antardhvani;
 
+import android.app.NotificationManager;
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.drawable.LayerDrawable;
@@ -17,21 +19,23 @@ import android.view.View;
 import android.widget.TextView;
 
 import java.net.URLEncoder;
+import java.util.Timer;
+import java.util.TimerTask;
 
 import antardhvani.du.ac.in.Database.NotificationSQL;
 import antardhvani.du.ac.in.Gcm.GcmRegistrationAsyncTask;
 import antardhvani.du.ac.in.Home.Home;
+import antardhvani.du.ac.in.Notification.Notification;
 import antardhvani.du.ac.in.Rules.Rules_viewpager;
-import it.neokree.materialtabs.MaterialTabHost;
+
 
 
 public class MainActivity extends ActionBarActivity {
     public static NotificationSQL db;
     public static Toolbar toolbar;
-    public static MaterialTabHost tabHost;
+    public  static boolean x;
     public static ViewPager viewPager;
-    public static String MY_PREFS_NAME="RegStatus";
-    public static String KEY="Status";
+
     private int mNotificationsCount = 0;
     public static int status;
     @Override
@@ -40,12 +44,20 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
         toolbar = (Toolbar) findViewById(R.id.app_bar);
         setSupportActionBar(toolbar);
+        int h=toolbar.getHeight();
+        SharedPreferences sharedPreferences = getSharedPreferences("Prefs", 0);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putInt("toolBarHeight", toolbar.getHeight());
+        editor.commit();
+
         db=new NotificationSQL(this);
+
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
         NavigationDrawerFragment drawerFragment = (NavigationDrawerFragment)
                 getSupportFragmentManager().findFragmentById(R.id.fragment_navigation_drawer);
         drawerFragment.setUp(R.id.fragment_navigation_drawer, (DrawerLayout) findViewById(R.id.drawer_layout), toolbar);
+
         status = getStatusBarHeight();
         SharedPreferences sharPref = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
 
@@ -64,6 +76,7 @@ public class MainActivity extends ActionBarActivity {
             editor.putBoolean(KEY,false);
             editor.commit();
         }
+
         if (savedInstanceState == null) {
             Home home = new Home();
             getSupportFragmentManager()
@@ -75,11 +88,59 @@ public class MainActivity extends ActionBarActivity {
         Log.e("where","before ");
         //db = new NotificationSQL(this);
        // db123.addNotification("hello","sagar");
-
+        update();
         db.close();
         Log.e("where", "after");
-        new FetchCountTask().execute();
 
+
+
+    }
+
+    private Timer timer;
+    private TimerTask timerTask;
+
+    public void onPause(){
+        super.onPause();
+        x=false;
+        timer.cancel();
+    }
+
+    public void onResume(){
+        super.onResume();
+        NotificationManager notificationManager = (NotificationManager)getSystemService(Context.NOTIFICATION_SERVICE);
+        notificationManager.cancel(0);
+        x=true;
+        try {
+            timer = new Timer();
+            timerTask = new TimerTask() {
+                @Override
+                public void run() {
+                    //Download file here and refresh
+                    update();
+                }
+            };
+            timer.schedule(timerTask, 1000, 1000);
+        } catch (IllegalStateException e){
+            android.util.Log.i("Damn", "resume error");
+        }
+    }
+    public  void update(){
+        FetchCountTask x =new FetchCountTask();
+                x.execute();
+
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        x=true;
+    }
+
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        x=false;
     }
 
     @Override
@@ -89,7 +150,10 @@ public class MainActivity extends ActionBarActivity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
         if(id==R.id.action_notifications){
+            db.updateBook();
             db.close();
+            startActivity(new Intent(this, Notification.class));
+
             return true;
         }
 
@@ -234,7 +298,7 @@ public class MainActivity extends ActionBarActivity {
     /*
     Updates the count of notifications in the ActionBar.
      */
-    private void updateNotificationsBadge(int count) {
+    public  void updateNotificationsBadge(int count) {
         mNotificationsCount = count;
 
         // force the ActionBar to relayout its MenuItems.
@@ -251,7 +315,7 @@ public class MainActivity extends ActionBarActivity {
         protected Integer doInBackground(Void... params) {
             // example count. This is where you'd
             // query your data store for the actual count.
-            db=new NotificationSQL(getApplication());
+           NotificationSQL db=new NotificationSQL(getApplication());
             int x=db.unread_Num();
             db.close();
             return x ;

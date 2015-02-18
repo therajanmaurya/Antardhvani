@@ -7,8 +7,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-import java.util.LinkedList;
-import java.util.List;
+import java.util.ArrayList;
 
 /**
  * Created by lusifer on 17/2/15.
@@ -112,8 +111,8 @@ public class NotificationSQL extends SQLiteOpenHelper {
     }
 
     // Get All Books
-    public List<MyResult> getAllNoti() {
-        List<MyResult> books = new LinkedList<MyResult>();
+    public ArrayList<MyResult> getAllNoti() {
+        ArrayList<MyResult> books = new ArrayList<MyResult>();
 
         // 1. build the query
         String query = "SELECT  * FROM " + TABLE_DATA;
@@ -140,21 +139,21 @@ public class NotificationSQL extends SQLiteOpenHelper {
     }
 
     // Updating single book
-    public int updateBook(int id) {
+    public int updateBook() {
 
         // 1. get reference to writable DB
         SQLiteDatabase db = this.getWritableDatabase();
 
         // 2. create ContentValues to add key "column"/value
         ContentValues values = new ContentValues();
-        values.put("status", 1); // get title
+        values.put("status",1); // get title
         //values.put("author", book.getAuthor()); // get author
 
         // 3. updating row
         int i = db.update(TABLE_DATA, //table
                 values, // column/value
-                KEY_ID+" = ?", // selections
-                new String[] { String.valueOf(id) }); //selection args
+                null, // selections
+                null); //selection args
 
         // 4. close
         db.close();
@@ -175,6 +174,34 @@ public class NotificationSQL extends SQLiteOpenHelper {
         Log.e("Total No","xxxxxxxxx  "+String.valueOf(x));
         return x ;
 
+    }
+    public String getLastNotification(){
+
+        // 1. get reference to readable DB
+        SQLiteDatabase db = this.getReadableDatabase();
+
+        // 2. build query
+        String query="SELECT * " +
+                "    FROM    " +TABLE_DATA+
+                "    WHERE   id = (SELECT MAX(id)  FROM"+TABLE_DATA+" )";
+
+        Cursor cursor = db.rawQuery(query, null);
+        MyResult book=null;
+        if(cursor!=null && cursor.getCount()==0){
+            return "";
+        }
+        if (cursor.moveToLast()) {
+               book  = new MyResult(cursor.getString(1),cursor.getString(2));
+        }
+
+        cursor.close();
+        db.close();
+
+
+        Log.e("last detail", book.getFirst()+"    "+book.getSecond());
+
+        // 5. return book
+        return book.getFirst()+"@"+book.getSecond();
     }
 
 }

@@ -42,6 +42,8 @@ public class Schedule_20th_FEB_2015 extends Fragment {
         int height = display.getHeight();
         height = height - 48 - NavigationDrawerFragment.in - MainActivity.status;
         height = height / 5;
+//        height=((TextView)container.getRootView().findViewById(R.id.lastTimeSlot)).getHeight();
+//        height=((TextView)(getActivity().findViewById(R.id.lastTimeSlot))).getHeight();
         Bundle bundle = getArguments();
         if (bundle.getInt("position") == 0) {
             ExpandList = (ExpandableListView) layout.findViewById(R.id.activity_googlecards_listview_Schedule);

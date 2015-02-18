@@ -1,65 +1,111 @@
 package antardhvani.du.ac.in.Notification;
 
-import android.app.Activity;
+import android.app.NotificationManager;
+import android.content.Context;
+import android.os.AsyncTask;
 import android.os.Bundle;
-import android.widget.ExpandableListView;
+import android.support.v7.app.ActionBarActivity;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.Toolbar;
+import android.util.Log;
+import android.view.View;
+import android.widget.ProgressBar;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
-import antardhvani.du.ac.in.Adapter.Child;
-import antardhvani.du.ac.in.Adapter.Group;
-import antardhvani.du.ac.in.Adapter.Notificaton_adapter;
+import antardhvani.du.ac.in.Adapter.CardAdapter;
+import antardhvani.du.ac.in.Database.MyResult;
+import antardhvani.du.ac.in.Database.NotificationSQL;
 import antardhvani.du.ac.in.antardhvani.R;
 
-/**
- * Created by rajanmaurya on 17/2/15.
- */
-public class Notification extends Activity{
 
-    private Notificaton_adapter noti;
-    private ArrayList<Group> ExpListItems;
-    private ExpandableListView ExpandList;
+public class Notification extends ActionBarActivity {
+    ArrayList<String> nonCom=new ArrayList<String>();
+    ArrayList<String> nonCom1=new ArrayList<String>();
 
+    private static final String TAG = "NotificationActivity";
+
+    private RecyclerView mRecyclerView;
+    private CardAdapter mAdapter;
+    private LinearLayoutManager mLayoutManager;
+    Toolbar toolbar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.expentable);
-        ExpandList = (ExpandableListView) findViewById(R.id.activity_googlecards_listview);
-        ExpListItems = SetStandardGroups(getResources().getStringArray(R.array.noncompetitiveHeads), getResources().getStringArray(R.array.noncompetitive));
-        noti = new Notificaton_adapter(this, ExpListItems);
-        ExpandList.setAdapter(noti);
+        setContentView(R.layout.notification_card);
+         toolbar= (Toolbar) findViewById(R.id.app_bar);
+        setSupportActionBar(toolbar);
 
+        getSupportActionBar().setHomeButtonEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        toolbar.setTitle("Latest Alert");
+        mRecyclerView = (RecyclerView) findViewById(R.id.list_main);
+        // use this setting to improve performance if you know that changes
+        // in content do not change the layout size of the RecyclerView
+        mRecyclerView.setHasFixedSize(true);
+        // use a linear layout manager
+        mLayoutManager = new LinearLayoutManager(getApplicationContext());
+        mLayoutManager.setOrientation(LinearLayoutManager.VERTICAL);
+        Log.d(TAG, "Layout manager set");
+        mLayoutManager.scrollToPosition(1); // TODO: Remove this when preview SDK has abstract method.
+        mRecyclerView.setLayoutManager(mLayoutManager);
+
+
+        new ReadFromData().execute();
     }
 
-    public ArrayList<Group> SetStandardGroups(String[] event, String[] event1) {
-        String group_names[] = event;
-        String country_names[] = event1;
 
-        ArrayList<Group> list = new ArrayList<Group>();
+    private class ReadFromData extends AsyncTask<Void, Void, ArrayList<MyResult>> {
 
-        ArrayList<Child> ch_list;
+        @Override
+        protected ArrayList<MyResult> doInBackground(Void... v) {
+        ArrayList<MyResult> my=null;
+        NotificationSQL db =new NotificationSQL(getApplication());
+        my=db.getAllNoti();
 
-        int size = 1;
-        int j = 0;
-
-        for (String group_name : group_names) {
-            Group gru = new Group();
-            gru.setName(group_name);
-
-            ch_list = new ArrayList<Child>();
-            for (; j < size; j++) {
-                Child ch = new Child();
-                ch.setName(country_names[j]);
-                ch_list.add(ch);
-            }
-            gru.setItems(ch_list);
-            list.add(gru);
-
-            size = size + 1;
+            return my;
         }
 
-        return list;
+        @Override
+        protected void onPostExecute(ArrayList<MyResult> my) {
+            Log.d(TAG, "Inside onPostExecute()");
+            for(int y=0;y<my.size();y++){
+                for(int i=0;i<=1;i++){
+                    if (i==0){
+                        nonCom.add(my.get(y).getFirst());
+                    }
+                    if(i==1){
+                        nonCom1.add(my.get(y).getSecond());
+                    }
+                }
+            }
+
+            mAdapter = new CardAdapter(getApplicationContext(), nonCom,nonCom1);
+            Log.d(TAG, "List size = " + nonCom.size());
+            // This sets the color displayed for card titles and header actions by default
+
+            if (nonCom.size() > 0) {
+                Log.d(TAG, "Inside onPostExecute()");
+
+                mRecyclerView.setAdapter(mAdapter);
+                ProgressBar mProgressBar = (ProgressBar) findViewById(R.id.progress_bar);
+                mProgressBar.setVisibility(View.GONE);
+                mRecyclerView.setVisibility(View.VISIBLE);
+            }
+            if(nonCom.size()==0){
+                Log.d(TAG, "Inside onPostExecute()");
+
+
+                ProgressBar mProgressBar = (ProgressBar) findViewById(R.id.progress_bar);
+                mProgressBar.setVisibility(View.GONE);
+                TextView x=(TextView)findViewById(R.id.tvNo);
+                x.setVisibility(View.VISIBLE);
+
+            }
+
+        }
     }
 
 }
-
