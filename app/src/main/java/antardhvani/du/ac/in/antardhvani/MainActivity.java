@@ -3,7 +3,6 @@ package antardhvani.du.ac.in.antardhvani;
 import android.app.NotificationManager;
 import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.graphics.drawable.LayerDrawable;
 import android.net.Uri;
 import android.os.AsyncTask;
@@ -45,10 +44,7 @@ public class MainActivity extends ActionBarActivity {
         toolbar = (Toolbar) findViewById(R.id.app_bar);
         setSupportActionBar(toolbar);
         int h=toolbar.getHeight();
-        SharedPreferences sharedPreferences = getSharedPreferences("Prefs", 0);
-        SharedPreferences.Editor editor = sharedPreferences.edit();
-        editor.putInt("toolBarHeight", toolbar.getHeight());
-        editor.commit();
+
 
         db=new NotificationSQL(this);
 
@@ -59,23 +55,7 @@ public class MainActivity extends ActionBarActivity {
         drawerFragment.setUp(R.id.fragment_navigation_drawer, (DrawerLayout) findViewById(R.id.drawer_layout), toolbar);
 
         status = getStatusBarHeight();
-        SharedPreferences sharPref = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
 
-        boolean restoredText = sharPref.getBoolean(KEY,false);
-        Log.e("error",( restoredText==false) ? "yes false" : "yes true");
-        if(!restoredText){
-            SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
-            new GcmRegistrationAsyncTask(this).execute();
-            editor.putBoolean(KEY,true);
-            editor.commit();
-
-        }
-
-        if(!GcmRegistrationAsyncTask.status){
-            SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
-            editor.putBoolean(KEY,false);
-            editor.commit();
-        }
 
         if (savedInstanceState == null) {
             Home home = new Home();
