@@ -294,7 +294,7 @@ public class MainActivity extends ActionBarActivity {
         protected Integer doInBackground(Void... params) {
             // example count. This is where you'd
             // query your data store for the actual count.
-           NotificationSQL db=new NotificationSQL(getApplication());
+            NotificationSQL db=new NotificationSQL(getApplication());
             int x=db.unread_Num();
             db.close();
             return x ;

@@ -72,9 +72,14 @@ public class GcmIntentService extends IntentService {
                 }else{
                    x=new String [2];
                    x[0]=message;
-                   x[1]=message;
+                   x[1]="";
                 }
 
+                String[] x12=x[1].split("#");
+                String ne2="";
+                for(int i=0;i<x12.length;i++){
+                    ne2+=x12[i]+"\n";
+                }
                 Log.e(db.getLastNotification(),message);
 
 
@@ -82,13 +87,13 @@ public class GcmIntentService extends IntentService {
                 if(!db.getLastNotification().equals(message)) {
                     if(!MainActivity.x){
 
-                    db.addNotification(x[0], x[1]);
+                    db.addNotification(x[0], ne2);
                     db.close();
 
-                    generateNotification(getApplicationContext(), x[0], x[1]);
+                    generateNotification(getApplicationContext(), x[0], ne2);
                 }else{
                         //Toast.makeText(getApplicationContext(), "New Notification", Toast.LENGTH_SHORT).show();
-                        db.addNotification(x[0], x[1]);
+                        db.addNotification(x[0], ne2);
                         db.close();
                         long pattern[]={0,200,100,300,400};
 
