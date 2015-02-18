@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="visible"/>
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list_main"
+        android:layout_below="@id/app_bar"
+        android:layout_margin="10dp"
+        android:scrollbars="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="invisible" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tvNo"
+        android:gravity="center"
+        android:text= "No Notification"
+        android:textStyle="bold|italic"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="25dp"
+        android:visibility="invisible"/>
+
+</RelativeLayout>

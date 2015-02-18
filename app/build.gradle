@@ -21,8 +21,8 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:appcompat-v7:21.0.+'
-    compile 'com.android.support:recyclerview-v7:21.0.+'
+    compile 'com.android.support:appcompat-v7:21.0.3'
+    compile 'com.android.support:recyclerview-v7:21.0.3'
     compile 'org.lucasr.dspec:dspec:0.1.1'
     compile 'it.neokree:MaterialTabs:0.11'
     compile 'com.mcxiaoke.volley:library:1.0.+'
@@ -31,4 +31,5 @@ dependencies {
     compile 'com.flaviofaria:kenburnsview:1.0.5'
     compile 'com.android.support:cardview-v7:21.0.3'
     compile 'com.android.support:support-v4:21.0.3'
+    compile project(path: ':backend', configuration: 'android-endpoints')
 }
