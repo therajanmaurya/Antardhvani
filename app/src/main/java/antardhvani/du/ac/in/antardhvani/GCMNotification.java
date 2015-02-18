@@ -16,7 +16,6 @@ import java.util.ArrayList;
 import antardhvani.du.ac.in.Adapter.CardAdapter;
 import antardhvani.du.ac.in.Database.MyResult;
 import antardhvani.du.ac.in.Database.NotificationSQL;
-import antardhvani.du.ac.in.antardhvani.R;
 
 
 public class GCMNotification extends ActionBarActivity {
@@ -35,7 +34,9 @@ public class GCMNotification extends ActionBarActivity {
         setContentView(R.layout.notification_card);
          toolbar= (Toolbar) findViewById(R.id.app_bar);
         setSupportActionBar(toolbar);
-
+        NotificationSQL db=new NotificationSQL(getApplication());
+        db.updateBook();
+        db.close();
         getSupportActionBar().setHomeButtonEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         toolbar.setTitle("Notification");
