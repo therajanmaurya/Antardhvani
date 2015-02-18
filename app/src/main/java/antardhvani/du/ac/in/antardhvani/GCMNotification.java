@@ -1,4 +1,4 @@
-package antardhvani.du.ac.in.Notification;
+package antardhvani.du.ac.in.antardhvani;
 
 import android.os.AsyncTask;
 import android.os.Bundle;

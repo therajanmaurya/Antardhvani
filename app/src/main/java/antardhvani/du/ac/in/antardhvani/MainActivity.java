@@ -24,7 +24,6 @@ import java.util.TimerTask;
 import antardhvani.du.ac.in.Database.NotificationSQL;
 import antardhvani.du.ac.in.Gcm.GcmRegistrationAsyncTask;
 import antardhvani.du.ac.in.Home.Home;
-import antardhvani.du.ac.in.Notification.GCMNotification;
 import antardhvani.du.ac.in.Rules.Rules_viewpager;
 
 

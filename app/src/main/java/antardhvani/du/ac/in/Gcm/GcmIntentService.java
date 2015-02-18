@@ -19,7 +19,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import antardhvani.du.ac.in.Database.NotificationSQL;
-import antardhvani.du.ac.in.Notification.GCMNotification;
+import antardhvani.du.ac.in.antardhvani.GCMNotification;
 import antardhvani.du.ac.in.antardhvani.MainActivity;
 import antardhvani.du.ac.in.antardhvani.R;
 
