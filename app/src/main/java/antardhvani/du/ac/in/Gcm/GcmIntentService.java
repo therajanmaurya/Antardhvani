@@ -127,6 +127,8 @@ public class GcmIntentService extends IntentService {
 
         notification.setLatestEventInfo(context, title, message, intent);
         notification.flags |= Notification.FLAG_AUTO_CANCEL;
+
+        //notification.se(intent);
         notificationManager.notify(0, notification);
 
     }
