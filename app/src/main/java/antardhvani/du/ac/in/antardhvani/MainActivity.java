@@ -29,6 +29,7 @@ import antardhvani.du.ac.in.Notification.Notification;
 import antardhvani.du.ac.in.Rules.Rules_viewpager;
 
 
+
 public class MainActivity extends ActionBarActivity {
     public static NotificationSQL db;
     public static Toolbar toolbar;
@@ -36,6 +37,7 @@ public class MainActivity extends ActionBarActivity {
     public static ViewPager viewPager;
 
     private int mNotificationsCount = 0;
+    public static int status;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,6 +57,26 @@ public class MainActivity extends ActionBarActivity {
         NavigationDrawerFragment drawerFragment = (NavigationDrawerFragment)
                 getSupportFragmentManager().findFragmentById(R.id.fragment_navigation_drawer);
         drawerFragment.setUp(R.id.fragment_navigation_drawer, (DrawerLayout) findViewById(R.id.drawer_layout), toolbar);
+
+        status = getStatusBarHeight();
+        SharedPreferences sharPref = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
+
+        boolean restoredText = sharPref.getBoolean(KEY,false);
+        Log.e("error",( restoredText==false) ? "yes false" : "yes true");
+        if(!restoredText){
+            SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
+            new GcmRegistrationAsyncTask(this).execute();
+            editor.putBoolean(KEY,true);
+            editor.commit();
+
+        }
+
+        if(!GcmRegistrationAsyncTask.status){
+            SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
+            editor.putBoolean(KEY,false);
+            editor.commit();
+        }
+
         if (savedInstanceState == null) {
             Home home = new Home();
             getSupportFragmentManager()
@@ -305,5 +327,14 @@ public class MainActivity extends ActionBarActivity {
             updateNotificationsBadge(count);
         }
 
+    }
+
+    public int getStatusBarHeight() {
+        int result = 0;
+        int resourceId = getResources().getIdentifier("status_bar_height", "dimen", "android");
+        if (resourceId > 0) {
+            result = getResources().getDimensionPixelSize(resourceId);
+        }
+        return result;
     }
 }

@@ -10,7 +10,6 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-import antardhvani.du.ac.in.antardhvani.MainActivity;
 import antardhvani.du.ac.in.antardhvani.R;
 
 /**
@@ -89,6 +88,7 @@ public class Schedule_day_adapter extends BaseExpandableListAdapter {
         }
         TextView tv = (TextView) convertView.findViewById(R.id.activity_googlecards_card_textview);
         tv.setText(group.getName());
+        tv.setTextSize(11);
         tv.setTextSize(13);
         SharedPreferences sharedPreferences = context.getSharedPreferences("Prefs", 0);
 
