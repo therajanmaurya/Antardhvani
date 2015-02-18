@@ -33,6 +33,7 @@ public class MainActivity extends ActionBarActivity {
     public static String MY_PREFS_NAME="RegStatus";
     public static String KEY="Status";
     private int mNotificationsCount = 0;
+    public static int status;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,7 +46,7 @@ public class MainActivity extends ActionBarActivity {
         NavigationDrawerFragment drawerFragment = (NavigationDrawerFragment)
                 getSupportFragmentManager().findFragmentById(R.id.fragment_navigation_drawer);
         drawerFragment.setUp(R.id.fragment_navigation_drawer, (DrawerLayout) findViewById(R.id.drawer_layout), toolbar);
-
+        status = getStatusBarHeight();
         SharedPreferences sharPref = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
 
         boolean restoredText = sharPref.getBoolean(KEY,false);
@@ -261,5 +262,14 @@ public class MainActivity extends ActionBarActivity {
             updateNotificationsBadge(count);
         }
 
+    }
+
+    public int getStatusBarHeight() {
+        int result = 0;
+        int resourceId = getResources().getIdentifier("status_bar_height", "dimen", "android");
+        if (resourceId > 0) {
+            result = getResources().getDimensionPixelSize(resourceId);
+        }
+        return result;
     }
 }

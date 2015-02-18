@@ -9,7 +9,9 @@ import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import antardhvani.du.ac.in.antardhvani.R;
 
@@ -37,9 +39,15 @@ public class Schedule_viewpager extends Fragment {
         final View layout = inflater.inflate(R.layout.schedule_viewpager, container, false);
         Bundle bundle = getArguments();
 
+        LinearLayout lin = (LinearLayout)layout.findViewById(R.id.linear);
+        int n = lin.getHeight();
+        Toast.makeText(getActivity(),"dfkshdgf" + n ,Toast.LENGTH_LONG).show();
         viewPager = (ViewPager) layout.findViewById(R.id.viewPager);
          venue = (TextView)layout.findViewById(R.id.venueId);
         venues = getResources().getStringArray(R.array.venues);
+        TextView te = (TextView)layout.findViewById(R.id.time1);
+       // int c = te.getHeight();
+        //Toast.makeText(getActivity(),"asdf"+ c ,Toast.LENGTH_LONG).show();
         ViewPagerAdapter adapter = new ViewPagerAdapter(getActivity().getSupportFragmentManager());
         viewPager.setAdapter(adapter);
         viewPager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {

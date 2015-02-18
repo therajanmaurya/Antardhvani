@@ -87,7 +87,7 @@ public class Schedule_day_adapter extends BaseExpandableListAdapter {
         }
         TextView tv = (TextView) convertView.findViewById(R.id.activity_googlecards_card_textview);
         tv.setText(group.getName());
-        tv.setTextSize(13);
+        tv.setTextSize(11);
 
 
         convertView.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, this.height));

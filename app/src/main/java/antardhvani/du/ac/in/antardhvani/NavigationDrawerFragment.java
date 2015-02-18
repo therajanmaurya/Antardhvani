@@ -72,7 +72,7 @@ public class NavigationDrawerFragment extends Fragment {
     private boolean mFromSavedInstanceState;
     private View containerView;
     private boolean isDrawerOpened = false;
-    int in;
+    public static int in;
     boolean scheduleSelected;
     static String[] titles = {"Home", "Events","Flower Show","Gyanodaya", "Painting Competition" ,"Schedule", "Contact","Map", "About Us" };
     static String[] titlesNew = {
@@ -252,6 +252,7 @@ public class NavigationDrawerFragment extends Fragment {
                             Schedule_viewpager schedulePreEvent = new Schedule_viewpager();
                             ft.replace(R.id.frame_container, schedulePreEvent);
                             ft.commit();
+                            in = MainActivity.toolbar.getHeight();
                             mDrawerLayout.closeDrawers();
                         }
                         break;
@@ -266,6 +267,7 @@ public class NavigationDrawerFragment extends Fragment {
                             Schedule_21_viewpager schedulePreEvent = new Schedule_21_viewpager();
                             ft.replace(R.id.frame_container, schedulePreEvent);
                             ft.commit();
+                            in = MainActivity.toolbar.getHeight();
                             mDrawerLayout.closeDrawers();
                         }
                         break;
@@ -274,6 +276,7 @@ public class NavigationDrawerFragment extends Fragment {
                         Schedule_22_viewpager schedulePreEvent = new Schedule_22_viewpager();
                         ft.replace(R.id.frame_container, schedulePreEvent);
                         ft.commit();
+                        in = MainActivity.toolbar.getHeight();
                         mDrawerLayout.closeDrawers();
                         break;
 
@@ -304,9 +307,10 @@ public class NavigationDrawerFragment extends Fragment {
                 }
 
                 recyclerView.setSelected(true);
-                if (!scheduleSelected)
+                if (!scheduleSelected) {
                     MainActivity.toolbar.setTitle(titles[position]);
-                else
+
+                }else
                     MainActivity.toolbar.setTitle(titlesNew[position]);
 
             }

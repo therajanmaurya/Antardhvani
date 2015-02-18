@@ -13,6 +13,8 @@ import java.util.ArrayList;
 import antardhvani.du.ac.in.Adapter.Child;
 import antardhvani.du.ac.in.Adapter.Group;
 import antardhvani.du.ac.in.Adapter.Schedule_day_adapter;
+import antardhvani.du.ac.in.antardhvani.MainActivity;
+import antardhvani.du.ac.in.antardhvani.NavigationDrawerFragment;
 import antardhvani.du.ac.in.antardhvani.R;
 
 /**
@@ -38,7 +40,7 @@ public class Schedule_20th_FEB_2015 extends Fragment {
         View layout = inflater.inflate(R.layout.schedule_expandable, container, false);
         Display display = getActivity().getWindowManager().getDefaultDisplay();
         int height = display.getHeight();
-        height = height - 36;
+        height = height - 48 - NavigationDrawerFragment.in - MainActivity.status;
         height = height / 5;
         Bundle bundle = getArguments();
         if (bundle.getInt("position") == 0) {
