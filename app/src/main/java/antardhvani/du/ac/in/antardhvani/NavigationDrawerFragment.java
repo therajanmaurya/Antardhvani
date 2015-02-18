@@ -198,18 +198,22 @@ public class NavigationDrawerFragment extends Fragment {
                         {
                             Information current = new Information();
                             current.title = "   Pre-event";
+                            current.iconId = R.drawable.ic_play;
                             adapter.data.add(6, current);
                             current = null;
                             current = new Information();
                             current.title = "   Day 1 - Feb 20th";
+                            current.iconId = R.drawable.ic_play;
                             adapter.data.add(7, current);
                             current = null;
                             current = new Information();
                             current.title = "   Day 2 - Feb 21th";
+                            current.iconId = R.drawable.ic_play;
                             adapter.data.add(8, current);
                             current = null;
                             current = new Information();
                             current.title = "   Day 3 - Feb 22th";
+                            current.iconId = R.drawable.ic_play;
                             adapter.data.add(9, current);
                             scheduleSelected=true;
                             adapter.notifyDataSetChanged();

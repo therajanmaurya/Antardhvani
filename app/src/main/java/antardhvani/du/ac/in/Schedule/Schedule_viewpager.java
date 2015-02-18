@@ -11,7 +11,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import antardhvani.du.ac.in.antardhvani.R;
 
@@ -41,7 +40,7 @@ public class Schedule_viewpager extends Fragment {
 
         LinearLayout lin = (LinearLayout)layout.findViewById(R.id.linear);
         int n = lin.getHeight();
-        Toast.makeText(getActivity(),"dfkshdgf" + n ,Toast.LENGTH_LONG).show();
+
         viewPager = (ViewPager) layout.findViewById(R.id.viewPager);
          venue = (TextView)layout.findViewById(R.id.venueId);
         venues = getResources().getStringArray(R.array.venues);
