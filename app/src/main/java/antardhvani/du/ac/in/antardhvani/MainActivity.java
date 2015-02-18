@@ -24,7 +24,7 @@ import java.util.TimerTask;
 import antardhvani.du.ac.in.Database.NotificationSQL;
 import antardhvani.du.ac.in.Gcm.GcmRegistrationAsyncTask;
 import antardhvani.du.ac.in.Home.Home;
-import antardhvani.du.ac.in.Notification.Notification;
+import antardhvani.du.ac.in.Notification.GCMNotification;
 import antardhvani.du.ac.in.Rules.Rules_viewpager;
 
 
@@ -133,7 +133,7 @@ public class MainActivity extends ActionBarActivity {
         if(id==R.id.action_notifications){
             db.updateBook();
             db.close();
-            startActivity(new Intent(this, Notification.class));
+            startActivity(new Intent(this, GCMNotification.class));
 
             return true;
         }

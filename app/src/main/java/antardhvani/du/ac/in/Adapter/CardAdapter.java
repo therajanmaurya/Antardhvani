@@ -52,12 +52,17 @@ public class CardAdapter extends RecyclerView.Adapter<CardAdapter.ViewHolder> {
             String ne = Title.get(Title.size()-position-1);
             holder.title.setText(ne);
             String ne1=Subtitle.get(Subtitle.size()-position-1);
-//            String[] x=ne1.split("#");
-//            String ne2="";
-//            for(int i=0;i<x.length;i++){
-//                ne2+=x[i]+"\n";
-//            }
-            holder.subtitle.setText(ne1);
+            String[] x=ne1.split("#");
+            String ne2="";
+            for(int i=0;i<x.length;i++){
+                if(i<x.length-1) {
+                    ne2 +=  x[i]+"\n";
+                }else if(i<x.length){
+                    ne2 +=  x[i];
+                }
+
+            }
+            holder.subtitle.setText(ne2);
 
 
     }

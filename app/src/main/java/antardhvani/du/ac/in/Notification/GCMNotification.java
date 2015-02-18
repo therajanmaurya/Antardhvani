@@ -19,7 +19,7 @@ import antardhvani.du.ac.in.Database.NotificationSQL;
 import antardhvani.du.ac.in.antardhvani.R;
 
 
-public class Notification extends ActionBarActivity {
+public class GCMNotification extends ActionBarActivity {
     ArrayList<String> nonCom=new ArrayList<String>();
     ArrayList<String> nonCom1=new ArrayList<String>();
 

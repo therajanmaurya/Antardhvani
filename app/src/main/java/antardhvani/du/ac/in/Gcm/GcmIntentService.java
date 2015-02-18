@@ -11,6 +11,7 @@ import android.os.Handler;
 import android.os.Looper;
 import android.os.Vibrator;
 import android.util.Log;
+import android.widget.Toast;
 
 import com.google.android.gms.gcm.GoogleCloudMessaging;
 
@@ -18,6 +19,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import antardhvani.du.ac.in.Database.NotificationSQL;
+import antardhvani.du.ac.in.Notification.GCMNotification;
 import antardhvani.du.ac.in.antardhvani.MainActivity;
 import antardhvani.du.ac.in.antardhvani.R;
 
@@ -63,7 +65,7 @@ public class GcmIntentService extends IntentService {
                // mBuilder.setContentTitle(data.get(0));
                // mBuilder.setContentText(data.get(1));
                // db.addNotification("xyz", message);
-
+                //Toast.makeText(getApplicationContext(), message, Toast.LENGTH_SHORT).show();
                 NotificationSQL db=new NotificationSQL(getApplication());
                 Log.e("ADDNotification","okkkk");
                 String [] x=null;
@@ -75,11 +77,7 @@ public class GcmIntentService extends IntentService {
                    x[1]="";
                 }
 
-                String[] x12=x[1].split("#");
-                String ne2="";
-                for(int i=0;i<x12.length;i++){
-                    ne2+=x12[i]+"\n";
-                }
+
                 Log.e(db.getLastNotification(),message);
 
 
@@ -87,13 +85,13 @@ public class GcmIntentService extends IntentService {
                 if(!db.getLastNotification().equals(message)) {
                     if(!MainActivity.x){
 
-                    db.addNotification(x[0], ne2);
+                    db.addNotification(x[0], x[1]);
                     db.close();
 
-                    generateNotification(getApplicationContext(), x[0], ne2);
+                    generateNotification(getApplicationContext(), x[0], x[1]);
                 }else{
-                        //Toast.makeText(getApplicationContext(), "New Notification", Toast.LENGTH_SHORT).show();
-                        db.addNotification(x[0], ne2);
+                        Toast.makeText(getApplicationContext(), "New Notification", Toast.LENGTH_SHORT).show();
+                        db.addNotification(x[0], x[1]);
                         db.close();
                         long pattern[]={0,200,100,300,400};
 
@@ -111,25 +109,24 @@ public class GcmIntentService extends IntentService {
     private static void generateNotification(Context context, String  x2,String message) {
         int icon = R.drawable.antardhvanilogo;
         long when = System.currentTimeMillis();
+        message=message.replace("#"," ");
         NotificationManager notificationManager = (NotificationManager)
                 context.getSystemService(Context.NOTIFICATION_SERVICE);
         Notification notification = new Notification(icon, message, when);
         String title = x2;
 
-        Intent notificationIntent = new Intent(context, antardhvani.du.ac.in.Notification.Notification.class);
-        // set intent so it does not start a new activity
-        notificationIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP |
-                Intent.FLAG_ACTIVITY_SINGLE_TOP);
-        PendingIntent intent =
-                PendingIntent.getActivity(context, 0, notificationIntent, 0);
+
+
+        Intent notificationIntent = new Intent(context, GCMNotification.class);
+
+        notificationIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP
+                | Intent.FLAG_ACTIVITY_SINGLE_TOP);
+
+        PendingIntent intent = PendingIntent.getActivity(context, 0,
+                notificationIntent, 0);
+
         notification.setLatestEventInfo(context, title, message, intent);
         notification.flags |= Notification.FLAG_AUTO_CANCEL;
-
-        // Play default notification sound
-        notification.defaults |= Notification.DEFAULT_SOUND;
-
-        // Vibrate if vibrate is enabled
-        notification.defaults |= Notification.DEFAULT_VIBRATE;
         notificationManager.notify(0, notification);
 
     }

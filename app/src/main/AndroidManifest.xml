@@ -64,8 +64,8 @@
                 android:value="antardhvani.du.ac.in.antardhvani.MainActivity" />
         </activity>
         <activity
-            android:name="antardhvani.du.ac.in.Notification.Notification"
-            android:label="Latest Alert"
+            android:name="antardhvani.du.ac.in.Notification.GCMNotification"
+            android:label="Notification"
             android:screenOrientation="portrait" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
