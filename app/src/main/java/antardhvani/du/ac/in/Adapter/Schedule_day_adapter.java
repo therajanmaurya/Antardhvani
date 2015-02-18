@@ -1,6 +1,7 @@
 package antardhvani.du.ac.in.Adapter;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,6 +10,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+import antardhvani.du.ac.in.antardhvani.MainActivity;
 import antardhvani.du.ac.in.antardhvani.R;
 
 /**
@@ -22,7 +24,7 @@ public class Schedule_day_adapter extends BaseExpandableListAdapter {
     public Schedule_day_adapter(Context context, ArrayList<Group> groups, int height) {
         this.context = context;
         this.groups = groups;
-        this.height = height;
+        this.height = (int)(height*0.885-40)/5;
     }
 
     @Override
@@ -88,9 +90,10 @@ public class Schedule_day_adapter extends BaseExpandableListAdapter {
         TextView tv = (TextView) convertView.findViewById(R.id.activity_googlecards_card_textview);
         tv.setText(group.getName());
         tv.setTextSize(13);
+        SharedPreferences sharedPreferences = context.getSharedPreferences("Prefs", 0);
 
-
-        convertView.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, this.height));
+        convertView.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams
+                .MATCH_PARENT, this.height));
         //tv.setTypeface(Typeface.DEFAULT_BOLD);
         return convertView;
     }

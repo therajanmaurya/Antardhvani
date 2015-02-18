@@ -38,8 +38,6 @@ public class Schedule_22nd_FEBRUARY_2015 extends Fragment {
         View layout = inflater.inflate(R.layout.schedule_expandable, container, false);
         Display display = getActivity().getWindowManager().getDefaultDisplay();
         int height = display.getHeight();
-        height = height - 36;
-        height = height / 5;
         Bundle bundle = getArguments();
         if (bundle.getInt("position") == 0) {
             ExpandList = (ExpandableListView) layout.findViewById(R.id.activity_googlecards_listview_Schedule);

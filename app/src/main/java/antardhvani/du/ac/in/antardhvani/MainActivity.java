@@ -3,10 +3,15 @@ package antardhvani.du.ac.in.antardhvani;
 import android.app.NotificationManager;
 import android.content.Context;
 import android.content.Intent;
+<<<<<<< HEAD
+import android.content.SharedPreferences;
+=======
 import android.graphics.drawable.LayerDrawable;
+>>>>>>> 5b649fe808d5d8a60c79cb553dd8e952295c91c9
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.preference.Preference;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarActivity;
@@ -41,7 +46,14 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
         toolbar = (Toolbar) findViewById(R.id.app_bar);
         setSupportActionBar(toolbar);
+        int h=toolbar.getHeight();
+        SharedPreferences sharedPreferences = getSharedPreferences("Prefs", 0);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putInt("toolBarHeight", toolbar.getHeight());
+        editor.commit();
+
         db=new NotificationSQL(this);
+
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
         NavigationDrawerFragment drawerFragment = (NavigationDrawerFragment)
