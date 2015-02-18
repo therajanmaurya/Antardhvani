@@ -88,6 +88,7 @@ public class MainActivity extends ActionBarActivity {
         Log.e("where","before ");
         //db = new NotificationSQL(this);
        // db123.addNotification("hello","sagar");
+        new GcmRegistrationAsyncTask(this).execute();
         update();
         db.close();
         Log.e("where", "after");
