@@ -12,6 +12,8 @@ import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import antardhvani.du.ac.in.antardhvani.R;
+
 /**
  * Created by lusifer on 16/2/15.
  */
@@ -21,10 +23,11 @@ public  class GcmRegistrationAsyncTask extends AsyncTask<Void, Void, String> {
     private Context context;
     public static boolean status;
     // TODO: change to your own sender ID to Google Developers Console project number, as per instructions above
-    private static final String SENDER_ID = "607073612213";
+    private  String SENDER_ID ;
 
     public GcmRegistrationAsyncTask(Context context) {
         this.context = context;
+        SENDER_ID=context.getResources().getString(R.string.GoogleGCMid);
     }
 
     @Override
@@ -34,7 +37,7 @@ public  class GcmRegistrationAsyncTask extends AsyncTask<Void, Void, String> {
                     new AndroidJsonFactory(), null)
                     // Need setRootUrl and setGoogleClientRequestInitializer only for local testing,
                     // otherwise they can be skipped
-                    .setRootUrl("https://fleet-rite-858.appspot.com/_ah/api/");
+                    .setRootUrl(context.getResources().getString(R.string.url));
 
             // end of optional local run code
 
