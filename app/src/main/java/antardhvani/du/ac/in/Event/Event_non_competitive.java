@@ -22,10 +22,7 @@ import antardhvani.du.ac.in.antardhvani.R;
 /**
  * Created by rajanmaurya on 11/2/15.
  */
-
-/**
- * Created by Windows on 23-01-2015.
- */
+ 
 public class Event_non_competitive extends Fragment {
     private Event_non_competitive_adapter ExpAdapter, ExpAdapter1, ExpAdapter2;
     private ArrayList<Group> ExpListItems, ExpListItems1, ExpListItems2;
