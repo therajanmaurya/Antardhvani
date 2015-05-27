@@ -1,97 +1,127 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/linear"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="horizontal">
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
 
-	<LinearLayout
-		android:id="@+id/timeSlots"
-		android:layout_width="0dp"
-		android:layout_height="fill_parent"
-		android:layout_weight="0.3"
-		android:orientation="vertical">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:id="@+id/venueId"
+        android:background="@drawable/text_view_background"
+		android:textColor="#dddddd"
+		android:gravity="center"
+		android:padding="10dp"
+		android:textSize="14sp"/>
 
-		<TextView
-			android:layout_width="match_parent"
-			android:layout_height="36dp"
-			android:textAppearance="?android:attr/textAppearanceLarge"
-			android:text="Time Slots"
-			android:id="@+id/timeSlotsHead"
-			android:padding="5sp"
-			android:background="@color/colorPrimary"
-			android:textColor="#dddddd"/>
-
-		<TextView
-			android:layout_width="match_parent"
-			android:layout_height="0dp"
-			android:textAppearance="?android:attr/textAppearanceLarge"
-			android:text="Time Slots"
-			android:padding="5sp"
-			android:background="@drawable/text_view_background"
-			android:textColor="#dddddd"
-			android:layout_weight="0.2"
-			android:gravity="center" />
-		<TextView
-			android:layout_width="match_parent"
-			android:layout_height="0dp"
-			android:textAppearance="?android:attr/textAppearanceLarge"
-			android:text="Time Slots"
-			android:padding="5sp"
-			android:background="@drawable/text_view_background"
-			android:textColor="#dddddd"
-			android:layout_weight="0.2"
-			android:gravity="center" />
-		<TextView
-			android:layout_width="match_parent"
-			android:layout_height="0dp"
-			android:textAppearance="?android:attr/textAppearanceLarge"
-			android:text="Time Slots"
-			android:padding="5sp"
-			android:background="@drawable/text_view_background"
-			android:textColor="#dddddd"
-			android:layout_weight="0.2"
-			android:gravity="center" />
-		<TextView
-			android:layout_width="match_parent"
-			android:layout_height="0dp"
-			android:textAppearance="?android:attr/textAppearanceLarge"
-			android:text="Time Slots"
-			android:padding="5sp"
-			android:background="@drawable/text_view_background"
-			android:textColor="#dddddd"
-			android:layout_weight="0.2"
-			android:gravity="center" />
-		<TextView
-			android:layout_width="match_parent"
-			android:layout_height="0dp"
-			android:textAppearance="?android:attr/textAppearanceLarge"
-			android:text="Time Slots"
-			android:padding="5sp"
-			android:background="@drawable/text_view_background"
-			android:textColor="#dddddd"
-			android:layout_weight="0.2"
-			android:gravity="center" />
-	</LinearLayout>
-
-    <android.support.v4.view.ViewPager
-        android:id="@+id/viewPager"
-        android:layout_width="0dp"
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
-		android:layout_weight="0.7" >
+        android:orientation="horizontal">
 
-        <android.support.v4.view.PagerTabStrip
-            android:id="@+id/materialTabHost"
-            android:layout_width="match_parent"
-            android:layout_height="36dp"
-            android:layout_below="@+id/app_bar"
-            app:accentColor="@color/colorAccent"
-            app:iconColor="@android:color/white"
-            app:primaryColor="#ffffff"
-            android:textAppearance="@style/PagerTabStripText"
-            android:background="@color/colorPrimary"
-            />
-    </android.support.v4.view.ViewPager>
 
+        <LinearLayout
+            android:id="@+id/timeSlots"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.3"
+            android:orientation="vertical">
+            <!--
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="36dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Time Slots"
+                        android:id="@+id/timeSlotsHead"
+                        android:padding="5sp"
+                        android:background="@color/colorPrimary"
+                        android:textColor="#dddddd"/>-->
+
+            <TextView
+                android:id="@+id/time1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="10:00\nTO\n11:30"
+                android:padding="5sp"
+                android:background="@drawable/text_view_background"
+                android:textColor="#dddddd"
+                android:layout_weight="0.2"
+                android:gravity="center"
+				android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="11:30\nTO\n13:00"
+                android:padding="5sp"
+                android:background="@drawable/text_view_background"
+                android:textColor="#dddddd"
+                android:layout_weight="0.2"
+                android:gravity="center"
+				android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="13:00\nTO\n14:30"
+                android:padding="5sp"
+                android:background="@drawable/text_view_background"
+                android:textColor="#dddddd"
+                android:layout_weight="0.2"
+                android:gravity="center"
+				android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="14:30\nTO\n16:00"
+                android:padding="5sp"
+                android:background="@drawable/text_view_background"
+                android:textColor="#dddddd"
+                android:layout_weight="0.2"
+                android:gravity="center"
+				android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="16:00\nTO\n17:30"
+                android:padding="5sp"
+                android:background="@drawable/text_view_background"
+                android:textColor="#dddddd"
+                android:layout_weight="0.2"
+                android:gravity="center"
+				android:textSize="16sp"
+				android:id="@+id/lastTimeSlot"/>
+        </LinearLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7">
+
+            <!--<android.support.v4.view.PagerTabStrip-->
+            <!--android:id="@+id/materialTabHost"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="36dp"-->
+            <!--android:layout_below="@+id/app_bar"-->
+            <!--app:accentColor="@color/colorAccent"-->
+            <!--app:iconColor="@android:color/white"-->
+            <!--app:primaryColor="#ffffff"-->
+            <!--android:textAppearance="@style/PagerTabStripText"-->
+            <!--android:background="@color/colorPrimary"-->
+            <!--/>-->
+        </android.support.v4.view.ViewPager>
+
+
+    </LinearLayout>
 </LinearLayout>

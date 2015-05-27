@@ -10,5 +10,5 @@
     <dimen name="header_height">298dp</dimen>
     <dimen name="min_header_height">250dp</dimen>
     <dimen name="header_logo_size">100dp</dimen>
-
+    <dimen name="badge_text_size">16dp</dimen>
 </resources>
