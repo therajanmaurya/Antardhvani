@@ -1,0 +1,6 @@
+var classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint =
+[
+    [ "SendMessage", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message.html", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message" ],
+    [ "sendMessage", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint.html#ad2abc3d441f43d4fb784ab574ad40950", null ],
+    [ "sendMessage", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint.html#ad2abc3d441f43d4fb784ab574ad40950", null ]
+];

@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classantardhvani_1_1du_1_1ac_1_1in_1_1_painting_1_1_painting" kind="class" language="Java" prot="public">
+    <compoundname>antardhvani::du::ac::in::Painting::Painting</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Fragment</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_painting_1_1_painting_1ac82e0e8627d54f489006dfed1ba3e436" prot="private" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView antardhvani.du.ac.in.Painting.Painting.textView</definition>
+        <argsstring></argsstring>
+        <name>textView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Painting/Painting.java" line="17" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Painting/Painting.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_painting_1_1_painting_1a3d9e825f7c24da76e5d02d9683f8739d" prot="package" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView antardhvani.du.ac.in.Painting.Painting.title</definition>
+        <argsstring></argsstring>
+        <name>title</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Painting/Painting.java" line="17" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Painting/Painting.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_painting_1_1_painting_1af0ef5f86ca91fca59d9ee59dd2b8a5b8" prot="package" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView antardhvani.du.ac.in.Painting.Painting.schedule</definition>
+        <argsstring></argsstring>
+        <name>schedule</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Painting/Painting.java" line="17" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Painting/Painting.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_painting_1_1_painting_1a20dbed08da835959f69adff8b0ad8c8a" prot="package" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView antardhvani.du.ac.in.Painting.Painting.venue</definition>
+        <argsstring></argsstring>
+        <name>venue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Painting/Painting.java" line="17" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Painting/Painting.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_painting_1_1_painting_1ab505efb652fec3699b83e27c22a87bd6" prot="package" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView antardhvani.du.ac.in.Painting.Painting.sch</definition>
+        <argsstring></argsstring>
+        <name>sch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Painting/Painting.java" line="17" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Painting/Painting.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_painting_1_1_painting_1ab4c54aac84ec1f016bb3e759d16f1d0c" prot="package" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView antardhvani.du.ac.in.Painting.Painting.ven</definition>
+        <argsstring></argsstring>
+        <name>ven</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Painting/Painting.java" line="17" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Painting/Painting.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_painting_1_1_painting_1a3264aeb79c550b847fee1b2deda7f8e8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_painting_1_1_painting" kindref="compound">Painting</ref></type>
+        <definition>static Painting antardhvani.du.ac.in.Painting.Painting.getInstance</definition>
+        <argsstring>(int position)</argsstring>
+        <name>getInstance</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Painting/Painting.java" line="19" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Painting/Painting.java" bodystart="19" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_painting_1_1_painting_1a6ea2dc3c2f4664e68111d85c82bc1214" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>View</type>
+        <definition>View antardhvani.du.ac.in.Painting.Painting.onCreateView</definition>
+        <argsstring>(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)</argsstring>
+        <name>onCreateView</name>
+        <param>
+          <type>LayoutInflater</type>
+          <declname>inflater</declname>
+        </param>
+        <param>
+          <type>ViewGroup</type>
+          <declname>container</declname>
+        </param>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Painting/Painting.java" line="28" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Painting/Painting.java" bodystart="28" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Created by rajanmaurya on 13/2/15. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="187">
+        <label>antardhvani.du.ac.in.Painting.Painting</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_painting_1_1_painting"/>
+        <childnode refid="188" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="188">
+        <label>Fragment</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="191">
+        <label>TextView</label>
+      </node>
+      <node id="189">
+        <label>antardhvani.du.ac.in.Painting.Painting</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_painting_1_1_painting"/>
+        <childnode refid="190" relation="public-inheritance">
+        </childnode>
+        <childnode refid="191" relation="usage">
+          <edgelabel>sch</edgelabel>
+          <edgelabel>title</edgelabel>
+          <edgelabel>schedule</edgelabel>
+          <edgelabel>ven</edgelabel>
+          <edgelabel>venue</edgelabel>
+        </childnode>
+      </node>
+      <node id="190">
+        <label>Fragment</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Painting/Painting.java" line="16" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Painting/Painting.java" bodystart="16" bodyend="48"/>
+    <listofallmembers>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_painting_1_1_painting_1a3264aeb79c550b847fee1b2deda7f8e8" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Painting::Painting</scope><name>getInstance</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_painting_1_1_painting_1a6ea2dc3c2f4664e68111d85c82bc1214" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Painting::Painting</scope><name>onCreateView</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_painting_1_1_painting_1ab505efb652fec3699b83e27c22a87bd6" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::Painting::Painting</scope><name>sch</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_painting_1_1_painting_1af0ef5f86ca91fca59d9ee59dd2b8a5b8" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::Painting::Painting</scope><name>schedule</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_painting_1_1_painting_1ac82e0e8627d54f489006dfed1ba3e436" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Painting::Painting</scope><name>textView</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_painting_1_1_painting_1a3d9e825f7c24da76e5d02d9683f8739d" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::Painting::Painting</scope><name>title</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_painting_1_1_painting_1ab4c54aac84ec1f016bb3e759d16f1d0c" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::Painting::Painting</scope><name>ven</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_painting_1_1_painting_1a20dbed08da835959f69adff8b0ad8c8a" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::Painting::Painting</scope><name>venue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

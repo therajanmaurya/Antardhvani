@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_d_b___functions" kind="class" language="PHP" prot="public">
+    <compoundname>DB_Functions</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_d_b___functions_1a099400191c3ec9297165c18d4adb8513" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>DB_Functions::$db</definition>
+        <argsstring></argsstring>
+        <name>$db</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/gcm_server/db_functions.php" line="5" column="1" bodyfile="E:/Git/Antardhvani/gcm_server/db_functions.php" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_d_b___functions_1a6c28b0f570dd31bfd90cba8ecd43d08c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DB_Functions::__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/gcm_server/db_functions.php" line="9" column="1" bodyfile="E:/Git/Antardhvani/gcm_server/db_functions.php" bodystart="9" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_b___functions_1ae69a7fc5633689d0924b57758694750a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DB_Functions::__destruct</definition>
+        <argsstring>()</argsstring>
+        <name>__destruct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/gcm_server/db_functions.php" line="17" column="1" bodyfile="E:/Git/Antardhvani/gcm_server/db_functions.php" bodystart="17" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_b___functions_1a5d9e7c27714d0cfa2d1078d131e4a98d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DB_Functions::storeUser</definition>
+        <argsstring>($gcm_regid)</argsstring>
+        <name>storeUser</name>
+        <param>
+          <declname>$gcm_regid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Storing new user returns user details </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/gcm_server/db_functions.php" line="25" column="1" bodyfile="E:/Git/Antardhvani/gcm_server/db_functions.php" bodystart="25" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_b___functions_1a0bb65b9e248dbd05d10a1d840bed296b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DB_Functions::getAllUsers</definition>
+        <argsstring>()</argsstring>
+        <name>getAllUsers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Getting all users </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/gcm_server/db_functions.php" line="46" column="1" bodyfile="E:/Git/Antardhvani/gcm_server/db_functions.php" bodystart="46" bodyend="49"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Git/Antardhvani/gcm_server/db_functions.php" line="3" column="1" bodyfile="E:/Git/Antardhvani/gcm_server/db_functions.php" bodystart="3" bodyend="52"/>
+    <listofallmembers>
+      <member refid="class_d_b___functions_1a099400191c3ec9297165c18d4adb8513" prot="private" virt="non-virtual"><scope>DB_Functions</scope><name>$db</name></member>
+      <member refid="class_d_b___functions_1a6c28b0f570dd31bfd90cba8ecd43d08c" prot="public" virt="non-virtual"><scope>DB_Functions</scope><name>__construct</name></member>
+      <member refid="class_d_b___functions_1ae69a7fc5633689d0924b57758694750a" prot="public" virt="non-virtual"><scope>DB_Functions</scope><name>__destruct</name></member>
+      <member refid="class_d_b___functions_1a0bb65b9e248dbd05d10a1d840bed296b" prot="public" virt="non-virtual"><scope>DB_Functions</scope><name>getAllUsers</name></member>
+      <member refid="class_d_b___functions_1a5d9e7c27714d0cfa2d1078d131e4a98d" prot="public" virt="non-virtual"><scope>DB_Functions</scope><name>storeUser</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

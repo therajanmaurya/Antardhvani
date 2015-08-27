@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_badge_drawable" kind="class" language="Java" prot="public">
+    <compoundname>antardhvani::du::ac::in::antardhvani::BadgeDrawable</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Drawable</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_badge_drawable_1a95d7e3568142bc4c39f8b9cd513f1f8e" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float antardhvani.du.ac.in.antardhvani.BadgeDrawable.mTextSize</definition>
+        <argsstring></argsstring>
+        <name>mTextSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/BadgeDrawable.java" line="18" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/BadgeDrawable.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_badge_drawable_1a774f286c248ebbd52c33f7dac49132a5" prot="private" static="no" mutable="no">
+        <type>Paint</type>
+        <definition>Paint antardhvani.du.ac.in.antardhvani.BadgeDrawable.mBadgePaint</definition>
+        <argsstring></argsstring>
+        <name>mBadgePaint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/BadgeDrawable.java" line="19" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/BadgeDrawable.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_badge_drawable_1a8589a2b4ecd7c93fea60a0e24875444e" prot="private" static="no" mutable="no">
+        <type>Paint</type>
+        <definition>Paint antardhvani.du.ac.in.antardhvani.BadgeDrawable.mTextPaint</definition>
+        <argsstring></argsstring>
+        <name>mTextPaint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/BadgeDrawable.java" line="20" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/BadgeDrawable.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_badge_drawable_1ad196f63bfd4ceddc440146e14b734103" prot="private" static="no" mutable="no">
+        <type>Rect</type>
+        <definition>Rect antardhvani.du.ac.in.antardhvani.BadgeDrawable.mTxtRect</definition>
+        <argsstring></argsstring>
+        <name>mTxtRect</name>
+        <initializer>= new Rect()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/BadgeDrawable.java" line="21" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/BadgeDrawable.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_badge_drawable_1a9a3f2c9646786f314132bcfeaa317763" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String antardhvani.du.ac.in.antardhvani.BadgeDrawable.mCount</definition>
+        <argsstring></argsstring>
+        <name>mCount</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/BadgeDrawable.java" line="23" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/BadgeDrawable.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_badge_drawable_1a01e0d284a9921f4c3c39bd96654fb367" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean antardhvani.du.ac.in.antardhvani.BadgeDrawable.mWillDraw</definition>
+        <argsstring></argsstring>
+        <name>mWillDraw</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/BadgeDrawable.java" line="24" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/BadgeDrawable.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_badge_drawable_1aef204ab8ced7148ac84ca96c3ed14d6e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>antardhvani.du.ac.in.antardhvani.BadgeDrawable.BadgeDrawable</definition>
+        <argsstring>(Context context)</argsstring>
+        <name>BadgeDrawable</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/BadgeDrawable.java" line="26" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/BadgeDrawable.java" bodystart="26" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_badge_drawable_1aca9c9ee398fb01c8ac558d15b7fd10b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.antardhvani.BadgeDrawable.draw</definition>
+        <argsstring>(Canvas canvas)</argsstring>
+        <name>draw</name>
+        <param>
+          <type>Canvas</type>
+          <declname>canvas</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/BadgeDrawable.java" line="44" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/BadgeDrawable.java" bodystart="44" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_badge_drawable_1adbc7fcecb9d330ceef196e5d9df36b05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.antardhvani.BadgeDrawable.setCount</definition>
+        <argsstring>(int count)</argsstring>
+        <name>setCount</name>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/BadgeDrawable.java" line="71" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/BadgeDrawable.java" bodystart="71" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_badge_drawable_1a83b0c6db73a77da5b8073496b1e22804" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.antardhvani.BadgeDrawable.setAlpha</definition>
+        <argsstring>(int alpha)</argsstring>
+        <name>setAlpha</name>
+        <param>
+          <type>int</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/BadgeDrawable.java" line="80" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/BadgeDrawable.java" bodystart="80" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_badge_drawable_1a7c58accc8b118a5952dea7a546317f9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.antardhvani.BadgeDrawable.setColorFilter</definition>
+        <argsstring>(ColorFilter cf)</argsstring>
+        <name>setColorFilter</name>
+        <param>
+          <type>ColorFilter</type>
+          <declname>cf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/BadgeDrawable.java" line="85" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/BadgeDrawable.java" bodystart="85" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_badge_drawable_1a8074138ee4fb46480630a842a0c1e7c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int antardhvani.du.ac.in.antardhvani.BadgeDrawable.getOpacity</definition>
+        <argsstring>()</argsstring>
+        <name>getOpacity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/BadgeDrawable.java" line="90" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/BadgeDrawable.java" bodystart="90" bodyend="92"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Created by lusifer on 17/2/15. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="15">
+        <label>Drawable</label>
+      </node>
+      <node id="14">
+        <label>antardhvani.du.ac.in.antardhvani.BadgeDrawable</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_badge_drawable"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="17">
+        <label>Drawable</label>
+      </node>
+      <node id="16">
+        <label>antardhvani.du.ac.in.antardhvani.BadgeDrawable</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_badge_drawable"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/BadgeDrawable.java" line="16" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/BadgeDrawable.java" bodystart="16" bodyend="93"/>
+    <listofallmembers>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_badge_drawable_1aef204ab8ced7148ac84ca96c3ed14d6e" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::BadgeDrawable</scope><name>BadgeDrawable</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_badge_drawable_1aca9c9ee398fb01c8ac558d15b7fd10b2" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::BadgeDrawable</scope><name>draw</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_badge_drawable_1a8074138ee4fb46480630a842a0c1e7c8" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::BadgeDrawable</scope><name>getOpacity</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_badge_drawable_1a774f286c248ebbd52c33f7dac49132a5" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::BadgeDrawable</scope><name>mBadgePaint</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_badge_drawable_1a9a3f2c9646786f314132bcfeaa317763" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::BadgeDrawable</scope><name>mCount</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_badge_drawable_1a8589a2b4ecd7c93fea60a0e24875444e" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::BadgeDrawable</scope><name>mTextPaint</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_badge_drawable_1a95d7e3568142bc4c39f8b9cd513f1f8e" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::BadgeDrawable</scope><name>mTextSize</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_badge_drawable_1ad196f63bfd4ceddc440146e14b734103" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::BadgeDrawable</scope><name>mTxtRect</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_badge_drawable_1a01e0d284a9921f4c3c39bd96654fb367" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::BadgeDrawable</scope><name>mWillDraw</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_badge_drawable_1a83b0c6db73a77da5b8073496b1e22804" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::BadgeDrawable</scope><name>setAlpha</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_badge_drawable_1a7c58accc8b118a5952dea7a546317f9b" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::BadgeDrawable</scope><name>setColorFilter</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_badge_drawable_1adbc7fcecb9d330ceef196e5d9df36b05" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::BadgeDrawable</scope><name>setCount</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

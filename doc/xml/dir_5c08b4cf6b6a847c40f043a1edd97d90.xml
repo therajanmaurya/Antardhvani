@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_5c08b4cf6b6a847c40f043a1edd97d90" kind="dir">
+    <compoundname>backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging</compoundname>
+    <innerfile refid="tmp_2appengine_endpoints_expand_client_libs_2messaging-v1-java_8zip-unzipped_2messaging_2src_2ma02ccff1ec80130a82e45f14c65147441">Messaging.java</innerfile>
+    <innerfile refid="tmp_2appengine_endpoints_expand_client_libs_2messaging-v1-java_8zip-unzipped_2messaging_2src_2mac1342115503c7baff639155aac3fd03c">MessagingRequest.java</innerfile>
+    <innerfile refid="tmp_2appengine_endpoints_expand_client_libs_2messaging-v1-java_8zip-unzipped_2messaging_2src_2ma4261a90480017efa22242001e6e22c8d">MessagingRequestInitializer.java</innerfile>
+    <innerfile refid="tmp_2appengine_endpoints_expand_client_libs_2messaging-v1-java_8zip-unzipped_2messaging_2src_2ma5112376332a5c944a14a672994c0c72f">MessagingScopes.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/"/>
+  </compounddef>
+</doxygen>

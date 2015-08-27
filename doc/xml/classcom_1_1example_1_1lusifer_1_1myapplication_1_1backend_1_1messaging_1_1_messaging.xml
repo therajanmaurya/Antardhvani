@@ -1,0 +1,410 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging" kind="class" language="Java" prot="public">
+    <compoundname>com::example::lusifer::myapplication::backend::messaging::Messaging</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AbstractGoogleJsonClient</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">AbstractGoogleJsonClient</basecompoundref>
+    <innerclass refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder" prot="public">com::example::lusifer::myapplication::backend::messaging::Messaging::Builder</innerclass>
+    <innerclass refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint" prot="public">com::example::lusifer::myapplication::backend::messaging::Messaging::MessagingEndpoint</innerclass>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1a44833e9f16f61e31fdaa199b9c02a18b" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>static final String com.example.lusifer.myapplication.backend.messaging.Messaging::DEFAULT_ROOT_URL</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_ROOT_URL</name>
+        <initializer>= &quot;https://myApplicationId.appspot.com/_ah/api/&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default encoded root URL of the service. This is determined when the library is generated and normally should not be changed.</para><para><simplesect kind="since"><para>1.7 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="60" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1a7c1701efa3409a98f8c00f45dbd7253b" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>static final String com.example.lusifer.myapplication.backend.messaging.Messaging::DEFAULT_SERVICE_PATH</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_SERVICE_PATH</name>
+        <initializer>= &quot;messaging/v1/sendMessage/&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default encoded service path of the service. This is determined when the library is generated and normally should not be changed.</para><para><simplesect kind="since"><para>1.7 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="68" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1ae4dac369831e0fc5c746d6e72aeb77d7" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>static final String com.example.lusifer.myapplication.backend.messaging.Messaging::DEFAULT_BASE_URL</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_BASE_URL</name>
+        <initializer>= <ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1a44833e9f16f61e31fdaa199b9c02a18b" kindref="member">DEFAULT_ROOT_URL</ref> + <ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1a7c1701efa3409a98f8c00f45dbd7253b" kindref="member">DEFAULT_SERVICE_PATH</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default encoded base URL of the service. This is determined when the library is generated and normally should not be changed. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="74" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1a27c9a879b0448f9b4aef7926732b4292" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.example.lusifer.myapplication.backend.messaging.Messaging.[static initializer]</definition>
+        <argsstring></argsstring>
+        <name>[static initializer]</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="42" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1a27c9a879b0448f9b4aef7926732b4292" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.example.lusifer.myapplication.backend.messaging.Messaging.[static initializer]</definition>
+        <argsstring></argsstring>
+        <name>[static initializer]</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="42" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1aab2adbf277996470106a1ef87eed641e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.example.lusifer.myapplication.backend.messaging.Messaging.Messaging</definition>
+        <argsstring>(com.google.api.client.http.HttpTransport transport, com.google.api.client.json.JsonFactory jsonFactory, com.google.api.client.http.HttpRequestInitializer httpRequestInitializer)</argsstring>
+        <name>Messaging</name>
+        <param>
+          <type>com.google.api.client.http.HttpTransport</type>
+          <declname>transport</declname>
+        </param>
+        <param>
+          <type>com.google.api.client.json.JsonFactory</type>
+          <declname>jsonFactory</declname>
+        </param>
+        <param>
+          <type>com.google.api.client.http.HttpRequestInitializer</type>
+          <declname>httpRequestInitializer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor.</para><para>Use <ref refid="" kindref="compound">Builder</ref> if you need to specify any of the optional parameters. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>transport</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>HTTP transport, which should normally be: <itemizedlist>
+<listitem>
+<para>Google App Engine: <programlisting><codeline><highlight class="normal">com.google.api.client.extensions.appengine.http.UrlFetchTransport<sp/></highlight></codeline>
+</programlisting>  </para></listitem>
+<listitem>
+<para>Android:<programlisting><codeline><highlight class="normal">newCompatibleTransport<sp/></highlight></codeline>
+</programlisting> from <programlisting><codeline><highlight class="normal">com.google.api.client.extensions.android.http.AndroidHttp<sp/></highlight></codeline>
+</programlisting>  </para></listitem>
+<listitem>
+<para>Java: <ref refid="" kindref="compound">com.google.api.client.googleapis.javanet.GoogleNetHttpTransport#newTrustedTransport()</ref>  </para></listitem>
+</itemizedlist>
+</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>jsonFactory</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>JSON factory, which may be: <itemizedlist>
+<listitem>
+<para>Jackson:<programlisting><codeline><highlight class="normal">com.google.api.client.json.jackson2.JacksonFactory<sp/></highlight></codeline>
+</programlisting>  </para></listitem>
+<listitem>
+<para>Google GSON:<programlisting><codeline><highlight class="normal">com.google.api.client.json.gson.GsonFactory<sp/></highlight></codeline>
+</programlisting>  </para></listitem>
+<listitem>
+<para>Android Honeycomb or higher: <programlisting><codeline><highlight class="normal">com.google.api.client.extensions.android.json.AndroidJsonFactory<sp/></highlight></codeline>
+</programlisting>  </para></listitem>
+</itemizedlist>
+</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>httpRequestInitializer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>HTTP request initializer or<programlisting><codeline><highlight class="normal">null<sp/></highlight></codeline>
+</programlisting> for none </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="since"><para>1.7 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="102" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="102" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1a7d50229f5b29ebaadd6737a7fc645e0a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint" kindref="compound">MessagingEndpoint</ref></type>
+        <definition>MessagingEndpoint com.example.lusifer.myapplication.backend.messaging.Messaging.messagingEndpoint</definition>
+        <argsstring>()</argsstring>
+        <name>messagingEndpoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>An accessor for creating requests from the <ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint" kindref="compound">MessagingEndpoint</ref> collection.</para><para>The typical use is:</para><para><preformatted>
+<programlisting><codeline><highlight class="normal">Messaging<sp/>messaging<sp/>=<sp/>new<sp/>Messaging(...);<sp/></highlight></codeline>
+</programlisting> 
+<programlisting><codeline><highlight class="normal">Messaging.MessagingEndpoint.List<sp/>request<sp/>=<sp/>messaging.messagingEndpoint().list(parameters<sp/>...)<sp/></highlight></codeline>
+</programlisting> 
+</preformatted></para><para><simplesect kind="return"><para>the resource collection </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="130" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="130" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1aab2adbf277996470106a1ef87eed641e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.example.lusifer.myapplication.backend.messaging.Messaging.Messaging</definition>
+        <argsstring>(com.google.api.client.http.HttpTransport transport, com.google.api.client.json.JsonFactory jsonFactory, com.google.api.client.http.HttpRequestInitializer httpRequestInitializer)</argsstring>
+        <name>Messaging</name>
+        <param>
+          <type>com.google.api.client.http.HttpTransport</type>
+          <declname>transport</declname>
+        </param>
+        <param>
+          <type>com.google.api.client.json.JsonFactory</type>
+          <declname>jsonFactory</declname>
+        </param>
+        <param>
+          <type>com.google.api.client.http.HttpRequestInitializer</type>
+          <declname>httpRequestInitializer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor.</para><para>Use <ref refid="" kindref="compound">Builder</ref> if you need to specify any of the optional parameters. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>transport</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>HTTP transport, which should normally be: <itemizedlist>
+<listitem>
+<para>Google App Engine: <programlisting><codeline><highlight class="normal">com.google.api.client.extensions.appengine.http.UrlFetchTransport<sp/></highlight></codeline>
+</programlisting>  </para></listitem>
+<listitem>
+<para>Android:<programlisting><codeline><highlight class="normal">newCompatibleTransport<sp/></highlight></codeline>
+</programlisting> from <programlisting><codeline><highlight class="normal">com.google.api.client.extensions.android.http.AndroidHttp<sp/></highlight></codeline>
+</programlisting>  </para></listitem>
+<listitem>
+<para>Java: <ref refid="" kindref="compound">com.google.api.client.googleapis.javanet.GoogleNetHttpTransport#newTrustedTransport()</ref>  </para></listitem>
+</itemizedlist>
+</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>jsonFactory</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>JSON factory, which may be: <itemizedlist>
+<listitem>
+<para>Jackson:<programlisting><codeline><highlight class="normal">com.google.api.client.json.jackson2.JacksonFactory<sp/></highlight></codeline>
+</programlisting>  </para></listitem>
+<listitem>
+<para>Google GSON:<programlisting><codeline><highlight class="normal">com.google.api.client.json.gson.GsonFactory<sp/></highlight></codeline>
+</programlisting>  </para></listitem>
+<listitem>
+<para>Android Honeycomb or higher: <programlisting><codeline><highlight class="normal">com.google.api.client.extensions.android.json.AndroidJsonFactory<sp/></highlight></codeline>
+</programlisting>  </para></listitem>
+</itemizedlist>
+</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>httpRequestInitializer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>HTTP request initializer or<programlisting><codeline><highlight class="normal">null<sp/></highlight></codeline>
+</programlisting> for none </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="since"><para>1.7 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="102" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="102" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1a7d50229f5b29ebaadd6737a7fc645e0a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint" kindref="compound">MessagingEndpoint</ref></type>
+        <definition>MessagingEndpoint com.example.lusifer.myapplication.backend.messaging.Messaging.messagingEndpoint</definition>
+        <argsstring>()</argsstring>
+        <name>messagingEndpoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>An accessor for creating requests from the <ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint" kindref="compound">MessagingEndpoint</ref> collection.</para><para>The typical use is:</para><para><preformatted>
+<programlisting><codeline><highlight class="normal">Messaging<sp/>messaging<sp/>=<sp/>new<sp/>Messaging(...);<sp/></highlight></codeline>
+</programlisting> 
+<programlisting><codeline><highlight class="normal">Messaging.MessagingEndpoint.List<sp/>request<sp/>=<sp/>messaging.messagingEndpoint().list(parameters<sp/>...)<sp/></highlight></codeline>
+</programlisting> 
+</preformatted></para><para><simplesect kind="return"><para>the resource collection </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="130" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="130" bodyend="132"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1a230800316cca89130fb2b139a744668e" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.example.lusifer.myapplication.backend.messaging.Messaging.Messaging</definition>
+        <argsstring>(Builder builder)</argsstring>
+        <name>Messaging</name>
+        <param>
+          <type>Builder</type>
+          <declname>builder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>builder</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>builder </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="110" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="110" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1a230800316cca89130fb2b139a744668e" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.example.lusifer.myapplication.backend.messaging.Messaging.Messaging</definition>
+        <argsstring>(Builder builder)</argsstring>
+        <name>Messaging</name>
+        <param>
+          <type>Builder</type>
+          <declname>builder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>builder</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>builder </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="110" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="110" bodyend="112"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1aaed8b404c1ff8a6d6b79bbbb83756b26" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.example.lusifer.myapplication.backend.messaging.Messaging.initialize</definition>
+        <argsstring>(com.google.api.client.googleapis.services.AbstractGoogleClientRequest&lt;?&gt; httpClientRequest)</argsstring>
+        <name>initialize</name>
+        <param>
+          <type>com.google.api.client.googleapis.services.AbstractGoogleClientRequest&lt;?&gt;</type>
+          <declname>httpClientRequest</declname>
+        </param>
+        <exceptions> throws java.io.IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="115" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="115" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1aaed8b404c1ff8a6d6b79bbbb83756b26" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.example.lusifer.myapplication.backend.messaging.Messaging.initialize</definition>
+        <argsstring>(com.google.api.client.googleapis.services.AbstractGoogleClientRequest&lt;?&gt; httpClientRequest)</argsstring>
+        <name>initialize</name>
+        <param>
+          <type>com.google.api.client.googleapis.services.AbstractGoogleClientRequest&lt;?&gt;</type>
+          <declname>httpClientRequest</declname>
+        </param>
+        <exceptions> throws java.io.IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="115" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="115" bodyend="117"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Service definition for <ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging" kindref="compound">Messaging</ref> (v1).</para><para>This is an API </para><para>For more information about this service, see the <ulink url="">API Documentation</ulink> </para><para>This service uses <ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_request_initializer" kindref="compound">MessagingRequestInitializer</ref> to initialize global parameters via its <ref refid="" kindref="compound">Builder</ref>. </para><para><simplesect kind="since"><para>1.3 </para></simplesect>
+<simplesect kind="author"><para>Google, Inc. </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="140">
+        <label>AbstractGoogleJsonClient</label>
+      </node>
+      <node id="139">
+        <label>com::google::api::client::googleapis::services::json::AbstractGoogleJsonClient</label>
+      </node>
+      <node id="138">
+        <label>com.example.lusifer.myapplication.backend.messaging.Messaging</label>
+        <link refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging"/>
+        <childnode refid="139" relation="public-inheritance">
+        </childnode>
+        <childnode refid="140" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="143">
+        <label>AbstractGoogleJsonClient</label>
+      </node>
+      <node id="142">
+        <label>com::google::api::client::googleapis::services::json::AbstractGoogleJsonClient</label>
+      </node>
+      <node id="141">
+        <label>com.example.lusifer.myapplication.backend.messaging.Messaging</label>
+        <link refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging"/>
+        <childnode refid="142" relation="public-inheritance">
+        </childnode>
+        <childnode refid="143" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="42" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="42" bodyend="334"/>
+    <listofallmembers>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1a27c9a879b0448f9b4aef7926732b4292" prot="package" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging</scope><name>[static initializer]</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1a27c9a879b0448f9b4aef7926732b4292" prot="package" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging</scope><name>[static initializer]</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1ae4dac369831e0fc5c746d6e72aeb77d7" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging</scope><name>DEFAULT_BASE_URL</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1a44833e9f16f61e31fdaa199b9c02a18b" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging</scope><name>DEFAULT_ROOT_URL</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1a7c1701efa3409a98f8c00f45dbd7253b" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging</scope><name>DEFAULT_SERVICE_PATH</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1aaed8b404c1ff8a6d6b79bbbb83756b26" prot="protected" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging</scope><name>initialize</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1aaed8b404c1ff8a6d6b79bbbb83756b26" prot="protected" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging</scope><name>initialize</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1aab2adbf277996470106a1ef87eed641e" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging</scope><name>Messaging</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1a230800316cca89130fb2b139a744668e" prot="package" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging</scope><name>Messaging</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1aab2adbf277996470106a1ef87eed641e" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging</scope><name>Messaging</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1a230800316cca89130fb2b139a744668e" prot="package" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging</scope><name>Messaging</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1a7d50229f5b29ebaadd6737a7fc645e0a" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging</scope><name>messagingEndpoint</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1a7d50229f5b29ebaadd6737a7fc645e0a" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging</scope><name>messagingEndpoint</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,9 @@
+var searchData=
+[
+  ['db_5fconnect',['DB_Connect',['../class_d_b___connect.html',1,'']]],
+  ['db_5ffunctions',['DB_Functions',['../class_d_b___functions.html',1,'']]],
+  ['default_5fbase_5furl',['DEFAULT_BASE_URL',['../classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging.html#ae4dac369831e0fc5c746d6e72aeb77d7',1,'com.example.lusifer.myapplication.backend.messaging.Messaging.DEFAULT_BASE_URL()'],['../classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration.html#a2ee82cd715416fe03ae7f90373e13a52',1,'com.example.lusifer.myapplication.backend.registration.Registration.DEFAULT_BASE_URL()']]],
+  ['default_5froot_5furl',['DEFAULT_ROOT_URL',['../classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging.html#a44833e9f16f61e31fdaa199b9c02a18b',1,'com.example.lusifer.myapplication.backend.messaging.Messaging.DEFAULT_ROOT_URL()'],['../classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration.html#a0eef521b9ac939d3cdcd6246bb7d3cff',1,'com.example.lusifer.myapplication.backend.registration.Registration.DEFAULT_ROOT_URL()']]],
+  ['default_5fservice_5fpath',['DEFAULT_SERVICE_PATH',['../classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging.html#a7c1701efa3409a98f8c00f45dbd7253b',1,'com.example.lusifer.myapplication.backend.messaging.Messaging.DEFAULT_SERVICE_PATH()'],['../classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration.html#a0be92fb550e3ee158bba14a7baaa120f',1,'com.example.lusifer.myapplication.backend.registration.Registration.DEFAULT_SERVICE_PATH()']]],
+  ['defaultitemanimator',['DefaultItemAnimator',['../classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator.html',1,'antardhvani::du::ac::in::antardhvani']]]
+];

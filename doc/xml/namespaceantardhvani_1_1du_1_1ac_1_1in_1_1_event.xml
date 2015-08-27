@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="namespaceantardhvani_1_1du_1_1ac_1_1in_1_1_event" kind="namespace" language="Java">
+    <compoundname>antardhvani::du::ac::in::Event</compoundname>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_event_1_1_event__non__competitive" prot="public">antardhvani::du::ac::in::Event::Event_non_competitive</innerclass>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_event_1_1viewpager" prot="public">antardhvani::du::ac::in::Event::viewpager</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Event/Event_non_competitive.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

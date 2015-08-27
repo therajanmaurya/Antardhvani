@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_g_c_m_notification_1_1_read_from_data" kind="class" language="Java" prot="private">
+    <compoundname>antardhvani::du::ac::in::antardhvani::GCMNotification::ReadFromData</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">android::os::AsyncTask&lt; Void, Void, ArrayList&lt; MyResult &gt; &gt;</basecompoundref>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_g_c_m_notification_1_1_read_from_data_1acf9c2d5b6f6c5d158b6f503d99298dfd" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArrayList&lt; <ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_my_result" kindref="compound">MyResult</ref> &gt;</type>
+        <definition>ArrayList&lt;MyResult&gt; antardhvani.du.ac.in.antardhvani.GCMNotification.ReadFromData.doInBackground</definition>
+        <argsstring>(Void...v)</argsstring>
+        <name>doInBackground</name>
+        <param>
+          <type>Void...</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/GCMNotification.java" line="62" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/GCMNotification.java" bodystart="62" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_g_c_m_notification_1_1_read_from_data_1a16f704125b6369c8e9cfb94bd0829f6c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.antardhvani.GCMNotification.ReadFromData.onPostExecute</definition>
+        <argsstring>(ArrayList&lt; MyResult &gt; my)</argsstring>
+        <name>onPostExecute</name>
+        <param>
+          <type>ArrayList&lt; <ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_my_result" kindref="compound">MyResult</ref> &gt;</type>
+          <declname>my</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/GCMNotification.java" line="71" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/GCMNotification.java" bodystart="71" bodyend="107"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="193">
+        <label>android::os::AsyncTask&lt; Void, Void, ArrayList&lt; MyResult &gt; &gt;</label>
+      </node>
+      <node id="192">
+        <label>antardhvani.du.ac.in.antardhvani.GCMNotification.ReadFromData</label>
+        <childnode refid="193" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="195">
+        <label>android::os::AsyncTask&lt; Void, Void, ArrayList&lt; MyResult &gt; &gt;</label>
+      </node>
+      <node id="194">
+        <label>antardhvani.du.ac.in.antardhvani.GCMNotification.ReadFromData</label>
+        <childnode refid="195" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/GCMNotification.java" line="59" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/GCMNotification.java" bodystart="59" bodyend="108"/>
+    <listofallmembers>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_g_c_m_notification_1_1_read_from_data_1acf9c2d5b6f6c5d158b6f503d99298dfd" prot="protected" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::GCMNotification::ReadFromData</scope><name>doInBackground</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_g_c_m_notification_1_1_read_from_data_1a16f704125b6369c8e9cfb94bd0829f6c" prot="protected" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::GCMNotification::ReadFromData</scope><name>onPostExecute</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

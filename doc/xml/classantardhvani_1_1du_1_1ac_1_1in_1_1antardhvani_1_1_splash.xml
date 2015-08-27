@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_splash" kind="class" language="Java" prot="public">
+    <compoundname>antardhvani::du::ac::in::antardhvani::Splash</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ActionBarActivity</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_splash_1a9166047db0a7509731109eb35c8759e9" prot="public" static="yes" mutable="no">
+        <type>ImageView</type>
+        <definition>ImageView antardhvani.du.ac.in.antardhvani.Splash.du_logo</definition>
+        <argsstring></argsstring>
+        <name>du_logo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Splash.java" line="21" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Splash.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_splash_1a46979982b495950f64abc81f5b18797b" prot="package" static="yes" mutable="no">
+        <type>ImageView</type>
+        <definition>ImageView antardhvani.du.ac.in.antardhvani.Splash.haathi</definition>
+        <argsstring></argsstring>
+        <name>haathi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Splash.java" line="21" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Splash.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_splash_1a0e03142320c65914aa6e6afd12988e65" prot="public" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView antardhvani.du.ac.in.antardhvani.Splash.antar</definition>
+        <argsstring></argsstring>
+        <name>antar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Splash.java" line="22" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Splash.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_splash_1a7d60af2226ff9663b2816459a2f67494" prot="package" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView antardhvani.du.ac.in.antardhvani.Splash.university</definition>
+        <argsstring></argsstring>
+        <name>university</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Splash.java" line="22" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Splash.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_splash_1a255c93175bb557246f24e0a9f4efe284" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.antardhvani.Splash.onCreate</definition>
+        <argsstring>(Bundle savedInstanceState)</argsstring>
+        <name>onCreate</name>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Splash.java" line="24" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Splash.java" bodystart="24" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_splash_1a47d1ed61261cbb4ebdc71d67d0d5c100" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.antardhvani.Splash.onResume</definition>
+        <argsstring>()</argsstring>
+        <name>onResume</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Splash.java" line="186" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Splash.java" bodystart="186" bodyend="190"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_splash_1a576333a67dac33f037214ccfea9c7454" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.antardhvani.Splash.fadein</definition>
+        <argsstring>()</argsstring>
+        <name>fadein</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Splash.java" line="41" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Splash.java" bodystart="41" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_splash_1a7d886c9fed026fa9b7d6e1eeb042a96f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.antardhvani.Splash.shrinkAndTranslate</definition>
+        <argsstring>()</argsstring>
+        <name>shrinkAndTranslate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Splash.java" line="70" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Splash.java" bodystart="70" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_splash_1a10a8cd2e74eefdc9c05feaa528337c43" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.antardhvani.Splash.fadeText</definition>
+        <argsstring>()</argsstring>
+        <name>fadeText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Splash.java" line="94" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Splash.java" bodystart="94" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_splash_1a75db1b11d680aacd6faf2fe5c7f819d1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.antardhvani.Splash.logo</definition>
+        <argsstring>()</argsstring>
+        <name>logo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Splash.java" line="120" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Splash.java" bodystart="120" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_splash_1a81613da741c4bb1c7c03dc77dd074c0b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.antardhvani.Splash.end</definition>
+        <argsstring>()</argsstring>
+        <name>end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Splash.java" line="155" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Splash.java" bodystart="155" bodyend="161"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_splash_1ab1d44322b2d31963c8ff5b169d294c8d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean antardhvani.du.ac.in.antardhvani.Splash.onCreateOptionsMenu</definition>
+        <argsstring>(Menu menu)</argsstring>
+        <name>onCreateOptionsMenu</name>
+        <param>
+          <type>Menu</type>
+          <declname>menu</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Splash.java" line="165" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Splash.java" bodystart="165" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_splash_1af632c5a62f441c04d8346b20428d4b7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean antardhvani.du.ac.in.antardhvani.Splash.onOptionsItemSelected</definition>
+        <argsstring>(MenuItem item)</argsstring>
+        <name>onOptionsItemSelected</name>
+        <param>
+          <type>MenuItem</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Splash.java" line="172" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Splash.java" bodystart="172" bodyend="184"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="321">
+        <label>ActionBarActivity</label>
+      </node>
+      <node id="320">
+        <label>antardhvani.du.ac.in.antardhvani.Splash</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_splash"/>
+        <childnode refid="321" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="325">
+        <label>TextView</label>
+      </node>
+      <node id="323">
+        <label>ActionBarActivity</label>
+      </node>
+      <node id="322">
+        <label>antardhvani.du.ac.in.antardhvani.Splash</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_splash"/>
+        <childnode refid="323" relation="public-inheritance">
+        </childnode>
+        <childnode refid="324" relation="usage">
+          <edgelabel>du_logo</edgelabel>
+          <edgelabel>haathi</edgelabel>
+        </childnode>
+        <childnode refid="325" relation="usage">
+          <edgelabel>antar</edgelabel>
+          <edgelabel>university</edgelabel>
+        </childnode>
+      </node>
+      <node id="324">
+        <label>ImageView</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Splash.java" line="20" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Splash.java" bodystart="20" bodyend="192"/>
+    <listofallmembers>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_splash_1a0e03142320c65914aa6e6afd12988e65" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::Splash</scope><name>antar</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_splash_1a9166047db0a7509731109eb35c8759e9" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::Splash</scope><name>du_logo</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_splash_1a81613da741c4bb1c7c03dc77dd074c0b" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::Splash</scope><name>end</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_splash_1a576333a67dac33f037214ccfea9c7454" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::Splash</scope><name>fadein</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_splash_1a10a8cd2e74eefdc9c05feaa528337c43" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::Splash</scope><name>fadeText</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_splash_1a46979982b495950f64abc81f5b18797b" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::Splash</scope><name>haathi</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_splash_1a75db1b11d680aacd6faf2fe5c7f819d1" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::Splash</scope><name>logo</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_splash_1a255c93175bb557246f24e0a9f4efe284" prot="protected" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::Splash</scope><name>onCreate</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_splash_1ab1d44322b2d31963c8ff5b169d294c8d" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::Splash</scope><name>onCreateOptionsMenu</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_splash_1af632c5a62f441c04d8346b20428d4b7a" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::Splash</scope><name>onOptionsItemSelected</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_splash_1a47d1ed61261cbb4ebdc71d67d0d5c100" prot="protected" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::Splash</scope><name>onResume</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_splash_1a7d886c9fed026fa9b7d6e1eeb042a96f" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::Splash</scope><name>shrinkAndTranslate</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_splash_1a7d60af2226ff9663b2816459a2f67494" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::Splash</scope><name>university</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

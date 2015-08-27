@@ -1,0 +1,342 @@
+.TH "com.example.lusifer.myapplication.backend.messaging.Messaging" 3 "Fri May 29 2015" "Version 0.1" "Antardhwani" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.example.lusifer.myapplication.backend.messaging.Messaging \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits AbstractGoogleJsonClient, and AbstractGoogleJsonClient\&.
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "class \fBBuilder\fP"
+.br
+.ti -1c
+.RI "class \fBMessagingEndpoint\fP"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBMessaging\fP (com\&.google\&.api\&.client\&.http\&.HttpTransport transport, com\&.google\&.api\&.client\&.json\&.JsonFactory jsonFactory, com\&.google\&.api\&.client\&.http\&.HttpRequestInitializer httpRequestInitializer)"
+.br
+.ti -1c
+.RI "\fBMessagingEndpoint\fP \fBmessagingEndpoint\fP ()"
+.br
+.ti -1c
+.RI "\fBMessaging\fP (com\&.google\&.api\&.client\&.http\&.HttpTransport transport, com\&.google\&.api\&.client\&.json\&.JsonFactory jsonFactory, com\&.google\&.api\&.client\&.http\&.HttpRequestInitializer httpRequestInitializer)"
+.br
+.ti -1c
+.RI "\fBMessagingEndpoint\fP \fBmessagingEndpoint\fP ()"
+.br
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "static final String \fBDEFAULT_ROOT_URL\fP = 'https://myApplicationId\&.appspot\&.com/_ah/api/'"
+.br
+.ti -1c
+.RI "static final String \fBDEFAULT_SERVICE_PATH\fP = 'messaging/v1/sendMessage/'"
+.br
+.ti -1c
+.RI "static final String \fBDEFAULT_BASE_URL\fP = \fBDEFAULT_ROOT_URL\fP + \fBDEFAULT_SERVICE_PATH\fP"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBinitialize\fP (com\&.google\&.api\&.client\&.googleapis\&.services\&.AbstractGoogleClientRequest<?> httpClientRequest)  throws java\&.io\&.IOException "
+.br
+.ti -1c
+.RI "void \fBinitialize\fP (com\&.google\&.api\&.client\&.googleapis\&.services\&.AbstractGoogleClientRequest<?> httpClientRequest)  throws java\&.io\&.IOException "
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Service definition for \fBMessaging\fP (v1)\&.
+.PP
+This is an API 
+.PP
+For more information about this service, see the \fCAPI Documentation\fP 
+.PP
+This service uses \fBMessagingRequestInitializer\fP to initialize global parameters via its \fBBuilder\fP\&. 
+.PP
+\fBSince:\fP
+.RS 4
+1\&.3 
+.RE
+.PP
+\fBAuthor:\fP
+.RS 4
+Google, Inc\&. 
+.RE
+.PP
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "com\&.example\&.lusifer\&.myapplication\&.backend\&.messaging\&.Messaging\&.Messaging (com\&.google\&.api\&.client\&.http\&.HttpTransport transport, com\&.google\&.api\&.client\&.json\&.JsonFactory jsonFactory, com\&.google\&.api\&.client\&.http\&.HttpRequestInitializer httpRequestInitializer)"
+Constructor\&.
+.PP
+Use \fBBuilder\fP if you need to specify any of the optional parameters\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fItransport\fP HTTP transport, which should normally be: 
+.PD 0
+
+.IP "\(bu" 2
+Google App Engine: 
+.PP
+.nf
+com\&.google\&.api\&.client\&.extensions\&.appengine\&.http\&.UrlFetchTransport 
+
+.fi
+.PP
+  
+.IP "\(bu" 2
+Android:
+.PP
+.nf
+newCompatibleTransport 
+
+.fi
+.PP
+ from 
+.PP
+.nf
+com\&.google\&.api\&.client\&.extensions\&.android\&.http\&.AndroidHttp 
+
+.fi
+.PP
+  
+.IP "\(bu" 2
+Java: \fBcom\&.google\&.api\&.client\&.googleapis\&.javanet\&.GoogleNetHttpTransport#newTrustedTransport()\fP  
+.PP
+.br
+\fIjsonFactory\fP JSON factory, which may be: 
+.PD 0
+
+.IP "\(bu" 2
+Jackson:
+.PP
+.nf
+com\&.google\&.api\&.client\&.json\&.jackson2\&.JacksonFactory 
+
+.fi
+.PP
+  
+.IP "\(bu" 2
+Google GSON:
+.PP
+.nf
+com\&.google\&.api\&.client\&.json\&.gson\&.GsonFactory 
+
+.fi
+.PP
+  
+.IP "\(bu" 2
+Android Honeycomb or higher: 
+.PP
+.nf
+com\&.google\&.api\&.client\&.extensions\&.android\&.json\&.AndroidJsonFactory 
+
+.fi
+.PP
+  
+.PP
+.br
+\fIhttpRequestInitializer\fP HTTP request initializer or
+.PP
+.nf
+null 
+
+.fi
+.PP
+ for none 
+.RE
+.PP
+\fBSince:\fP
+.RS 4
+1\&.7 
+.RE
+.PP
+
+.SS "com\&.example\&.lusifer\&.myapplication\&.backend\&.messaging\&.Messaging\&.Messaging (com\&.google\&.api\&.client\&.http\&.HttpTransport transport, com\&.google\&.api\&.client\&.json\&.JsonFactory jsonFactory, com\&.google\&.api\&.client\&.http\&.HttpRequestInitializer httpRequestInitializer)"
+Constructor\&.
+.PP
+Use \fBBuilder\fP if you need to specify any of the optional parameters\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fItransport\fP HTTP transport, which should normally be: 
+.PD 0
+
+.IP "\(bu" 2
+Google App Engine: 
+.PP
+.nf
+com\&.google\&.api\&.client\&.extensions\&.appengine\&.http\&.UrlFetchTransport 
+
+.fi
+.PP
+  
+.IP "\(bu" 2
+Android:
+.PP
+.nf
+newCompatibleTransport 
+
+.fi
+.PP
+ from 
+.PP
+.nf
+com\&.google\&.api\&.client\&.extensions\&.android\&.http\&.AndroidHttp 
+
+.fi
+.PP
+  
+.IP "\(bu" 2
+Java: \fBcom\&.google\&.api\&.client\&.googleapis\&.javanet\&.GoogleNetHttpTransport#newTrustedTransport()\fP  
+.PP
+.br
+\fIjsonFactory\fP JSON factory, which may be: 
+.PD 0
+
+.IP "\(bu" 2
+Jackson:
+.PP
+.nf
+com\&.google\&.api\&.client\&.json\&.jackson2\&.JacksonFactory 
+
+.fi
+.PP
+  
+.IP "\(bu" 2
+Google GSON:
+.PP
+.nf
+com\&.google\&.api\&.client\&.json\&.gson\&.GsonFactory 
+
+.fi
+.PP
+  
+.IP "\(bu" 2
+Android Honeycomb or higher: 
+.PP
+.nf
+com\&.google\&.api\&.client\&.extensions\&.android\&.json\&.AndroidJsonFactory 
+
+.fi
+.PP
+  
+.PP
+.br
+\fIhttpRequestInitializer\fP HTTP request initializer or
+.PP
+.nf
+null 
+
+.fi
+.PP
+ for none 
+.RE
+.PP
+\fBSince:\fP
+.RS 4
+1\&.7 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "\fBMessagingEndpoint\fP com\&.example\&.lusifer\&.myapplication\&.backend\&.messaging\&.Messaging\&.messagingEndpoint ()"
+An accessor for creating requests from the \fBMessagingEndpoint\fP collection\&.
+.PP
+The typical use is:
+.PP
+.PP
+.nf
+
+.PP
+.nf
+Messaging messaging = new Messaging(\&.\&.\&.); 
+.fi
+.PP
+ 
+.PP
+.nf
+Messaging\&.MessagingEndpoint\&.List request = messaging\&.messagingEndpoint()\&.list(parameters \&.\&.\&.) 
+.fi
+.PP
+ 
+.fi
+.PP
+.PP
+\fBReturns:\fP
+.RS 4
+the resource collection 
+.RE
+.PP
+
+.SS "\fBMessagingEndpoint\fP com\&.example\&.lusifer\&.myapplication\&.backend\&.messaging\&.Messaging\&.messagingEndpoint ()"
+An accessor for creating requests from the \fBMessagingEndpoint\fP collection\&.
+.PP
+The typical use is:
+.PP
+.PP
+.nf
+
+.PP
+.nf
+Messaging messaging = new Messaging(\&.\&.\&.); 
+.fi
+.PP
+ 
+.PP
+.nf
+Messaging\&.MessagingEndpoint\&.List request = messaging\&.messagingEndpoint()\&.list(parameters \&.\&.\&.) 
+.fi
+.PP
+ 
+.fi
+.PP
+.PP
+\fBReturns:\fP
+.RS 4
+the resource collection 
+.RE
+.PP
+
+.SH "Member Data Documentation"
+.PP 
+.SS "static final String com\&.example\&.lusifer\&.myapplication\&.backend\&.messaging\&.Messaging\&.DEFAULT_BASE_URL = \fBDEFAULT_ROOT_URL\fP + \fBDEFAULT_SERVICE_PATH\fP\fC [static]\fP"
+The default encoded base URL of the service\&. This is determined when the library is generated and normally should not be changed\&. 
+.SS "static final String com\&.example\&.lusifer\&.myapplication\&.backend\&.messaging\&.Messaging\&.DEFAULT_ROOT_URL = 'https://myApplicationId\&.appspot\&.com/_ah/api/'\fC [static]\fP"
+The default encoded root URL of the service\&. This is determined when the library is generated and normally should not be changed\&.
+.PP
+\fBSince:\fP
+.RS 4
+1\&.7 
+.RE
+.PP
+
+.SS "static final String com\&.example\&.lusifer\&.myapplication\&.backend\&.messaging\&.Messaging\&.DEFAULT_SERVICE_PATH = 'messaging/v1/sendMessage/'\fC [static]\fP"
+The default encoded service path of the service\&. This is determined when the library is generated and normally should not be changed\&.
+.PP
+\fBSince:\fP
+.RS 4
+1\&.7 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Antardhwani from the source code\&.

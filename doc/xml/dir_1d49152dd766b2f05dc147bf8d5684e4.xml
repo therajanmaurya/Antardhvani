@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_1d49152dd766b2f05dc147bf8d5684e4" kind="dir">
+    <compoundname>app/src/androidTest</compoundname>
+    <innerdir refid="dir_5e6329592f243da2bcb07ab2a6a1f75a">app/src/androidTest/java</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Git/Antardhvani/app/src/androidTest/"/>
+  </compounddef>
+</doxygen>

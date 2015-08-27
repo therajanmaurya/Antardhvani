@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="namespaceantardhvani_1_1du_1_1ac_1_1in_1_1_schedule" kind="namespace" language="Java">
+    <compoundname>antardhvani::du::ac::in::Schedule</compoundname>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015" prot="public">antardhvani::du::ac::in::Schedule::Schedule_20th_FEB_2015</innerclass>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__21__viewpager" prot="public">antardhvani::du::ac::in::Schedule::Schedule_21_viewpager</innerclass>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__21st___feb__2015" prot="public">antardhvani::du::ac::in::Schedule::Schedule_21st_Feb_2015</innerclass>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__22__viewpager" prot="public">antardhvani::du::ac::in::Schedule::Schedule_22_viewpager</innerclass>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__22nd___f_e_b_r_u_a_r_y__2015" prot="public">antardhvani::du::ac::in::Schedule::Schedule_22nd_FEBRUARY_2015</innerclass>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__pre__event" prot="public">antardhvani::du::ac::in::Schedule::Schedule_pre_event</innerclass>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__viewpager" prot="public">antardhvani::du::ac::in::Schedule::Schedule_viewpager</innerclass>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_view_pager_adapter" prot="package">antardhvani::du::ac::in::Schedule::ViewPagerAdapter</innerclass>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_view_pager_adapter1" prot="package">antardhvani::du::ac::in::Schedule::ViewPagerAdapter1</innerclass>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_view_pager_adapter2" prot="package">antardhvani::du::ac::in::Schedule::ViewPagerAdapter2</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

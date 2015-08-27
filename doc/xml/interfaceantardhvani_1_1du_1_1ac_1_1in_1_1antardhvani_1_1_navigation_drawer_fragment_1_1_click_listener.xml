@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="interfaceantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1_1_click_listener" kind="interface" language="Java" prot="public">
+    <compoundname>antardhvani::du::ac::in::antardhvani::NavigationDrawerFragment::ClickListener</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfaceantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1_1_click_listener_1ac49e5e975be6db5949d72b13a74e1db9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.antardhvani.NavigationDrawerFragment.ClickListener.onClick</definition>
+        <argsstring>(View view, int position)</argsstring>
+        <name>onClick</name>
+        <param>
+          <type>View</type>
+          <declname>view</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" line="378" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interfaceantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1_1_click_listener_1a649732adb2c610fc54616e3cb62fe907" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.antardhvani.NavigationDrawerFragment.ClickListener.onLongClick</definition>
+        <argsstring>(View view, int position)</argsstring>
+        <name>onLongClick</name>
+        <param>
+          <type>View</type>
+          <declname>view</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" line="379" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" line="377" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" bodystart="377" bodyend="380"/>
+    <listofallmembers>
+      <member refid="interfaceantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1_1_click_listener_1ac49e5e975be6db5949d72b13a74e1db9" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::NavigationDrawerFragment::ClickListener</scope><name>onClick</name></member>
+      <member refid="interfaceantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1_1_click_listener_1a649732adb2c610fc54616e3cb62fe907" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::NavigationDrawerFragment::ClickListener</scope><name>onLongClick</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_34daec986841e9d2fb1ac10d653716d7" kind="dir">
+    <compoundname>backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped</compoundname>
+    <innerdir refid="dir_ae4254612b495484e1dc0e87803fa864">backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/"/>
+  </compounddef>
+</doxygen>

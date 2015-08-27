@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_l" kind="class" language="Java" prot="public">
+    <compoundname>antardhvani::du::ac::in::antardhvani::L</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_l_1a49ef4dd88de45b35394156331af8030c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void antardhvani.du.ac.in.antardhvani.L.m</definition>
+        <argsstring>(String message)</argsstring>
+        <name>m</name>
+        <param>
+          <type>String</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/L.java" line="9" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/L.java" bodystart="9" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Created by Windows on 13-01-2015. </para>    </detaileddescription>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/L.java" line="8" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/L.java" bodystart="8" bodyend="12"/>
+    <listofallmembers>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_l_1a49ef4dd88de45b35394156331af8030c" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::L</scope><name>m</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

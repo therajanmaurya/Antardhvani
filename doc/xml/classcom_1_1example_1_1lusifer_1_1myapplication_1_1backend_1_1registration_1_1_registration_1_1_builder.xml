@@ -1,0 +1,540 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder" kind="class" language="Java" prot="public">
+    <compoundname>com::example::lusifer::myapplication::backend::registration::Registration::Builder</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Builder</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">Builder</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1aacab3fa85b9e1a5dffc5e0ae1849dd8b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.example.lusifer.myapplication.backend.registration.Registration.Builder.Builder</definition>
+        <argsstring>(com.google.api.client.http.HttpTransport transport, com.google.api.client.json.JsonFactory jsonFactory, com.google.api.client.http.HttpRequestInitializer httpRequestInitializer)</argsstring>
+        <name>Builder</name>
+        <param>
+          <type>com.google.api.client.http.HttpTransport</type>
+          <declname>transport</declname>
+        </param>
+        <param>
+          <type>com.google.api.client.json.JsonFactory</type>
+          <declname>jsonFactory</declname>
+        </param>
+        <param>
+          <type>com.google.api.client.http.HttpRequestInitializer</type>
+          <declname>httpRequestInitializer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns an instance of a new builder.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>transport</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>HTTP transport, which should normally be: <itemizedlist>
+<listitem>
+<para>Google App Engine: <programlisting><codeline><highlight class="normal">com.google.api.client.extensions.appengine.http.UrlFetchTransport<sp/></highlight></codeline>
+</programlisting>  </para></listitem>
+<listitem>
+<para>Android:<programlisting><codeline><highlight class="normal">newCompatibleTransport<sp/></highlight></codeline>
+</programlisting> from <programlisting><codeline><highlight class="normal">com.google.api.client.extensions.android.http.AndroidHttp<sp/></highlight></codeline>
+</programlisting>  </para></listitem>
+<listitem>
+<para>Java: <ref refid="" kindref="compound">com.google.api.client.googleapis.javanet.GoogleNetHttpTransport#newTrustedTransport()</ref>  </para></listitem>
+</itemizedlist>
+</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>jsonFactory</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>JSON factory, which may be: <itemizedlist>
+<listitem>
+<para>Jackson:<programlisting><codeline><highlight class="normal">com.google.api.client.json.jackson2.JacksonFactory<sp/></highlight></codeline>
+</programlisting>  </para></listitem>
+<listitem>
+<para>Google GSON:<programlisting><codeline><highlight class="normal">com.google.api.client.json.gson.GsonFactory<sp/></highlight></codeline>
+</programlisting>  </para></listitem>
+<listitem>
+<para>Android Honeycomb or higher: <programlisting><codeline><highlight class="normal">com.google.api.client.extensions.android.json.AndroidJsonFactory<sp/></highlight></codeline>
+</programlisting>  </para></listitem>
+</itemizedlist>
+</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>httpRequestInitializer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>HTTP request initializer or<programlisting><codeline><highlight class="normal">null<sp/></highlight></codeline>
+</programlisting> for none </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="since"><para>1.7 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="438" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="438" bodyend="447"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1aba8930ce205512b0abded2aa68d2a578" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration" kindref="compound">Registration</ref></type>
+        <definition>Registration com.example.lusifer.myapplication.backend.registration.Registration.Builder.build</definition>
+        <argsstring>()</argsstring>
+        <name>build</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Builds a new instance of <ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration" kindref="compound">Registration</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="451" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="451" bodyend="453"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1aebea2c49925e1d491660be3d646b2d03" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Builder</type>
+        <definition>Builder com.example.lusifer.myapplication.backend.registration.Registration.Builder.setRootUrl</definition>
+        <argsstring>(String rootUrl)</argsstring>
+        <name>setRootUrl</name>
+        <param>
+          <type>String</type>
+          <declname>rootUrl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="456" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="456" bodyend="458"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1a6478329f7d739e8a17671b2d4b35a5f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Builder</type>
+        <definition>Builder com.example.lusifer.myapplication.backend.registration.Registration.Builder.setServicePath</definition>
+        <argsstring>(String servicePath)</argsstring>
+        <name>setServicePath</name>
+        <param>
+          <type>String</type>
+          <declname>servicePath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="461" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="461" bodyend="463"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1a202804cb973bb1d8f5d756ee9f85c6ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Builder</type>
+        <definition>Builder com.example.lusifer.myapplication.backend.registration.Registration.Builder.setHttpRequestInitializer</definition>
+        <argsstring>(com.google.api.client.http.HttpRequestInitializer httpRequestInitializer)</argsstring>
+        <name>setHttpRequestInitializer</name>
+        <param>
+          <type>com.google.api.client.http.HttpRequestInitializer</type>
+          <declname>httpRequestInitializer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="466" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="466" bodyend="468"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1a40769745733db7eb31a7d16b39348828" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Builder</type>
+        <definition>Builder com.example.lusifer.myapplication.backend.registration.Registration.Builder.setApplicationName</definition>
+        <argsstring>(String applicationName)</argsstring>
+        <name>setApplicationName</name>
+        <param>
+          <type>String</type>
+          <declname>applicationName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="471" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="471" bodyend="473"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1af57d67da7bcab4260957c0e26e075a86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Builder</type>
+        <definition>Builder com.example.lusifer.myapplication.backend.registration.Registration.Builder.setSuppressPatternChecks</definition>
+        <argsstring>(boolean suppressPatternChecks)</argsstring>
+        <name>setSuppressPatternChecks</name>
+        <param>
+          <type>boolean</type>
+          <declname>suppressPatternChecks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="476" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="476" bodyend="478"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1a409b9ac95350ce4926983537ec4bf7c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Builder</type>
+        <definition>Builder com.example.lusifer.myapplication.backend.registration.Registration.Builder.setSuppressRequiredParameterChecks</definition>
+        <argsstring>(boolean suppressRequiredParameterChecks)</argsstring>
+        <name>setSuppressRequiredParameterChecks</name>
+        <param>
+          <type>boolean</type>
+          <declname>suppressRequiredParameterChecks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="481" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="481" bodyend="483"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1a8cde94e10a55fdd89184844fc536436f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Builder</type>
+        <definition>Builder com.example.lusifer.myapplication.backend.registration.Registration.Builder.setSuppressAllChecks</definition>
+        <argsstring>(boolean suppressAllChecks)</argsstring>
+        <name>setSuppressAllChecks</name>
+        <param>
+          <type>boolean</type>
+          <declname>suppressAllChecks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="486" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="486" bodyend="488"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1a409a31af3a6d7653b143c0a726007622" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Builder</type>
+        <definition>Builder com.example.lusifer.myapplication.backend.registration.Registration.Builder.setRegistrationRequestInitializer</definition>
+        <argsstring>(RegistrationRequestInitializer registrationRequestInitializer)</argsstring>
+        <name>setRegistrationRequestInitializer</name>
+        <param>
+          <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request_initializer" kindref="compound">RegistrationRequestInitializer</ref></type>
+          <declname>registrationRequestInitializer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the <ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request_initializer" kindref="compound">RegistrationRequestInitializer</ref>.</para><para><simplesect kind="since"><para>1.12 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="495" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="495" bodyend="498"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1a0fc1f8b6f48a994dfebec1f8329747af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Builder</type>
+        <definition>Builder com.example.lusifer.myapplication.backend.registration.Registration.Builder.setGoogleClientRequestInitializer</definition>
+        <argsstring>(com.google.api.client.googleapis.services.GoogleClientRequestInitializer googleClientRequestInitializer)</argsstring>
+        <name>setGoogleClientRequestInitializer</name>
+        <param>
+          <type>com.google.api.client.googleapis.services.GoogleClientRequestInitializer</type>
+          <declname>googleClientRequestInitializer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="501" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="501" bodyend="504"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1aacab3fa85b9e1a5dffc5e0ae1849dd8b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.example.lusifer.myapplication.backend.registration.Registration.Builder.Builder</definition>
+        <argsstring>(com.google.api.client.http.HttpTransport transport, com.google.api.client.json.JsonFactory jsonFactory, com.google.api.client.http.HttpRequestInitializer httpRequestInitializer)</argsstring>
+        <name>Builder</name>
+        <param>
+          <type>com.google.api.client.http.HttpTransport</type>
+          <declname>transport</declname>
+        </param>
+        <param>
+          <type>com.google.api.client.json.JsonFactory</type>
+          <declname>jsonFactory</declname>
+        </param>
+        <param>
+          <type>com.google.api.client.http.HttpRequestInitializer</type>
+          <declname>httpRequestInitializer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns an instance of a new builder.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>transport</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>HTTP transport, which should normally be: <itemizedlist>
+<listitem>
+<para>Google App Engine: <programlisting><codeline><highlight class="normal">com.google.api.client.extensions.appengine.http.UrlFetchTransport<sp/></highlight></codeline>
+</programlisting>  </para></listitem>
+<listitem>
+<para>Android:<programlisting><codeline><highlight class="normal">newCompatibleTransport<sp/></highlight></codeline>
+</programlisting> from <programlisting><codeline><highlight class="normal">com.google.api.client.extensions.android.http.AndroidHttp<sp/></highlight></codeline>
+</programlisting>  </para></listitem>
+<listitem>
+<para>Java: <ref refid="" kindref="compound">com.google.api.client.googleapis.javanet.GoogleNetHttpTransport#newTrustedTransport()</ref>  </para></listitem>
+</itemizedlist>
+</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>jsonFactory</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>JSON factory, which may be: <itemizedlist>
+<listitem>
+<para>Jackson:<programlisting><codeline><highlight class="normal">com.google.api.client.json.jackson2.JacksonFactory<sp/></highlight></codeline>
+</programlisting>  </para></listitem>
+<listitem>
+<para>Google GSON:<programlisting><codeline><highlight class="normal">com.google.api.client.json.gson.GsonFactory<sp/></highlight></codeline>
+</programlisting>  </para></listitem>
+<listitem>
+<para>Android Honeycomb or higher: <programlisting><codeline><highlight class="normal">com.google.api.client.extensions.android.json.AndroidJsonFactory<sp/></highlight></codeline>
+</programlisting>  </para></listitem>
+</itemizedlist>
+</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>httpRequestInitializer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>HTTP request initializer or<programlisting><codeline><highlight class="normal">null<sp/></highlight></codeline>
+</programlisting> for none </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="since"><para>1.7 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="438" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="438" bodyend="447"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1aba8930ce205512b0abded2aa68d2a578" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration" kindref="compound">Registration</ref></type>
+        <definition>Registration com.example.lusifer.myapplication.backend.registration.Registration.Builder.build</definition>
+        <argsstring>()</argsstring>
+        <name>build</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Builds a new instance of <ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration" kindref="compound">Registration</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="451" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="451" bodyend="453"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1aebea2c49925e1d491660be3d646b2d03" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Builder</type>
+        <definition>Builder com.example.lusifer.myapplication.backend.registration.Registration.Builder.setRootUrl</definition>
+        <argsstring>(String rootUrl)</argsstring>
+        <name>setRootUrl</name>
+        <param>
+          <type>String</type>
+          <declname>rootUrl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="456" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="456" bodyend="458"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1a6478329f7d739e8a17671b2d4b35a5f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Builder</type>
+        <definition>Builder com.example.lusifer.myapplication.backend.registration.Registration.Builder.setServicePath</definition>
+        <argsstring>(String servicePath)</argsstring>
+        <name>setServicePath</name>
+        <param>
+          <type>String</type>
+          <declname>servicePath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="461" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="461" bodyend="463"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1a202804cb973bb1d8f5d756ee9f85c6ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Builder</type>
+        <definition>Builder com.example.lusifer.myapplication.backend.registration.Registration.Builder.setHttpRequestInitializer</definition>
+        <argsstring>(com.google.api.client.http.HttpRequestInitializer httpRequestInitializer)</argsstring>
+        <name>setHttpRequestInitializer</name>
+        <param>
+          <type>com.google.api.client.http.HttpRequestInitializer</type>
+          <declname>httpRequestInitializer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="466" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="466" bodyend="468"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1a40769745733db7eb31a7d16b39348828" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Builder</type>
+        <definition>Builder com.example.lusifer.myapplication.backend.registration.Registration.Builder.setApplicationName</definition>
+        <argsstring>(String applicationName)</argsstring>
+        <name>setApplicationName</name>
+        <param>
+          <type>String</type>
+          <declname>applicationName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="471" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="471" bodyend="473"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1af57d67da7bcab4260957c0e26e075a86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Builder</type>
+        <definition>Builder com.example.lusifer.myapplication.backend.registration.Registration.Builder.setSuppressPatternChecks</definition>
+        <argsstring>(boolean suppressPatternChecks)</argsstring>
+        <name>setSuppressPatternChecks</name>
+        <param>
+          <type>boolean</type>
+          <declname>suppressPatternChecks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="476" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="476" bodyend="478"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1a409b9ac95350ce4926983537ec4bf7c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Builder</type>
+        <definition>Builder com.example.lusifer.myapplication.backend.registration.Registration.Builder.setSuppressRequiredParameterChecks</definition>
+        <argsstring>(boolean suppressRequiredParameterChecks)</argsstring>
+        <name>setSuppressRequiredParameterChecks</name>
+        <param>
+          <type>boolean</type>
+          <declname>suppressRequiredParameterChecks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="481" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="481" bodyend="483"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1a8cde94e10a55fdd89184844fc536436f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Builder</type>
+        <definition>Builder com.example.lusifer.myapplication.backend.registration.Registration.Builder.setSuppressAllChecks</definition>
+        <argsstring>(boolean suppressAllChecks)</argsstring>
+        <name>setSuppressAllChecks</name>
+        <param>
+          <type>boolean</type>
+          <declname>suppressAllChecks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="486" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="486" bodyend="488"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1a409a31af3a6d7653b143c0a726007622" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Builder</type>
+        <definition>Builder com.example.lusifer.myapplication.backend.registration.Registration.Builder.setRegistrationRequestInitializer</definition>
+        <argsstring>(RegistrationRequestInitializer registrationRequestInitializer)</argsstring>
+        <name>setRegistrationRequestInitializer</name>
+        <param>
+          <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request_initializer" kindref="compound">RegistrationRequestInitializer</ref></type>
+          <declname>registrationRequestInitializer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the <ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request_initializer" kindref="compound">RegistrationRequestInitializer</ref>.</para><para><simplesect kind="since"><para>1.12 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="495" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="495" bodyend="498"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1a0fc1f8b6f48a994dfebec1f8329747af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Builder</type>
+        <definition>Builder com.example.lusifer.myapplication.backend.registration.Registration.Builder.setGoogleClientRequestInitializer</definition>
+        <argsstring>(com.google.api.client.googleapis.services.GoogleClientRequestInitializer googleClientRequestInitializer)</argsstring>
+        <name>setGoogleClientRequestInitializer</name>
+        <param>
+          <type>com.google.api.client.googleapis.services.GoogleClientRequestInitializer</type>
+          <declname>googleClientRequestInitializer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="501" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="501" bodyend="504"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Builder for <ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration" kindref="compound">Registration</ref>.</para><para>Implementation is not thread-safe. </para><para><simplesect kind="since"><para>1.3.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="25">
+        <label>Builder</label>
+      </node>
+      <node id="24">
+        <label>com.example.lusifer.myapplication.backend.registration.Registration.Builder</label>
+        <childnode refid="25" relation="public-inheritance">
+        </childnode>
+        <childnode refid="25" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="27">
+        <label>Builder</label>
+      </node>
+      <node id="26">
+        <label>com.example.lusifer.myapplication.backend.registration.Registration.Builder</label>
+        <childnode refid="27" relation="public-inheritance">
+        </childnode>
+        <childnode refid="27" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="414" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="414" bodyend="505"/>
+    <listofallmembers>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1aba8930ce205512b0abded2aa68d2a578" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Builder</scope><name>build</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1aba8930ce205512b0abded2aa68d2a578" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Builder</scope><name>build</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1aacab3fa85b9e1a5dffc5e0ae1849dd8b" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Builder</scope><name>Builder</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1aacab3fa85b9e1a5dffc5e0ae1849dd8b" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Builder</scope><name>Builder</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1a40769745733db7eb31a7d16b39348828" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Builder</scope><name>setApplicationName</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1a40769745733db7eb31a7d16b39348828" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Builder</scope><name>setApplicationName</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1a0fc1f8b6f48a994dfebec1f8329747af" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Builder</scope><name>setGoogleClientRequestInitializer</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1a0fc1f8b6f48a994dfebec1f8329747af" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Builder</scope><name>setGoogleClientRequestInitializer</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1a202804cb973bb1d8f5d756ee9f85c6ee" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Builder</scope><name>setHttpRequestInitializer</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1a202804cb973bb1d8f5d756ee9f85c6ee" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Builder</scope><name>setHttpRequestInitializer</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1a409a31af3a6d7653b143c0a726007622" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Builder</scope><name>setRegistrationRequestInitializer</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1a409a31af3a6d7653b143c0a726007622" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Builder</scope><name>setRegistrationRequestInitializer</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1aebea2c49925e1d491660be3d646b2d03" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Builder</scope><name>setRootUrl</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1aebea2c49925e1d491660be3d646b2d03" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Builder</scope><name>setRootUrl</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1a6478329f7d739e8a17671b2d4b35a5f2" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Builder</scope><name>setServicePath</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1a6478329f7d739e8a17671b2d4b35a5f2" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Builder</scope><name>setServicePath</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1a8cde94e10a55fdd89184844fc536436f" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Builder</scope><name>setSuppressAllChecks</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1a8cde94e10a55fdd89184844fc536436f" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Builder</scope><name>setSuppressAllChecks</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1af57d67da7bcab4260957c0e26e075a86" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Builder</scope><name>setSuppressPatternChecks</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1af57d67da7bcab4260957c0e26e075a86" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Builder</scope><name>setSuppressPatternChecks</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1a409b9ac95350ce4926983537ec4bf7c4" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Builder</scope><name>setSuppressRequiredParameterChecks</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_builder_1a409b9ac95350ce4926983537ec4bf7c4" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Builder</scope><name>setSuppressRequiredParameterChecks</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

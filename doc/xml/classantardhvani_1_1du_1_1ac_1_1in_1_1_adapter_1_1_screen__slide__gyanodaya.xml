@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_screen__slide__gyanodaya" kind="class" language="Java" prot="public">
+    <compoundname>antardhvani::du::ac::in::Adapter::Screen_slide_gyanodaya</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Fragment</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_screen__slide__gyanodaya_1a8e00c29d4001c5f5aef4100ade56b2c8" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String antardhvani.du.ac.in.Adapter.Screen_slide_gyanodaya.ARG_PAGE</definition>
+        <argsstring></argsstring>
+        <name>ARG_PAGE</name>
+        <initializer>= &quot;page&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Screen_slide_gyanodaya.java" line="18" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Screen_slide_gyanodaya.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_screen__slide__gyanodaya_1a1406fae6501149e0ec037011e6539b9d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int antardhvani.du.ac.in.Adapter.Screen_slide_gyanodaya.mPageNumber</definition>
+        <argsstring></argsstring>
+        <name>mPageNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Screen_slide_gyanodaya.java" line="19" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Screen_slide_gyanodaya.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_screen__slide__gyanodaya_1a055ab9c4afbd80a0ed4f2591d8e1b508" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_screen__slide__gyanodaya" kindref="compound">Screen_slide_gyanodaya</ref></type>
+        <definition>static Screen_slide_gyanodaya antardhvani.du.ac.in.Adapter.Screen_slide_gyanodaya.create</definition>
+        <argsstring>(int pageNumber)</argsstring>
+        <name>create</name>
+        <param>
+          <type>int</type>
+          <declname>pageNumber</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Screen_slide_gyanodaya.java" line="21" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Screen_slide_gyanodaya.java" bodystart="21" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_screen__slide__gyanodaya_1a5042155188df5c76f3000367c93b6bb5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.Adapter.Screen_slide_gyanodaya.onCreate</definition>
+        <argsstring>(Bundle savedInstanceState)</argsstring>
+        <name>onCreate</name>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Screen_slide_gyanodaya.java" line="30" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Screen_slide_gyanodaya.java" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_screen__slide__gyanodaya_1a679f8002116863a053b26a388fc34fc5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>View</type>
+        <definition>View antardhvani.du.ac.in.Adapter.Screen_slide_gyanodaya.onCreateView</definition>
+        <argsstring>(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)</argsstring>
+        <name>onCreateView</name>
+        <param>
+          <type>LayoutInflater</type>
+          <declname>inflater</declname>
+        </param>
+        <param>
+          <type>ViewGroup</type>
+          <declname>container</declname>
+        </param>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Screen_slide_gyanodaya.java" line="37" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Screen_slide_gyanodaya.java" bodystart="37" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_screen__slide__gyanodaya_1af5ab39d4b9e931934c1ebf03e10918bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int antardhvani.du.ac.in.Adapter.Screen_slide_gyanodaya.getPageNumber</definition>
+        <argsstring>()</argsstring>
+        <name>getPageNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Screen_slide_gyanodaya.java" line="68" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Screen_slide_gyanodaya.java" bodystart="68" bodyend="70"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Created by rajanmaurya on 16/2/15. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="297">
+        <label>Fragment</label>
+      </node>
+      <node id="296">
+        <label>antardhvani.du.ac.in.Adapter.Screen_slide_gyanodaya</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_screen__slide__gyanodaya"/>
+        <childnode refid="297" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="299">
+        <label>Fragment</label>
+      </node>
+      <node id="298">
+        <label>antardhvani.du.ac.in.Adapter.Screen_slide_gyanodaya</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_screen__slide__gyanodaya"/>
+        <childnode refid="299" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Screen_slide_gyanodaya.java" line="17" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Screen_slide_gyanodaya.java" bodystart="17" bodyend="72"/>
+    <listofallmembers>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_screen__slide__gyanodaya_1a8e00c29d4001c5f5aef4100ade56b2c8" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::Screen_slide_gyanodaya</scope><name>ARG_PAGE</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_screen__slide__gyanodaya_1a055ab9c4afbd80a0ed4f2591d8e1b508" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::Screen_slide_gyanodaya</scope><name>create</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_screen__slide__gyanodaya_1af5ab39d4b9e931934c1ebf03e10918bd" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::Screen_slide_gyanodaya</scope><name>getPageNumber</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_screen__slide__gyanodaya_1a1406fae6501149e0ec037011e6539b9d" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::Screen_slide_gyanodaya</scope><name>mPageNumber</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_screen__slide__gyanodaya_1a5042155188df5c76f3000367c93b6bb5" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::Screen_slide_gyanodaya</scope><name>onCreate</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_screen__slide__gyanodaya_1a679f8002116863a053b26a388fc34fc5" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::Screen_slide_gyanodaya</scope><name>onCreateView</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

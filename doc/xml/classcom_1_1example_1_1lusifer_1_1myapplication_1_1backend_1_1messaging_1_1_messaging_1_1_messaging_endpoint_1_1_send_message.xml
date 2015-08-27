@@ -1,0 +1,494 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message" kind="class" language="Java" prot="public">
+    <compoundname>com::example::lusifer::myapplication::backend::messaging::Messaging::MessagingEndpoint::SendMessage</compoundname>
+    <basecompoundref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_request" prot="public" virt="non-virtual">com.example.lusifer.myapplication.backend.messaging.MessagingRequest&lt; Void &gt;</basecompoundref>
+    <basecompoundref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_request" prot="public" virt="non-virtual">com.example.lusifer.myapplication.backend.messaging.MessagingRequest&lt; Void &gt;</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1a66131aea5fa1b75ca2340d93cfc64e0b" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>static final String com.example.lusifer.myapplication.backend.messaging.Messaging.MessagingEndpoint.SendMessage::REST_PATH</definition>
+        <argsstring></argsstring>
+        <name>REST_PATH</name>
+        <initializer>= &quot;{message}&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="156" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1ac96d87bfaff341f94df3ac7713a266a0" prot="private" static="no" mutable="no">
+        <type>.google.api.client.util.Key java.lang.String</type>
+        <definition>google api client util Key java lang String com.example.lusifer.myapplication.backend.messaging.Messaging.MessagingEndpoint.SendMessage::message</definition>
+        <argsstring></argsstring>
+        <name>message</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="211" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="211" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1a42025d199d3491c8581622ff2a008d0e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.example.lusifer.myapplication.backend.messaging.Messaging.MessagingEndpoint.SendMessage.SendMessage</definition>
+        <argsstring>(java.lang.String message)</argsstring>
+        <name>SendMessage</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a request for the method &quot;messagingEndpoint.sendMessage&quot;.</para><para>This request holds the parameters needed by the the messaging server. After setting any optional parameters, call the <ref refid="" kindref="compound">SendMessage#execute()</ref> method to invoke the remote operation. </para><para><ref refid="" kindref="compound">SendMessage#initialize(com.google.api.client.googleapis.services.AbstractGoogleClientRequest)</ref> must be called to initialize this instance immediately after invoking the constructor. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="since"><para>1.13 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="170" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="170" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1a42025d199d3491c8581622ff2a008d0e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.example.lusifer.myapplication.backend.messaging.Messaging.MessagingEndpoint.SendMessage.SendMessage</definition>
+        <argsstring>(java.lang.String message)</argsstring>
+        <name>SendMessage</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a request for the method &quot;messagingEndpoint.sendMessage&quot;.</para><para>This request holds the parameters needed by the the messaging server. After setting any optional parameters, call the <ref refid="" kindref="compound">SendMessage#execute()</ref> method to invoke the remote operation. </para><para><ref refid="" kindref="compound">SendMessage#initialize(com.google.api.client.googleapis.services.AbstractGoogleClientRequest)</ref> must be called to initialize this instance immediately after invoking the constructor. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="since"><para>1.13 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="170" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="170" bodyend="173"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1a533d6c0cc36ff60e512e8266dfdb04be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message" kindref="compound">SendMessage</ref></type>
+        <definition>SendMessage com.example.lusifer.myapplication.backend.messaging.Messaging.MessagingEndpoint.SendMessage.setAlt</definition>
+        <argsstring>(java.lang.String alt)</argsstring>
+        <name>setAlt</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>alt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="176" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="176" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1ac4382be31b955e18798dbe434dae7e8e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message" kindref="compound">SendMessage</ref></type>
+        <definition>SendMessage com.example.lusifer.myapplication.backend.messaging.Messaging.MessagingEndpoint.SendMessage.setFields</definition>
+        <argsstring>(java.lang.String fields)</argsstring>
+        <name>setFields</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>fields</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="181" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="181" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1a871cb0e98c280870aba3c4ba51096c05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message" kindref="compound">SendMessage</ref></type>
+        <definition>SendMessage com.example.lusifer.myapplication.backend.messaging.Messaging.MessagingEndpoint.SendMessage.setKey</definition>
+        <argsstring>(java.lang.String key)</argsstring>
+        <name>setKey</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="186" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="186" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1a6304fece1981701a7eaa9ca6cb089062" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message" kindref="compound">SendMessage</ref></type>
+        <definition>SendMessage com.example.lusifer.myapplication.backend.messaging.Messaging.MessagingEndpoint.SendMessage.setOauthToken</definition>
+        <argsstring>(java.lang.String oauthToken)</argsstring>
+        <name>setOauthToken</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>oauthToken</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="191" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="191" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1a42c9253c04fdedf0c327245be60f1c31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message" kindref="compound">SendMessage</ref></type>
+        <definition>SendMessage com.example.lusifer.myapplication.backend.messaging.Messaging.MessagingEndpoint.SendMessage.setPrettyPrint</definition>
+        <argsstring>(java.lang.Boolean prettyPrint)</argsstring>
+        <name>setPrettyPrint</name>
+        <param>
+          <type>java.lang.Boolean</type>
+          <declname>prettyPrint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="196" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="196" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1a41a0f164e2f187b836cda7a79a5cca31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message" kindref="compound">SendMessage</ref></type>
+        <definition>SendMessage com.example.lusifer.myapplication.backend.messaging.Messaging.MessagingEndpoint.SendMessage.setQuotaUser</definition>
+        <argsstring>(java.lang.String quotaUser)</argsstring>
+        <name>setQuotaUser</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>quotaUser</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="201" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="201" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1afd96c1c7a95c1c44bc769d78fad5867a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message" kindref="compound">SendMessage</ref></type>
+        <definition>SendMessage com.example.lusifer.myapplication.backend.messaging.Messaging.MessagingEndpoint.SendMessage.setUserIp</definition>
+        <argsstring>(java.lang.String userIp)</argsstring>
+        <name>setUserIp</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>userIp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="206" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="206" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1a03476e0a917cf62c8e1c647ffd9df319" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>java.lang.String</type>
+        <definition>java.lang.String com.example.lusifer.myapplication.backend.messaging.Messaging.MessagingEndpoint.SendMessage.getMessage</definition>
+        <argsstring>()</argsstring>
+        <name>getMessage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="216" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="216" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1abc9246fe97f3445bdac7708974150040" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message" kindref="compound">SendMessage</ref></type>
+        <definition>SendMessage com.example.lusifer.myapplication.backend.messaging.Messaging.MessagingEndpoint.SendMessage.setMessage</definition>
+        <argsstring>(java.lang.String message)</argsstring>
+        <name>setMessage</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="220" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="220" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1aa1add886ddb2e598aedc1757def1b0b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message" kindref="compound">SendMessage</ref></type>
+        <definition>SendMessage com.example.lusifer.myapplication.backend.messaging.Messaging.MessagingEndpoint.SendMessage.set</definition>
+        <argsstring>(String parameterName, Object value)</argsstring>
+        <name>set</name>
+        <param>
+          <type>String</type>
+          <declname>parameterName</declname>
+        </param>
+        <param>
+          <type>Object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="226" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="226" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1a533d6c0cc36ff60e512e8266dfdb04be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message" kindref="compound">SendMessage</ref></type>
+        <definition>SendMessage com.example.lusifer.myapplication.backend.messaging.Messaging.MessagingEndpoint.SendMessage.setAlt</definition>
+        <argsstring>(java.lang.String alt)</argsstring>
+        <name>setAlt</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>alt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="176" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="176" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1ac4382be31b955e18798dbe434dae7e8e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message" kindref="compound">SendMessage</ref></type>
+        <definition>SendMessage com.example.lusifer.myapplication.backend.messaging.Messaging.MessagingEndpoint.SendMessage.setFields</definition>
+        <argsstring>(java.lang.String fields)</argsstring>
+        <name>setFields</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>fields</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="181" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="181" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1a871cb0e98c280870aba3c4ba51096c05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message" kindref="compound">SendMessage</ref></type>
+        <definition>SendMessage com.example.lusifer.myapplication.backend.messaging.Messaging.MessagingEndpoint.SendMessage.setKey</definition>
+        <argsstring>(java.lang.String key)</argsstring>
+        <name>setKey</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="186" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="186" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1a6304fece1981701a7eaa9ca6cb089062" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message" kindref="compound">SendMessage</ref></type>
+        <definition>SendMessage com.example.lusifer.myapplication.backend.messaging.Messaging.MessagingEndpoint.SendMessage.setOauthToken</definition>
+        <argsstring>(java.lang.String oauthToken)</argsstring>
+        <name>setOauthToken</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>oauthToken</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="191" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="191" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1a42c9253c04fdedf0c327245be60f1c31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message" kindref="compound">SendMessage</ref></type>
+        <definition>SendMessage com.example.lusifer.myapplication.backend.messaging.Messaging.MessagingEndpoint.SendMessage.setPrettyPrint</definition>
+        <argsstring>(java.lang.Boolean prettyPrint)</argsstring>
+        <name>setPrettyPrint</name>
+        <param>
+          <type>java.lang.Boolean</type>
+          <declname>prettyPrint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="196" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="196" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1a41a0f164e2f187b836cda7a79a5cca31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message" kindref="compound">SendMessage</ref></type>
+        <definition>SendMessage com.example.lusifer.myapplication.backend.messaging.Messaging.MessagingEndpoint.SendMessage.setQuotaUser</definition>
+        <argsstring>(java.lang.String quotaUser)</argsstring>
+        <name>setQuotaUser</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>quotaUser</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="201" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="201" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1afd96c1c7a95c1c44bc769d78fad5867a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message" kindref="compound">SendMessage</ref></type>
+        <definition>SendMessage com.example.lusifer.myapplication.backend.messaging.Messaging.MessagingEndpoint.SendMessage.setUserIp</definition>
+        <argsstring>(java.lang.String userIp)</argsstring>
+        <name>setUserIp</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>userIp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="206" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="206" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1a03476e0a917cf62c8e1c647ffd9df319" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>java.lang.String</type>
+        <definition>java.lang.String com.example.lusifer.myapplication.backend.messaging.Messaging.MessagingEndpoint.SendMessage.getMessage</definition>
+        <argsstring>()</argsstring>
+        <name>getMessage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="216" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="216" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1abc9246fe97f3445bdac7708974150040" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message" kindref="compound">SendMessage</ref></type>
+        <definition>SendMessage com.example.lusifer.myapplication.backend.messaging.Messaging.MessagingEndpoint.SendMessage.setMessage</definition>
+        <argsstring>(java.lang.String message)</argsstring>
+        <name>setMessage</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="220" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="220" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1aa1add886ddb2e598aedc1757def1b0b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message" kindref="compound">SendMessage</ref></type>
+        <definition>SendMessage com.example.lusifer.myapplication.backend.messaging.Messaging.MessagingEndpoint.SendMessage.set</definition>
+        <argsstring>(String parameterName, Object value)</argsstring>
+        <name>set</name>
+        <param>
+          <type>String</type>
+          <declname>parameterName</declname>
+        </param>
+        <param>
+          <type>Object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="226" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="226" bodyend="228"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="317">
+        <label>com.example.lusifer.myapplication.backend.messaging.MessagingRequest&lt; Void &gt;</label>
+        <link refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_request"/>
+      </node>
+      <node id="316">
+        <label>com.example.lusifer.myapplication.backend.messaging.Messaging.MessagingEndpoint.SendMessage</label>
+        <link refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message"/>
+        <childnode refid="317" relation="public-inheritance">
+        </childnode>
+        <childnode refid="317" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="319">
+        <label>com.example.lusifer.myapplication.backend.messaging.MessagingRequest&lt; Void &gt;</label>
+        <link refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_request"/>
+      </node>
+      <node id="318">
+        <label>com.example.lusifer.myapplication.backend.messaging.Messaging.MessagingEndpoint.SendMessage</label>
+        <link refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message"/>
+        <childnode refid="319" relation="public-inheritance">
+        </childnode>
+        <childnode refid="319" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="154" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="154" bodyend="229"/>
+    <listofallmembers>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1a03476e0a917cf62c8e1c647ffd9df319" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::MessagingEndpoint::SendMessage</scope><name>getMessage</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1a03476e0a917cf62c8e1c647ffd9df319" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::MessagingEndpoint::SendMessage</scope><name>getMessage</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1ac96d87bfaff341f94df3ac7713a266a0" prot="private" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::MessagingEndpoint::SendMessage</scope><name>message</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1a66131aea5fa1b75ca2340d93cfc64e0b" prot="private" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::MessagingEndpoint::SendMessage</scope><name>REST_PATH</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1a42025d199d3491c8581622ff2a008d0e" prot="protected" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::MessagingEndpoint::SendMessage</scope><name>SendMessage</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1a42025d199d3491c8581622ff2a008d0e" prot="protected" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::MessagingEndpoint::SendMessage</scope><name>SendMessage</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1aa1add886ddb2e598aedc1757def1b0b5" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::MessagingEndpoint::SendMessage</scope><name>set</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1aa1add886ddb2e598aedc1757def1b0b5" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::MessagingEndpoint::SendMessage</scope><name>set</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1a533d6c0cc36ff60e512e8266dfdb04be" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::MessagingEndpoint::SendMessage</scope><name>setAlt</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1a533d6c0cc36ff60e512e8266dfdb04be" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::MessagingEndpoint::SendMessage</scope><name>setAlt</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1ac4382be31b955e18798dbe434dae7e8e" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::MessagingEndpoint::SendMessage</scope><name>setFields</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1ac4382be31b955e18798dbe434dae7e8e" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::MessagingEndpoint::SendMessage</scope><name>setFields</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1a871cb0e98c280870aba3c4ba51096c05" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::MessagingEndpoint::SendMessage</scope><name>setKey</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1a871cb0e98c280870aba3c4ba51096c05" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::MessagingEndpoint::SendMessage</scope><name>setKey</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1abc9246fe97f3445bdac7708974150040" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::MessagingEndpoint::SendMessage</scope><name>setMessage</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1abc9246fe97f3445bdac7708974150040" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::MessagingEndpoint::SendMessage</scope><name>setMessage</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1a6304fece1981701a7eaa9ca6cb089062" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::MessagingEndpoint::SendMessage</scope><name>setOauthToken</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1a6304fece1981701a7eaa9ca6cb089062" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::MessagingEndpoint::SendMessage</scope><name>setOauthToken</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1a42c9253c04fdedf0c327245be60f1c31" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::MessagingEndpoint::SendMessage</scope><name>setPrettyPrint</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1a42c9253c04fdedf0c327245be60f1c31" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::MessagingEndpoint::SendMessage</scope><name>setPrettyPrint</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1a41a0f164e2f187b836cda7a79a5cca31" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::MessagingEndpoint::SendMessage</scope><name>setQuotaUser</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1a41a0f164e2f187b836cda7a79a5cca31" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::MessagingEndpoint::SendMessage</scope><name>setQuotaUser</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1afd96c1c7a95c1c44bc769d78fad5867a" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::MessagingEndpoint::SendMessage</scope><name>setUserIp</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message_1afd96c1c7a95c1c44bc769d78fad5867a" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::MessagingEndpoint::SendMessage</scope><name>setUserIp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

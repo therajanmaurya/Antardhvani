@@ -1,0 +1,318 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_notification_s_q_l" kind="class" language="Java" prot="public">
+    <compoundname>antardhvani::du::ac::in::Database::NotificationSQL</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">SQLiteOpenHelper</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_notification_s_q_l_1a92d42104d2c8778fa6ffc1a35aca00e7" prot="private" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int antardhvani.du.ac.in.Database.NotificationSQL.DATABASE_VERSION</definition>
+        <argsstring></argsstring>
+        <name>DATABASE_VERSION</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/NotificationSQL.java" line="19" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/NotificationSQL.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_notification_s_q_l_1a05d1b65a0401c09a4cbf38e09a4e9ec8" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String antardhvani.du.ac.in.Database.NotificationSQL.DATABASE_NAME</definition>
+        <argsstring></argsstring>
+        <name>DATABASE_NAME</name>
+        <initializer>= &quot;DataDB&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/NotificationSQL.java" line="21" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/NotificationSQL.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_notification_s_q_l_1acb1d66e491ea80741c10f952b446eaca" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String antardhvani.du.ac.in.Database.NotificationSQL.TABLE_DATA</definition>
+        <argsstring></argsstring>
+        <name>TABLE_DATA</name>
+        <initializer>= &quot;data&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>CRUD operations (create &quot;add&quot;, read &quot;get&quot;, update, delete) book + get all books + delete all books </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/NotificationSQL.java" line="54" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/NotificationSQL.java" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_notification_s_q_l_1aed259676703e54d2f9980b4421e1ff7b" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String antardhvani.du.ac.in.Database.NotificationSQL.KEY_ID</definition>
+        <argsstring></argsstring>
+        <name>KEY_ID</name>
+        <initializer>= &quot;id&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/NotificationSQL.java" line="57" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/NotificationSQL.java" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_notification_s_q_l_1a308f956822a3381519add12bb7b7554b" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String antardhvani.du.ac.in.Database.NotificationSQL.KEY_TITLE</definition>
+        <argsstring></argsstring>
+        <name>KEY_TITLE</name>
+        <initializer>= &quot;title&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/NotificationSQL.java" line="58" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/NotificationSQL.java" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_notification_s_q_l_1a1ca1852b155a2b7d900ad39964957d35" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String antardhvani.du.ac.in.Database.NotificationSQL.KEY_SUBTITLE</definition>
+        <argsstring></argsstring>
+        <name>KEY_SUBTITLE</name>
+        <initializer>= &quot;subtitle&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/NotificationSQL.java" line="59" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/NotificationSQL.java" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_notification_s_q_l_1a4d050d6711f073102140d3a40f3a74da" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String antardhvani.du.ac.in.Database.NotificationSQL.KEY_STATUS</definition>
+        <argsstring></argsstring>
+        <name>KEY_STATUS</name>
+        <initializer>= &quot;status&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/NotificationSQL.java" line="60" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/NotificationSQL.java" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_notification_s_q_l_1a4bd5eae3a261cdd9afab4c70e86ae9c9" prot="private" static="yes" mutable="no">
+        <type>final String[]</type>
+        <definition>final String [] antardhvani.du.ac.in.Database.NotificationSQL.COLUMNS</definition>
+        <argsstring></argsstring>
+        <name>COLUMNS</name>
+        <initializer>= {KEY_ID,KEY_TITLE, KEY_SUBTITLE,KEY_STATUS}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/NotificationSQL.java" line="62" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/NotificationSQL.java" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_notification_s_q_l_1ac26ac09fd1ce90bb414bf718d477c6f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>antardhvani.du.ac.in.Database.NotificationSQL.NotificationSQL</definition>
+        <argsstring>(Context context)</argsstring>
+        <name>NotificationSQL</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/NotificationSQL.java" line="23" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/NotificationSQL.java" bodystart="23" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_notification_s_q_l_1a9fc4e9314f9b58ae0729ccf9819bbd8e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.Database.NotificationSQL.onCreate</definition>
+        <argsstring>(SQLiteDatabase db)</argsstring>
+        <name>onCreate</name>
+        <param>
+          <type>SQLiteDatabase</type>
+          <declname>db</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/NotificationSQL.java" line="28" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/NotificationSQL.java" bodystart="28" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_notification_s_q_l_1a8524f412a1e0dd0508fc0e0b4811a48a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.Database.NotificationSQL.onUpgrade</definition>
+        <argsstring>(SQLiteDatabase db, int oldVersion, int newVersion)</argsstring>
+        <name>onUpgrade</name>
+        <param>
+          <type>SQLiteDatabase</type>
+          <declname>db</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>oldVersion</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newVersion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/NotificationSQL.java" line="40" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/NotificationSQL.java" bodystart="40" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_notification_s_q_l_1a11980d22cfc29f6101875d031d2bd805" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.Database.NotificationSQL.addNotification</definition>
+        <argsstring>(String x1, String x2)</argsstring>
+        <name>addNotification</name>
+        <param>
+          <type>String</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>x2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/NotificationSQL.java" line="64" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/NotificationSQL.java" bodystart="64" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_notification_s_q_l_1ad8d5c544a13de28d9c164343922930d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_my_result" kindref="compound">MyResult</ref></type>
+        <definition>MyResult antardhvani.du.ac.in.Database.NotificationSQL.getNotification</definition>
+        <argsstring>(int id)</argsstring>
+        <name>getNotification</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/NotificationSQL.java" line="84" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/NotificationSQL.java" bodystart="84" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_notification_s_q_l_1addcbc1af9f4c45cb75a8bcf43d5fa046" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArrayList&lt; <ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_my_result" kindref="compound">MyResult</ref> &gt;</type>
+        <definition>ArrayList&lt;MyResult&gt; antardhvani.du.ac.in.Database.NotificationSQL.getAllNoti</definition>
+        <argsstring>()</argsstring>
+        <name>getAllNoti</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/NotificationSQL.java" line="114" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/NotificationSQL.java" bodystart="114" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_notification_s_q_l_1aa188787b119b009e4f49302d855d4497" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int antardhvani.du.ac.in.Database.NotificationSQL.updateBook</definition>
+        <argsstring>()</argsstring>
+        <name>updateBook</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/NotificationSQL.java" line="142" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/NotificationSQL.java" bodystart="142" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_notification_s_q_l_1ab7e11051192b57a573f1f0ad599a689e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int antardhvani.du.ac.in.Database.NotificationSQL.unread_Num</definition>
+        <argsstring>()</argsstring>
+        <name>unread_Num</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/NotificationSQL.java" line="165" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/NotificationSQL.java" bodystart="165" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_notification_s_q_l_1a25771e2284d36a64e96e9b646c0d94dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String antardhvani.du.ac.in.Database.NotificationSQL.getLastNotification</definition>
+        <argsstring>()</argsstring>
+        <name>getLastNotification</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/NotificationSQL.java" line="178" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/NotificationSQL.java" bodystart="178" bodyend="205"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Created by lusifer on 17/2/15. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="182">
+        <label>SQLiteOpenHelper</label>
+      </node>
+      <node id="181">
+        <label>antardhvani.du.ac.in.Database.NotificationSQL</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_notification_s_q_l"/>
+        <childnode refid="182" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="184">
+        <label>SQLiteOpenHelper</label>
+      </node>
+      <node id="183">
+        <label>antardhvani.du.ac.in.Database.NotificationSQL</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_notification_s_q_l"/>
+        <childnode refid="184" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/NotificationSQL.java" line="15" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/NotificationSQL.java" bodystart="15" bodyend="207"/>
+    <listofallmembers>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_notification_s_q_l_1a11980d22cfc29f6101875d031d2bd805" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Database::NotificationSQL</scope><name>addNotification</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_notification_s_q_l_1a4bd5eae3a261cdd9afab4c70e86ae9c9" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Database::NotificationSQL</scope><name>COLUMNS</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_notification_s_q_l_1a05d1b65a0401c09a4cbf38e09a4e9ec8" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Database::NotificationSQL</scope><name>DATABASE_NAME</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_notification_s_q_l_1a92d42104d2c8778fa6ffc1a35aca00e7" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Database::NotificationSQL</scope><name>DATABASE_VERSION</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_notification_s_q_l_1addcbc1af9f4c45cb75a8bcf43d5fa046" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Database::NotificationSQL</scope><name>getAllNoti</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_notification_s_q_l_1a25771e2284d36a64e96e9b646c0d94dc" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Database::NotificationSQL</scope><name>getLastNotification</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_notification_s_q_l_1ad8d5c544a13de28d9c164343922930d2" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Database::NotificationSQL</scope><name>getNotification</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_notification_s_q_l_1aed259676703e54d2f9980b4421e1ff7b" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Database::NotificationSQL</scope><name>KEY_ID</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_notification_s_q_l_1a4d050d6711f073102140d3a40f3a74da" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Database::NotificationSQL</scope><name>KEY_STATUS</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_notification_s_q_l_1a1ca1852b155a2b7d900ad39964957d35" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Database::NotificationSQL</scope><name>KEY_SUBTITLE</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_notification_s_q_l_1a308f956822a3381519add12bb7b7554b" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Database::NotificationSQL</scope><name>KEY_TITLE</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_notification_s_q_l_1ac26ac09fd1ce90bb414bf718d477c6f7" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Database::NotificationSQL</scope><name>NotificationSQL</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_notification_s_q_l_1a9fc4e9314f9b58ae0729ccf9819bbd8e" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Database::NotificationSQL</scope><name>onCreate</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_notification_s_q_l_1a8524f412a1e0dd0508fc0e0b4811a48a" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Database::NotificationSQL</scope><name>onUpgrade</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_notification_s_q_l_1acb1d66e491ea80741c10f952b446eaca" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Database::NotificationSQL</scope><name>TABLE_DATA</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_notification_s_q_l_1ab7e11051192b57a573f1f0ad599a689e" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Database::NotificationSQL</scope><name>unread_Num</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_notification_s_q_l_1aa188787b119b009e4f49302d855d4497" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Database::NotificationSQL</scope><name>updateBook</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

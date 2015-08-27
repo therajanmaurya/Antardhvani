@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_0ed2aa0a7ec708d60415b6bc5f06317c" kind="dir">
+    <compoundname>backend/build/generated-source/endpoints/java/com/example</compoundname>
+    <innerdir refid="dir_d9393afb9ffd6e3a9936ae69e092d0c1">backend/build/generated-source/endpoints/java/com/example/lusifer</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_util" kind="class" language="Java" prot="public">
+    <compoundname>antardhvani::du::ac::in::antardhvani::Util</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_util_1aa08f0bef5addf25a796b89fe67256d55" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>static boolean antardhvani.du.ac.in.antardhvani.Util.isLollipopOrGreater</definition>
+        <argsstring>()</argsstring>
+        <name>isLollipopOrGreater</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Util.java" line="9" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Util.java" bodystart="9" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_util_1ae7d5f14e35cd2c8d8be48a9ad00ea3a0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>static boolean antardhvani.du.ac.in.antardhvani.Util.isJellyBeanOrGreater</definition>
+        <argsstring>()</argsstring>
+        <name>isJellyBeanOrGreater</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Util.java" line="12" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Util.java" bodystart="12" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Created by Windows on 05-02-2015. </para>    </detaileddescription>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Util.java" line="8" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Util.java" bodystart="8" bodyend="15"/>
+    <listofallmembers>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_util_1ae7d5f14e35cd2c8d8be48a9ad00ea3a0" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::Util</scope><name>isJellyBeanOrGreater</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_util_1aa08f0bef5addf25a796b89fe67256d55" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::Util</scope><name>isLollipopOrGreater</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

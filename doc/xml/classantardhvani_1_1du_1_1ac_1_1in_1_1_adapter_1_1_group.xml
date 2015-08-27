@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_group" kind="class" language="Java" prot="public">
+    <compoundname>antardhvani::du::ac::in::Adapter::Group</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_group_1a760cb9cc2a6d18a1e6d9cdf9601f1aec" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String antardhvani.du.ac.in.Adapter.Group.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Group.java" line="11" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Group.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_group_1a77575b8985953bff7e2e4fd3685aaaa8" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; <ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_child" kindref="compound">Child</ref> &gt;</type>
+        <definition>ArrayList&lt;Child&gt; antardhvani.du.ac.in.Adapter.Group.Items</definition>
+        <argsstring></argsstring>
+        <name>Items</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Group.java" line="12" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Group.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_group_1ad448ef9b062e70628c0943a2c59945c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String antardhvani.du.ac.in.Adapter.Group.getName</definition>
+        <argsstring>()</argsstring>
+        <name>getName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Group.java" line="14" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Group.java" bodystart="14" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_group_1a5389584db1977be6b5a2e5e1fd0c31da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.Adapter.Group.setName</definition>
+        <argsstring>(String name)</argsstring>
+        <name>setName</name>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Group.java" line="18" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Group.java" bodystart="18" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_group_1a9a62d01258f315d2d28de29b62771ce9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArrayList&lt; <ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_child" kindref="compound">Child</ref> &gt;</type>
+        <definition>ArrayList&lt;Child&gt; antardhvani.du.ac.in.Adapter.Group.getItems</definition>
+        <argsstring>()</argsstring>
+        <name>getItems</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Group.java" line="22" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Group.java" bodystart="22" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_group_1a513e589a7bdd344690cbd785114e0deb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.Adapter.Group.setItems</definition>
+        <argsstring>(ArrayList&lt; Child &gt; Items)</argsstring>
+        <name>setItems</name>
+        <param>
+          <type>ArrayList&lt; <ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_child" kindref="compound">Child</ref> &gt;</type>
+          <declname>Items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Group.java" line="26" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Group.java" bodystart="26" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Group.java" line="9" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Group.java" bodystart="9" bodyend="30"/>
+    <listofallmembers>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_group_1a9a62d01258f315d2d28de29b62771ce9" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::Group</scope><name>getItems</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_group_1ad448ef9b062e70628c0943a2c59945c4" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::Group</scope><name>getName</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_group_1a77575b8985953bff7e2e4fd3685aaaa8" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::Group</scope><name>Items</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_group_1a760cb9cc2a6d18a1e6d9cdf9601f1aec" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::Group</scope><name>Name</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_group_1a513e589a7bdd344690cbd785114e0deb" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::Group</scope><name>setItems</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_group_1a5389584db1977be6b5a2e5e1fd0c31da" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::Group</scope><name>setName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

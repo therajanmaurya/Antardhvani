@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request_initializer" kind="class" language="Java" prot="public">
+    <compoundname>com::example::lusifer::myapplication::backend::registration::RegistrationRequestInitializer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">CommonGoogleJsonClientRequestInitializer</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">CommonGoogleJsonClientRequestInitializer</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request_initializer_1ad7943c7ab12d6217a35e058e47e99d0e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.example.lusifer.myapplication.backend.registration.RegistrationRequestInitializer.RegistrationRequestInitializer</definition>
+        <argsstring>()</argsstring>
+        <name>RegistrationRequestInitializer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/RegistrationRequestInitializer.java" line="84" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/RegistrationRequestInitializer.java" bodystart="84" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request_initializer_1a1fcebc896e0a138510799819494d353e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.example.lusifer.myapplication.backend.registration.RegistrationRequestInitializer.RegistrationRequestInitializer</definition>
+        <argsstring>(String key)</argsstring>
+        <name>RegistrationRequestInitializer</name>
+        <param>
+          <type>String</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>API key or<programlisting><codeline><highlight class="normal">null<sp/></highlight></codeline>
+</programlisting> to leave it unchanged </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/RegistrationRequestInitializer.java" line="91" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/RegistrationRequestInitializer.java" bodystart="91" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request_initializer_1a24ca4cae7e5581f1a2d6639b54c8a42b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.example.lusifer.myapplication.backend.registration.RegistrationRequestInitializer.RegistrationRequestInitializer</definition>
+        <argsstring>(String key, String userIp)</argsstring>
+        <name>RegistrationRequestInitializer</name>
+        <param>
+          <type>String</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>userIp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>API key or<programlisting><codeline><highlight class="normal">null<sp/></highlight></codeline>
+</programlisting> to leave it unchanged </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>userIp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>user IP or<programlisting><codeline><highlight class="normal">null<sp/></highlight></codeline>
+</programlisting> to leave it unchanged </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/RegistrationRequestInitializer.java" line="99" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/RegistrationRequestInitializer.java" bodystart="99" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request_initializer_1a22a6c967fb61fe4e65b41466ef601b9e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void com.example.lusifer.myapplication.backend.registration.RegistrationRequestInitializer.initializeJsonRequest</definition>
+        <argsstring>(com.google.api.client.googleapis.services.json.AbstractGoogleJsonClientRequest&lt;?&gt; request)</argsstring>
+        <name>initializeJsonRequest</name>
+        <param>
+          <type>com.google.api.client.googleapis.services.json.AbstractGoogleJsonClientRequest&lt;?&gt;</type>
+          <declname>request</declname>
+        </param>
+        <exceptions> throws java.io.IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/RegistrationRequestInitializer.java" line="104" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/RegistrationRequestInitializer.java" bodystart="104" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request_initializer_1ad7943c7ab12d6217a35e058e47e99d0e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.example.lusifer.myapplication.backend.registration.RegistrationRequestInitializer.RegistrationRequestInitializer</definition>
+        <argsstring>()</argsstring>
+        <name>RegistrationRequestInitializer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/RegistrationRequestInitializer.java" line="84" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/RegistrationRequestInitializer.java" bodystart="84" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request_initializer_1a1fcebc896e0a138510799819494d353e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.example.lusifer.myapplication.backend.registration.RegistrationRequestInitializer.RegistrationRequestInitializer</definition>
+        <argsstring>(String key)</argsstring>
+        <name>RegistrationRequestInitializer</name>
+        <param>
+          <type>String</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>API key or<programlisting><codeline><highlight class="normal">null<sp/></highlight></codeline>
+</programlisting> to leave it unchanged </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/RegistrationRequestInitializer.java" line="91" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/RegistrationRequestInitializer.java" bodystart="91" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request_initializer_1a24ca4cae7e5581f1a2d6639b54c8a42b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.example.lusifer.myapplication.backend.registration.RegistrationRequestInitializer.RegistrationRequestInitializer</definition>
+        <argsstring>(String key, String userIp)</argsstring>
+        <name>RegistrationRequestInitializer</name>
+        <param>
+          <type>String</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>userIp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>API key or<programlisting><codeline><highlight class="normal">null<sp/></highlight></codeline>
+</programlisting> to leave it unchanged </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>userIp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>user IP or<programlisting><codeline><highlight class="normal">null<sp/></highlight></codeline>
+</programlisting> to leave it unchanged </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/RegistrationRequestInitializer.java" line="99" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/RegistrationRequestInitializer.java" bodystart="99" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request_initializer_1a22a6c967fb61fe4e65b41466ef601b9e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void com.example.lusifer.myapplication.backend.registration.RegistrationRequestInitializer.initializeJsonRequest</definition>
+        <argsstring>(com.google.api.client.googleapis.services.json.AbstractGoogleJsonClientRequest&lt;?&gt; request)</argsstring>
+        <name>initializeJsonRequest</name>
+        <param>
+          <type>com.google.api.client.googleapis.services.json.AbstractGoogleJsonClientRequest&lt;?&gt;</type>
+          <declname>request</declname>
+        </param>
+        <exceptions> throws java.io.IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/RegistrationRequestInitializer.java" line="104" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/RegistrationRequestInitializer.java" bodystart="104" bodyend="107"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request_initializer_1a32f2b91f9d66573bc9f814bcebd43f6f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.example.lusifer.myapplication.backend.registration.RegistrationRequestInitializer.initializeRegistrationRequest</definition>
+        <argsstring>(RegistrationRequest&lt;?&gt; request)</argsstring>
+        <name>initializeRegistrationRequest</name>
+        <param>
+          <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request" kindref="compound">RegistrationRequest</ref>&lt;?&gt;</type>
+          <declname>request</declname>
+        </param>
+        <exceptions> throws java.io.IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initializes <ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration" kindref="compound">Registration</ref> request.</para><para>Default implementation does nothing. Called from <ref refid="" kindref="compound">initializeJsonRequest(com.google.api.client.googleapis.services.json.AbstractGoogleJsonClientRequest)</ref>. </para><para><parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>java.io.IOException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>I/O exception </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/RegistrationRequestInitializer.java" line="119" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/RegistrationRequestInitializer.java" bodystart="119" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request_initializer_1a32f2b91f9d66573bc9f814bcebd43f6f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.example.lusifer.myapplication.backend.registration.RegistrationRequestInitializer.initializeRegistrationRequest</definition>
+        <argsstring>(RegistrationRequest&lt;?&gt; request)</argsstring>
+        <name>initializeRegistrationRequest</name>
+        <param>
+          <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request" kindref="compound">RegistrationRequest</ref>&lt;?&gt;</type>
+          <declname>request</declname>
+        </param>
+        <exceptions> throws java.io.IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initializes <ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration" kindref="compound">Registration</ref> request.</para><para>Default implementation does nothing. Called from <ref refid="" kindref="compound">initializeJsonRequest(com.google.api.client.googleapis.services.json.AbstractGoogleJsonClientRequest)</ref>. </para><para><parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>java.io.IOException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>I/O exception </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/RegistrationRequestInitializer.java" line="119" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/RegistrationRequestInitializer.java" bodystart="119" bodyend="120"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Override public void initializeRegistrationRequest(<ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request" kindref="compound">RegistrationRequest</ref>{ &lt;}?{ &gt;} request) throws IOException { // custom logic } } </para><para>Subclasses should be thread-safe. </para><para><simplesect kind="since"><para>1.12 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="223">
+        <label>CommonGoogleJsonClientRequestInitializer</label>
+      </node>
+      <node id="222">
+        <label>com.example.lusifer.myapplication.backend.registration.RegistrationRequestInitializer</label>
+        <link refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request_initializer"/>
+        <childnode refid="223" relation="public-inheritance">
+        </childnode>
+        <childnode refid="223" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="225">
+        <label>CommonGoogleJsonClientRequestInitializer</label>
+      </node>
+      <node id="224">
+        <label>com.example.lusifer.myapplication.backend.registration.RegistrationRequestInitializer</label>
+        <link refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request_initializer"/>
+        <childnode refid="225" relation="public-inheritance">
+        </childnode>
+        <childnode refid="225" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/RegistrationRequestInitializer.java" line="82" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/RegistrationRequestInitializer.java" bodystart="82" bodyend="121"/>
+    <listofallmembers>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request_initializer_1a22a6c967fb61fe4e65b41466ef601b9e" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::RegistrationRequestInitializer</scope><name>initializeJsonRequest</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request_initializer_1a22a6c967fb61fe4e65b41466ef601b9e" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::RegistrationRequestInitializer</scope><name>initializeJsonRequest</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request_initializer_1a32f2b91f9d66573bc9f814bcebd43f6f" prot="protected" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::RegistrationRequestInitializer</scope><name>initializeRegistrationRequest</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request_initializer_1a32f2b91f9d66573bc9f814bcebd43f6f" prot="protected" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::RegistrationRequestInitializer</scope><name>initializeRegistrationRequest</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request_initializer_1ad7943c7ab12d6217a35e058e47e99d0e" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::RegistrationRequestInitializer</scope><name>RegistrationRequestInitializer</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request_initializer_1a1fcebc896e0a138510799819494d353e" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::RegistrationRequestInitializer</scope><name>RegistrationRequestInitializer</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request_initializer_1a24ca4cae7e5581f1a2d6639b54c8a42b" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::RegistrationRequestInitializer</scope><name>RegistrationRequestInitializer</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request_initializer_1ad7943c7ab12d6217a35e058e47e99d0e" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::RegistrationRequestInitializer</scope><name>RegistrationRequestInitializer</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request_initializer_1a1fcebc896e0a138510799819494d353e" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::RegistrationRequestInitializer</scope><name>RegistrationRequestInitializer</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request_initializer_1a24ca4cae7e5581f1a2d6639b54c8a42b" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::RegistrationRequestInitializer</scope><name>RegistrationRequestInitializer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

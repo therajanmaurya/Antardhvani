@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_g_c_m" kind="class" language="PHP" prot="public">
+    <compoundname>GCM</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_g_c_m_1a541738ec1d853916d7bea0e7791f1b00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GCM::__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/gcm_server/GCM.php" line="17" column="1" bodyfile="E:/Git/Antardhvani/gcm_server/GCM.php" bodystart="17" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_c_m_1a3946cab6db3c354c67e5c186acce9224" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GCM::send_notification</definition>
+        <argsstring>($registatoin_ids, $message)</argsstring>
+        <name>send_notification</name>
+        <param>
+          <declname>$registatoin_ids</declname>
+        </param>
+        <param>
+          <declname>$message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sending Push Notification </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/gcm_server/GCM.php" line="24" column="1" bodyfile="E:/Git/Antardhvani/gcm_server/GCM.php" bodystart="24" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Description of <ref refid="class_g_c_m" kindref="compound">GCM</ref></para><para><simplesect kind="author"><para>Ravi Tamada </para></simplesect>
+</para>    </detaileddescription>
+    <location file="E:/Git/Antardhvani/gcm_server/GCM.php" line="13" column="1" bodyfile="E:/Git/Antardhvani/gcm_server/GCM.php" bodystart="13" bodyend="66"/>
+    <listofallmembers>
+      <member refid="class_g_c_m_1a541738ec1d853916d7bea0e7791f1b00" prot="public" virt="non-virtual"><scope>GCM</scope><name>__construct</name></member>
+      <member refid="class_g_c_m_1a3946cab6db3c354c67e5c186acce9224" prot="public" virt="non-virtual"><scope>GCM</scope><name>send_notification</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

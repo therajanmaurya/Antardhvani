@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_97f6d886d822231e4277ff4461a7e1a5" kind="dir">
+    <compoundname>backend/build/tmp</compoundname>
+    <innerdir refid="dir_657f59ba4e4af68cc656277949b0a0be">backend/build/tmp/appengineEndpointsExpandClientLibs</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Git/Antardhvani/backend/build/tmp/"/>
+  </compounddef>
+</doxygen>

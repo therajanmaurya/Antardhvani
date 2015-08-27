@@ -1,0 +1,37 @@
+.TH "com.example.lusifer.myapplication.backend.MessagingEndpoint" 3 "Fri May 29 2015" "Version 0.1" "Antardhwani" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.example.lusifer.myapplication.backend.MessagingEndpoint \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBsendMessage\fP (@Named('message') String message)  throws IOException "
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+An endpoint to send messages to devices registered with the backend 
+.PP
+For more information, see https://developers.google.com/appengine/docs/java/endpoints/ 
+.PP
+NOTE: This endpoint does not use any form of authorization or authentication! If this app is deployed, anyone can access this endpoint! If you'd like to add authentication, take a look at the documentation\&. 
+.SH "Member Function Documentation"
+.PP 
+.SS "void com\&.example\&.lusifer\&.myapplication\&.backend\&.MessagingEndpoint\&.sendMessage (@Named('message') String message) throws IOException"
+Send to the first 10 devices (You can modify this to send to any number of devices or a specific device)
+.PP
+\fBParameters:\fP
+.RS 4
+\fImessage\fP The message to send 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Antardhwani from the source code\&.

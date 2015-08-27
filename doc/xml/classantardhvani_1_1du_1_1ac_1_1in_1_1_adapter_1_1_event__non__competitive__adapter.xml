@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_event__non__competitive__adapter" kind="class" language="Java" prot="public">
+    <compoundname>antardhvani::du::ac::in::Adapter::Event_non_competitive_adapter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BaseExpandableListAdapter</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_event__non__competitive__adapter_1a20a15b090f00c3e09086e989e1baad18" prot="private" static="no" mutable="no">
+        <type>Context</type>
+        <definition>Context antardhvani.du.ac.in.Adapter.Event_non_competitive_adapter.context</definition>
+        <argsstring></argsstring>
+        <name>context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Event_non_competitive_adapter.java" line="19" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Event_non_competitive_adapter.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_event__non__competitive__adapter_1ab2c853db8a5e5f18a43f0ea41ea69d58" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; <ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_group" kindref="compound">Group</ref> &gt;</type>
+        <definition>ArrayList&lt;Group&gt; antardhvani.du.ac.in.Adapter.Event_non_competitive_adapter.groups</definition>
+        <argsstring></argsstring>
+        <name>groups</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Event_non_competitive_adapter.java" line="20" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Event_non_competitive_adapter.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_event__non__competitive__adapter_1a1df78b6cf07165082ffcfcfbbdb09029" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>antardhvani.du.ac.in.Adapter.Event_non_competitive_adapter.Event_non_competitive_adapter</definition>
+        <argsstring>(Context context, ArrayList&lt; Group &gt; groups)</argsstring>
+        <name>Event_non_competitive_adapter</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>ArrayList&lt; <ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_group" kindref="compound">Group</ref> &gt;</type>
+          <declname>groups</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Event_non_competitive_adapter.java" line="22" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Event_non_competitive_adapter.java" bodystart="22" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_event__non__competitive__adapter_1a9bc99df276b1389ca39494a20079442b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Object</type>
+        <definition>Object antardhvani.du.ac.in.Adapter.Event_non_competitive_adapter.getChild</definition>
+        <argsstring>(int groupPosition, int childPosition)</argsstring>
+        <name>getChild</name>
+        <param>
+          <type>int</type>
+          <declname>groupPosition</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>childPosition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Event_non_competitive_adapter.java" line="28" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Event_non_competitive_adapter.java" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_event__non__competitive__adapter_1a8ea6d870de74d7c6b6cca72498030c28" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>long antardhvani.du.ac.in.Adapter.Event_non_competitive_adapter.getChildId</definition>
+        <argsstring>(int groupPosition, int childPosition)</argsstring>
+        <name>getChildId</name>
+        <param>
+          <type>int</type>
+          <declname>groupPosition</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>childPosition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Event_non_competitive_adapter.java" line="34" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Event_non_competitive_adapter.java" bodystart="34" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_event__non__competitive__adapter_1aa0af54543ff6e76088211117105d64c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>View</type>
+        <definition>View antardhvani.du.ac.in.Adapter.Event_non_competitive_adapter.getChildView</definition>
+        <argsstring>(int groupPosition, int childPosition, boolean isLastChild, View convertView, ViewGroup parent)</argsstring>
+        <name>getChildView</name>
+        <param>
+          <type>int</type>
+          <declname>groupPosition</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>childPosition</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>isLastChild</declname>
+        </param>
+        <param>
+          <type>View</type>
+          <declname>convertView</declname>
+        </param>
+        <param>
+          <type>ViewGroup</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Event_non_competitive_adapter.java" line="39" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Event_non_competitive_adapter.java" bodystart="39" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_event__non__competitive__adapter_1a31d37f5f16313658f3ba8b40e8a458b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int antardhvani.du.ac.in.Adapter.Event_non_competitive_adapter.getChildrenCount</definition>
+        <argsstring>(int groupPosition)</argsstring>
+        <name>getChildrenCount</name>
+        <param>
+          <type>int</type>
+          <declname>groupPosition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Event_non_competitive_adapter.java" line="59" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Event_non_competitive_adapter.java" bodystart="59" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_event__non__competitive__adapter_1a094f999d2779606724ac5b2aad5218be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Object</type>
+        <definition>Object antardhvani.du.ac.in.Adapter.Event_non_competitive_adapter.getGroup</definition>
+        <argsstring>(int groupPosition)</argsstring>
+        <name>getGroup</name>
+        <param>
+          <type>int</type>
+          <declname>groupPosition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Event_non_competitive_adapter.java" line="65" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Event_non_competitive_adapter.java" bodystart="65" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_event__non__competitive__adapter_1a5626881e41bafae4e6618a01cee35d67" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int antardhvani.du.ac.in.Adapter.Event_non_competitive_adapter.getGroupCount</definition>
+        <argsstring>()</argsstring>
+        <name>getGroupCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Event_non_competitive_adapter.java" line="70" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Event_non_competitive_adapter.java" bodystart="70" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_event__non__competitive__adapter_1a55ba6bed4f23c6653c92e2254784f9f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>long antardhvani.du.ac.in.Adapter.Event_non_competitive_adapter.getGroupId</definition>
+        <argsstring>(int groupPosition)</argsstring>
+        <name>getGroupId</name>
+        <param>
+          <type>int</type>
+          <declname>groupPosition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Event_non_competitive_adapter.java" line="75" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Event_non_competitive_adapter.java" bodystart="75" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_event__non__competitive__adapter_1a125b3c65366f960b19b9a4dcc36abd8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>View</type>
+        <definition>View antardhvani.du.ac.in.Adapter.Event_non_competitive_adapter.getGroupView</definition>
+        <argsstring>(int groupPosition, boolean isExpanded, View convertView, ViewGroup parent)</argsstring>
+        <name>getGroupView</name>
+        <param>
+          <type>int</type>
+          <declname>groupPosition</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>isExpanded</declname>
+        </param>
+        <param>
+          <type>View</type>
+          <declname>convertView</declname>
+        </param>
+        <param>
+          <type>ViewGroup</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Event_non_competitive_adapter.java" line="80" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Event_non_competitive_adapter.java" bodystart="80" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_event__non__competitive__adapter_1a16d977a681385290ba937a46ae4ebb45" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean antardhvani.du.ac.in.Adapter.Event_non_competitive_adapter.hasStableIds</definition>
+        <argsstring>()</argsstring>
+        <name>hasStableIds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Event_non_competitive_adapter.java" line="96" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Event_non_competitive_adapter.java" bodystart="96" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_event__non__competitive__adapter_1a88d7eb108541f42f1017882e46043130" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean antardhvani.du.ac.in.Adapter.Event_non_competitive_adapter.isChildSelectable</definition>
+        <argsstring>(int groupPosition, int childPosition)</argsstring>
+        <name>isChildSelectable</name>
+        <param>
+          <type>int</type>
+          <declname>groupPosition</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>childPosition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Event_non_competitive_adapter.java" line="101" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Event_non_competitive_adapter.java" bodystart="101" bodyend="103"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="67">
+        <label>BaseExpandableListAdapter</label>
+      </node>
+      <node id="66">
+        <label>antardhvani.du.ac.in.Adapter.Event_non_competitive_adapter</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_event__non__competitive__adapter"/>
+        <childnode refid="67" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="69">
+        <label>BaseExpandableListAdapter</label>
+      </node>
+      <node id="68">
+        <label>antardhvani.du.ac.in.Adapter.Event_non_competitive_adapter</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_event__non__competitive__adapter"/>
+        <childnode refid="69" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Event_non_competitive_adapter.java" line="17" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Event_non_competitive_adapter.java" bodystart="17" bodyend="105"/>
+    <listofallmembers>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_event__non__competitive__adapter_1a20a15b090f00c3e09086e989e1baad18" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::Event_non_competitive_adapter</scope><name>context</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_event__non__competitive__adapter_1a1df78b6cf07165082ffcfcfbbdb09029" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::Event_non_competitive_adapter</scope><name>Event_non_competitive_adapter</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_event__non__competitive__adapter_1a9bc99df276b1389ca39494a20079442b" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::Event_non_competitive_adapter</scope><name>getChild</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_event__non__competitive__adapter_1a8ea6d870de74d7c6b6cca72498030c28" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::Event_non_competitive_adapter</scope><name>getChildId</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_event__non__competitive__adapter_1a31d37f5f16313658f3ba8b40e8a458b9" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::Event_non_competitive_adapter</scope><name>getChildrenCount</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_event__non__competitive__adapter_1aa0af54543ff6e76088211117105d64c5" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::Event_non_competitive_adapter</scope><name>getChildView</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_event__non__competitive__adapter_1a094f999d2779606724ac5b2aad5218be" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::Event_non_competitive_adapter</scope><name>getGroup</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_event__non__competitive__adapter_1a5626881e41bafae4e6618a01cee35d67" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::Event_non_competitive_adapter</scope><name>getGroupCount</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_event__non__competitive__adapter_1a55ba6bed4f23c6653c92e2254784f9f7" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::Event_non_competitive_adapter</scope><name>getGroupId</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_event__non__competitive__adapter_1a125b3c65366f960b19b9a4dcc36abd8f" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::Event_non_competitive_adapter</scope><name>getGroupView</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_event__non__competitive__adapter_1ab2c853db8a5e5f18a43f0ea41ea69d58" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::Event_non_competitive_adapter</scope><name>groups</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_event__non__competitive__adapter_1a16d977a681385290ba937a46ae4ebb45" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::Event_non_competitive_adapter</scope><name>hasStableIds</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_event__non__competitive__adapter_1a88d7eb108541f42f1017882e46043130" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::Event_non_competitive_adapter</scope><name>isChildSelectable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

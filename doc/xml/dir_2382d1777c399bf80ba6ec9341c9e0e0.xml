@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_2382d1777c399bf80ba6ec9341c9e0e0" kind="dir">
+    <compoundname>app</compoundname>
+    <innerdir refid="dir_cc008484cd1bec7773cf5d2734ca9de7">app/src</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Git/Antardhvani/app/"/>
+  </compounddef>
+</doxygen>

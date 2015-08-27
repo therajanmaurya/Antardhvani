@@ -1,0 +1,439 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015" kind="class" language="Java" prot="public">
+    <compoundname>antardhvani::du::ac::in::Schedule::Schedule_20th_FEB_2015</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Fragment</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1abe77394e81e75e7d8ae0d5b64c380e18" prot="private" static="no" mutable="no">
+        <type><ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_schedule__day__adapter" kindref="compound">Schedule_day_adapter</ref></type>
+        <definition>Schedule_day_adapter antardhvani.du.ac.in.Schedule.Schedule_20th_FEB_2015.ExpAdapter</definition>
+        <argsstring></argsstring>
+        <name>ExpAdapter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" line="25" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1ac51eb1ef6de1d560239614e4ea677066" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; <ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_group" kindref="compound">Group</ref> &gt;</type>
+        <definition>ArrayList&lt;Group&gt; antardhvani.du.ac.in.Schedule.Schedule_20th_FEB_2015.ExpListItems</definition>
+        <argsstring></argsstring>
+        <name>ExpListItems</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" line="26" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1aa8c31b0ecaf1e3b104ebf54c3c460e81" prot="private" static="no" mutable="no">
+        <type>ExpandableListView</type>
+        <definition>ExpandableListView antardhvani.du.ac.in.Schedule.Schedule_20th_FEB_2015.ExpandList</definition>
+        <argsstring></argsstring>
+        <name>ExpandList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" line="27" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1af9aaee21229ddc80a4e455f7274f0eed" prot="package" static="no" mutable="no">
+        <type><ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_schedule__day__adapter" kindref="compound">Schedule_day_adapter</ref></type>
+        <definition>Schedule_day_adapter antardhvani.du.ac.in.Schedule.Schedule_20th_FEB_2015.ExpAdapter1</definition>
+        <argsstring></argsstring>
+        <name>ExpAdapter1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" line="25" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1a1a2484b90743af2b322ff1f3780406db" prot="package" static="no" mutable="no">
+        <type><ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_schedule__day__adapter" kindref="compound">Schedule_day_adapter</ref></type>
+        <definition>Schedule_day_adapter antardhvani.du.ac.in.Schedule.Schedule_20th_FEB_2015.ExpAdapter2</definition>
+        <argsstring></argsstring>
+        <name>ExpAdapter2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" line="25" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1a391a121dc6471f635997e10e63f88bd7" prot="package" static="no" mutable="no">
+        <type><ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_schedule__day__adapter" kindref="compound">Schedule_day_adapter</ref></type>
+        <definition>Schedule_day_adapter antardhvani.du.ac.in.Schedule.Schedule_20th_FEB_2015.ExpAdapter3</definition>
+        <argsstring></argsstring>
+        <name>ExpAdapter3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" line="25" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1a9b2374ad6ee6c18a9318e3c21c945aff" prot="package" static="no" mutable="no">
+        <type><ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_schedule__day__adapter" kindref="compound">Schedule_day_adapter</ref></type>
+        <definition>Schedule_day_adapter antardhvani.du.ac.in.Schedule.Schedule_20th_FEB_2015.ExpAdapter4</definition>
+        <argsstring></argsstring>
+        <name>ExpAdapter4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" line="25" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1aa698bb4b90f8c2067f42dea1611b7d2b" prot="package" static="no" mutable="no">
+        <type><ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_schedule__day__adapter" kindref="compound">Schedule_day_adapter</ref></type>
+        <definition>Schedule_day_adapter antardhvani.du.ac.in.Schedule.Schedule_20th_FEB_2015.ExpAdapter5</definition>
+        <argsstring></argsstring>
+        <name>ExpAdapter5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" line="25" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1a822f3aacb19a828f1419a4b286e12f83" prot="package" static="no" mutable="no">
+        <type><ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_schedule__day__adapter" kindref="compound">Schedule_day_adapter</ref></type>
+        <definition>Schedule_day_adapter antardhvani.du.ac.in.Schedule.Schedule_20th_FEB_2015.ExpAdapter6</definition>
+        <argsstring></argsstring>
+        <name>ExpAdapter6</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" line="25" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1a774d29afee11206055e44e8857e1f071" prot="package" static="no" mutable="no">
+        <type>ArrayList&lt; <ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_group" kindref="compound">Group</ref> &gt;</type>
+        <definition>ArrayList&lt;Group&gt; antardhvani.du.ac.in.Schedule.Schedule_20th_FEB_2015.ExpListItems1</definition>
+        <argsstring></argsstring>
+        <name>ExpListItems1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" line="26" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1a327a2505586a2907985ec79eea0bbd8a" prot="package" static="no" mutable="no">
+        <type>ArrayList&lt; <ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_group" kindref="compound">Group</ref> &gt;</type>
+        <definition>ArrayList&lt;Group&gt; antardhvani.du.ac.in.Schedule.Schedule_20th_FEB_2015.ExpListItems2</definition>
+        <argsstring></argsstring>
+        <name>ExpListItems2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" line="26" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1af40c5e5f1e0bcdb364918f16bab23076" prot="package" static="no" mutable="no">
+        <type>ArrayList&lt; <ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_group" kindref="compound">Group</ref> &gt;</type>
+        <definition>ArrayList&lt;Group&gt; antardhvani.du.ac.in.Schedule.Schedule_20th_FEB_2015.ExpListItems3</definition>
+        <argsstring></argsstring>
+        <name>ExpListItems3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" line="26" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1a65ddceb4e0be82d5970d42ac23349c46" prot="package" static="no" mutable="no">
+        <type>ArrayList&lt; <ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_group" kindref="compound">Group</ref> &gt;</type>
+        <definition>ArrayList&lt;Group&gt; antardhvani.du.ac.in.Schedule.Schedule_20th_FEB_2015.ExpListItems4</definition>
+        <argsstring></argsstring>
+        <name>ExpListItems4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" line="26" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1a6a872e8d121847b6506d5e77202509d1" prot="package" static="no" mutable="no">
+        <type>ArrayList&lt; <ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_group" kindref="compound">Group</ref> &gt;</type>
+        <definition>ArrayList&lt;Group&gt; antardhvani.du.ac.in.Schedule.Schedule_20th_FEB_2015.ExpListItems5</definition>
+        <argsstring></argsstring>
+        <name>ExpListItems5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" line="26" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1a5f12a5f99068b7b2b1705527f91a669b" prot="package" static="no" mutable="no">
+        <type>ArrayList&lt; <ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_group" kindref="compound">Group</ref> &gt;</type>
+        <definition>ArrayList&lt;Group&gt; antardhvani.du.ac.in.Schedule.Schedule_20th_FEB_2015.ExpListItems6</definition>
+        <argsstring></argsstring>
+        <name>ExpListItems6</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" line="26" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1a8904f66d0447c258a23824fa47d7360c" prot="package" static="no" mutable="no">
+        <type>ExpandableListView</type>
+        <definition>ExpandableListView antardhvani.du.ac.in.Schedule.Schedule_20th_FEB_2015.ExpandList1</definition>
+        <argsstring></argsstring>
+        <name>ExpandList1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" line="27" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1ab42d607f70eaee0b678729a061befdf4" prot="package" static="no" mutable="no">
+        <type>ExpandableListView</type>
+        <definition>ExpandableListView antardhvani.du.ac.in.Schedule.Schedule_20th_FEB_2015.ExpandList2</definition>
+        <argsstring></argsstring>
+        <name>ExpandList2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" line="27" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1ad37f68e903da8787c260980fc69a9646" prot="package" static="no" mutable="no">
+        <type>ExpandableListView</type>
+        <definition>ExpandableListView antardhvani.du.ac.in.Schedule.Schedule_20th_FEB_2015.ExpandList3</definition>
+        <argsstring></argsstring>
+        <name>ExpandList3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" line="27" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1afa82be7b6e0729e0338d7eb70e311c2c" prot="package" static="no" mutable="no">
+        <type>ExpandableListView</type>
+        <definition>ExpandableListView antardhvani.du.ac.in.Schedule.Schedule_20th_FEB_2015.ExpandList4</definition>
+        <argsstring></argsstring>
+        <name>ExpandList4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" line="27" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1aefdcfddf3ae4f8a4c71c8df6ab3df19a" prot="package" static="no" mutable="no">
+        <type>ExpandableListView</type>
+        <definition>ExpandableListView antardhvani.du.ac.in.Schedule.Schedule_20th_FEB_2015.ExpandList5</definition>
+        <argsstring></argsstring>
+        <name>ExpandList5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" line="27" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1abed9a9bfc97b5a554973b697695ffb10" prot="package" static="no" mutable="no">
+        <type>ExpandableListView</type>
+        <definition>ExpandableListView antardhvani.du.ac.in.Schedule.Schedule_20th_FEB_2015.ExpandList6</definition>
+        <argsstring></argsstring>
+        <name>ExpandList6</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" line="27" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1adeea59dab409353c31098dc9970c7dcb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015" kindref="compound">Schedule_20th_FEB_2015</ref></type>
+        <definition>static Schedule_20th_FEB_2015 antardhvani.du.ac.in.Schedule.Schedule_20th_FEB_2015.getInstance</definition>
+        <argsstring>(int position)</argsstring>
+        <name>getInstance</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" line="30" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" bodystart="30" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1ad91213337838740442239aa01bfc85f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>View</type>
+        <definition>View antardhvani.du.ac.in.Schedule.Schedule_20th_FEB_2015.onCreateView</definition>
+        <argsstring>(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)</argsstring>
+        <name>onCreateView</name>
+        <param>
+          <type>LayoutInflater</type>
+          <declname>inflater</declname>
+        </param>
+        <param>
+          <type>ViewGroup</type>
+          <declname>container</declname>
+        </param>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" line="39" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" bodystart="39" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1ae0eeb8b8ea39c581373f53b4bd966c4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArrayList&lt; <ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_group" kindref="compound">Group</ref> &gt;</type>
+        <definition>ArrayList&lt;Group&gt; antardhvani.du.ac.in.Schedule.Schedule_20th_FEB_2015.SetStandardGroups</definition>
+        <argsstring>(String[] data)</argsstring>
+        <name>SetStandardGroups</name>
+        <param>
+          <type>String[]</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" line="96" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" bodystart="96" bodyend="118"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Created by Windows on 23-01-2015. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="242">
+        <label>antardhvani.du.ac.in.Schedule.Schedule_20th_FEB_2015</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015"/>
+        <childnode refid="243" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="243">
+        <label>Fragment</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="248">
+        <label>antardhvani.du.ac.in.Adapter.Schedule_day_adapter</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_schedule__day__adapter"/>
+        <childnode refid="249" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="246">
+        <label>ExpandableListView</label>
+      </node>
+      <node id="244">
+        <label>antardhvani.du.ac.in.Schedule.Schedule_20th_FEB_2015</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015"/>
+        <childnode refid="245" relation="public-inheritance">
+        </childnode>
+        <childnode refid="246" relation="usage">
+          <edgelabel>ExpandList1</edgelabel>
+          <edgelabel>ExpandList2</edgelabel>
+          <edgelabel>ExpandList3</edgelabel>
+          <edgelabel>ExpandList4</edgelabel>
+          <edgelabel>ExpandList5</edgelabel>
+          <edgelabel>ExpandList6</edgelabel>
+        </childnode>
+        <childnode refid="247" relation="usage">
+          <edgelabel>ExpListItems1</edgelabel>
+          <edgelabel>ExpListItems2</edgelabel>
+          <edgelabel>ExpListItems3</edgelabel>
+          <edgelabel>ExpListItems4</edgelabel>
+          <edgelabel>ExpListItems5</edgelabel>
+          <edgelabel>ExpListItems6</edgelabel>
+        </childnode>
+        <childnode refid="248" relation="usage">
+          <edgelabel>ExpAdapter1</edgelabel>
+          <edgelabel>ExpAdapter2</edgelabel>
+          <edgelabel>ExpAdapter3</edgelabel>
+          <edgelabel>ExpAdapter4</edgelabel>
+          <edgelabel>ExpAdapter5</edgelabel>
+          <edgelabel>ExpAdapter6</edgelabel>
+        </childnode>
+      </node>
+      <node id="247">
+        <label>ArrayList&lt; antardhvani.du.ac.in.Adapter.Group &gt;</label>
+      </node>
+      <node id="249">
+        <label>BaseExpandableListAdapter</label>
+      </node>
+      <node id="245">
+        <label>Fragment</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" line="23" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_20th_FEB_2015.java" bodystart="23" bodyend="121"/>
+    <listofallmembers>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1abe77394e81e75e7d8ae0d5b64c380e18" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Schedule::Schedule_20th_FEB_2015</scope><name>ExpAdapter</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1af9aaee21229ddc80a4e455f7274f0eed" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::Schedule::Schedule_20th_FEB_2015</scope><name>ExpAdapter1</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1a1a2484b90743af2b322ff1f3780406db" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::Schedule::Schedule_20th_FEB_2015</scope><name>ExpAdapter2</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1a391a121dc6471f635997e10e63f88bd7" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::Schedule::Schedule_20th_FEB_2015</scope><name>ExpAdapter3</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1a9b2374ad6ee6c18a9318e3c21c945aff" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::Schedule::Schedule_20th_FEB_2015</scope><name>ExpAdapter4</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1aa698bb4b90f8c2067f42dea1611b7d2b" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::Schedule::Schedule_20th_FEB_2015</scope><name>ExpAdapter5</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1a822f3aacb19a828f1419a4b286e12f83" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::Schedule::Schedule_20th_FEB_2015</scope><name>ExpAdapter6</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1aa8c31b0ecaf1e3b104ebf54c3c460e81" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Schedule::Schedule_20th_FEB_2015</scope><name>ExpandList</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1a8904f66d0447c258a23824fa47d7360c" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::Schedule::Schedule_20th_FEB_2015</scope><name>ExpandList1</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1ab42d607f70eaee0b678729a061befdf4" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::Schedule::Schedule_20th_FEB_2015</scope><name>ExpandList2</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1ad37f68e903da8787c260980fc69a9646" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::Schedule::Schedule_20th_FEB_2015</scope><name>ExpandList3</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1afa82be7b6e0729e0338d7eb70e311c2c" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::Schedule::Schedule_20th_FEB_2015</scope><name>ExpandList4</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1aefdcfddf3ae4f8a4c71c8df6ab3df19a" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::Schedule::Schedule_20th_FEB_2015</scope><name>ExpandList5</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1abed9a9bfc97b5a554973b697695ffb10" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::Schedule::Schedule_20th_FEB_2015</scope><name>ExpandList6</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1ac51eb1ef6de1d560239614e4ea677066" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Schedule::Schedule_20th_FEB_2015</scope><name>ExpListItems</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1a774d29afee11206055e44e8857e1f071" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::Schedule::Schedule_20th_FEB_2015</scope><name>ExpListItems1</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1a327a2505586a2907985ec79eea0bbd8a" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::Schedule::Schedule_20th_FEB_2015</scope><name>ExpListItems2</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1af40c5e5f1e0bcdb364918f16bab23076" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::Schedule::Schedule_20th_FEB_2015</scope><name>ExpListItems3</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1a65ddceb4e0be82d5970d42ac23349c46" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::Schedule::Schedule_20th_FEB_2015</scope><name>ExpListItems4</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1a6a872e8d121847b6506d5e77202509d1" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::Schedule::Schedule_20th_FEB_2015</scope><name>ExpListItems5</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1a5f12a5f99068b7b2b1705527f91a669b" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::Schedule::Schedule_20th_FEB_2015</scope><name>ExpListItems6</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1adeea59dab409353c31098dc9970c7dcb" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Schedule::Schedule_20th_FEB_2015</scope><name>getInstance</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1ad91213337838740442239aa01bfc85f8" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Schedule::Schedule_20th_FEB_2015</scope><name>onCreateView</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__20th___f_e_b__2015_1ae0eeb8b8ea39c581373f53b4bd966c4b" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Schedule::Schedule_20th_FEB_2015</scope><name>SetStandardGroups</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

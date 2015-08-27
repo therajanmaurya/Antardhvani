@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_e0a5ff8d7e5e94bd7b00e8a058703881" kind="dir">
+    <compoundname>gcm_server</compoundname>
+    <innerfile refid="config_8php">config.php</innerfile>
+    <innerfile refid="db__connect_8php">db_connect.php</innerfile>
+    <innerfile refid="db__functions_8php">db_functions.php</innerfile>
+    <innerfile refid="_g_c_m_8php">GCM.php</innerfile>
+    <innerfile refid="index_8php">index.php</innerfile>
+    <innerfile refid="register_8php">register.php</innerfile>
+    <innerfile refid="send__message_8php">send_message.php</innerfile>
+    <innerfile refid="test_8php">test.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Git/Antardhvani/gcm_server/"/>
+  </compounddef>
+</doxygen>

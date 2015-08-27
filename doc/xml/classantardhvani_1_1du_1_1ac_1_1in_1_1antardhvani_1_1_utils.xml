@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_utils" kind="class" language="Java" prot="public">
+    <compoundname>antardhvani::du::ac::in::antardhvani::Utils</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_utils_1a6f2841d3ac82d886074174f60c7f7819" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void antardhvani.du.ac.in.antardhvani.Utils.setBadgeCount</definition>
+        <argsstring>(Context context, LayerDrawable icon, int count)</argsstring>
+        <name>setBadgeCount</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>LayerDrawable</type>
+          <declname>icon</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Utils.java" line="11" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Utils.java" bodystart="11" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Created by lusifer on 17/2/15. </para>    </detaileddescription>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Utils.java" line="10" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Utils.java" bodystart="10" bodyend="29"/>
+    <listofallmembers>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_utils_1a6f2841d3ac82d886074174f60c7f7819" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::Utils</scope><name>setBadgeCount</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

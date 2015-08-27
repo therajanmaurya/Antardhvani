@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1_1_vpa_listener_adapter" kind="class" language="Java" prot="private">
+    <compoundname>antardhvani::du::ac::in::antardhvani::DefaultItemAnimator::VpaListenerAdapter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ViewPropertyAnimatorListener</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1_1_vpa_listener_adapter_1a7f79bf52ae3f034fef266065475054e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.antardhvani.DefaultItemAnimator.VpaListenerAdapter.onAnimationStart</definition>
+        <argsstring>(View view)</argsstring>
+        <name>onAnimationStart</name>
+        <param>
+          <type>View</type>
+          <declname>view</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" line="607" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" bodystart="607" bodyend="608"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1_1_vpa_listener_adapter_1a206536fd1338d0cfdf16c6c96bcf193f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.antardhvani.DefaultItemAnimator.VpaListenerAdapter.onAnimationEnd</definition>
+        <argsstring>(View view)</argsstring>
+        <name>onAnimationEnd</name>
+        <param>
+          <type>View</type>
+          <declname>view</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" line="611" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" bodystart="611" bodyend="612"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1_1_vpa_listener_adapter_1a20e175c6ba335f9c57678b1284e26441" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.antardhvani.DefaultItemAnimator.VpaListenerAdapter.onAnimationCancel</definition>
+        <argsstring>(View view)</argsstring>
+        <name>onAnimationCancel</name>
+        <param>
+          <type>View</type>
+          <declname>view</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" line="615" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" bodystart="615" bodyend="616"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="384">
+        <label>antardhvani.du.ac.in.antardhvani.DefaultItemAnimator.VpaListenerAdapter</label>
+        <childnode refid="385" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="385">
+        <label>ViewPropertyAnimatorListener</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="386">
+        <label>antardhvani.du.ac.in.antardhvani.DefaultItemAnimator.VpaListenerAdapter</label>
+        <childnode refid="387" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="387">
+        <label>ViewPropertyAnimatorListener</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" line="605" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" bodystart="605" bodyend="617"/>
+    <listofallmembers>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1_1_vpa_listener_adapter_1a20e175c6ba335f9c57678b1284e26441" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::DefaultItemAnimator::VpaListenerAdapter</scope><name>onAnimationCancel</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1_1_vpa_listener_adapter_1a206536fd1338d0cfdf16c6c96bcf193f" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::DefaultItemAnimator::VpaListenerAdapter</scope><name>onAnimationEnd</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1_1_vpa_listener_adapter_1a7f79bf52ae3f034fef266065475054e7" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::DefaultItemAnimator::VpaListenerAdapter</scope><name>onAnimationStart</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

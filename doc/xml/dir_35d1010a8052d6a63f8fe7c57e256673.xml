@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_35d1010a8052d6a63f8fe7c57e256673" kind="dir">
+    <compoundname>app/src/main/java/antardhvani/du/ac/in/Adapter</compoundname>
+    <innerfile refid="_card_adapter_8java">CardAdapter.java</innerfile>
+    <innerfile refid="_child_8java">Child.java</innerfile>
+    <innerfile refid="_event__non__competitive__adapter_8java">Event_non_competitive_adapter.java</innerfile>
+    <innerfile refid="_group_8java">Group.java</innerfile>
+    <innerfile refid="_schedule__day__adapter_8java">Schedule_day_adapter.java</innerfile>
+    <innerfile refid="_schedule__pre__event__adapter_8java">Schedule_pre_event_adapter.java</innerfile>
+    <innerfile refid="_screen__slide__gyanodaya_8java">Screen_slide_gyanodaya.java</innerfile>
+    <innerfile refid="_screen_slide_page_fragment_8java">ScreenSlidePageFragment.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/"/>
+  </compounddef>
+</doxygen>

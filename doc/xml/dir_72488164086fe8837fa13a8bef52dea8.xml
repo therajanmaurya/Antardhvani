@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_72488164086fe8837fa13a8bef52dea8" kind="dir">
+    <compoundname>app/src/main/java/antardhvani/du/ac/in/Event</compoundname>
+    <innerfile refid="_event__non__competitive_8java">Event_non_competitive.java</innerfile>
+    <innerfile refid="viewpager_8java">viewpager.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Event/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_main_activity_1_1_fetch_count_task" kind="class" language="Java" prot="package">
+    <compoundname>antardhvani::du::ac::in::antardhvani::MainActivity::FetchCountTask</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">android::os::AsyncTask&lt; Void, Void, Integer &gt;</basecompoundref>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_main_activity_1_1_fetch_count_task_1a114d1563f77ad218d40f4896cee267af" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Integer</type>
+        <definition>Integer antardhvani.du.ac.in.antardhvani.MainActivity.FetchCountTask.doInBackground</definition>
+        <argsstring>(Void...params)</argsstring>
+        <name>doInBackground</name>
+        <param>
+          <type>Void...</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/MainActivity.java" line="295" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/MainActivity.java" bodystart="295" bodyend="302"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_main_activity_1_1_fetch_count_task_1ad2332a9f71f7fbe0c1aae1820729ff5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.antardhvani.MainActivity.FetchCountTask.onPostExecute</definition>
+        <argsstring>(Integer count)</argsstring>
+        <name>onPostExecute</name>
+        <param>
+          <type>Integer</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/MainActivity.java" line="305" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/MainActivity.java" bodystart="305" bodyend="307"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="70">
+        <label>antardhvani.du.ac.in.antardhvani.MainActivity.FetchCountTask</label>
+        <childnode refid="71" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="71">
+        <label>android::os::AsyncTask&lt; Void, Void, Integer &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="72">
+        <label>antardhvani.du.ac.in.antardhvani.MainActivity.FetchCountTask</label>
+        <childnode refid="73" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="73">
+        <label>android::os::AsyncTask&lt; Void, Void, Integer &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/MainActivity.java" line="292" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/MainActivity.java" bodystart="292" bodyend="309"/>
+    <listofallmembers>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_main_activity_1_1_fetch_count_task_1a114d1563f77ad218d40f4896cee267af" prot="protected" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::MainActivity::FetchCountTask</scope><name>doInBackground</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_main_activity_1_1_fetch_count_task_1ad2332a9f71f7fbe0c1aae1820729ff5c" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::MainActivity::FetchCountTask</scope><name>onPostExecute</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__antardhvani" kind="class" language="Java" prot="public">
+    <compoundname>antardhvani::du::ac::in::Rules::Rules_antardhvani</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Fragment</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__antardhvani_1ad7e26aea94f6cd3e35edcec1978aacc0" prot="private" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView antardhvani.du.ac.in.Rules.Rules_antardhvani.textView</definition>
+        <argsstring></argsstring>
+        <name>textView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_antardhvani.java" line="16" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_antardhvani.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__antardhvani_1a9626ba42511ceb9c1a023d7f224f61f8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__antardhvani" kindref="compound">Rules_antardhvani</ref></type>
+        <definition>static Rules_antardhvani antardhvani.du.ac.in.Rules.Rules_antardhvani.getInstance</definition>
+        <argsstring>(int position)</argsstring>
+        <name>getInstance</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_antardhvani.java" line="18" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_antardhvani.java" bodystart="18" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__antardhvani_1ae046449de14cd61ffc1308f8d04832cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>View</type>
+        <definition>View antardhvani.du.ac.in.Rules.Rules_antardhvani.onCreateView</definition>
+        <argsstring>(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)</argsstring>
+        <name>onCreateView</name>
+        <param>
+          <type>LayoutInflater</type>
+          <declname>inflater</declname>
+        </param>
+        <param>
+          <type>ViewGroup</type>
+          <declname>container</declname>
+        </param>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_antardhvani.java" line="27" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_antardhvani.java" bodystart="27" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Created by rajanmaurya on 14/2/15. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="228">
+        <label>antardhvani.du.ac.in.Rules.Rules_antardhvani</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__antardhvani"/>
+        <childnode refid="229" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="229">
+        <label>Fragment</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="230">
+        <label>antardhvani.du.ac.in.Rules.Rules_antardhvani</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__antardhvani"/>
+        <childnode refid="231" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="231">
+        <label>Fragment</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_antardhvani.java" line="15" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_antardhvani.java" bodystart="15" bodyend="35"/>
+    <listofallmembers>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__antardhvani_1a9626ba42511ceb9c1a023d7f224f61f8" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Rules::Rules_antardhvani</scope><name>getInstance</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__antardhvani_1ae046449de14cd61ffc1308f8d04832cd" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Rules::Rules_antardhvani</scope><name>onCreateView</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__antardhvani_1ad7e26aea94f6cd3e35edcec1978aacc0" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Rules::Rules_antardhvani</scope><name>textView</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

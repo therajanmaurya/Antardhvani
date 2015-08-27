@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_sub_activity" kind="class" language="Java" prot="public">
+    <compoundname>antardhvani::du::ac::in::antardhvani::SubActivity</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ActionBarActivity</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_sub_activity_1afc5ff37a5572b1a4bf122deb3ba0e184" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String antardhvani.du.ac.in.antardhvani.SubActivity.TAG</definition>
+        <argsstring></argsstring>
+        <name>TAG</name>
+        <initializer>=&quot;VIVZ&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/SubActivity.java" line="17" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/SubActivity.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_sub_activity_1ac2b4091304f65eda7a113a523e8e2f21" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.antardhvani.SubActivity.onCreate</definition>
+        <argsstring>(Bundle savedInstanceState)</argsstring>
+        <name>onCreate</name>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/SubActivity.java" line="19" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/SubActivity.java" bodystart="19" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_sub_activity_1aba6f473390e52724183ea3a78a3fd06d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean antardhvani.du.ac.in.antardhvani.SubActivity.onCreateOptionsMenu</definition>
+        <argsstring>(Menu menu)</argsstring>
+        <name>onCreateOptionsMenu</name>
+        <param>
+          <type>Menu</type>
+          <declname>menu</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/SubActivity.java" line="31" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/SubActivity.java" bodystart="31" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_sub_activity_1a9888666080b04b3db8505b943c721f77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean antardhvani.du.ac.in.antardhvani.SubActivity.onOptionsItemSelected</definition>
+        <argsstring>(MenuItem item)</argsstring>
+        <name>onOptionsItemSelected</name>
+        <param>
+          <type>MenuItem</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/SubActivity.java" line="38" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/SubActivity.java" bodystart="38" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_sub_activity_1abaea2500f6b69eabf00f51d21e4478c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean antardhvani.du.ac.in.antardhvani.SubActivity.dispatchTouchEvent</definition>
+        <argsstring>(MotionEvent ev)</argsstring>
+        <name>dispatchTouchEvent</name>
+        <param>
+          <type>MotionEvent</type>
+          <declname>ev</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/SubActivity.java" line="55" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/SubActivity.java" bodystart="55" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_sub_activity_1a8cab07b5a86024eb74d42d43f47d0e8b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean antardhvani.du.ac.in.antardhvani.SubActivity.onTouchEvent</definition>
+        <argsstring>(MotionEvent event)</argsstring>
+        <name>onTouchEvent</name>
+        <param>
+          <type>MotionEvent</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/SubActivity.java" line="77" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/SubActivity.java" bodystart="77" bodyend="96"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="327">
+        <label>ActionBarActivity</label>
+      </node>
+      <node id="326">
+        <label>antardhvani.du.ac.in.antardhvani.SubActivity</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_sub_activity"/>
+        <childnode refid="327" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="329">
+        <label>ActionBarActivity</label>
+      </node>
+      <node id="328">
+        <label>antardhvani.du.ac.in.antardhvani.SubActivity</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_sub_activity"/>
+        <childnode refid="329" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/SubActivity.java" line="15" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/SubActivity.java" bodystart="15" bodyend="97"/>
+    <listofallmembers>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_sub_activity_1abaea2500f6b69eabf00f51d21e4478c4" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::SubActivity</scope><name>dispatchTouchEvent</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_sub_activity_1ac2b4091304f65eda7a113a523e8e2f21" prot="protected" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::SubActivity</scope><name>onCreate</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_sub_activity_1aba6f473390e52724183ea3a78a3fd06d" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::SubActivity</scope><name>onCreateOptionsMenu</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_sub_activity_1a9888666080b04b3db8505b943c721f77" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::SubActivity</scope><name>onOptionsItemSelected</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_sub_activity_1a8cab07b5a86024eb74d42d43f47d0e8b" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::SubActivity</scope><name>onTouchEvent</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_sub_activity_1afc5ff37a5572b1a4bf122deb3ba0e184" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::SubActivity</scope><name>TAG</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

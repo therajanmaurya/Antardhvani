@@ -1,0 +1,554 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices" kind="class" language="Java" prot="public">
+    <compoundname>com::example::lusifer::myapplication::backend::registration::Registration::ListDevices</compoundname>
+    <basecompoundref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request" prot="public" virt="non-virtual">com.example.lusifer.myapplication.backend.registration.RegistrationRequest&lt; com.example.lusifer.myapplication.backend.registration.model.CollectionResponseRegistrationRecord &gt;</basecompoundref>
+    <basecompoundref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request" prot="public" virt="non-virtual">com.example.lusifer.myapplication.backend.registration.RegistrationRequest&lt; com.example.lusifer.myapplication.backend.registration.model.CollectionResponseRegistrationRecord &gt;</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1ad99848a0399d3945984c8c2a9f946324" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>static final String com.example.lusifer.myapplication.backend.registration.Registration.ListDevices::REST_PATH</definition>
+        <argsstring></argsstring>
+        <name>REST_PATH</name>
+        <initializer>= &quot;registrationrecord/{count}&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="136" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1a2dd3a3e9ced6f908bc832e3a4f5e88e6" prot="private" static="no" mutable="no">
+        <type>.google.api.client.util.Key java.lang.Integer</type>
+        <definition>google api client util Key java lang Integer com.example.lusifer.myapplication.backend.registration.Registration.ListDevices::count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="201" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="201" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1ae19b9cc4333975ecffed0aecd5994bb4" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.example.lusifer.myapplication.backend.registration.Registration.ListDevices.ListDevices</definition>
+        <argsstring>(java.lang.Integer count)</argsstring>
+        <name>ListDevices</name>
+        <param>
+          <type>java.lang.Integer</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a request for the method &quot;listDevices&quot;.</para><para>This request holds the parameters needed by the the registration server. After setting any optional parameters, call the <ref refid="" kindref="compound">ListDevices#execute()</ref> method to invoke the remote operation. </para><para><ref refid="" kindref="compound">ListDevices#initialize(com.google.api.client.googleapis.services.AbstractGoogleClientRequest)</ref> must be called to initialize this instance immediately after invoking the constructor. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="since"><para>1.13 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="150" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="150" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1ae19b9cc4333975ecffed0aecd5994bb4" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.example.lusifer.myapplication.backend.registration.Registration.ListDevices.ListDevices</definition>
+        <argsstring>(java.lang.Integer count)</argsstring>
+        <name>ListDevices</name>
+        <param>
+          <type>java.lang.Integer</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a request for the method &quot;listDevices&quot;.</para><para>This request holds the parameters needed by the the registration server. After setting any optional parameters, call the <ref refid="" kindref="compound">ListDevices#execute()</ref> method to invoke the remote operation. </para><para><ref refid="" kindref="compound">ListDevices#initialize(com.google.api.client.googleapis.services.AbstractGoogleClientRequest)</ref> must be called to initialize this instance immediately after invoking the constructor. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="since"><para>1.13 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="150" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="150" bodyend="153"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1a405022d61fa38850547ade252d9f5795" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>com.google.api.client.http.HttpResponse</type>
+        <definition>com.google.api.client.http.HttpResponse com.example.lusifer.myapplication.backend.registration.Registration.ListDevices.executeUsingHead</definition>
+        <argsstring>()</argsstring>
+        <name>executeUsingHead</name>
+        <exceptions> throws java.io.IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="156" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="156" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1a2a475481a7d3f8f4633d409c04f0b9d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>com.google.api.client.http.HttpRequest</type>
+        <definition>com.google.api.client.http.HttpRequest com.example.lusifer.myapplication.backend.registration.Registration.ListDevices.buildHttpRequestUsingHead</definition>
+        <argsstring>()</argsstring>
+        <name>buildHttpRequestUsingHead</name>
+        <exceptions> throws java.io.IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="161" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="161" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1a4f4389aa2b7ca1808713cad2e31f2245" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices" kindref="compound">ListDevices</ref></type>
+        <definition>ListDevices com.example.lusifer.myapplication.backend.registration.Registration.ListDevices.setAlt</definition>
+        <argsstring>(java.lang.String alt)</argsstring>
+        <name>setAlt</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>alt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="166" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="166" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1a74712d13e716180e3bc49521ca467ee9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices" kindref="compound">ListDevices</ref></type>
+        <definition>ListDevices com.example.lusifer.myapplication.backend.registration.Registration.ListDevices.setFields</definition>
+        <argsstring>(java.lang.String fields)</argsstring>
+        <name>setFields</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>fields</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="171" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="171" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1ab89655d0830621d140325d6d25e5c946" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices" kindref="compound">ListDevices</ref></type>
+        <definition>ListDevices com.example.lusifer.myapplication.backend.registration.Registration.ListDevices.setKey</definition>
+        <argsstring>(java.lang.String key)</argsstring>
+        <name>setKey</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="176" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="176" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1aa601c70e63cdd8c7cc9d8519264eaae3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices" kindref="compound">ListDevices</ref></type>
+        <definition>ListDevices com.example.lusifer.myapplication.backend.registration.Registration.ListDevices.setOauthToken</definition>
+        <argsstring>(java.lang.String oauthToken)</argsstring>
+        <name>setOauthToken</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>oauthToken</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="181" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="181" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1a39b80ffae08b86ff4bd291a219b3c43f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices" kindref="compound">ListDevices</ref></type>
+        <definition>ListDevices com.example.lusifer.myapplication.backend.registration.Registration.ListDevices.setPrettyPrint</definition>
+        <argsstring>(java.lang.Boolean prettyPrint)</argsstring>
+        <name>setPrettyPrint</name>
+        <param>
+          <type>java.lang.Boolean</type>
+          <declname>prettyPrint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="186" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="186" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1aac9d6a6195c520f79a4e1239f9992f26" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices" kindref="compound">ListDevices</ref></type>
+        <definition>ListDevices com.example.lusifer.myapplication.backend.registration.Registration.ListDevices.setQuotaUser</definition>
+        <argsstring>(java.lang.String quotaUser)</argsstring>
+        <name>setQuotaUser</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>quotaUser</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="191" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="191" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1a7f81985b6eb97e558ea242546b272a38" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices" kindref="compound">ListDevices</ref></type>
+        <definition>ListDevices com.example.lusifer.myapplication.backend.registration.Registration.ListDevices.setUserIp</definition>
+        <argsstring>(java.lang.String userIp)</argsstring>
+        <name>setUserIp</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>userIp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="196" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="196" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1a9267c948a6b9a861ec612f0fdfb0741f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>java.lang.Integer</type>
+        <definition>java.lang.Integer com.example.lusifer.myapplication.backend.registration.Registration.ListDevices.getCount</definition>
+        <argsstring>()</argsstring>
+        <name>getCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="206" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="206" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1aa462cfeddf2685800fdd6ac9ace6f3fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices" kindref="compound">ListDevices</ref></type>
+        <definition>ListDevices com.example.lusifer.myapplication.backend.registration.Registration.ListDevices.setCount</definition>
+        <argsstring>(java.lang.Integer count)</argsstring>
+        <name>setCount</name>
+        <param>
+          <type>java.lang.Integer</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="210" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="210" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1af6b2493f5e8d45a32edd7a176d8b91d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices" kindref="compound">ListDevices</ref></type>
+        <definition>ListDevices com.example.lusifer.myapplication.backend.registration.Registration.ListDevices.set</definition>
+        <argsstring>(String parameterName, Object value)</argsstring>
+        <name>set</name>
+        <param>
+          <type>String</type>
+          <declname>parameterName</declname>
+        </param>
+        <param>
+          <type>Object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="216" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="216" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1a405022d61fa38850547ade252d9f5795" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>com.google.api.client.http.HttpResponse</type>
+        <definition>com.google.api.client.http.HttpResponse com.example.lusifer.myapplication.backend.registration.Registration.ListDevices.executeUsingHead</definition>
+        <argsstring>()</argsstring>
+        <name>executeUsingHead</name>
+        <exceptions> throws java.io.IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="156" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="156" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1a2a475481a7d3f8f4633d409c04f0b9d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>com.google.api.client.http.HttpRequest</type>
+        <definition>com.google.api.client.http.HttpRequest com.example.lusifer.myapplication.backend.registration.Registration.ListDevices.buildHttpRequestUsingHead</definition>
+        <argsstring>()</argsstring>
+        <name>buildHttpRequestUsingHead</name>
+        <exceptions> throws java.io.IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="161" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="161" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1a4f4389aa2b7ca1808713cad2e31f2245" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices" kindref="compound">ListDevices</ref></type>
+        <definition>ListDevices com.example.lusifer.myapplication.backend.registration.Registration.ListDevices.setAlt</definition>
+        <argsstring>(java.lang.String alt)</argsstring>
+        <name>setAlt</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>alt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="166" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="166" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1a74712d13e716180e3bc49521ca467ee9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices" kindref="compound">ListDevices</ref></type>
+        <definition>ListDevices com.example.lusifer.myapplication.backend.registration.Registration.ListDevices.setFields</definition>
+        <argsstring>(java.lang.String fields)</argsstring>
+        <name>setFields</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>fields</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="171" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="171" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1ab89655d0830621d140325d6d25e5c946" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices" kindref="compound">ListDevices</ref></type>
+        <definition>ListDevices com.example.lusifer.myapplication.backend.registration.Registration.ListDevices.setKey</definition>
+        <argsstring>(java.lang.String key)</argsstring>
+        <name>setKey</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="176" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="176" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1aa601c70e63cdd8c7cc9d8519264eaae3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices" kindref="compound">ListDevices</ref></type>
+        <definition>ListDevices com.example.lusifer.myapplication.backend.registration.Registration.ListDevices.setOauthToken</definition>
+        <argsstring>(java.lang.String oauthToken)</argsstring>
+        <name>setOauthToken</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>oauthToken</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="181" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="181" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1a39b80ffae08b86ff4bd291a219b3c43f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices" kindref="compound">ListDevices</ref></type>
+        <definition>ListDevices com.example.lusifer.myapplication.backend.registration.Registration.ListDevices.setPrettyPrint</definition>
+        <argsstring>(java.lang.Boolean prettyPrint)</argsstring>
+        <name>setPrettyPrint</name>
+        <param>
+          <type>java.lang.Boolean</type>
+          <declname>prettyPrint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="186" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="186" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1aac9d6a6195c520f79a4e1239f9992f26" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices" kindref="compound">ListDevices</ref></type>
+        <definition>ListDevices com.example.lusifer.myapplication.backend.registration.Registration.ListDevices.setQuotaUser</definition>
+        <argsstring>(java.lang.String quotaUser)</argsstring>
+        <name>setQuotaUser</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>quotaUser</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="191" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="191" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1a7f81985b6eb97e558ea242546b272a38" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices" kindref="compound">ListDevices</ref></type>
+        <definition>ListDevices com.example.lusifer.myapplication.backend.registration.Registration.ListDevices.setUserIp</definition>
+        <argsstring>(java.lang.String userIp)</argsstring>
+        <name>setUserIp</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>userIp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="196" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="196" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1a9267c948a6b9a861ec612f0fdfb0741f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>java.lang.Integer</type>
+        <definition>java.lang.Integer com.example.lusifer.myapplication.backend.registration.Registration.ListDevices.getCount</definition>
+        <argsstring>()</argsstring>
+        <name>getCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="206" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="206" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1aa462cfeddf2685800fdd6ac9ace6f3fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices" kindref="compound">ListDevices</ref></type>
+        <definition>ListDevices com.example.lusifer.myapplication.backend.registration.Registration.ListDevices.setCount</definition>
+        <argsstring>(java.lang.Integer count)</argsstring>
+        <name>setCount</name>
+        <param>
+          <type>java.lang.Integer</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="210" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="210" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1af6b2493f5e8d45a32edd7a176d8b91d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices" kindref="compound">ListDevices</ref></type>
+        <definition>ListDevices com.example.lusifer.myapplication.backend.registration.Registration.ListDevices.set</definition>
+        <argsstring>(String parameterName, Object value)</argsstring>
+        <name>set</name>
+        <param>
+          <type>String</type>
+          <declname>parameterName</declname>
+        </param>
+        <param>
+          <type>Object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="216" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="216" bodyend="218"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="119">
+        <label>com.example.lusifer.myapplication.backend.registration.RegistrationRequest&lt; com.example.lusifer.myapplication.backend.registration.model.CollectionResponseRegistrationRecord &gt;</label>
+        <link refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request"/>
+      </node>
+      <node id="118">
+        <label>com.example.lusifer.myapplication.backend.registration.Registration.ListDevices</label>
+        <link refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices"/>
+        <childnode refid="119" relation="public-inheritance">
+        </childnode>
+        <childnode refid="119" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="121">
+        <label>com.example.lusifer.myapplication.backend.registration.RegistrationRequest&lt; com.example.lusifer.myapplication.backend.registration.model.CollectionResponseRegistrationRecord &gt;</label>
+        <link refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request"/>
+      </node>
+      <node id="120">
+        <label>com.example.lusifer.myapplication.backend.registration.Registration.ListDevices</label>
+        <link refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices"/>
+        <childnode refid="121" relation="public-inheritance">
+        </childnode>
+        <childnode refid="121" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="134" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="134" bodyend="219"/>
+    <listofallmembers>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1a2a475481a7d3f8f4633d409c04f0b9d7" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::ListDevices</scope><name>buildHttpRequestUsingHead</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1a2a475481a7d3f8f4633d409c04f0b9d7" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::ListDevices</scope><name>buildHttpRequestUsingHead</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1a2dd3a3e9ced6f908bc832e3a4f5e88e6" prot="private" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::ListDevices</scope><name>count</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1a405022d61fa38850547ade252d9f5795" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::ListDevices</scope><name>executeUsingHead</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1a405022d61fa38850547ade252d9f5795" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::ListDevices</scope><name>executeUsingHead</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1a9267c948a6b9a861ec612f0fdfb0741f" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::ListDevices</scope><name>getCount</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1a9267c948a6b9a861ec612f0fdfb0741f" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::ListDevices</scope><name>getCount</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1ae19b9cc4333975ecffed0aecd5994bb4" prot="protected" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::ListDevices</scope><name>ListDevices</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1ae19b9cc4333975ecffed0aecd5994bb4" prot="protected" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::ListDevices</scope><name>ListDevices</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1ad99848a0399d3945984c8c2a9f946324" prot="private" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::ListDevices</scope><name>REST_PATH</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1af6b2493f5e8d45a32edd7a176d8b91d9" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::ListDevices</scope><name>set</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1af6b2493f5e8d45a32edd7a176d8b91d9" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::ListDevices</scope><name>set</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1a4f4389aa2b7ca1808713cad2e31f2245" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::ListDevices</scope><name>setAlt</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1a4f4389aa2b7ca1808713cad2e31f2245" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::ListDevices</scope><name>setAlt</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1aa462cfeddf2685800fdd6ac9ace6f3fa" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::ListDevices</scope><name>setCount</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1aa462cfeddf2685800fdd6ac9ace6f3fa" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::ListDevices</scope><name>setCount</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1a74712d13e716180e3bc49521ca467ee9" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::ListDevices</scope><name>setFields</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1a74712d13e716180e3bc49521ca467ee9" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::ListDevices</scope><name>setFields</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1ab89655d0830621d140325d6d25e5c946" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::ListDevices</scope><name>setKey</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1ab89655d0830621d140325d6d25e5c946" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::ListDevices</scope><name>setKey</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1aa601c70e63cdd8c7cc9d8519264eaae3" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::ListDevices</scope><name>setOauthToken</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1aa601c70e63cdd8c7cc9d8519264eaae3" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::ListDevices</scope><name>setOauthToken</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1a39b80ffae08b86ff4bd291a219b3c43f" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::ListDevices</scope><name>setPrettyPrint</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1a39b80ffae08b86ff4bd291a219b3c43f" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::ListDevices</scope><name>setPrettyPrint</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1aac9d6a6195c520f79a4e1239f9992f26" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::ListDevices</scope><name>setQuotaUser</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1aac9d6a6195c520f79a4e1239f9992f26" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::ListDevices</scope><name>setQuotaUser</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1a7f81985b6eb97e558ea242546b272a38" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::ListDevices</scope><name>setUserIp</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_list_devices_1a7f81985b6eb97e558ea242546b272a38" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::ListDevices</scope><name>setUserIp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

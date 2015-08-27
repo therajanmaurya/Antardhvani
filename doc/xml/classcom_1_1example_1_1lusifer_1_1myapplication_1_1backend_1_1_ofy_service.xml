@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_ofy_service" kind="class" language="Java" prot="public">
+    <compoundname>com::example::lusifer::myapplication::backend::OfyService</compoundname>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_ofy_service_1aaca63085cf5b990831a46c698659da00" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.example.lusifer.myapplication.backend.OfyService.[static initializer]</definition>
+        <argsstring></argsstring>
+        <name>[static initializer]</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/src/main/java/com/example/lusifer/myapplication/backend/OfyService.java" line="11" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_ofy_service_1a2bf176fe6c1e01455592c82ef179960e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Objectify</type>
+        <definition>static Objectify com.example.lusifer.myapplication.backend.OfyService.ofy</definition>
+        <argsstring>()</argsstring>
+        <name>ofy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/src/main/java/com/example/lusifer/myapplication/backend/OfyService.java" line="17" column="1" bodyfile="E:/Git/Antardhvani/backend/src/main/java/com/example/lusifer/myapplication/backend/OfyService.java" bodystart="17" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_ofy_service_1a32ff8961e2d91e2273d6f700098c53d0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ObjectifyFactory</type>
+        <definition>static ObjectifyFactory com.example.lusifer.myapplication.backend.OfyService.factory</definition>
+        <argsstring>()</argsstring>
+        <name>factory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/src/main/java/com/example/lusifer/myapplication/backend/OfyService.java" line="21" column="1" bodyfile="E:/Git/Antardhvani/backend/src/main/java/com/example/lusifer/myapplication/backend/OfyService.java" bodystart="21" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Objectify service wrapper so we can statically register our persistence classes More on Objectify here : <ulink url="https://code.google.com/p/objectify-appengine/">https://code.google.com/p/objectify-appengine/</ulink> </para>    </detaileddescription>
+    <location file="E:/Git/Antardhvani/backend/src/main/java/com/example/lusifer/myapplication/backend/OfyService.java" line="11" column="1" bodyfile="E:/Git/Antardhvani/backend/src/main/java/com/example/lusifer/myapplication/backend/OfyService.java" bodystart="11" bodyend="24"/>
+    <listofallmembers>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_ofy_service_1aaca63085cf5b990831a46c698659da00" prot="package" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::OfyService</scope><name>[static initializer]</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_ofy_service_1a32ff8961e2d91e2273d6f700098c53d0" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::OfyService</scope><name>factory</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_ofy_service_1a2bf176fe6c1e01455592c82ef179960e" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::OfyService</scope><name>ofy</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

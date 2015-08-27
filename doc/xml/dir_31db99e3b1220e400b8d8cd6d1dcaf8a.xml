@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_31db99e3b1220e400b8d8cd6d1dcaf8a" kind="dir">
+    <compoundname>backend/build/generated-source</compoundname>
+    <innerdir refid="dir_dea41f06ad706e04dbfd62a7850dc8b8">backend/build/generated-source/endpoints</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Git/Antardhvani/backend/build/generated-source/"/>
+  </compounddef>
+</doxygen>

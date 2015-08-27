@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_45f1b28e7bc9c56442f1863519188e24" kind="dir">
+    <compoundname>backend/src/main/java/com/example/lusifer/myapplication/backend</compoundname>
+    <innerfile refid="_messaging_endpoint_8java">MessagingEndpoint.java</innerfile>
+    <innerfile refid="_ofy_service_8java">OfyService.java</innerfile>
+    <innerfile refid="_registration_endpoint_8java">RegistrationEndpoint.java</innerfile>
+    <innerfile refid="src_2main_2java_2com_2example_2lusifer_2myapplication_2backend_2_registration_record_8java">RegistrationRecord.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Git/Antardhvani/backend/src/main/java/com/example/lusifer/myapplication/backend/"/>
+  </compounddef>
+</doxygen>

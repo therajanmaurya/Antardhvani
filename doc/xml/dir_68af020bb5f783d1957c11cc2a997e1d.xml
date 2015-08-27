@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_68af020bb5f783d1957c11cc2a997e1d" kind="dir">
+    <compoundname>app/src/main/java/antardhvani/du/ac/in/antardhvani</compoundname>
+    <innerfile refid="_antardhvani_adapter_8java">AntardhvaniAdapter.java</innerfile>
+    <innerfile refid="_badge_drawable_8java">BadgeDrawable.java</innerfile>
+    <innerfile refid="_default_item_animator_8java">DefaultItemAnimator.java</innerfile>
+    <innerfile refid="_g_c_m_notification_8java">GCMNotification.java</innerfile>
+    <innerfile refid="_information_8java">Information.java</innerfile>
+    <innerfile refid="_l_8java">L.java</innerfile>
+    <innerfile refid="_main_activity_8java">MainActivity.java</innerfile>
+    <innerfile refid="_my_application_8java">MyApplication.java</innerfile>
+    <innerfile refid="_navigation_drawer_fragment_8java">NavigationDrawerFragment.java</innerfile>
+    <innerfile refid="_splash_8java">Splash.java</innerfile>
+    <innerfile refid="_sub_activity_8java">SubActivity.java</innerfile>
+    <innerfile refid="_util_8java">Util.java</innerfile>
+    <innerfile refid="_utils_8java">Utils.java</innerfile>
+    <innerfile refid="_vector_test_activity_8java">VectorTestActivity.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/"/>
+  </compounddef>
+</doxygen>

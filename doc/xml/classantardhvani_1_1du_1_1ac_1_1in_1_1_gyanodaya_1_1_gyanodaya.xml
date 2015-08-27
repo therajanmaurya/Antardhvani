@@ -1,0 +1,335 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classantardhvani_1_1du_1_1ac_1_1in_1_1_gyanodaya_1_1_gyanodaya" kind="class" language="Java" prot="public">
+    <compoundname>antardhvani::du::ac::in::Gyanodaya::Gyanodaya</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Fragment</basecompoundref>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_gyanodaya_1_1_gyanodaya_1_1_screen_slide_pager_adapter" prot="private">antardhvani::du::ac::in::Gyanodaya::Gyanodaya::ScreenSlidePagerAdapter</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_gyanodaya_1_1_gyanodaya_1ae54159e934895f3675afc2b0fdedd56c" prot="private" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView antardhvani.du.ac.in.Gyanodaya.Gyanodaya.title</definition>
+        <argsstring></argsstring>
+        <name>title</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gyanodaya/Gyanodaya.java" line="32" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gyanodaya/Gyanodaya.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_gyanodaya_1_1_gyanodaya_1a81bd4a977ba3138eb427c4460b1b40b2" prot="private" static="no" mutable="no">
+        <type>ListView</type>
+        <definition>ListView antardhvani.du.ac.in.Gyanodaya.Gyanodaya.leftDrawerList</definition>
+        <argsstring></argsstring>
+        <name>leftDrawerList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gyanodaya/Gyanodaya.java" line="35" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gyanodaya/Gyanodaya.java" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_gyanodaya_1_1_gyanodaya_1a138493559cf38373a1e8b24e4282bc16" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; String &gt;</type>
+        <definition>ArrayList&lt;String&gt; antardhvani.du.ac.in.Gyanodaya.Gyanodaya.stringArrayAdapter</definition>
+        <argsstring></argsstring>
+        <name>stringArrayAdapter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gyanodaya/Gyanodaya.java" line="36" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gyanodaya/Gyanodaya.java" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_gyanodaya_1_1_gyanodaya_1a6417dcbb24b8c4dc66b3235fea0eb300" prot="private" static="no" mutable="no">
+        <type>ViewPager</type>
+        <definition>ViewPager antardhvani.du.ac.in.Gyanodaya.Gyanodaya.mPager</definition>
+        <argsstring></argsstring>
+        <name>mPager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gyanodaya/Gyanodaya.java" line="37" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gyanodaya/Gyanodaya.java" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_gyanodaya_1_1_gyanodaya_1a0f72fc4e936dda1e5c4a47fd3d1b3d1c" prot="private" static="no" mutable="no">
+        <type>PagerAdapter</type>
+        <definition>PagerAdapter antardhvani.du.ac.in.Gyanodaya.Gyanodaya.mPagerAdapter</definition>
+        <argsstring></argsstring>
+        <name>mPagerAdapter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gyanodaya/Gyanodaya.java" line="38" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gyanodaya/Gyanodaya.java" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_gyanodaya_1_1_gyanodaya_1a73a507cec4622960dc058267efccb2c6" prot="private" static="no" mutable="no">
+        <type>Timer</type>
+        <definition>Timer antardhvani.du.ac.in.Gyanodaya.Gyanodaya.timer</definition>
+        <argsstring></argsstring>
+        <name>timer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gyanodaya/Gyanodaya.java" line="39" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gyanodaya/Gyanodaya.java" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_gyanodaya_1_1_gyanodaya_1a3196db1769636ea0e1190b508ffc5505" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int antardhvani.du.ac.in.Gyanodaya.Gyanodaya.count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gyanodaya/Gyanodaya.java" line="40" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gyanodaya/Gyanodaya.java" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_gyanodaya_1_1_gyanodaya_1a61e2164b077c8c42c299f6eec5963766" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean antardhvani.du.ac.in.Gyanodaya.Gyanodaya.one_two_three</definition>
+        <argsstring></argsstring>
+        <name>one_two_three</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gyanodaya/Gyanodaya.java" line="41" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gyanodaya/Gyanodaya.java" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_gyanodaya_1_1_gyanodaya_1ac36ec083c952466b5d99e018941f5678" prot="package" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView antardhvani.du.ac.in.Gyanodaya.Gyanodaya.des</definition>
+        <argsstring></argsstring>
+        <name>des</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gyanodaya/Gyanodaya.java" line="32" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gyanodaya/Gyanodaya.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_gyanodaya_1_1_gyanodaya_1a619603a49531cc131b0d1f47d74a5107" prot="package" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView antardhvani.du.ac.in.Gyanodaya.Gyanodaya.venue</definition>
+        <argsstring></argsstring>
+        <name>venue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gyanodaya/Gyanodaya.java" line="32" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gyanodaya/Gyanodaya.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_gyanodaya_1_1_gyanodaya_1aebd74e86913d5e98d338bab1c6ac3283" prot="package" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView antardhvani.du.ac.in.Gyanodaya.Gyanodaya.schedule</definition>
+        <argsstring></argsstring>
+        <name>schedule</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gyanodaya/Gyanodaya.java" line="32" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gyanodaya/Gyanodaya.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_gyanodaya_1_1_gyanodaya_1a58394a0a011f2d940840bdbb2798f388" prot="package" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView antardhvani.du.ac.in.Gyanodaya.Gyanodaya.sch</definition>
+        <argsstring></argsstring>
+        <name>sch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gyanodaya/Gyanodaya.java" line="32" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gyanodaya/Gyanodaya.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_gyanodaya_1_1_gyanodaya_1a6554b7ffce44f0d588c53917936b1942" prot="package" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView antardhvani.du.ac.in.Gyanodaya.Gyanodaya.ven</definition>
+        <argsstring></argsstring>
+        <name>ven</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gyanodaya/Gyanodaya.java" line="32" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gyanodaya/Gyanodaya.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_gyanodaya_1_1_gyanodaya_1acc61019829797b4999dc14d03b2428bb" prot="package" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] antardhvani.du.ac.in.Gyanodaya.Gyanodaya.photos</definition>
+        <argsstring></argsstring>
+        <name>photos</name>
+        <initializer>= {R.drawable.gyanodaya2, R.drawable.gyanodaya3, R.drawable.gyanodaya5}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gyanodaya/Gyanodaya.java" line="42" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gyanodaya/Gyanodaya.java" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_gyanodaya_1_1_gyanodaya_1a9f6365ebac72748cf66c37b390e553ed" prot="package" static="no" mutable="no">
+        <type>KenBurnsView</type>
+        <definition>KenBurnsView antardhvani.du.ac.in.Gyanodaya.Gyanodaya.imageView</definition>
+        <argsstring></argsstring>
+        <name>imageView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gyanodaya/Gyanodaya.java" line="43" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gyanodaya/Gyanodaya.java" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_gyanodaya_1_1_gyanodaya_1a492cef34cd87dd6490cf5e0594c0800b" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int antardhvani.du.ac.in.Gyanodaya.Gyanodaya.NUM_PAGES</definition>
+        <argsstring></argsstring>
+        <name>NUM_PAGES</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gyanodaya/Gyanodaya.java" line="33" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gyanodaya/Gyanodaya.java" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_gyanodaya_1_1_gyanodaya_1ac5184ce6d744c1db9fd43fef236e5207" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_gyanodaya_1_1_gyanodaya" kindref="compound">Gyanodaya</ref></type>
+        <definition>static Gyanodaya antardhvani.du.ac.in.Gyanodaya.Gyanodaya.getInstance</definition>
+        <argsstring>(int position)</argsstring>
+        <name>getInstance</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gyanodaya/Gyanodaya.java" line="45" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gyanodaya/Gyanodaya.java" bodystart="45" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_gyanodaya_1_1_gyanodaya_1a996e904111304cec8d08e2d08cc574c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>View</type>
+        <definition>View antardhvani.du.ac.in.Gyanodaya.Gyanodaya.onCreateView</definition>
+        <argsstring>(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)</argsstring>
+        <name>onCreateView</name>
+        <param>
+          <type>LayoutInflater</type>
+          <declname>inflater</declname>
+        </param>
+        <param>
+          <type>ViewGroup</type>
+          <declname>container</declname>
+        </param>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gyanodaya/Gyanodaya.java" line="54" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gyanodaya/Gyanodaya.java" bodystart="54" bodyend="128"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Created by rajanmaurya on 15/2/15. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="102">
+        <label>antardhvani.du.ac.in.Gyanodaya.Gyanodaya</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_gyanodaya_1_1_gyanodaya"/>
+        <childnode refid="103" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="103">
+        <label>Fragment</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="106">
+        <label>KenBurnsView</label>
+      </node>
+      <node id="107">
+        <label>TextView</label>
+      </node>
+      <node id="104">
+        <label>antardhvani.du.ac.in.Gyanodaya.Gyanodaya</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_gyanodaya_1_1_gyanodaya"/>
+        <childnode refid="105" relation="public-inheritance">
+        </childnode>
+        <childnode refid="106" relation="usage">
+          <edgelabel>imageView</edgelabel>
+        </childnode>
+        <childnode refid="107" relation="usage">
+          <edgelabel>sch</edgelabel>
+          <edgelabel>schedule</edgelabel>
+          <edgelabel>ven</edgelabel>
+          <edgelabel>venue</edgelabel>
+          <edgelabel>des</edgelabel>
+        </childnode>
+      </node>
+      <node id="105">
+        <label>Fragment</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gyanodaya/Gyanodaya.java" line="31" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gyanodaya/Gyanodaya.java" bodystart="31" bodyend="145"/>
+    <listofallmembers>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_gyanodaya_1_1_gyanodaya_1a3196db1769636ea0e1190b508ffc5505" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Gyanodaya::Gyanodaya</scope><name>count</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_gyanodaya_1_1_gyanodaya_1ac36ec083c952466b5d99e018941f5678" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::Gyanodaya::Gyanodaya</scope><name>des</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_gyanodaya_1_1_gyanodaya_1ac5184ce6d744c1db9fd43fef236e5207" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Gyanodaya::Gyanodaya</scope><name>getInstance</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_gyanodaya_1_1_gyanodaya_1a9f6365ebac72748cf66c37b390e553ed" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::Gyanodaya::Gyanodaya</scope><name>imageView</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_gyanodaya_1_1_gyanodaya_1a81bd4a977ba3138eb427c4460b1b40b2" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Gyanodaya::Gyanodaya</scope><name>leftDrawerList</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_gyanodaya_1_1_gyanodaya_1a6417dcbb24b8c4dc66b3235fea0eb300" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Gyanodaya::Gyanodaya</scope><name>mPager</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_gyanodaya_1_1_gyanodaya_1a0f72fc4e936dda1e5c4a47fd3d1b3d1c" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Gyanodaya::Gyanodaya</scope><name>mPagerAdapter</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_gyanodaya_1_1_gyanodaya_1a492cef34cd87dd6490cf5e0594c0800b" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Gyanodaya::Gyanodaya</scope><name>NUM_PAGES</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_gyanodaya_1_1_gyanodaya_1a996e904111304cec8d08e2d08cc574c2" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Gyanodaya::Gyanodaya</scope><name>onCreateView</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_gyanodaya_1_1_gyanodaya_1a61e2164b077c8c42c299f6eec5963766" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Gyanodaya::Gyanodaya</scope><name>one_two_three</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_gyanodaya_1_1_gyanodaya_1acc61019829797b4999dc14d03b2428bb" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::Gyanodaya::Gyanodaya</scope><name>photos</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_gyanodaya_1_1_gyanodaya_1a58394a0a011f2d940840bdbb2798f388" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::Gyanodaya::Gyanodaya</scope><name>sch</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_gyanodaya_1_1_gyanodaya_1aebd74e86913d5e98d338bab1c6ac3283" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::Gyanodaya::Gyanodaya</scope><name>schedule</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_gyanodaya_1_1_gyanodaya_1a138493559cf38373a1e8b24e4282bc16" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Gyanodaya::Gyanodaya</scope><name>stringArrayAdapter</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_gyanodaya_1_1_gyanodaya_1a73a507cec4622960dc058267efccb2c6" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Gyanodaya::Gyanodaya</scope><name>timer</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_gyanodaya_1_1_gyanodaya_1ae54159e934895f3675afc2b0fdedd56c" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Gyanodaya::Gyanodaya</scope><name>title</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_gyanodaya_1_1_gyanodaya_1a6554b7ffce44f0d588c53917936b1942" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::Gyanodaya::Gyanodaya</scope><name>ven</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_gyanodaya_1_1_gyanodaya_1a619603a49531cc131b0d1f47d74a5107" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::Gyanodaya::Gyanodaya</scope><name>venue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

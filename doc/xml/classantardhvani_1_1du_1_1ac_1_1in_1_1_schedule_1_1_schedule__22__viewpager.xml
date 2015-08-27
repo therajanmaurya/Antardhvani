@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__22__viewpager" kind="class" language="Java" prot="public">
+    <compoundname>antardhvani::du::ac::in::Schedule::Schedule_22_viewpager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Fragment</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__22__viewpager_1a9a7f3057ff8de75ad1d5a9065582780a" prot="public" static="yes" mutable="no">
+        <type>ViewPager</type>
+        <definition>ViewPager antardhvani.du.ac.in.Schedule.Schedule_22_viewpager.viewPager</definition>
+        <argsstring></argsstring>
+        <name>viewPager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_22_viewpager.java" line="22" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_22_viewpager.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__22__viewpager_1ae16a1717019cc568297ce437511aa615" prot="public" static="yes" mutable="no">
+        <type>TextView</type>
+        <definition>TextView antardhvani.du.ac.in.Schedule.Schedule_22_viewpager.venue</definition>
+        <argsstring></argsstring>
+        <name>venue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_22_viewpager.java" line="23" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_22_viewpager.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__22__viewpager_1a486cc6c5debad54f3eb572cff5a7fe3d" prot="package" static="yes" mutable="no">
+        <type>String[]</type>
+        <definition>String [] antardhvani.du.ac.in.Schedule.Schedule_22_viewpager.venues</definition>
+        <argsstring></argsstring>
+        <name>venues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_22_viewpager.java" line="24" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_22_viewpager.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__22__viewpager_1ae437690beeec2b0b4820527bf13f6fce" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__22__viewpager" kindref="compound">Schedule_22_viewpager</ref></type>
+        <definition>static Schedule_22_viewpager antardhvani.du.ac.in.Schedule.Schedule_22_viewpager.getInstance</definition>
+        <argsstring>(int position)</argsstring>
+        <name>getInstance</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_22_viewpager.java" line="27" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_22_viewpager.java" bodystart="27" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__22__viewpager_1ad2113db8db7fad1e96b5f08aee8150c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>View</type>
+        <definition>View antardhvani.du.ac.in.Schedule.Schedule_22_viewpager.onCreateView</definition>
+        <argsstring>(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)</argsstring>
+        <name>onCreateView</name>
+        <param>
+          <type>LayoutInflater</type>
+          <declname>inflater</declname>
+        </param>
+        <param>
+          <type>ViewGroup</type>
+          <declname>container</declname>
+        </param>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_22_viewpager.java" line="36" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_22_viewpager.java" bodystart="36" bodyend="68"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Created by rajanmaurya on 17/2/15. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="264">
+        <label>antardhvani.du.ac.in.Schedule.Schedule_22_viewpager</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__22__viewpager"/>
+        <childnode refid="265" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="265">
+        <label>Fragment</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="269">
+        <label>TextView</label>
+      </node>
+      <node id="266">
+        <label>antardhvani.du.ac.in.Schedule.Schedule_22_viewpager</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__22__viewpager"/>
+        <childnode refid="267" relation="public-inheritance">
+        </childnode>
+        <childnode refid="268" relation="usage">
+          <edgelabel>viewPager</edgelabel>
+        </childnode>
+        <childnode refid="269" relation="usage">
+          <edgelabel>venue</edgelabel>
+        </childnode>
+      </node>
+      <node id="268">
+        <label>ViewPager</label>
+      </node>
+      <node id="267">
+        <label>Fragment</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_22_viewpager.java" line="19" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_22_viewpager.java" bodystart="19" bodyend="70"/>
+    <listofallmembers>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__22__viewpager_1ae437690beeec2b0b4820527bf13f6fce" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Schedule::Schedule_22_viewpager</scope><name>getInstance</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__22__viewpager_1ad2113db8db7fad1e96b5f08aee8150c4" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Schedule::Schedule_22_viewpager</scope><name>onCreateView</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__22__viewpager_1ae16a1717019cc568297ce437511aa615" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Schedule::Schedule_22_viewpager</scope><name>venue</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__22__viewpager_1a486cc6c5debad54f3eb572cff5a7fe3d" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::Schedule::Schedule_22_viewpager</scope><name>venues</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_schedule__22__viewpager_1a9a7f3057ff8de75ad1d5a9065582780a" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Schedule::Schedule_22_viewpager</scope><name>viewPager</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

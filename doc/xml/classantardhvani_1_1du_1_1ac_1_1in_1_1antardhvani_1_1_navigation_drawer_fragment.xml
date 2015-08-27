@@ -1,0 +1,415 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment" kind="class" language="Java" prot="public">
+    <compoundname>antardhvani::du::ac::in::antardhvani::NavigationDrawerFragment</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Fragment</basecompoundref>
+    <innerclass refid="interfaceantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1_1_click_listener" prot="public">antardhvani::du::ac::in::antardhvani::NavigationDrawerFragment::ClickListener</innerclass>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1_1_recycler_touch_listener" prot="package">antardhvani::du::ac::in::antardhvani::NavigationDrawerFragment::RecyclerTouchListener</innerclass>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1adc4483015d21508bfa307393106116f1" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String antardhvani.du.ac.in.antardhvani.NavigationDrawerFragment.PREF_FILE_NAME</definition>
+        <argsstring></argsstring>
+        <name>PREF_FILE_NAME</name>
+        <initializer>= &quot;testpref&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" line="65" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1a43d630d4a77167f13d2919eff263ba6c" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String antardhvani.du.ac.in.antardhvani.NavigationDrawerFragment.KEY_USER_LEARNED_DRAWER</definition>
+        <argsstring></argsstring>
+        <name>KEY_USER_LEARNED_DRAWER</name>
+        <initializer>= &quot;user_learned_drawer&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" line="66" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1ab1277f942821384d5ad92a14acff3d57" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int antardhvani.du.ac.in.antardhvani.NavigationDrawerFragment.in</definition>
+        <argsstring></argsstring>
+        <name>in</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" line="75" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1a20109e17619cac848c4b5228807ab25c" prot="private" static="no" mutable="no">
+        <type>RecyclerView</type>
+        <definition>RecyclerView antardhvani.du.ac.in.antardhvani.NavigationDrawerFragment.recyclerView</definition>
+        <argsstring></argsstring>
+        <name>recyclerView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" line="67" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1a991509dab55d3d8a74e9828c483f1e5e" prot="private" static="no" mutable="no">
+        <type>ActionBarDrawerToggle</type>
+        <definition>ActionBarDrawerToggle antardhvani.du.ac.in.antardhvani.NavigationDrawerFragment.mDrawerToggle</definition>
+        <argsstring></argsstring>
+        <name>mDrawerToggle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" line="68" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1ab9f73023876adec1c9432f36a172c0e1" prot="private" static="no" mutable="no">
+        <type>DrawerLayout</type>
+        <definition>DrawerLayout antardhvani.du.ac.in.antardhvani.NavigationDrawerFragment.mDrawerLayout</definition>
+        <argsstring></argsstring>
+        <name>mDrawerLayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" line="69" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1ae414a55290cc3b09ebe40f059f71555f" prot="private" static="no" mutable="no">
+        <type><ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_antardhvani_adapter" kindref="compound">AntardhvaniAdapter</ref></type>
+        <definition>AntardhvaniAdapter antardhvani.du.ac.in.antardhvani.NavigationDrawerFragment.adapter</definition>
+        <argsstring></argsstring>
+        <name>adapter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" line="70" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1af3a0a82aef59849791bf5c9344a0600d" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean antardhvani.du.ac.in.antardhvani.NavigationDrawerFragment.mUserLearnedDrawer</definition>
+        <argsstring></argsstring>
+        <name>mUserLearnedDrawer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" line="71" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1a61950ded34602f6982e6e5f623668bd3" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean antardhvani.du.ac.in.antardhvani.NavigationDrawerFragment.mFromSavedInstanceState</definition>
+        <argsstring></argsstring>
+        <name>mFromSavedInstanceState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" line="72" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1a071e66b7ad4432effdc84b093a9bb28b" prot="private" static="no" mutable="no">
+        <type>View</type>
+        <definition>View antardhvani.du.ac.in.antardhvani.NavigationDrawerFragment.containerView</definition>
+        <argsstring></argsstring>
+        <name>containerView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" line="73" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1a4913046c5919c12782a29531d06295c5" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean antardhvani.du.ac.in.antardhvani.NavigationDrawerFragment.isDrawerOpened</definition>
+        <argsstring></argsstring>
+        <name>isDrawerOpened</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" line="74" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1a5f3387cbc1a862c4ff755621629a83aa" prot="package" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean antardhvani.du.ac.in.antardhvani.NavigationDrawerFragment.scheduleSelected</definition>
+        <argsstring></argsstring>
+        <name>scheduleSelected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" line="76" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1a112ddae8b9ccb6727e99a16148f35f5f" prot="package" static="yes" mutable="no">
+        <type>String[]</type>
+        <definition>String [] antardhvani.du.ac.in.antardhvani.NavigationDrawerFragment.titles</definition>
+        <argsstring></argsstring>
+        <name>titles</name>
+        <initializer>= {&quot;Home&quot;, &quot;Events&quot;,&quot;Flower Show&quot;,&quot;<ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_gyanodaya_1_1_gyanodaya" kindref="compound">Gyanodaya</ref>&quot;, &quot;<ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_painting_1_1_painting" kindref="compound">Painting</ref> Competition&quot; ,&quot;Schedule&quot;, &quot;<ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_contact_1_1_contact" kindref="compound">Contact</ref>&quot;,&quot;<ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_map_1_1_map" kindref="compound">Map</ref>&quot;, &quot;<ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_about_1_1_about" kindref="compound">About</ref> Us&quot; }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" line="77" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1ab8ac8424161a42aae97f67f47c8bc32d" prot="package" static="yes" mutable="no">
+        <type>String[]</type>
+        <definition>String [] antardhvani.du.ac.in.antardhvani.NavigationDrawerFragment.titlesNew</definition>
+        <argsstring></argsstring>
+        <name>titlesNew</name>
+        <initializer>= {
+            &quot;Home&quot;,
+            &quot;Events&quot;,
+            &quot;Flower Show&quot;,
+            &quot;<ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_gyanodaya_1_1_gyanodaya" kindref="compound">Gyanodaya</ref>&quot;,
+            &quot;<ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_painting_1_1_painting" kindref="compound">Painting</ref> Competition&quot;,
+            &quot;Schedule&quot;,
+            &quot;Pre-Event&quot;,
+            &quot;Day 1 - Feb 20th&quot;,
+            &quot;Day 2 - Feb 21th&quot;,
+            &quot;Day 3 - Feb 22th&quot;,
+            &quot;Contact&quot;,
+            &quot;Map&quot;,
+            &quot;About Us&quot;
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" line="78" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1ae9495f2968b90066cb00c99677dc72e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>antardhvani.du.ac.in.antardhvani.NavigationDrawerFragment.NavigationDrawerFragment</definition>
+        <argsstring>()</argsstring>
+        <name>NavigationDrawerFragment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" line="98" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" bodystart="98" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1aac1d326dddf926fb2e161b38c359f843" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.antardhvani.NavigationDrawerFragment.onCreate</definition>
+        <argsstring>(Bundle savedInstanceState)</argsstring>
+        <name>onCreate</name>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" line="130" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" bodystart="130" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1a3b56d0fdc63cbd61029cb995e2f2a06f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>View</type>
+        <definition>View antardhvani.du.ac.in.antardhvani.NavigationDrawerFragment.onCreateView</definition>
+        <argsstring>(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)</argsstring>
+        <name>onCreateView</name>
+        <param>
+          <type>LayoutInflater</type>
+          <declname>inflater</declname>
+        </param>
+        <param>
+          <type>ViewGroup</type>
+          <declname>container</declname>
+        </param>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" line="139" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" bodystart="139" bodyend="330"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1a5b0cf2f646e8cab2f95815155ddd6bce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.antardhvani.NavigationDrawerFragment.setUp</definition>
+        <argsstring>(int fragmentId, DrawerLayout drawerLayout, final Toolbar toolbar)</argsstring>
+        <name>setUp</name>
+        <param>
+          <type>int</type>
+          <declname>fragmentId</declname>
+        </param>
+        <param>
+          <type>DrawerLayout</type>
+          <declname>drawerLayout</declname>
+        </param>
+        <param>
+          <type>final Toolbar</type>
+          <declname>toolbar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" line="334" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" bodystart="334" bodyend="373"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1ace4679e55dc40bc3eb9d55f840eaf5fd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_information" kindref="compound">Information</ref> &gt;</type>
+        <definition>static List&lt;Information&gt; antardhvani.du.ac.in.antardhvani.NavigationDrawerFragment.getData</definition>
+        <argsstring>()</argsstring>
+        <name>getData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" line="102" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" bodystart="102" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1a6aed9cfc3d59b5a225ab20333e4a1ead" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void antardhvani.du.ac.in.antardhvani.NavigationDrawerFragment.saveToPreferences</definition>
+        <argsstring>(Context context, String preferenceName, String preferenceValue)</argsstring>
+        <name>saveToPreferences</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>preferenceName</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>preferenceValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" line="117" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" bodystart="117" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1acd76e50c3cb1a41f980fd99b98680bb5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>static String antardhvani.du.ac.in.antardhvani.NavigationDrawerFragment.readFromPreferences</definition>
+        <argsstring>(Context context, String preferenceName, String defaultValue)</argsstring>
+        <name>readFromPreferences</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>preferenceName</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>defaultValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" line="124" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" bodystart="124" bodyend="127"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple <ref refid="" kindref="compound">Fragment</ref> subclass. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="177">
+        <label>antardhvani.du.ac.in.antardhvani.NavigationDrawerFragment</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment"/>
+        <childnode refid="178" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="178">
+        <label>Fragment</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="179">
+        <label>antardhvani.du.ac.in.antardhvani.NavigationDrawerFragment</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment"/>
+        <childnode refid="180" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="180">
+        <label>Fragment</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" line="42" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" bodystart="42" bodyend="422"/>
+    <listofallmembers>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1ae414a55290cc3b09ebe40f059f71555f" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::NavigationDrawerFragment</scope><name>adapter</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1a071e66b7ad4432effdc84b093a9bb28b" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::NavigationDrawerFragment</scope><name>containerView</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1ace4679e55dc40bc3eb9d55f840eaf5fd" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::NavigationDrawerFragment</scope><name>getData</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1ab1277f942821384d5ad92a14acff3d57" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::NavigationDrawerFragment</scope><name>in</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1a4913046c5919c12782a29531d06295c5" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::NavigationDrawerFragment</scope><name>isDrawerOpened</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1a43d630d4a77167f13d2919eff263ba6c" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::NavigationDrawerFragment</scope><name>KEY_USER_LEARNED_DRAWER</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1ab9f73023876adec1c9432f36a172c0e1" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::NavigationDrawerFragment</scope><name>mDrawerLayout</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1a991509dab55d3d8a74e9828c483f1e5e" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::NavigationDrawerFragment</scope><name>mDrawerToggle</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1a61950ded34602f6982e6e5f623668bd3" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::NavigationDrawerFragment</scope><name>mFromSavedInstanceState</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1af3a0a82aef59849791bf5c9344a0600d" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::NavigationDrawerFragment</scope><name>mUserLearnedDrawer</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1ae9495f2968b90066cb00c99677dc72e6" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::NavigationDrawerFragment</scope><name>NavigationDrawerFragment</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1aac1d326dddf926fb2e161b38c359f843" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::NavigationDrawerFragment</scope><name>onCreate</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1a3b56d0fdc63cbd61029cb995e2f2a06f" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::NavigationDrawerFragment</scope><name>onCreateView</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1adc4483015d21508bfa307393106116f1" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::NavigationDrawerFragment</scope><name>PREF_FILE_NAME</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1acd76e50c3cb1a41f980fd99b98680bb5" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::NavigationDrawerFragment</scope><name>readFromPreferences</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1a20109e17619cac848c4b5228807ab25c" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::NavigationDrawerFragment</scope><name>recyclerView</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1a6aed9cfc3d59b5a225ab20333e4a1ead" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::NavigationDrawerFragment</scope><name>saveToPreferences</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1a5f3387cbc1a862c4ff755621629a83aa" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::NavigationDrawerFragment</scope><name>scheduleSelected</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1a5b0cf2f646e8cab2f95815155ddd6bce" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::NavigationDrawerFragment</scope><name>setUp</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1a112ddae8b9ccb6727e99a16148f35f5f" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::NavigationDrawerFragment</scope><name>titles</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1ab8ac8424161a42aae97f67f47c8bc32d" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::NavigationDrawerFragment</scope><name>titlesNew</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

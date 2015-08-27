@@ -1,0 +1,546 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder" kind="class" language="Java" prot="public">
+    <compoundname>com::example::lusifer::myapplication::backend::messaging::Messaging::Builder</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Builder</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">Builder</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1a82435b42392d78c288f0ce839d0685ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.example.lusifer.myapplication.backend.messaging.Messaging.Builder.Builder</definition>
+        <argsstring>(com.google.api.client.http.HttpTransport transport, com.google.api.client.json.JsonFactory jsonFactory, com.google.api.client.http.HttpRequestInitializer httpRequestInitializer)</argsstring>
+        <name>Builder</name>
+        <param>
+          <type>com.google.api.client.http.HttpTransport</type>
+          <declname>transport</declname>
+        </param>
+        <param>
+          <type>com.google.api.client.json.JsonFactory</type>
+          <declname>jsonFactory</declname>
+        </param>
+        <param>
+          <type>com.google.api.client.http.HttpRequestInitializer</type>
+          <declname>httpRequestInitializer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns an instance of a new builder.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>transport</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>HTTP transport, which should normally be: <itemizedlist>
+<listitem>
+<para>Google App Engine: <programlisting><codeline><highlight class="normal">com.google.api.client.extensions.appengine.http.UrlFetchTransport<sp/></highlight></codeline>
+</programlisting>  </para></listitem>
+<listitem>
+<para>Android:<programlisting><codeline><highlight class="normal">newCompatibleTransport<sp/></highlight></codeline>
+</programlisting> from <programlisting><codeline><highlight class="normal">com.google.api.client.extensions.android.http.AndroidHttp<sp/></highlight></codeline>
+</programlisting>  </para></listitem>
+<listitem>
+<para>Java: <ref refid="" kindref="compound">com.google.api.client.googleapis.javanet.GoogleNetHttpTransport#newTrustedTransport()</ref>  </para></listitem>
+</itemizedlist>
+</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>jsonFactory</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>JSON factory, which may be: <itemizedlist>
+<listitem>
+<para>Jackson:<programlisting><codeline><highlight class="normal">com.google.api.client.json.jackson2.JacksonFactory<sp/></highlight></codeline>
+</programlisting>  </para></listitem>
+<listitem>
+<para>Google GSON:<programlisting><codeline><highlight class="normal">com.google.api.client.json.gson.GsonFactory<sp/></highlight></codeline>
+</programlisting>  </para></listitem>
+<listitem>
+<para>Android Honeycomb or higher: <programlisting><codeline><highlight class="normal">com.google.api.client.extensions.android.json.AndroidJsonFactory<sp/></highlight></codeline>
+</programlisting>  </para></listitem>
+</itemizedlist>
+</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>httpRequestInitializer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>HTTP request initializer or<programlisting><codeline><highlight class="normal">null<sp/></highlight></codeline>
+</programlisting> for none </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="since"><para>1.7 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="266" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="266" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1a555d32e31806afca6652ca051da51b32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging" kindref="compound">Messaging</ref></type>
+        <definition>Messaging com.example.lusifer.myapplication.backend.messaging.Messaging.Builder.build</definition>
+        <argsstring>()</argsstring>
+        <name>build</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Builds a new instance of <ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging" kindref="compound">Messaging</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="279" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="279" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1a736ac387ea5841b7b5f27767ece39c03" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Builder</type>
+        <definition>Builder com.example.lusifer.myapplication.backend.messaging.Messaging.Builder.setRootUrl</definition>
+        <argsstring>(String rootUrl)</argsstring>
+        <name>setRootUrl</name>
+        <param>
+          <type>String</type>
+          <declname>rootUrl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="284" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="284" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1a68955abf89604ad3491d601ce5a61615" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Builder</type>
+        <definition>Builder com.example.lusifer.myapplication.backend.messaging.Messaging.Builder.setServicePath</definition>
+        <argsstring>(String servicePath)</argsstring>
+        <name>setServicePath</name>
+        <param>
+          <type>String</type>
+          <declname>servicePath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="289" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="289" bodyend="291"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1ae31fcc40027ef4bf1d0e71ae376c6fd5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Builder</type>
+        <definition>Builder com.example.lusifer.myapplication.backend.messaging.Messaging.Builder.setHttpRequestInitializer</definition>
+        <argsstring>(com.google.api.client.http.HttpRequestInitializer httpRequestInitializer)</argsstring>
+        <name>setHttpRequestInitializer</name>
+        <param>
+          <type>com.google.api.client.http.HttpRequestInitializer</type>
+          <declname>httpRequestInitializer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="294" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="294" bodyend="296"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1ac04f901b3cac8536c4740eedc75d1e36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Builder</type>
+        <definition>Builder com.example.lusifer.myapplication.backend.messaging.Messaging.Builder.setApplicationName</definition>
+        <argsstring>(String applicationName)</argsstring>
+        <name>setApplicationName</name>
+        <param>
+          <type>String</type>
+          <declname>applicationName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="299" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="299" bodyend="301"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1a73fcb1b091f10ddc1157787943c57313" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Builder</type>
+        <definition>Builder com.example.lusifer.myapplication.backend.messaging.Messaging.Builder.setSuppressPatternChecks</definition>
+        <argsstring>(boolean suppressPatternChecks)</argsstring>
+        <name>setSuppressPatternChecks</name>
+        <param>
+          <type>boolean</type>
+          <declname>suppressPatternChecks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="304" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="304" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1a05dc1c2c3814de610e19c5194f39d389" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Builder</type>
+        <definition>Builder com.example.lusifer.myapplication.backend.messaging.Messaging.Builder.setSuppressRequiredParameterChecks</definition>
+        <argsstring>(boolean suppressRequiredParameterChecks)</argsstring>
+        <name>setSuppressRequiredParameterChecks</name>
+        <param>
+          <type>boolean</type>
+          <declname>suppressRequiredParameterChecks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="309" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="309" bodyend="311"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1ab92900b1d8dbd2235980a45aacd5a4c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Builder</type>
+        <definition>Builder com.example.lusifer.myapplication.backend.messaging.Messaging.Builder.setSuppressAllChecks</definition>
+        <argsstring>(boolean suppressAllChecks)</argsstring>
+        <name>setSuppressAllChecks</name>
+        <param>
+          <type>boolean</type>
+          <declname>suppressAllChecks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="314" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="314" bodyend="316"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1affa447856171c47430a8b7fa6110c929" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Builder</type>
+        <definition>Builder com.example.lusifer.myapplication.backend.messaging.Messaging.Builder.setMessagingRequestInitializer</definition>
+        <argsstring>(MessagingRequestInitializer messagingRequestInitializer)</argsstring>
+        <name>setMessagingRequestInitializer</name>
+        <param>
+          <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_request_initializer" kindref="compound">MessagingRequestInitializer</ref></type>
+          <declname>messagingRequestInitializer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the <ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_request_initializer" kindref="compound">MessagingRequestInitializer</ref>.</para><para><simplesect kind="since"><para>1.12 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="323" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="323" bodyend="326"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1aa224223b7b7d9913c1444bf124e2f4df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Builder</type>
+        <definition>Builder com.example.lusifer.myapplication.backend.messaging.Messaging.Builder.setGoogleClientRequestInitializer</definition>
+        <argsstring>(com.google.api.client.googleapis.services.GoogleClientRequestInitializer googleClientRequestInitializer)</argsstring>
+        <name>setGoogleClientRequestInitializer</name>
+        <param>
+          <type>com.google.api.client.googleapis.services.GoogleClientRequestInitializer</type>
+          <declname>googleClientRequestInitializer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="329" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="329" bodyend="332"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1a82435b42392d78c288f0ce839d0685ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.example.lusifer.myapplication.backend.messaging.Messaging.Builder.Builder</definition>
+        <argsstring>(com.google.api.client.http.HttpTransport transport, com.google.api.client.json.JsonFactory jsonFactory, com.google.api.client.http.HttpRequestInitializer httpRequestInitializer)</argsstring>
+        <name>Builder</name>
+        <param>
+          <type>com.google.api.client.http.HttpTransport</type>
+          <declname>transport</declname>
+        </param>
+        <param>
+          <type>com.google.api.client.json.JsonFactory</type>
+          <declname>jsonFactory</declname>
+        </param>
+        <param>
+          <type>com.google.api.client.http.HttpRequestInitializer</type>
+          <declname>httpRequestInitializer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns an instance of a new builder.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>transport</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>HTTP transport, which should normally be: <itemizedlist>
+<listitem>
+<para>Google App Engine: <programlisting><codeline><highlight class="normal">com.google.api.client.extensions.appengine.http.UrlFetchTransport<sp/></highlight></codeline>
+</programlisting>  </para></listitem>
+<listitem>
+<para>Android:<programlisting><codeline><highlight class="normal">newCompatibleTransport<sp/></highlight></codeline>
+</programlisting> from <programlisting><codeline><highlight class="normal">com.google.api.client.extensions.android.http.AndroidHttp<sp/></highlight></codeline>
+</programlisting>  </para></listitem>
+<listitem>
+<para>Java: <ref refid="" kindref="compound">com.google.api.client.googleapis.javanet.GoogleNetHttpTransport#newTrustedTransport()</ref>  </para></listitem>
+</itemizedlist>
+</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>jsonFactory</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>JSON factory, which may be: <itemizedlist>
+<listitem>
+<para>Jackson:<programlisting><codeline><highlight class="normal">com.google.api.client.json.jackson2.JacksonFactory<sp/></highlight></codeline>
+</programlisting>  </para></listitem>
+<listitem>
+<para>Google GSON:<programlisting><codeline><highlight class="normal">com.google.api.client.json.gson.GsonFactory<sp/></highlight></codeline>
+</programlisting>  </para></listitem>
+<listitem>
+<para>Android Honeycomb or higher: <programlisting><codeline><highlight class="normal">com.google.api.client.extensions.android.json.AndroidJsonFactory<sp/></highlight></codeline>
+</programlisting>  </para></listitem>
+</itemizedlist>
+</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>httpRequestInitializer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>HTTP request initializer or<programlisting><codeline><highlight class="normal">null<sp/></highlight></codeline>
+</programlisting> for none </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="since"><para>1.7 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="266" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="266" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1a555d32e31806afca6652ca051da51b32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging" kindref="compound">Messaging</ref></type>
+        <definition>Messaging com.example.lusifer.myapplication.backend.messaging.Messaging.Builder.build</definition>
+        <argsstring>()</argsstring>
+        <name>build</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Builds a new instance of <ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging" kindref="compound">Messaging</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="279" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="279" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1a736ac387ea5841b7b5f27767ece39c03" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Builder</type>
+        <definition>Builder com.example.lusifer.myapplication.backend.messaging.Messaging.Builder.setRootUrl</definition>
+        <argsstring>(String rootUrl)</argsstring>
+        <name>setRootUrl</name>
+        <param>
+          <type>String</type>
+          <declname>rootUrl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="284" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="284" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1a68955abf89604ad3491d601ce5a61615" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Builder</type>
+        <definition>Builder com.example.lusifer.myapplication.backend.messaging.Messaging.Builder.setServicePath</definition>
+        <argsstring>(String servicePath)</argsstring>
+        <name>setServicePath</name>
+        <param>
+          <type>String</type>
+          <declname>servicePath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="289" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="289" bodyend="291"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1ae31fcc40027ef4bf1d0e71ae376c6fd5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Builder</type>
+        <definition>Builder com.example.lusifer.myapplication.backend.messaging.Messaging.Builder.setHttpRequestInitializer</definition>
+        <argsstring>(com.google.api.client.http.HttpRequestInitializer httpRequestInitializer)</argsstring>
+        <name>setHttpRequestInitializer</name>
+        <param>
+          <type>com.google.api.client.http.HttpRequestInitializer</type>
+          <declname>httpRequestInitializer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="294" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="294" bodyend="296"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1ac04f901b3cac8536c4740eedc75d1e36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Builder</type>
+        <definition>Builder com.example.lusifer.myapplication.backend.messaging.Messaging.Builder.setApplicationName</definition>
+        <argsstring>(String applicationName)</argsstring>
+        <name>setApplicationName</name>
+        <param>
+          <type>String</type>
+          <declname>applicationName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="299" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="299" bodyend="301"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1a73fcb1b091f10ddc1157787943c57313" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Builder</type>
+        <definition>Builder com.example.lusifer.myapplication.backend.messaging.Messaging.Builder.setSuppressPatternChecks</definition>
+        <argsstring>(boolean suppressPatternChecks)</argsstring>
+        <name>setSuppressPatternChecks</name>
+        <param>
+          <type>boolean</type>
+          <declname>suppressPatternChecks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="304" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="304" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1a05dc1c2c3814de610e19c5194f39d389" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Builder</type>
+        <definition>Builder com.example.lusifer.myapplication.backend.messaging.Messaging.Builder.setSuppressRequiredParameterChecks</definition>
+        <argsstring>(boolean suppressRequiredParameterChecks)</argsstring>
+        <name>setSuppressRequiredParameterChecks</name>
+        <param>
+          <type>boolean</type>
+          <declname>suppressRequiredParameterChecks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="309" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="309" bodyend="311"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1ab92900b1d8dbd2235980a45aacd5a4c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Builder</type>
+        <definition>Builder com.example.lusifer.myapplication.backend.messaging.Messaging.Builder.setSuppressAllChecks</definition>
+        <argsstring>(boolean suppressAllChecks)</argsstring>
+        <name>setSuppressAllChecks</name>
+        <param>
+          <type>boolean</type>
+          <declname>suppressAllChecks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="314" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="314" bodyend="316"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1affa447856171c47430a8b7fa6110c929" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Builder</type>
+        <definition>Builder com.example.lusifer.myapplication.backend.messaging.Messaging.Builder.setMessagingRequestInitializer</definition>
+        <argsstring>(MessagingRequestInitializer messagingRequestInitializer)</argsstring>
+        <name>setMessagingRequestInitializer</name>
+        <param>
+          <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_request_initializer" kindref="compound">MessagingRequestInitializer</ref></type>
+          <declname>messagingRequestInitializer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the <ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_request_initializer" kindref="compound">MessagingRequestInitializer</ref>.</para><para><simplesect kind="since"><para>1.12 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="323" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="323" bodyend="326"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1aa224223b7b7d9913c1444bf124e2f4df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Builder</type>
+        <definition>Builder com.example.lusifer.myapplication.backend.messaging.Messaging.Builder.setGoogleClientRequestInitializer</definition>
+        <argsstring>(com.google.api.client.googleapis.services.GoogleClientRequestInitializer googleClientRequestInitializer)</argsstring>
+        <name>setGoogleClientRequestInitializer</name>
+        <param>
+          <type>com.google.api.client.googleapis.services.GoogleClientRequestInitializer</type>
+          <declname>googleClientRequestInitializer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="329" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="329" bodyend="332"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Builder for <ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging" kindref="compound">Messaging</ref>.</para><para>Implementation is not thread-safe. </para><para><simplesect kind="since"><para>1.3.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="20">
+        <label>Builder</label>
+      </node>
+      <node id="18">
+        <label>com.example.lusifer.myapplication.backend.messaging.Messaging.Builder</label>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>com::google::api::client::googleapis::services::json::AbstractGoogleJsonClient::Builder</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="23">
+        <label>Builder</label>
+      </node>
+      <node id="21">
+        <label>com.example.lusifer.myapplication.backend.messaging.Messaging.Builder</label>
+        <childnode refid="22" relation="public-inheritance">
+        </childnode>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>com::google::api::client::googleapis::services::json::AbstractGoogleJsonClient::Builder</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="242" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="242" bodyend="333"/>
+    <listofallmembers>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1a555d32e31806afca6652ca051da51b32" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::Builder</scope><name>build</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1a555d32e31806afca6652ca051da51b32" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::Builder</scope><name>build</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1a82435b42392d78c288f0ce839d0685ed" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::Builder</scope><name>Builder</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1a82435b42392d78c288f0ce839d0685ed" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::Builder</scope><name>Builder</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1ac04f901b3cac8536c4740eedc75d1e36" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::Builder</scope><name>setApplicationName</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1ac04f901b3cac8536c4740eedc75d1e36" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::Builder</scope><name>setApplicationName</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1aa224223b7b7d9913c1444bf124e2f4df" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::Builder</scope><name>setGoogleClientRequestInitializer</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1aa224223b7b7d9913c1444bf124e2f4df" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::Builder</scope><name>setGoogleClientRequestInitializer</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1ae31fcc40027ef4bf1d0e71ae376c6fd5" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::Builder</scope><name>setHttpRequestInitializer</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1ae31fcc40027ef4bf1d0e71ae376c6fd5" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::Builder</scope><name>setHttpRequestInitializer</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1affa447856171c47430a8b7fa6110c929" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::Builder</scope><name>setMessagingRequestInitializer</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1affa447856171c47430a8b7fa6110c929" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::Builder</scope><name>setMessagingRequestInitializer</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1a736ac387ea5841b7b5f27767ece39c03" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::Builder</scope><name>setRootUrl</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1a736ac387ea5841b7b5f27767ece39c03" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::Builder</scope><name>setRootUrl</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1a68955abf89604ad3491d601ce5a61615" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::Builder</scope><name>setServicePath</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1a68955abf89604ad3491d601ce5a61615" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::Builder</scope><name>setServicePath</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1ab92900b1d8dbd2235980a45aacd5a4c0" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::Builder</scope><name>setSuppressAllChecks</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1ab92900b1d8dbd2235980a45aacd5a4c0" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::Builder</scope><name>setSuppressAllChecks</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1a73fcb1b091f10ddc1157787943c57313" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::Builder</scope><name>setSuppressPatternChecks</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1a73fcb1b091f10ddc1157787943c57313" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::Builder</scope><name>setSuppressPatternChecks</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1a05dc1c2c3814de610e19c5194f39d389" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::Builder</scope><name>setSuppressRequiredParameterChecks</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_builder_1a05dc1c2c3814de610e19c5194f39d389" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::Builder</scope><name>setSuppressRequiredParameterChecks</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

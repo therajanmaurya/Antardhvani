@@ -1,0 +1,13 @@
+var classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request_initializer =
+[
+    [ "RegistrationRequestInitializer", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request_initializer.html#ad7943c7ab12d6217a35e058e47e99d0e", null ],
+    [ "RegistrationRequestInitializer", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request_initializer.html#a1fcebc896e0a138510799819494d353e", null ],
+    [ "RegistrationRequestInitializer", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request_initializer.html#a24ca4cae7e5581f1a2d6639b54c8a42b", null ],
+    [ "RegistrationRequestInitializer", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request_initializer.html#ad7943c7ab12d6217a35e058e47e99d0e", null ],
+    [ "RegistrationRequestInitializer", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request_initializer.html#a1fcebc896e0a138510799819494d353e", null ],
+    [ "RegistrationRequestInitializer", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request_initializer.html#a24ca4cae7e5581f1a2d6639b54c8a42b", null ],
+    [ "initializeJsonRequest", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request_initializer.html#a22a6c967fb61fe4e65b41466ef601b9e", null ],
+    [ "initializeJsonRequest", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request_initializer.html#a22a6c967fb61fe4e65b41466ef601b9e", null ],
+    [ "initializeRegistrationRequest", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request_initializer.html#a32f2b91f9d66573bc9f814bcebd43f6f", null ],
+    [ "initializeRegistrationRequest", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request_initializer.html#a32f2b91f9d66573bc9f814bcebd43f6f", null ]
+];

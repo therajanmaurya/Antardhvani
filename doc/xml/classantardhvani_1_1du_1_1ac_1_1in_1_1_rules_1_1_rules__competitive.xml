@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__competitive" kind="class" language="Java" prot="public">
+    <compoundname>antardhvani::du::ac::in::Rules::Rules_competitive</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Fragment</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__competitive_1a1bfe63ee67928822dacd017f6759748d" prot="private" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView antardhvani.du.ac.in.Rules.Rules_competitive.textView</definition>
+        <argsstring></argsstring>
+        <name>textView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_competitive.java" line="16" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_competitive.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__competitive_1ad07a0b7888f02ed37422db065a4f9abd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__competitive" kindref="compound">Rules_competitive</ref></type>
+        <definition>static Rules_competitive antardhvani.du.ac.in.Rules.Rules_competitive.getInstance</definition>
+        <argsstring>(int position)</argsstring>
+        <name>getInstance</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_competitive.java" line="18" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_competitive.java" bodystart="18" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__competitive_1ae2a54ef3929d8b24af9abc685aceceb3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>View</type>
+        <definition>View antardhvani.du.ac.in.Rules.Rules_competitive.onCreateView</definition>
+        <argsstring>(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)</argsstring>
+        <name>onCreateView</name>
+        <param>
+          <type>LayoutInflater</type>
+          <declname>inflater</declname>
+        </param>
+        <param>
+          <type>ViewGroup</type>
+          <declname>container</declname>
+        </param>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_competitive.java" line="27" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_competitive.java" bodystart="27" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Created by rajanmaurya on 14/2/15. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="232">
+        <label>antardhvani.du.ac.in.Rules.Rules_competitive</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__competitive"/>
+        <childnode refid="233" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="233">
+        <label>Fragment</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="234">
+        <label>antardhvani.du.ac.in.Rules.Rules_competitive</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__competitive"/>
+        <childnode refid="235" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="235">
+        <label>Fragment</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_competitive.java" line="15" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_competitive.java" bodystart="15" bodyend="35"/>
+    <listofallmembers>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__competitive_1ad07a0b7888f02ed37422db065a4f9abd" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Rules::Rules_competitive</scope><name>getInstance</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__competitive_1ae2a54ef3929d8b24af9abc685aceceb3" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Rules::Rules_competitive</scope><name>onCreateView</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__competitive_1a1bfe63ee67928822dacd017f6759748d" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Rules::Rules_competitive</scope><name>textView</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

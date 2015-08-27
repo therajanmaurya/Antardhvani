@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_my_result" kind="class" language="Java" prot="public">
+    <compoundname>antardhvani::du::ac::in::Database::MyResult</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_my_result_1a575cb08d563095aed92e298a28a43dd3" prot="private" static="no" mutable="no">
+        <type>final String</type>
+        <definition>final String antardhvani.du.ac.in.Database.MyResult.first</definition>
+        <argsstring></argsstring>
+        <name>first</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/MyResult.java" line="7" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/MyResult.java" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_my_result_1ae98d727ce1310bceca7b083f3ea597fd" prot="private" static="no" mutable="no">
+        <type>final String</type>
+        <definition>final String antardhvani.du.ac.in.Database.MyResult.second</definition>
+        <argsstring></argsstring>
+        <name>second</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/MyResult.java" line="8" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/MyResult.java" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_my_result_1ac4b54ca1720db97bec2aa940e9c77997" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>antardhvani.du.ac.in.Database.MyResult.MyResult</definition>
+        <argsstring>(String first, String second)</argsstring>
+        <name>MyResult</name>
+        <param>
+          <type>String</type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/MyResult.java" line="10" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/MyResult.java" bodystart="10" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_my_result_1a91bbf5c67c46c33e3f4fbe6a02c4f295" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String antardhvani.du.ac.in.Database.MyResult.getFirst</definition>
+        <argsstring>()</argsstring>
+        <name>getFirst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/MyResult.java" line="15" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/MyResult.java" bodystart="15" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_my_result_1a7a93c66d5550430b5c3cb39b58e1dbd9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String antardhvani.du.ac.in.Database.MyResult.getSecond</definition>
+        <argsstring>()</argsstring>
+        <name>getSecond</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/MyResult.java" line="19" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/MyResult.java" bodystart="19" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Created by lusifer on 17/2/15. </para>    </detaileddescription>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/MyResult.java" line="6" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Database/MyResult.java" bodystart="6" bodyend="22"/>
+    <listofallmembers>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_my_result_1a575cb08d563095aed92e298a28a43dd3" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Database::MyResult</scope><name>first</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_my_result_1a91bbf5c67c46c33e3f4fbe6a02c4f295" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Database::MyResult</scope><name>getFirst</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_my_result_1a7a93c66d5550430b5c3cb39b58e1dbd9" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Database::MyResult</scope><name>getSecond</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_my_result_1ac4b54ca1720db97bec2aa940e9c77997" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Database::MyResult</scope><name>MyResult</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_database_1_1_my_result_1ae98d727ce1310bceca7b083f3ea597fd" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Database::MyResult</scope><name>second</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

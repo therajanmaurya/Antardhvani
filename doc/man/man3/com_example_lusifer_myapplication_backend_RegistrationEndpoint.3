@@ -1,0 +1,66 @@
+.TH "com.example.lusifer.myapplication.backend.RegistrationEndpoint" 3 "Fri May 29 2015" "Version 0.1" "Antardhwani" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.example.lusifer.myapplication.backend.RegistrationEndpoint \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBregisterDevice\fP (@Named('regId') String regId)"
+.br
+.ti -1c
+.RI "void \fBunregisterDevice\fP (@Named('regId') String regId)"
+.br
+.ti -1c
+.RI "CollectionResponse< \fBRegistrationRecord\fP > \fBlistDevices\fP (@Named('count') int count)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+A registration endpoint class we are exposing for a device's \fBGCM\fP registration id on the backend 
+.PP
+For more information, see https://developers.google.com/appengine/docs/java/endpoints/ 
+.PP
+NOTE: This endpoint does not use any form of authorization or authentication! If this app is deployed, anyone can access this endpoint! If you'd like to add authentication, take a look at the documentation\&. 
+.SH "Member Function Documentation"
+.PP 
+.SS "CollectionResponse<\fBRegistrationRecord\fP> com\&.example\&.lusifer\&.myapplication\&.backend\&.RegistrationEndpoint\&.listDevices (@Named('count') int count)"
+Return a collection of registered devices
+.PP
+\fBParameters:\fP
+.RS 4
+\fIcount\fP The number of devices to list 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+a list of Google Cloud Messaging registration Ids 
+.RE
+.PP
+
+.SS "void com\&.example\&.lusifer\&.myapplication\&.backend\&.RegistrationEndpoint\&.registerDevice (@Named('regId') String regId)"
+Register a device to the backend
+.PP
+\fBParameters:\fP
+.RS 4
+\fIregId\fP The Google Cloud Messaging registration Id to add 
+.RE
+.PP
+
+.SS "void com\&.example\&.lusifer\&.myapplication\&.backend\&.RegistrationEndpoint\&.unregisterDevice (@Named('regId') String regId)"
+Unregister a device from the backend
+.PP
+\fBParameters:\fP
+.RS 4
+\fIregId\fP The Google Cloud Messaging registration Id to remove 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Antardhwani from the source code\&.

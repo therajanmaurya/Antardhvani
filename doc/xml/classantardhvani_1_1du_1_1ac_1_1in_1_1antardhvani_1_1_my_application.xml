@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_my_application" kind="class" language="Java" prot="public">
+    <compoundname>antardhvani::du::ac::in::antardhvani::MyApplication</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Application</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_my_application_1aa0a8eb4625508f3ec9d293ff6b7b2f4f" prot="private" static="yes" mutable="no">
+        <type><ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_my_application" kindref="compound">MyApplication</ref></type>
+        <definition>MyApplication antardhvani.du.ac.in.antardhvani.MyApplication.sInstance</definition>
+        <argsstring></argsstring>
+        <name>sInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/MyApplication.java" line="11" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/MyApplication.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_my_application_1a0813a0922f64afefe9c8e717aa4c62e3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_my_application" kindref="compound">MyApplication</ref></type>
+        <definition>static MyApplication antardhvani.du.ac.in.antardhvani.MyApplication.getInstance</definition>
+        <argsstring>()</argsstring>
+        <name>getInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/MyApplication.java" line="14" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/MyApplication.java" bodystart="14" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_my_application_1a6ae3f110590ccedaffef93f9eacf0561" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Context</type>
+        <definition>static Context antardhvani.du.ac.in.antardhvani.MyApplication.getAppContext</definition>
+        <argsstring>()</argsstring>
+        <name>getAppContext</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/MyApplication.java" line="18" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/MyApplication.java" bodystart="18" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_my_application_1a70bd855b288dad9785e528aa9512fdd5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.antardhvani.MyApplication.onCreate</definition>
+        <argsstring>()</argsstring>
+        <name>onCreate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/MyApplication.java" line="25" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/MyApplication.java" bodystart="25" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Created by Windows on 30-01-2015. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="166">
+        <label>Application</label>
+      </node>
+      <node id="165">
+        <label>antardhvani.du.ac.in.antardhvani.MyApplication</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_my_application"/>
+        <childnode refid="166" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="168">
+        <label>Application</label>
+      </node>
+      <node id="167">
+        <label>antardhvani.du.ac.in.antardhvani.MyApplication</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_my_application"/>
+        <childnode refid="168" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/MyApplication.java" line="9" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/MyApplication.java" bodystart="9" bodyend="30"/>
+    <listofallmembers>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_my_application_1a6ae3f110590ccedaffef93f9eacf0561" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::MyApplication</scope><name>getAppContext</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_my_application_1a0813a0922f64afefe9c8e717aa4c62e3" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::MyApplication</scope><name>getInstance</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_my_application_1a70bd855b288dad9785e528aa9512fdd5" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::MyApplication</scope><name>onCreate</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_my_application_1aa0a8eb4625508f3ec9d293ff6b7b2f4f" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::MyApplication</scope><name>sInstance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

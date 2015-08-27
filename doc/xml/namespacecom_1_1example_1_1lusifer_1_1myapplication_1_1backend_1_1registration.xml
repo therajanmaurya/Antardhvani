@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="namespacecom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration" kind="namespace" language="Java">
+    <compoundname>com::example::lusifer::myapplication::backend::registration</compoundname>
+    <innerclass refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration" prot="public">com::example::lusifer::myapplication::backend::registration::Registration</innerclass>
+    <innerclass refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request" prot="public">com::example::lusifer::myapplication::backend::registration::RegistrationRequest</innerclass>
+    <innerclass refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request_initializer" prot="public">com::example::lusifer::myapplication::backend::registration::RegistrationRequestInitializer</innerclass>
+    <innerclass refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_scopes" prot="public">com::example::lusifer::myapplication::backend::registration::RegistrationScopes</innerclass>
+    <innernamespace refid="namespacecom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1model">com::example::lusifer::myapplication::backend::registration::model</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

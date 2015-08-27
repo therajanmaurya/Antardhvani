@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="md__r_e_a_d_m_e" kind="page">
+    <compoundname>md_README</compoundname>
+    <title>Antardhvani</title>
+    <detaileddescription>
+<para>Android app for University of Delhi Annual Cultural Fest - Antardhvani 2015</para><para>Screenshots :</para><para><image type="html" name="navigation_drawer.jpg"></image>
+ <image type="html" name="home.png"></image>
+ <image type="html" name="flowershow.png"></image>
+ <image type="html" name="sch.png"></image>
+ <image type="html" name="action_buttons.jpg"></image>
+ </para>    </detaileddescription>
+  </compounddef>
+</doxygen>

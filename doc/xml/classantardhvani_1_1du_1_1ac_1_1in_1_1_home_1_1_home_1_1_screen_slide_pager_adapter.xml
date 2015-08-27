@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classantardhvani_1_1du_1_1ac_1_1in_1_1_home_1_1_home_1_1_screen_slide_pager_adapter" kind="class" language="Java" prot="private">
+    <compoundname>antardhvani::du::ac::in::Home::Home::ScreenSlidePagerAdapter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">FragmentStatePagerAdapter</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_home_1_1_home_1_1_screen_slide_pager_adapter_1a74da3a0675140b7474cccdb8fcad7725" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>antardhvani.du.ac.in.Home.Home.ScreenSlidePagerAdapter.ScreenSlidePagerAdapter</definition>
+        <argsstring>(FragmentManager fm)</argsstring>
+        <name>ScreenSlidePagerAdapter</name>
+        <param>
+          <type>FragmentManager</type>
+          <declname>fm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Home/Home.java" line="131" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Home/Home.java" bodystart="131" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_home_1_1_home_1_1_screen_slide_pager_adapter_1abf71c9fa4aa2672c5cdc35b093792107" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Fragment</type>
+        <definition>Fragment antardhvani.du.ac.in.Home.Home.ScreenSlidePagerAdapter.getItem</definition>
+        <argsstring>(int position)</argsstring>
+        <name>getItem</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Home/Home.java" line="136" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Home/Home.java" bodystart="136" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_home_1_1_home_1_1_screen_slide_pager_adapter_1a8e5f5aac93f0a02ca14c5f5f896d1390" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int antardhvani.du.ac.in.Home.Home.ScreenSlidePagerAdapter.getCount</definition>
+        <argsstring>()</argsstring>
+        <name>getCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Home/Home.java" line="141" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Home/Home.java" bodystart="141" bodyend="143"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="309">
+        <label>FragmentStatePagerAdapter</label>
+      </node>
+      <node id="308">
+        <label>antardhvani.du.ac.in.Home.Home.ScreenSlidePagerAdapter</label>
+        <childnode refid="309" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="311">
+        <label>FragmentStatePagerAdapter</label>
+      </node>
+      <node id="310">
+        <label>antardhvani.du.ac.in.Home.Home.ScreenSlidePagerAdapter</label>
+        <childnode refid="311" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Home/Home.java" line="130" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Home/Home.java" bodystart="130" bodyend="144"/>
+    <listofallmembers>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_home_1_1_home_1_1_screen_slide_pager_adapter_1a8e5f5aac93f0a02ca14c5f5f896d1390" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Home::Home::ScreenSlidePagerAdapter</scope><name>getCount</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_home_1_1_home_1_1_screen_slide_pager_adapter_1abf71c9fa4aa2672c5cdc35b093792107" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Home::Home::ScreenSlidePagerAdapter</scope><name>getItem</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_home_1_1_home_1_1_screen_slide_pager_adapter_1a74da3a0675140b7474cccdb8fcad7725" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Home::Home::ScreenSlidePagerAdapter</scope><name>ScreenSlidePagerAdapter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

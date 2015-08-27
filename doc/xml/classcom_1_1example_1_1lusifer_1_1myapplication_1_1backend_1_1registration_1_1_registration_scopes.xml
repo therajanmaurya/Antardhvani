@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_scopes" kind="class" language="Java" prot="public">
+    <compoundname>com::example::lusifer::myapplication::backend::registration::RegistrationScopes</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_scopes_1acbdfff3045dac9ee891d263de11fd7ab" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>static final String com.example.lusifer.myapplication.backend.registration.RegistrationScopes::USERINFO_EMAIL</definition>
+        <argsstring></argsstring>
+        <name>USERINFO_EMAIL</name>
+        <initializer>= &quot;https://www.googleapis.com/auth/userinfo.email&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>View your email address. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/RegistrationScopes.java" line="29" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/RegistrationScopes.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_scopes_1a23d0c80a9577466200a8fa346956659b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>java.util.Set&lt; String &gt;</type>
+        <definition>static java.util.Set&lt;String&gt; com.example.lusifer.myapplication.backend.registration.RegistrationScopes.all</definition>
+        <argsstring>()</argsstring>
+        <name>all</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns an unmodifiable set that contains all scopes declared by this class.</para><para><simplesect kind="since"><para>1.16 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/RegistrationScopes.java" line="36" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/RegistrationScopes.java" bodystart="36" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_scopes_1a23d0c80a9577466200a8fa346956659b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>java.util.Set&lt; String &gt;</type>
+        <definition>static java.util.Set&lt;String&gt; com.example.lusifer.myapplication.backend.registration.RegistrationScopes.all</definition>
+        <argsstring>()</argsstring>
+        <name>all</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns an unmodifiable set that contains all scopes declared by this class.</para><para><simplesect kind="since"><para>1.16 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/RegistrationScopes.java" line="36" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/RegistrationScopes.java" bodystart="36" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_scopes_1a778abd33e2ec9131b847f634b51f7d4e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.example.lusifer.myapplication.backend.registration.RegistrationScopes.RegistrationScopes</definition>
+        <argsstring>()</argsstring>
+        <name>RegistrationScopes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/RegistrationScopes.java" line="42" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/RegistrationScopes.java" bodystart="42" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_scopes_1a778abd33e2ec9131b847f634b51f7d4e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.example.lusifer.myapplication.backend.registration.RegistrationScopes.RegistrationScopes</definition>
+        <argsstring>()</argsstring>
+        <name>RegistrationScopes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/RegistrationScopes.java" line="42" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/RegistrationScopes.java" bodystart="42" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Available OAuth 2.0 scopes for use with the registration.</para><para><simplesect kind="since"><para>1.4 </para></simplesect>
+</para>    </detaileddescription>
+    <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/RegistrationScopes.java" line="26" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/RegistrationScopes.java" bodystart="26" bodyend="44"/>
+    <listofallmembers>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_scopes_1a23d0c80a9577466200a8fa346956659b" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::RegistrationScopes</scope><name>all</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_scopes_1a23d0c80a9577466200a8fa346956659b" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::RegistrationScopes</scope><name>all</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_scopes_1a778abd33e2ec9131b847f634b51f7d4e" prot="private" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::RegistrationScopes</scope><name>RegistrationScopes</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_scopes_1a778abd33e2ec9131b847f634b51f7d4e" prot="private" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::RegistrationScopes</scope><name>RegistrationScopes</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_scopes_1acbdfff3045dac9ee891d263de11fd7ab" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::RegistrationScopes</scope><name>USERINFO_EMAIL</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_antardhvani_adapter_1_1_my_view_holder" kind="class" language="Java" prot="package">
+    <compoundname>antardhvani::du::ac::in::antardhvani::AntardhvaniAdapter::MyViewHolder</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ViewHolder</basecompoundref>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_antardhvani_adapter_1_1_my_view_holder_1a0da877b315486b2dac5c16bbe4b19e48" prot="package" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView antardhvani.du.ac.in.antardhvani.AntardhvaniAdapter.MyViewHolder.title</definition>
+        <argsstring></argsstring>
+        <name>title</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/AntardhvaniAdapter.java" line="50" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/AntardhvaniAdapter.java" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_antardhvani_adapter_1_1_my_view_holder_1a22b256ef633cc318690597a22f5a2fee" prot="package" static="no" mutable="no">
+        <type>ImageView</type>
+        <definition>ImageView antardhvani.du.ac.in.antardhvani.AntardhvaniAdapter.MyViewHolder.icon</definition>
+        <argsstring></argsstring>
+        <name>icon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/AntardhvaniAdapter.java" line="51" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/AntardhvaniAdapter.java" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_antardhvani_adapter_1_1_my_view_holder_1ace30e7a459a22c79bf78231a3e5e2c8b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>antardhvani.du.ac.in.antardhvani.AntardhvaniAdapter.MyViewHolder.MyViewHolder</definition>
+        <argsstring>(View itemView)</argsstring>
+        <name>MyViewHolder</name>
+        <param>
+          <type>View</type>
+          <declname>itemView</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/AntardhvaniAdapter.java" line="52" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/AntardhvaniAdapter.java" bodystart="52" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="172">
+        <label>RecyclerView::ViewHolder</label>
+      </node>
+      <node id="171">
+        <label>antardhvani.du.ac.in.antardhvani.AntardhvaniAdapter.MyViewHolder</label>
+        <childnode refid="172" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="176">
+        <label>TextView</label>
+      </node>
+      <node id="174">
+        <label>RecyclerView::ViewHolder</label>
+      </node>
+      <node id="173">
+        <label>antardhvani.du.ac.in.antardhvani.AntardhvaniAdapter.MyViewHolder</label>
+        <childnode refid="174" relation="public-inheritance">
+        </childnode>
+        <childnode refid="175" relation="usage">
+          <edgelabel>icon</edgelabel>
+        </childnode>
+        <childnode refid="176" relation="usage">
+          <edgelabel>title</edgelabel>
+        </childnode>
+      </node>
+      <node id="175">
+        <label>ImageView</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/AntardhvaniAdapter.java" line="49" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/AntardhvaniAdapter.java" bodystart="49" bodyend="57"/>
+    <listofallmembers>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_antardhvani_adapter_1_1_my_view_holder_1a22b256ef633cc318690597a22f5a2fee" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::AntardhvaniAdapter::MyViewHolder</scope><name>icon</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_antardhvani_adapter_1_1_my_view_holder_1ace30e7a459a22c79bf78231a3e5e2c8b" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::AntardhvaniAdapter::MyViewHolder</scope><name>MyViewHolder</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_antardhvani_adapter_1_1_my_view_holder_1a0da877b315486b2dac5c16bbe4b19e48" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::AntardhvaniAdapter::MyViewHolder</scope><name>title</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

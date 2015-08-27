@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_69de7fff3deaa3254c3d4821952812de" kind="dir">
+    <compoundname>backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/model</compoundname>
+    <innerfile refid="tmp_2appengine_endpoints_expand_client_libs_2registration-v1-java_8zip-unzipped_2registration_2s7b219626bb8f1c76ffa6b3fe8d43166e">CollectionResponseRegistrationRecord.java</innerfile>
+    <innerfile refid="build_2tmp_2appengine_endpoints_expand_client_libs_2registration-v1-java_8zip-unzipped_2registra05ba0b6184ed08eededbe97dba4ed3e1">RegistrationRecord.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/model/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="namespacecom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging" kind="namespace" language="Java">
+    <compoundname>com::example::lusifer::myapplication::backend::messaging</compoundname>
+    <innerclass refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging" prot="public">com::example::lusifer::myapplication::backend::messaging::Messaging</innerclass>
+    <innerclass refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_request" prot="public">com::example::lusifer::myapplication::backend::messaging::MessagingRequest</innerclass>
+    <innerclass refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_request_initializer" prot="public">com::example::lusifer::myapplication::backend::messaging::MessagingRequestInitializer</innerclass>
+    <innerclass refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_scopes" prot="public">com::example::lusifer::myapplication::backend::messaging::MessagingScopes</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="19" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_messaging_endpoint" kind="class" language="Java" prot="public">
+    <compoundname>com::example::lusifer::myapplication::backend::MessagingEndpoint</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_messaging_endpoint_1a79fb99c837c87d20f679c241aa1f0256" prot="private" static="yes" mutable="no">
+        <type>final Logger</type>
+        <definition>final Logger com.example.lusifer.myapplication.backend.MessagingEndpoint.log</definition>
+        <argsstring></argsstring>
+        <name>log</name>
+        <initializer>= Logger.getLogger(MessagingEndpoint.class.getName())</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/src/main/java/com/example/lusifer/myapplication/backend/MessagingEndpoint.java" line="36" column="1" bodyfile="E:/Git/Antardhvani/backend/src/main/java/com/example/lusifer/myapplication/backend/MessagingEndpoint.java" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_messaging_endpoint_1abd4b41736fa5340daeca46148fb25e9b" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String com.example.lusifer.myapplication.backend.MessagingEndpoint.API_KEY</definition>
+        <argsstring></argsstring>
+        <name>API_KEY</name>
+        <initializer>= System.getProperty(&quot;gcm.api.key&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Api Keys can be obtained from the google cloud console </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/src/main/java/com/example/lusifer/myapplication/backend/MessagingEndpoint.java" line="41" column="1" bodyfile="E:/Git/Antardhvani/backend/src/main/java/com/example/lusifer/myapplication/backend/MessagingEndpoint.java" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_messaging_endpoint_1a9d8e88530517dd4dee9f22c4880d54b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.example.lusifer.myapplication.backend.MessagingEndpoint.sendMessage</definition>
+        <argsstring>(@Named(&quot;message&quot;) String message)</argsstring>
+        <name>sendMessage</name>
+        <param>
+          <type>@Named(&quot;message&quot;) String</type>
+          <declname>message</declname>
+        </param>
+        <exceptions> throws IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Send to the first 10 devices (You can modify this to send to any number of devices or a specific device)</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The message to send </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/src/main/java/com/example/lusifer/myapplication/backend/MessagingEndpoint.java" line="48" column="1" bodyfile="E:/Git/Antardhvani/backend/src/main/java/com/example/lusifer/myapplication/backend/MessagingEndpoint.java" bodystart="48" bodyend="82"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>An endpoint to send messages to devices registered with the backend </para><para>For more information, see <ulink url="https://developers.google.com/appengine/docs/java/endpoints/">https://developers.google.com/appengine/docs/java/endpoints/</ulink> </para><para>NOTE: This endpoint does not use any form of authorization or authentication! If this app is deployed, anyone can access this endpoint! If you&apos;d like to add authentication, take a look at the documentation. </para>    </detaileddescription>
+    <location file="E:/Git/Antardhvani/backend/src/main/java/com/example/lusifer/myapplication/backend/MessagingEndpoint.java" line="35" column="1" bodyfile="E:/Git/Antardhvani/backend/src/main/java/com/example/lusifer/myapplication/backend/MessagingEndpoint.java" bodystart="35" bodyend="83"/>
+    <listofallmembers>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_messaging_endpoint_1abd4b41736fa5340daeca46148fb25e9b" prot="private" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::MessagingEndpoint</scope><name>API_KEY</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_messaging_endpoint_1a79fb99c837c87d20f679c241aa1f0256" prot="private" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::MessagingEndpoint</scope><name>log</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_messaging_endpoint_1a9d8e88530517dd4dee9f22c4880d54b0" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::MessagingEndpoint</scope><name>sendMessage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

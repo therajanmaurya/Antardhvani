@@ -1,0 +1,25 @@
+var classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_register =
+[
+    [ "Register", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_register.html#abba38284f973b80bef3227087a7a96f7", null ],
+    [ "Register", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_register.html#abba38284f973b80bef3227087a7a96f7", null ],
+    [ "getRegId", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_register.html#a1f90403a57f641df8796511049875478", null ],
+    [ "getRegId", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_register.html#a1f90403a57f641df8796511049875478", null ],
+    [ "set", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_register.html#a05f8398581676bbd18c22ee71ca652c1", null ],
+    [ "set", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_register.html#a05f8398581676bbd18c22ee71ca652c1", null ],
+    [ "setAlt", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_register.html#aba834788788dd0232dc78ac5b02b3597", null ],
+    [ "setAlt", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_register.html#aba834788788dd0232dc78ac5b02b3597", null ],
+    [ "setFields", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_register.html#a3e9d2d2d011ca021dbbc99b5af786141", null ],
+    [ "setFields", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_register.html#a3e9d2d2d011ca021dbbc99b5af786141", null ],
+    [ "setKey", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_register.html#ae1d7c6b64cd1b2d5270f62a1d889a887", null ],
+    [ "setKey", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_register.html#ae1d7c6b64cd1b2d5270f62a1d889a887", null ],
+    [ "setOauthToken", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_register.html#addb11d8e2def2387b40c2defa43c50c2", null ],
+    [ "setOauthToken", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_register.html#addb11d8e2def2387b40c2defa43c50c2", null ],
+    [ "setPrettyPrint", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_register.html#a180cf976163c050318f126a21bd4825c", null ],
+    [ "setPrettyPrint", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_register.html#a180cf976163c050318f126a21bd4825c", null ],
+    [ "setQuotaUser", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_register.html#aa95070146b251281a27b45403c7cd772", null ],
+    [ "setQuotaUser", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_register.html#aa95070146b251281a27b45403c7cd772", null ],
+    [ "setRegId", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_register.html#ab497a75ce356e5cf609b02bfe621adf0", null ],
+    [ "setRegId", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_register.html#ab497a75ce356e5cf609b02bfe621adf0", null ],
+    [ "setUserIp", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_register.html#a6357a7496062ac7634bcd17e0df2d748", null ],
+    [ "setUserIp", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_register.html#a6357a7496062ac7634bcd17e0df2d748", null ]
+];

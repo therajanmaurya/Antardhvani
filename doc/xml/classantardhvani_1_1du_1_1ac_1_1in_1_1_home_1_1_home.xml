@@ -1,0 +1,277 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classantardhvani_1_1du_1_1ac_1_1in_1_1_home_1_1_home" kind="class" language="Java" prot="public">
+    <compoundname>antardhvani::du::ac::in::Home::Home</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Fragment</basecompoundref>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_home_1_1_home_1_1_screen_slide_pager_adapter" prot="private">antardhvani::du::ac::in::Home::Home::ScreenSlidePagerAdapter</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_home_1_1_home_1aaa8f2966989e321ae6eeadf582861a45" prot="private" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView antardhvani.du.ac.in.Home.Home.title</definition>
+        <argsstring></argsstring>
+        <name>title</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Home/Home.java" line="29" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Home/Home.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_home_1_1_home_1a73d0d5e5e156b44740281fe05e857038" prot="private" static="no" mutable="no">
+        <type>ViewPager</type>
+        <definition>ViewPager antardhvani.du.ac.in.Home.Home.mPager</definition>
+        <argsstring></argsstring>
+        <name>mPager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Home/Home.java" line="32" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Home/Home.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_home_1_1_home_1a6ac4543333b137d8cb2bd089f6b295e9" prot="private" static="no" mutable="no">
+        <type>PagerAdapter</type>
+        <definition>PagerAdapter antardhvani.du.ac.in.Home.Home.mPagerAdapter</definition>
+        <argsstring></argsstring>
+        <name>mPagerAdapter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Home/Home.java" line="33" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Home/Home.java" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_home_1_1_home_1a8c7a2072a051b41a63e50ed73bc402b8" prot="private" static="no" mutable="no">
+        <type>Timer</type>
+        <definition>Timer antardhvani.du.ac.in.Home.Home.timer</definition>
+        <argsstring></argsstring>
+        <name>timer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Home/Home.java" line="34" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Home/Home.java" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_home_1_1_home_1ac51244776e51d74c0788eba6f937cd75" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int antardhvani.du.ac.in.Home.Home.count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Home/Home.java" line="35" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Home/Home.java" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_home_1_1_home_1ad4df19d0febfc2634a603f20b21bdcd2" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean antardhvani.du.ac.in.Home.Home.one_two_three</definition>
+        <argsstring></argsstring>
+        <name>one_two_three</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Home/Home.java" line="36" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Home/Home.java" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_home_1_1_home_1a289c951752018766b24af307a67b0054" prot="package" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView antardhvani.du.ac.in.Home.Home.des</definition>
+        <argsstring></argsstring>
+        <name>des</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Home/Home.java" line="29" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Home/Home.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_home_1_1_home_1a9764870a6ddfd3a47d9f9871e63694bc" prot="package" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView antardhvani.du.ac.in.Home.Home.vc_title</definition>
+        <argsstring></argsstring>
+        <name>vc_title</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Home/Home.java" line="29" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Home/Home.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_home_1_1_home_1a47002a59f37d642d8fec93e5580f5b52" prot="package" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView antardhvani.du.ac.in.Home.Home.vcmsg</definition>
+        <argsstring></argsstring>
+        <name>vcmsg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Home/Home.java" line="29" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Home/Home.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_home_1_1_home_1a7c9dc2dbe21b1af46331381c40d9636d" prot="package" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] antardhvani.du.ac.in.Home.Home.photos</definition>
+        <argsstring></argsstring>
+        <name>photos</name>
+        <initializer>= {R.drawable.slider_2_bg, R.drawable.slider_3_bg}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Home/Home.java" line="30" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Home/Home.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_home_1_1_home_1a3f499497f201edc3ce21dfe14a087627" prot="package" static="no" mutable="no">
+        <type>KenBurnsView</type>
+        <definition>KenBurnsView antardhvani.du.ac.in.Home.Home.imageView</definition>
+        <argsstring></argsstring>
+        <name>imageView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Home/Home.java" line="31" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Home/Home.java" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_home_1_1_home_1a06b044d951a22ab9c9bee5b0281c6918" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int antardhvani.du.ac.in.Home.Home.NUM_PAGES</definition>
+        <argsstring></argsstring>
+        <name>NUM_PAGES</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Home/Home.java" line="37" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Home/Home.java" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_home_1_1_home_1aaec1f660b4097acb42fccc8db6c4169d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_home_1_1_home" kindref="compound">Home</ref></type>
+        <definition>static Home antardhvani.du.ac.in.Home.Home.getInstance</definition>
+        <argsstring>(int position)</argsstring>
+        <name>getInstance</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Home/Home.java" line="40" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Home/Home.java" bodystart="40" bodyend="46"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_home_1_1_home_1a9544f573a1f1ba3dc57551a0ae143f15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>View</type>
+        <definition>View antardhvani.du.ac.in.Home.Home.onCreateView</definition>
+        <argsstring>(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)</argsstring>
+        <name>onCreateView</name>
+        <param>
+          <type>LayoutInflater</type>
+          <declname>inflater</declname>
+        </param>
+        <param>
+          <type>ViewGroup</type>
+          <declname>container</declname>
+        </param>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Home/Home.java" line="49" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Home/Home.java" bodystart="49" bodyend="128"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Created by Windows on 23-01-2015. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="108">
+        <label>antardhvani.du.ac.in.Home.Home</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_home_1_1_home"/>
+        <childnode refid="109" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="109">
+        <label>Fragment</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="112">
+        <label>KenBurnsView</label>
+      </node>
+      <node id="113">
+        <label>TextView</label>
+      </node>
+      <node id="110">
+        <label>antardhvani.du.ac.in.Home.Home</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_home_1_1_home"/>
+        <childnode refid="111" relation="public-inheritance">
+        </childnode>
+        <childnode refid="112" relation="usage">
+          <edgelabel>imageView</edgelabel>
+        </childnode>
+        <childnode refid="113" relation="usage">
+          <edgelabel>vc_title</edgelabel>
+          <edgelabel>des</edgelabel>
+          <edgelabel>vcmsg</edgelabel>
+        </childnode>
+      </node>
+      <node id="111">
+        <label>Fragment</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Home/Home.java" line="28" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Home/Home.java" bodystart="28" bodyend="145"/>
+    <listofallmembers>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_home_1_1_home_1ac51244776e51d74c0788eba6f937cd75" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Home::Home</scope><name>count</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_home_1_1_home_1a289c951752018766b24af307a67b0054" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::Home::Home</scope><name>des</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_home_1_1_home_1aaec1f660b4097acb42fccc8db6c4169d" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Home::Home</scope><name>getInstance</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_home_1_1_home_1a3f499497f201edc3ce21dfe14a087627" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::Home::Home</scope><name>imageView</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_home_1_1_home_1a73d0d5e5e156b44740281fe05e857038" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Home::Home</scope><name>mPager</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_home_1_1_home_1a6ac4543333b137d8cb2bd089f6b295e9" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Home::Home</scope><name>mPagerAdapter</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_home_1_1_home_1a06b044d951a22ab9c9bee5b0281c6918" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Home::Home</scope><name>NUM_PAGES</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_home_1_1_home_1a9544f573a1f1ba3dc57551a0ae143f15" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Home::Home</scope><name>onCreateView</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_home_1_1_home_1ad4df19d0febfc2634a603f20b21bdcd2" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Home::Home</scope><name>one_two_three</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_home_1_1_home_1a7c9dc2dbe21b1af46331381c40d9636d" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::Home::Home</scope><name>photos</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_home_1_1_home_1a8c7a2072a051b41a63e50ed73bc402b8" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Home::Home</scope><name>timer</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_home_1_1_home_1aaa8f2966989e321ae6eeadf582861a45" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Home::Home</scope><name>title</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_home_1_1_home_1a9764870a6ddfd3a47d9f9871e63694bc" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::Home::Home</scope><name>vc_title</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_home_1_1_home_1a47002a59f37d642d8fec93e5580f5b52" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::Home::Home</scope><name>vcmsg</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

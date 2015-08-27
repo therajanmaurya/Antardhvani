@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_registration_endpoint_8java" kind="file" language="Java">
+    <compoundname>RegistrationEndpoint.java</compoundname>
+    <innerclass refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_registration_endpoint" prot="public">com::example::lusifer::myapplication::backend::RegistrationEndpoint</innerclass>
+    <innernamespace refid="namespacecom_1_1example_1_1lusifer_1_1myapplication_1_1backend">com::example::lusifer::myapplication::backend</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/>For<sp/>step-by-step<sp/>instructions<sp/>on<sp/>connecting<sp/>your<sp/>Android<sp/>application<sp/>to<sp/>this<sp/>backend<sp/>module,</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/>see<sp/>&quot;App<sp/>Engine<sp/>Backend<sp/>with<sp/>Google<sp/>Cloud<sp/>Messaging&quot;<sp/>template<sp/>documentation<sp/>at</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/><sp/>https://github.com/GoogleCloudPlatform/gradle-appengine-templates/tree/master/GcmEndpoints</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">package<sp/></highlight><highlight class="normal">com.example.lusifer.myapplication.backend;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespacecom" kindref="compound">com</ref>.google.api.server.spi.config.Api;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespacecom" kindref="compound">com</ref>.google.api.server.spi.config.ApiMethod;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespacecom" kindref="compound">com</ref>.google.api.server.spi.config.ApiNamespace;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespacecom" kindref="compound">com</ref>.google.api.server.spi.response.CollectionResponse;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.List;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.logging.Logger;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javax.inject.Named;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1example" kindref="compound">example</ref>.<ref refid="namespacecom_1_1example_1_1lusifer" kindref="compound">lusifer</ref>.<ref refid="namespacecom_1_1example_1_1lusifer_1_1myapplication" kindref="compound">myapplication</ref>.<ref refid="namespacecom_1_1example_1_1lusifer_1_1myapplication_1_1backend" kindref="compound">backend</ref>.<ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_ofy_service" kindref="compound">OfyService</ref>.ofy;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">@Api(name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;registration&quot;</highlight><highlight class="normal">,<sp/>version<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;v1&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">namespace</highlight><highlight class="normal"><sp/>=<sp/>@ApiNamespace(ownerDomain<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;backend.myapplication.lusifer.example.com&quot;</highlight><highlight class="normal">,<sp/>ownerName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;backend.myapplication.lusifer.example.com&quot;</highlight><highlight class="normal">,<sp/>packagePath<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="32" refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_registration_endpoint" refkind="compound"><highlight class="normal">public<sp/>class<sp/><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_registration_endpoint" kindref="compound">RegistrationEndpoint</ref><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/>Logger<sp/>log<sp/>=<sp/>Logger.getLogger(RegistrationEndpoint.class.getName());</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>@ApiMethod(name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;register&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>registerDevice(@Named(</highlight><highlight class="stringliteral">&quot;regId&quot;</highlight><highlight class="normal">)<sp/>String<sp/>regId)<sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(findRecord(regId)<sp/>!=<sp/>null)<sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>log.info(</highlight><highlight class="stringliteral">&quot;Device<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>regId<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;<sp/>already<sp/>registered,<sp/>skipping<sp/>register&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_registration_record" kindref="compound">RegistrationRecord</ref><sp/>record<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_registration_record" kindref="compound">RegistrationRecord</ref>();</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>record.setRegId(regId);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ofy().save().entity(record).now();</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>@ApiMethod(name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;unregister&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>unregisterDevice(@Named(</highlight><highlight class="stringliteral">&quot;regId&quot;</highlight><highlight class="normal">)<sp/>String<sp/>regId)<sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_registration_record" kindref="compound">RegistrationRecord</ref><sp/>record<sp/>=<sp/>findRecord(regId);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(record<sp/>==<sp/>null)<sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>log.info(</highlight><highlight class="stringliteral">&quot;Device<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>regId<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;<sp/>not<sp/>registered,<sp/>skipping<sp/>unregister&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ofy().delete().entity(record).now();</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>@ApiMethod(name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;listDevices&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>CollectionResponse&lt;RegistrationRecord&gt;<sp/>listDevices(@Named(</highlight><highlight class="stringliteral">&quot;count&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>count)<sp/>{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>List&lt;RegistrationRecord&gt;<sp/>records<sp/>=<sp/>ofy().load().type(<ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_registration_record" kindref="compound">RegistrationRecord</ref>.class).limit(count).list();</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>CollectionResponse.&lt;<ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_registration_record" kindref="compound">RegistrationRecord</ref>&gt;builder().setItems(records).build();</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_registration_record" kindref="compound">RegistrationRecord</ref><sp/>findRecord(String<sp/>regId)<sp/>{</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ofy().load().type(<ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_registration_record" kindref="compound">RegistrationRecord</ref>.class).filter(</highlight><highlight class="stringliteral">&quot;regId&quot;</highlight><highlight class="normal">,<sp/>regId).first().now();</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="E:/Git/Antardhvani/backend/src/main/java/com/example/lusifer/myapplication/backend/RegistrationEndpoint.java"/>
+  </compounddef>
+</doxygen>

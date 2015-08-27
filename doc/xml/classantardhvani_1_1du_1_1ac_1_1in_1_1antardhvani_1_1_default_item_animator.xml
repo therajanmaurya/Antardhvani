@@ -1,0 +1,579 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator" kind="class" language="Java" prot="public">
+    <compoundname>antardhvani::du::ac::in::antardhvani::DefaultItemAnimator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ItemAnimator</basecompoundref>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1_1_change_info" prot="private">antardhvani::du::ac::in::antardhvani::DefaultItemAnimator::ChangeInfo</innerclass>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1_1_move_info" prot="private">antardhvani::du::ac::in::antardhvani::DefaultItemAnimator::MoveInfo</innerclass>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1_1_vpa_listener_adapter" prot="private">antardhvani::du::ac::in::antardhvani::DefaultItemAnimator::VpaListenerAdapter</innerclass>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1af2f868796fd2b75c222f98a27cd0ca9a" prot="private" static="yes" mutable="no">
+        <type>final boolean</type>
+        <definition>final boolean antardhvani.du.ac.in.antardhvani.DefaultItemAnimator.DEBUG</definition>
+        <argsstring></argsstring>
+        <name>DEBUG</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" line="17" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1ab4e7464e2b1c6cd4feba4ed045c62680" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; ViewHolder &gt;</type>
+        <definition>ArrayList&lt;ViewHolder&gt; antardhvani.du.ac.in.antardhvani.DefaultItemAnimator.mPendingRemovals</definition>
+        <argsstring></argsstring>
+        <name>mPendingRemovals</name>
+        <initializer>= new ArrayList&lt;ViewHolder&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" line="19" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1a44ea648f8631814a50a91e9393fc1355" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; ViewHolder &gt;</type>
+        <definition>ArrayList&lt;ViewHolder&gt; antardhvani.du.ac.in.antardhvani.DefaultItemAnimator.mPendingAdditions</definition>
+        <argsstring></argsstring>
+        <name>mPendingAdditions</name>
+        <initializer>= new ArrayList&lt;ViewHolder&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" line="20" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1a8b779ee0fe1552af0e8d4a7606fa2a4c" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; MoveInfo &gt;</type>
+        <definition>ArrayList&lt;MoveInfo&gt; antardhvani.du.ac.in.antardhvani.DefaultItemAnimator.mPendingMoves</definition>
+        <argsstring></argsstring>
+        <name>mPendingMoves</name>
+        <initializer>= new ArrayList&lt;MoveInfo&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" line="21" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1aa0fd00ea170979a786f14aff019645b6" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; ChangeInfo &gt;</type>
+        <definition>ArrayList&lt;ChangeInfo&gt; antardhvani.du.ac.in.antardhvani.DefaultItemAnimator.mPendingChanges</definition>
+        <argsstring></argsstring>
+        <name>mPendingChanges</name>
+        <initializer>= new ArrayList&lt;ChangeInfo&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" line="22" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1a85583c4820961f211bf13416812cddab" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; ArrayList&lt; ViewHolder &gt; &gt;</type>
+        <definition>ArrayList&lt;ArrayList&lt;ViewHolder&gt; &gt; antardhvani.du.ac.in.antardhvani.DefaultItemAnimator.mAdditionsList</definition>
+        <argsstring></argsstring>
+        <name>mAdditionsList</name>
+        <initializer>= new ArrayList&lt;ArrayList&lt;ViewHolder&gt;&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" line="24" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1a3f445c11519b6fc21b5817b5d264e39d" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; ArrayList&lt; MoveInfo &gt; &gt;</type>
+        <definition>ArrayList&lt;ArrayList&lt;MoveInfo&gt; &gt; antardhvani.du.ac.in.antardhvani.DefaultItemAnimator.mMovesList</definition>
+        <argsstring></argsstring>
+        <name>mMovesList</name>
+        <initializer>= new ArrayList&lt;ArrayList&lt;MoveInfo&gt;&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" line="25" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1ac4a7f3e0955eeba7faa1287f1d2823e9" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; ArrayList&lt; ChangeInfo &gt; &gt;</type>
+        <definition>ArrayList&lt;ArrayList&lt;ChangeInfo&gt; &gt; antardhvani.du.ac.in.antardhvani.DefaultItemAnimator.mChangesList</definition>
+        <argsstring></argsstring>
+        <name>mChangesList</name>
+        <initializer>= new ArrayList&lt;ArrayList&lt;ChangeInfo&gt;&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" line="26" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1a5103067a9443ef7013f1458cea1b76cc" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; ViewHolder &gt;</type>
+        <definition>ArrayList&lt;ViewHolder&gt; antardhvani.du.ac.in.antardhvani.DefaultItemAnimator.mAddAnimations</definition>
+        <argsstring></argsstring>
+        <name>mAddAnimations</name>
+        <initializer>= new ArrayList&lt;ViewHolder&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" line="28" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1abeb7e5d4b1fb040a96c3ac153316e22b" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; ViewHolder &gt;</type>
+        <definition>ArrayList&lt;ViewHolder&gt; antardhvani.du.ac.in.antardhvani.DefaultItemAnimator.mMoveAnimations</definition>
+        <argsstring></argsstring>
+        <name>mMoveAnimations</name>
+        <initializer>= new ArrayList&lt;ViewHolder&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" line="29" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1a8411a1cdcd1a49dfd99ca904f9142ce7" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; ViewHolder &gt;</type>
+        <definition>ArrayList&lt;ViewHolder&gt; antardhvani.du.ac.in.antardhvani.DefaultItemAnimator.mRemoveAnimations</definition>
+        <argsstring></argsstring>
+        <name>mRemoveAnimations</name>
+        <initializer>= new ArrayList&lt;ViewHolder&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" line="30" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1afcf27904e1da03897ca05fa979b8f5e8" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; ViewHolder &gt;</type>
+        <definition>ArrayList&lt;ViewHolder&gt; antardhvani.du.ac.in.antardhvani.DefaultItemAnimator.mChangeAnimations</definition>
+        <argsstring></argsstring>
+        <name>mChangeAnimations</name>
+        <initializer>= new ArrayList&lt;ViewHolder&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" line="31" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1abd7b29f14683c5b092ea975be446fdf1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.antardhvani.DefaultItemAnimator.runPendingAnimations</definition>
+        <argsstring>()</argsstring>
+        <name>runPendingAnimations</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" line="34" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" bodystart="34" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1ae46856f1a51013f74cb8625996c0fbef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean antardhvani.du.ac.in.antardhvani.DefaultItemAnimator.animateRemove</definition>
+        <argsstring>(final ViewHolder holder)</argsstring>
+        <name>animateRemove</name>
+        <param>
+          <type>final ViewHolder</type>
+          <declname>holder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" line="124" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" bodystart="124" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1ab6b067165dad4c9492f5110bb40a0ff8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean antardhvani.du.ac.in.antardhvani.DefaultItemAnimator.animateAdd</definition>
+        <argsstring>(final ViewHolder holder)</argsstring>
+        <name>animateAdd</name>
+        <param>
+          <type>final ViewHolder</type>
+          <declname>holder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" line="153" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" bodystart="153" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1a470df1d9e7cc7302f9f2755033b9020e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean antardhvani.du.ac.in.antardhvani.DefaultItemAnimator.animateMove</definition>
+        <argsstring>(final ViewHolder holder, int fromX, int fromY, int toX, int toY)</argsstring>
+        <name>animateMove</name>
+        <param>
+          <type>final ViewHolder</type>
+          <declname>holder</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fromX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fromY</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>toX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>toY</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" line="187" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" bodystart="187" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1a5d8f1d746288615e765f5739e553d3c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean antardhvani.du.ac.in.antardhvani.DefaultItemAnimator.animateChange</definition>
+        <argsstring>(ViewHolder oldHolder, ViewHolder newHolder, int fromX, int fromY, int toX, int toY)</argsstring>
+        <name>animateChange</name>
+        <param>
+          <type>ViewHolder</type>
+          <declname>oldHolder</declname>
+        </param>
+        <param>
+          <type>ViewHolder</type>
+          <declname>newHolder</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fromX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fromY</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>toX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>toY</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" line="251" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" bodystart="251" bodyend="272"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1a2cfcbdeeedf49291f4dcc3bddcd5511c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.antardhvani.DefaultItemAnimator.endAnimation</definition>
+        <argsstring>(ViewHolder item)</argsstring>
+        <name>endAnimation</name>
+        <param>
+          <type>ViewHolder</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" line="364" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" bodystart="364" bodyend="443"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1a1ebfd13c48eaf92735033be7dd968ff6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean antardhvani.du.ac.in.antardhvani.DefaultItemAnimator.isRunning</definition>
+        <argsstring>()</argsstring>
+        <name>isRunning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" line="446" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" bodystart="446" bodyend="458"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1a67978611109424743115cf50d0e27a42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.antardhvani.DefaultItemAnimator.endAnimations</definition>
+        <argsstring>()</argsstring>
+        <name>endAnimations</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" line="467" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" bodystart="467" bodyend="550"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1a1ade58a83fc29cfd8fa871488eadf4b6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.antardhvani.DefaultItemAnimator.animateRemoveImpl</definition>
+        <argsstring>(final ViewHolder holder)</argsstring>
+        <name>animateRemoveImpl</name>
+        <param>
+          <type>final ViewHolder</type>
+          <declname>holder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" line="130" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" bodystart="130" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1a3e5600f1792ece497719c82369b9e88f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.antardhvani.DefaultItemAnimator.animateAddImpl</definition>
+        <argsstring>(final ViewHolder holder)</argsstring>
+        <name>animateAddImpl</name>
+        <param>
+          <type>final ViewHolder</type>
+          <declname>holder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" line="160" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" bodystart="160" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1a35cd15f0c80803550b5a52ceb3c17572" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.antardhvani.DefaultItemAnimator.animateMoveImpl</definition>
+        <argsstring>(final ViewHolder holder, int fromX, int fromY, int toX, int toY)</argsstring>
+        <name>animateMoveImpl</name>
+        <param>
+          <type>final ViewHolder</type>
+          <declname>holder</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fromX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fromY</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>toX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>toY</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" line="209" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" bodystart="209" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1abe444f8589376e4d8cd3093ea0e25f8f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.antardhvani.DefaultItemAnimator.animateChangeImpl</definition>
+        <argsstring>(final ChangeInfo changeInfo)</argsstring>
+        <name>animateChangeImpl</name>
+        <param>
+          <type>final ChangeInfo</type>
+          <declname>changeInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" line="274" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" bodystart="274" bodyend="324"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1a09a040ecc909447db3647ba6219da513" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.antardhvani.DefaultItemAnimator.endChangeAnimation</definition>
+        <argsstring>(List&lt; ChangeInfo &gt; infoList, ViewHolder item)</argsstring>
+        <name>endChangeAnimation</name>
+        <param>
+          <type>List&lt; ChangeInfo &gt;</type>
+          <declname>infoList</declname>
+        </param>
+        <param>
+          <type>ViewHolder</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" line="326" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" bodystart="326" bodyend="335"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1a5f2b606f1eca3eaa608f4d82b6c2e285" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.antardhvani.DefaultItemAnimator.endChangeAnimationIfNecessary</definition>
+        <argsstring>(ChangeInfo changeInfo)</argsstring>
+        <name>endChangeAnimationIfNecessary</name>
+        <param>
+          <type>ChangeInfo</type>
+          <declname>changeInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" line="337" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" bodystart="337" bodyend="344"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1a3473f4a45745f88874811c6edd75e717" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean antardhvani.du.ac.in.antardhvani.DefaultItemAnimator.endChangeAnimationIfNecessary</definition>
+        <argsstring>(ChangeInfo changeInfo, ViewHolder item)</argsstring>
+        <name>endChangeAnimationIfNecessary</name>
+        <param>
+          <type>ChangeInfo</type>
+          <declname>changeInfo</declname>
+        </param>
+        <param>
+          <type>ViewHolder</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" line="346" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" bodystart="346" bodyend="361"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1ad2ce168323b8a883e92cdad4b5943fc8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.antardhvani.DefaultItemAnimator.dispatchFinishedWhenDone</definition>
+        <argsstring>()</argsstring>
+        <name>dispatchFinishedWhenDone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" line="460" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" bodystart="460" bodyend="464"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1af55e3d37aad566e459ce785e2256d140" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.antardhvani.DefaultItemAnimator.cancelAll</definition>
+        <argsstring>(List&lt; ViewHolder &gt; viewHolders)</argsstring>
+        <name>cancelAll</name>
+        <param>
+          <type>List&lt; ViewHolder &gt;</type>
+          <declname>viewHolders</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" line="552" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" bodystart="552" bodyend="556"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Created by Windows on 13-01-5. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="55">
+        <label>RecyclerView::ItemAnimator</label>
+      </node>
+      <node id="54">
+        <label>antardhvani.du.ac.in.antardhvani.DefaultItemAnimator</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator"/>
+        <childnode refid="55" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="57">
+        <label>RecyclerView::ItemAnimator</label>
+      </node>
+      <node id="56">
+        <label>antardhvani.du.ac.in.antardhvani.DefaultItemAnimator</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator"/>
+        <childnode refid="57" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" line="16" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/DefaultItemAnimator.java" bodystart="16" bodyend="620"/>
+    <listofallmembers>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1ab6b067165dad4c9492f5110bb40a0ff8" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::DefaultItemAnimator</scope><name>animateAdd</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1a3e5600f1792ece497719c82369b9e88f" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::DefaultItemAnimator</scope><name>animateAddImpl</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1a5d8f1d746288615e765f5739e553d3c1" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::DefaultItemAnimator</scope><name>animateChange</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1abe444f8589376e4d8cd3093ea0e25f8f" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::DefaultItemAnimator</scope><name>animateChangeImpl</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1a470df1d9e7cc7302f9f2755033b9020e" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::DefaultItemAnimator</scope><name>animateMove</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1a35cd15f0c80803550b5a52ceb3c17572" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::DefaultItemAnimator</scope><name>animateMoveImpl</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1ae46856f1a51013f74cb8625996c0fbef" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::DefaultItemAnimator</scope><name>animateRemove</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1a1ade58a83fc29cfd8fa871488eadf4b6" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::DefaultItemAnimator</scope><name>animateRemoveImpl</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1af55e3d37aad566e459ce785e2256d140" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::DefaultItemAnimator</scope><name>cancelAll</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1af2f868796fd2b75c222f98a27cd0ca9a" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::DefaultItemAnimator</scope><name>DEBUG</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1ad2ce168323b8a883e92cdad4b5943fc8" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::DefaultItemAnimator</scope><name>dispatchFinishedWhenDone</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1a2cfcbdeeedf49291f4dcc3bddcd5511c" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::DefaultItemAnimator</scope><name>endAnimation</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1a67978611109424743115cf50d0e27a42" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::DefaultItemAnimator</scope><name>endAnimations</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1a09a040ecc909447db3647ba6219da513" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::DefaultItemAnimator</scope><name>endChangeAnimation</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1a5f2b606f1eca3eaa608f4d82b6c2e285" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::DefaultItemAnimator</scope><name>endChangeAnimationIfNecessary</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1a3473f4a45745f88874811c6edd75e717" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::DefaultItemAnimator</scope><name>endChangeAnimationIfNecessary</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1a1ebfd13c48eaf92735033be7dd968ff6" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::DefaultItemAnimator</scope><name>isRunning</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1a5103067a9443ef7013f1458cea1b76cc" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::DefaultItemAnimator</scope><name>mAddAnimations</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1a85583c4820961f211bf13416812cddab" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::DefaultItemAnimator</scope><name>mAdditionsList</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1afcf27904e1da03897ca05fa979b8f5e8" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::DefaultItemAnimator</scope><name>mChangeAnimations</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1ac4a7f3e0955eeba7faa1287f1d2823e9" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::DefaultItemAnimator</scope><name>mChangesList</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1abeb7e5d4b1fb040a96c3ac153316e22b" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::DefaultItemAnimator</scope><name>mMoveAnimations</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1a3f445c11519b6fc21b5817b5d264e39d" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::DefaultItemAnimator</scope><name>mMovesList</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1a44ea648f8631814a50a91e9393fc1355" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::DefaultItemAnimator</scope><name>mPendingAdditions</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1aa0fd00ea170979a786f14aff019645b6" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::DefaultItemAnimator</scope><name>mPendingChanges</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1a8b779ee0fe1552af0e8d4a7606fa2a4c" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::DefaultItemAnimator</scope><name>mPendingMoves</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1ab4e7464e2b1c6cd4feba4ed045c62680" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::DefaultItemAnimator</scope><name>mPendingRemovals</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1a8411a1cdcd1a49dfd99ca904f9142ce7" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::DefaultItemAnimator</scope><name>mRemoveAnimations</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator_1abd7b29f14683c5b092ea975be446fdf1" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::DefaultItemAnimator</scope><name>runPendingAnimations</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

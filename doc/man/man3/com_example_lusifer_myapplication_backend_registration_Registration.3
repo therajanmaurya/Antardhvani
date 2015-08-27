@@ -1,0 +1,398 @@
+.TH "com.example.lusifer.myapplication.backend.registration.Registration" 3 "Fri May 29 2015" "Version 0.1" "Antardhwani" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.example.lusifer.myapplication.backend.registration.Registration \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits AbstractGoogleJsonClient, and AbstractGoogleJsonClient\&.
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "class \fBBuilder\fP"
+.br
+.ti -1c
+.RI "class \fBListDevices\fP"
+.br
+.ti -1c
+.RI "class \fBRegister\fP"
+.br
+.ti -1c
+.RI "class \fBUnregister\fP"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBRegistration\fP (com\&.google\&.api\&.client\&.http\&.HttpTransport transport, com\&.google\&.api\&.client\&.json\&.JsonFactory jsonFactory, com\&.google\&.api\&.client\&.http\&.HttpRequestInitializer httpRequestInitializer)"
+.br
+.ti -1c
+.RI "\fBListDevices\fP \fBlistDevices\fP (java\&.lang\&.Integer count)  throws java\&.io\&.IOException "
+.br
+.ti -1c
+.RI "\fBRegister\fP \fBregister\fP (java\&.lang\&.String regId)  throws java\&.io\&.IOException "
+.br
+.ti -1c
+.RI "\fBUnregister\fP \fBunregister\fP (java\&.lang\&.String regId)  throws java\&.io\&.IOException "
+.br
+.ti -1c
+.RI "\fBRegistration\fP (com\&.google\&.api\&.client\&.http\&.HttpTransport transport, com\&.google\&.api\&.client\&.json\&.JsonFactory jsonFactory, com\&.google\&.api\&.client\&.http\&.HttpRequestInitializer httpRequestInitializer)"
+.br
+.ti -1c
+.RI "\fBListDevices\fP \fBlistDevices\fP (java\&.lang\&.Integer count)  throws java\&.io\&.IOException "
+.br
+.ti -1c
+.RI "\fBRegister\fP \fBregister\fP (java\&.lang\&.String regId)  throws java\&.io\&.IOException "
+.br
+.ti -1c
+.RI "\fBUnregister\fP \fBunregister\fP (java\&.lang\&.String regId)  throws java\&.io\&.IOException "
+.br
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "static final String \fBDEFAULT_ROOT_URL\fP = 'https://myApplicationId\&.appspot\&.com/_ah/api/'"
+.br
+.ti -1c
+.RI "static final String \fBDEFAULT_SERVICE_PATH\fP = 'registration/v1/'"
+.br
+.ti -1c
+.RI "static final String \fBDEFAULT_BASE_URL\fP = \fBDEFAULT_ROOT_URL\fP + \fBDEFAULT_SERVICE_PATH\fP"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBinitialize\fP (com\&.google\&.api\&.client\&.googleapis\&.services\&.AbstractGoogleClientRequest<?> httpClientRequest)  throws java\&.io\&.IOException "
+.br
+.ti -1c
+.RI "void \fBinitialize\fP (com\&.google\&.api\&.client\&.googleapis\&.services\&.AbstractGoogleClientRequest<?> httpClientRequest)  throws java\&.io\&.IOException "
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Service definition for \fBRegistration\fP (v1)\&.
+.PP
+This is an API 
+.PP
+For more information about this service, see the \fCAPI Documentation\fP 
+.PP
+This service uses \fBRegistrationRequestInitializer\fP to initialize global parameters via its \fBBuilder\fP\&. 
+.PP
+\fBSince:\fP
+.RS 4
+1\&.3 
+.RE
+.PP
+\fBAuthor:\fP
+.RS 4
+Google, Inc\&. 
+.RE
+.PP
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "com\&.example\&.lusifer\&.myapplication\&.backend\&.registration\&.Registration\&.Registration (com\&.google\&.api\&.client\&.http\&.HttpTransport transport, com\&.google\&.api\&.client\&.json\&.JsonFactory jsonFactory, com\&.google\&.api\&.client\&.http\&.HttpRequestInitializer httpRequestInitializer)"
+Constructor\&.
+.PP
+Use \fBBuilder\fP if you need to specify any of the optional parameters\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fItransport\fP HTTP transport, which should normally be: 
+.PD 0
+
+.IP "\(bu" 2
+Google App Engine: 
+.PP
+.nf
+com\&.google\&.api\&.client\&.extensions\&.appengine\&.http\&.UrlFetchTransport 
+
+.fi
+.PP
+  
+.IP "\(bu" 2
+Android:
+.PP
+.nf
+newCompatibleTransport 
+
+.fi
+.PP
+ from 
+.PP
+.nf
+com\&.google\&.api\&.client\&.extensions\&.android\&.http\&.AndroidHttp 
+
+.fi
+.PP
+  
+.IP "\(bu" 2
+Java: \fBcom\&.google\&.api\&.client\&.googleapis\&.javanet\&.GoogleNetHttpTransport#newTrustedTransport()\fP  
+.PP
+.br
+\fIjsonFactory\fP JSON factory, which may be: 
+.PD 0
+
+.IP "\(bu" 2
+Jackson:
+.PP
+.nf
+com\&.google\&.api\&.client\&.json\&.jackson2\&.JacksonFactory 
+
+.fi
+.PP
+  
+.IP "\(bu" 2
+Google GSON:
+.PP
+.nf
+com\&.google\&.api\&.client\&.json\&.gson\&.GsonFactory 
+
+.fi
+.PP
+  
+.IP "\(bu" 2
+Android Honeycomb or higher: 
+.PP
+.nf
+com\&.google\&.api\&.client\&.extensions\&.android\&.json\&.AndroidJsonFactory 
+
+.fi
+.PP
+  
+.PP
+.br
+\fIhttpRequestInitializer\fP HTTP request initializer or
+.PP
+.nf
+null 
+
+.fi
+.PP
+ for none 
+.RE
+.PP
+\fBSince:\fP
+.RS 4
+1\&.7 
+.RE
+.PP
+
+.SS "com\&.example\&.lusifer\&.myapplication\&.backend\&.registration\&.Registration\&.Registration (com\&.google\&.api\&.client\&.http\&.HttpTransport transport, com\&.google\&.api\&.client\&.json\&.JsonFactory jsonFactory, com\&.google\&.api\&.client\&.http\&.HttpRequestInitializer httpRequestInitializer)"
+Constructor\&.
+.PP
+Use \fBBuilder\fP if you need to specify any of the optional parameters\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fItransport\fP HTTP transport, which should normally be: 
+.PD 0
+
+.IP "\(bu" 2
+Google App Engine: 
+.PP
+.nf
+com\&.google\&.api\&.client\&.extensions\&.appengine\&.http\&.UrlFetchTransport 
+
+.fi
+.PP
+  
+.IP "\(bu" 2
+Android:
+.PP
+.nf
+newCompatibleTransport 
+
+.fi
+.PP
+ from 
+.PP
+.nf
+com\&.google\&.api\&.client\&.extensions\&.android\&.http\&.AndroidHttp 
+
+.fi
+.PP
+  
+.IP "\(bu" 2
+Java: \fBcom\&.google\&.api\&.client\&.googleapis\&.javanet\&.GoogleNetHttpTransport#newTrustedTransport()\fP  
+.PP
+.br
+\fIjsonFactory\fP JSON factory, which may be: 
+.PD 0
+
+.IP "\(bu" 2
+Jackson:
+.PP
+.nf
+com\&.google\&.api\&.client\&.json\&.jackson2\&.JacksonFactory 
+
+.fi
+.PP
+  
+.IP "\(bu" 2
+Google GSON:
+.PP
+.nf
+com\&.google\&.api\&.client\&.json\&.gson\&.GsonFactory 
+
+.fi
+.PP
+  
+.IP "\(bu" 2
+Android Honeycomb or higher: 
+.PP
+.nf
+com\&.google\&.api\&.client\&.extensions\&.android\&.json\&.AndroidJsonFactory 
+
+.fi
+.PP
+  
+.PP
+.br
+\fIhttpRequestInitializer\fP HTTP request initializer or
+.PP
+.nf
+null 
+
+.fi
+.PP
+ for none 
+.RE
+.PP
+\fBSince:\fP
+.RS 4
+1\&.7 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "\fBListDevices\fP com\&.example\&.lusifer\&.myapplication\&.backend\&.registration\&.Registration\&.listDevices (java\&.lang\&.Integer count) throws java\&.io\&.IOException"
+Create a request for the method 'listDevices'\&.
+.PP
+This request holds the parameters needed by the registration server\&. After setting any optional parameters, call the \fBListDevices#execute()\fP method to invoke the remote operation\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fIcount\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+the request 
+.RE
+.PP
+
+.SS "\fBListDevices\fP com\&.example\&.lusifer\&.myapplication\&.backend\&.registration\&.Registration\&.listDevices (java\&.lang\&.Integer count) throws java\&.io\&.IOException"
+Create a request for the method 'listDevices'\&.
+.PP
+This request holds the parameters needed by the registration server\&. After setting any optional parameters, call the \fBListDevices#execute()\fP method to invoke the remote operation\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fIcount\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+the request 
+.RE
+.PP
+
+.SS "\fBRegister\fP com\&.example\&.lusifer\&.myapplication\&.backend\&.registration\&.Registration\&.register (java\&.lang\&.String regId) throws java\&.io\&.IOException"
+Create a request for the method 'register'\&.
+.PP
+This request holds the parameters needed by the registration server\&. After setting any optional parameters, call the \fBRegister#execute()\fP method to invoke the remote operation\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fIregId\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+the request 
+.RE
+.PP
+
+.SS "\fBRegister\fP com\&.example\&.lusifer\&.myapplication\&.backend\&.registration\&.Registration\&.register (java\&.lang\&.String regId) throws java\&.io\&.IOException"
+Create a request for the method 'register'\&.
+.PP
+This request holds the parameters needed by the registration server\&. After setting any optional parameters, call the \fBRegister#execute()\fP method to invoke the remote operation\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fIregId\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+the request 
+.RE
+.PP
+
+.SS "\fBUnregister\fP com\&.example\&.lusifer\&.myapplication\&.backend\&.registration\&.Registration\&.unregister (java\&.lang\&.String regId) throws java\&.io\&.IOException"
+Create a request for the method 'unregister'\&.
+.PP
+This request holds the parameters needed by the registration server\&. After setting any optional parameters, call the \fBUnregister#execute()\fP method to invoke the remote operation\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fIregId\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+the request 
+.RE
+.PP
+
+.SS "\fBUnregister\fP com\&.example\&.lusifer\&.myapplication\&.backend\&.registration\&.Registration\&.unregister (java\&.lang\&.String regId) throws java\&.io\&.IOException"
+Create a request for the method 'unregister'\&.
+.PP
+This request holds the parameters needed by the registration server\&. After setting any optional parameters, call the \fBUnregister#execute()\fP method to invoke the remote operation\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fIregId\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+the request 
+.RE
+.PP
+
+.SH "Member Data Documentation"
+.PP 
+.SS "static final String com\&.example\&.lusifer\&.myapplication\&.backend\&.registration\&.Registration\&.DEFAULT_BASE_URL = \fBDEFAULT_ROOT_URL\fP + \fBDEFAULT_SERVICE_PATH\fP\fC [static]\fP"
+The default encoded base URL of the service\&. This is determined when the library is generated and normally should not be changed\&. 
+.SS "static final String com\&.example\&.lusifer\&.myapplication\&.backend\&.registration\&.Registration\&.DEFAULT_ROOT_URL = 'https://myApplicationId\&.appspot\&.com/_ah/api/'\fC [static]\fP"
+The default encoded root URL of the service\&. This is determined when the library is generated and normally should not be changed\&.
+.PP
+\fBSince:\fP
+.RS 4
+1\&.7 
+.RE
+.PP
+
+.SS "static final String com\&.example\&.lusifer\&.myapplication\&.backend\&.registration\&.Registration\&.DEFAULT_SERVICE_PATH = 'registration/v1/'\fC [static]\fP"
+The default encoded service path of the service\&. This is determined when the library is generated and normally should not be changed\&.
+.PP
+\fBSince:\fP
+.RS 4
+1\&.7 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Antardhwani from the source code\&.

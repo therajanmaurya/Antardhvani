@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_card_adapter" kind="class" language="Java" prot="public">
+    <compoundname>antardhvani::du::ac::in::Adapter::CardAdapter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">RecyclerView::Adapter&lt; CardAdapter.ViewHolder &gt;</basecompoundref>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_card_adapter_1_1_view_holder" prot="public">antardhvani::du::ac::in::Adapter::CardAdapter::ViewHolder</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_card_adapter_1a7bb32cada7c71e4718b309b0c38cbb4d" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; String &gt;</type>
+        <definition>ArrayList&lt;String&gt; antardhvani.du.ac.in.Adapter.CardAdapter.Title</definition>
+        <argsstring></argsstring>
+        <name>Title</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/CardAdapter.java" line="21" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/CardAdapter.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_card_adapter_1a95f4a0eb8a0af9c80ba08c9d6fbad208" prot="private" static="no" mutable="no">
+        <type>Context</type>
+        <definition>Context antardhvani.du.ac.in.Adapter.CardAdapter.context</definition>
+        <argsstring></argsstring>
+        <name>context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/CardAdapter.java" line="22" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/CardAdapter.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_card_adapter_1a1e68605bb2a7e69910deaae4769b3dfe" prot="private" static="no" mutable="no">
+        <type>LayoutInflater</type>
+        <definition>LayoutInflater antardhvani.du.ac.in.Adapter.CardAdapter.mInflater</definition>
+        <argsstring></argsstring>
+        <name>mInflater</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/CardAdapter.java" line="23" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/CardAdapter.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_card_adapter_1a2b24a04a544d4f1bc307cb6289b6e193" prot="package" static="no" mutable="no">
+        <type>ArrayList&lt; String &gt;</type>
+        <definition>ArrayList&lt;String&gt; antardhvani.du.ac.in.Adapter.CardAdapter.Subtitle</definition>
+        <argsstring></argsstring>
+        <name>Subtitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/CardAdapter.java" line="21" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/CardAdapter.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_card_adapter_1a58f2148d7942d422ed416755b1de0c17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>antardhvani.du.ac.in.Adapter.CardAdapter.CardAdapter</definition>
+        <argsstring>(Context context, ArrayList&lt; String &gt; couponList, ArrayList&lt; String &gt; subTitle)</argsstring>
+        <name>CardAdapter</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>ArrayList&lt; String &gt;</type>
+          <declname>couponList</declname>
+        </param>
+        <param>
+          <type>ArrayList&lt; String &gt;</type>
+          <declname>subTitle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/CardAdapter.java" line="25" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/CardAdapter.java" bodystart="25" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_card_adapter_1a49c31c14056028c5836a44a36b171b73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>CardAdapter.ViewHolder</type>
+        <definition>CardAdapter.ViewHolder antardhvani.du.ac.in.Adapter.CardAdapter.onCreateViewHolder</definition>
+        <argsstring>(ViewGroup parent, int viewType)</argsstring>
+        <name>onCreateViewHolder</name>
+        <param>
+          <type>ViewGroup</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>viewType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/CardAdapter.java" line="36" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/CardAdapter.java" bodystart="36" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_card_adapter_1ae135c558400c1760f0d0b0c4d9ba3f0a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.Adapter.CardAdapter.onBindViewHolder</definition>
+        <argsstring>(ViewHolder holder, final int position)</argsstring>
+        <name>onBindViewHolder</name>
+        <param>
+          <type>ViewHolder</type>
+          <declname>holder</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/CardAdapter.java" line="48" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/CardAdapter.java" bodystart="48" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_card_adapter_1a29f08033c22b77982475b87a5fef4646" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int antardhvani.du.ac.in.Adapter.CardAdapter.getItemCount</definition>
+        <argsstring>()</argsstring>
+        <name>getItemCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/CardAdapter.java" line="71" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/CardAdapter.java" bodystart="71" bodyend="73"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="29">
+        <label>RecyclerView::Adapter&lt; CardAdapter.ViewHolder &gt;</label>
+      </node>
+      <node id="28">
+        <label>antardhvani.du.ac.in.Adapter.CardAdapter</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_card_adapter"/>
+        <childnode refid="29" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="31">
+        <label>RecyclerView::Adapter&lt; CardAdapter.ViewHolder &gt;</label>
+      </node>
+      <node id="30">
+        <label>antardhvani.du.ac.in.Adapter.CardAdapter</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_card_adapter"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+        <childnode refid="32" relation="usage">
+          <edgelabel>Subtitle</edgelabel>
+        </childnode>
+      </node>
+      <node id="32">
+        <label>ArrayList&lt; String &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/CardAdapter.java" line="19" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/CardAdapter.java" bodystart="19" bodyend="91"/>
+    <listofallmembers>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_card_adapter_1a58f2148d7942d422ed416755b1de0c17" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::CardAdapter</scope><name>CardAdapter</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_card_adapter_1a95f4a0eb8a0af9c80ba08c9d6fbad208" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::CardAdapter</scope><name>context</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_card_adapter_1a29f08033c22b77982475b87a5fef4646" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::CardAdapter</scope><name>getItemCount</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_card_adapter_1a1e68605bb2a7e69910deaae4769b3dfe" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::CardAdapter</scope><name>mInflater</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_card_adapter_1ae135c558400c1760f0d0b0c4d9ba3f0a" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::CardAdapter</scope><name>onBindViewHolder</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_card_adapter_1a49c31c14056028c5836a44a36b171b73" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::CardAdapter</scope><name>onCreateViewHolder</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_card_adapter_1a2b24a04a544d4f1bc307cb6289b6e193" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::CardAdapter</scope><name>Subtitle</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_card_adapter_1a7bb32cada7c71e4718b309b0c38cbb4d" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::CardAdapter</scope><name>Title</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classantardhvani_1_1du_1_1ac_1_1in_1_1_event_1_1viewpager_1_1_view_pager_adapter" kind="class" language="Java" prot="package">
+    <compoundname>antardhvani::du::ac::in::Event::viewpager::ViewPagerAdapter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">FragmentStatePagerAdapter</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_event_1_1viewpager_1_1_view_pager_adapter_1a7d75e12fb8da38227c9012b3b6f2f933" prot="public" static="no" mutable="no">
+        <type>Context</type>
+        <definition>Context antardhvani.du.ac.in.Event.viewpager.ViewPagerAdapter.context</definition>
+        <argsstring></argsstring>
+        <name>context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Event/viewpager.java" line="74" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Event/viewpager.java" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_event_1_1viewpager_1_1_view_pager_adapter_1a85df32cdd7688eba0c4a2b19fb9e174a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>antardhvani.du.ac.in.Event.viewpager.ViewPagerAdapter.ViewPagerAdapter</definition>
+        <argsstring>(FragmentManager fm)</argsstring>
+        <name>ViewPagerAdapter</name>
+        <param>
+          <type>FragmentManager</type>
+          <declname>fm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Event/viewpager.java" line="76" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Event/viewpager.java" bodystart="76" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_event_1_1viewpager_1_1_view_pager_adapter_1ad9ec1950d57e1cb108103cb12540a515" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Fragment</type>
+        <definition>Fragment antardhvani.du.ac.in.Event.viewpager.ViewPagerAdapter.getItem</definition>
+        <argsstring>(int num)</argsstring>
+        <name>getItem</name>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Event/viewpager.java" line="83" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Event/viewpager.java" bodystart="83" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_event_1_1viewpager_1_1_view_pager_adapter_1acaafbb2024f6f9be68af016ff122076d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int antardhvani.du.ac.in.Event.viewpager.ViewPagerAdapter.getCount</definition>
+        <argsstring>()</argsstring>
+        <name>getCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Event/viewpager.java" line="102" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Event/viewpager.java" bodystart="102" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_event_1_1viewpager_1_1_view_pager_adapter_1afb1ad0ca6f848da10e965a0eb1f52fa4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>CharSequence</type>
+        <definition>CharSequence antardhvani.du.ac.in.Event.viewpager.ViewPagerAdapter.getPageTitle</definition>
+        <argsstring>(int position)</argsstring>
+        <name>getPageTitle</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Event/viewpager.java" line="107" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Event/viewpager.java" bodystart="107" bodyend="121"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="360">
+        <label>FragmentStatePagerAdapter</label>
+      </node>
+      <node id="359">
+        <label>antardhvani.du.ac.in.Event.viewpager.ViewPagerAdapter</label>
+        <childnode refid="360" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="362">
+        <label>FragmentStatePagerAdapter</label>
+      </node>
+      <node id="361">
+        <label>antardhvani.du.ac.in.Event.viewpager.ViewPagerAdapter</label>
+        <childnode refid="362" relation="public-inheritance">
+        </childnode>
+        <childnode refid="363" relation="usage">
+          <edgelabel>context</edgelabel>
+        </childnode>
+      </node>
+      <node id="363">
+        <label>Context</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Event/viewpager.java" line="71" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Event/viewpager.java" bodystart="71" bodyend="124"/>
+    <listofallmembers>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_event_1_1viewpager_1_1_view_pager_adapter_1a7d75e12fb8da38227c9012b3b6f2f933" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Event::viewpager::ViewPagerAdapter</scope><name>context</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_event_1_1viewpager_1_1_view_pager_adapter_1acaafbb2024f6f9be68af016ff122076d" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Event::viewpager::ViewPagerAdapter</scope><name>getCount</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_event_1_1viewpager_1_1_view_pager_adapter_1ad9ec1950d57e1cb108103cb12540a515" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Event::viewpager::ViewPagerAdapter</scope><name>getItem</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_event_1_1viewpager_1_1_view_pager_adapter_1afb1ad0ca6f848da10e965a0eb1f52fa4" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Event::viewpager::ViewPagerAdapter</scope><name>getPageTitle</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_event_1_1viewpager_1_1_view_pager_adapter_1a85df32cdd7688eba0c4a2b19fb9e174a" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Event::viewpager::ViewPagerAdapter</scope><name>ViewPagerAdapter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

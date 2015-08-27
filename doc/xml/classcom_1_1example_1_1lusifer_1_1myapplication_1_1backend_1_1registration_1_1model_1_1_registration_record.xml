@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1model_1_1_registration_record" kind="class" language="Java" prot="public">
+    <compoundname>com::example::lusifer::myapplication::backend::registration::model::RegistrationRecord</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">GenericJson</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">GenericJson</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1model_1_1_registration_record_1ab10f58f85fe0fa02e02eb5b76e39d5bf" prot="private" static="no" mutable="no">
+        <type>.google.api.client.util.Key java.lang.String</type>
+        <definition>google api client util Key java lang String com.example.lusifer.myapplication.backend.registration.model.RegistrationRecord::regId</definition>
+        <argsstring></argsstring>
+        <name>regId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The value may be<programlisting><codeline><highlight class="normal">null<sp/></highlight></codeline>
+</programlisting> . </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/model/RegistrationRecord.java" line="38" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/model/RegistrationRecord.java" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1model_1_1_registration_record_1a1c1d099da55bc6115ff5304d2e51f38d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>java.lang.String</type>
+        <definition>java.lang.String com.example.lusifer.myapplication.backend.registration.model.RegistrationRecord.getRegId</definition>
+        <argsstring>()</argsstring>
+        <name>getRegId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>value or<programlisting><codeline><highlight class="normal">null<sp/></highlight></codeline>
+</programlisting> for none </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/model/RegistrationRecord.java" line="43" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/model/RegistrationRecord.java" bodystart="43" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1model_1_1_registration_record_1ab975baa1a071f0df0e1ca7cfaf7038c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1model_1_1_registration_record" kindref="compound">RegistrationRecord</ref></type>
+        <definition>RegistrationRecord com.example.lusifer.myapplication.backend.registration.model.RegistrationRecord.setRegId</definition>
+        <argsstring>(java.lang.String regId)</argsstring>
+        <name>setRegId</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>regId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>regId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>regId or<programlisting><codeline><highlight class="normal">null<sp/></highlight></codeline>
+</programlisting> for none </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/model/RegistrationRecord.java" line="50" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/model/RegistrationRecord.java" bodystart="50" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1model_1_1_registration_record_1ab4265735c9094486ce28ec8550c9004b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1model_1_1_registration_record" kindref="compound">RegistrationRecord</ref></type>
+        <definition>RegistrationRecord com.example.lusifer.myapplication.backend.registration.model.RegistrationRecord.set</definition>
+        <argsstring>(String fieldName, Object value)</argsstring>
+        <name>set</name>
+        <param>
+          <type>String</type>
+          <declname>fieldName</declname>
+        </param>
+        <param>
+          <type>Object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/model/RegistrationRecord.java" line="56" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/model/RegistrationRecord.java" bodystart="56" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1model_1_1_registration_record_1a3d1c9a0cdba0b343c8541865c8540ed5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1model_1_1_registration_record" kindref="compound">RegistrationRecord</ref></type>
+        <definition>RegistrationRecord com.example.lusifer.myapplication.backend.registration.model.RegistrationRecord.clone</definition>
+        <argsstring>()</argsstring>
+        <name>clone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/model/RegistrationRecord.java" line="61" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/model/RegistrationRecord.java" bodystart="61" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1model_1_1_registration_record_1a1c1d099da55bc6115ff5304d2e51f38d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>java.lang.String</type>
+        <definition>java.lang.String com.example.lusifer.myapplication.backend.registration.model.RegistrationRecord.getRegId</definition>
+        <argsstring>()</argsstring>
+        <name>getRegId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>value or<programlisting><codeline><highlight class="normal">null<sp/></highlight></codeline>
+</programlisting> for none </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/model/RegistrationRecord.java" line="43" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/model/RegistrationRecord.java" bodystart="43" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1model_1_1_registration_record_1ab975baa1a071f0df0e1ca7cfaf7038c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1model_1_1_registration_record" kindref="compound">RegistrationRecord</ref></type>
+        <definition>RegistrationRecord com.example.lusifer.myapplication.backend.registration.model.RegistrationRecord.setRegId</definition>
+        <argsstring>(java.lang.String regId)</argsstring>
+        <name>setRegId</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>regId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>regId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>regId or<programlisting><codeline><highlight class="normal">null<sp/></highlight></codeline>
+</programlisting> for none </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/model/RegistrationRecord.java" line="50" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/model/RegistrationRecord.java" bodystart="50" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1model_1_1_registration_record_1ab4265735c9094486ce28ec8550c9004b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1model_1_1_registration_record" kindref="compound">RegistrationRecord</ref></type>
+        <definition>RegistrationRecord com.example.lusifer.myapplication.backend.registration.model.RegistrationRecord.set</definition>
+        <argsstring>(String fieldName, Object value)</argsstring>
+        <name>set</name>
+        <param>
+          <type>String</type>
+          <declname>fieldName</declname>
+        </param>
+        <param>
+          <type>Object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/model/RegistrationRecord.java" line="56" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/model/RegistrationRecord.java" bodystart="56" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1model_1_1_registration_record_1a3d1c9a0cdba0b343c8541865c8540ed5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1model_1_1_registration_record" kindref="compound">RegistrationRecord</ref></type>
+        <definition>RegistrationRecord com.example.lusifer.myapplication.backend.registration.model.RegistrationRecord.clone</definition>
+        <argsstring>()</argsstring>
+        <name>clone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/model/RegistrationRecord.java" line="61" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/model/RegistrationRecord.java" bodystart="61" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Model definition for <ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1model_1_1_registration_record" kindref="compound">RegistrationRecord</ref>.</para><para>This is the Java data model class that specifies how to parse/serialize into the JSON that is transmitted over HTTP when working with the registration. For a detailed explanation see: <ulink url="http://code.google.com/p/google-http-java-client/wiki/JSON">http://code.google.com/p/google-http-java-client/wiki/JSON</ulink> </para><para><simplesect kind="author"><para>Google, Inc. </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="210">
+        <label>com.example.lusifer.myapplication.backend.registration.model.RegistrationRecord</label>
+        <link refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1model_1_1_registration_record"/>
+        <childnode refid="211" relation="public-inheritance">
+        </childnode>
+        <childnode refid="211" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="211">
+        <label>GenericJson</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="212">
+        <label>com.example.lusifer.myapplication.backend.registration.model.RegistrationRecord</label>
+        <link refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1model_1_1_registration_record"/>
+        <childnode refid="213" relation="public-inheritance">
+        </childnode>
+        <childnode refid="213" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="213">
+        <label>GenericJson</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/model/RegistrationRecord.java" line="32" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/model/RegistrationRecord.java" bodystart="32" bodyend="65"/>
+    <listofallmembers>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1model_1_1_registration_record_1a3d1c9a0cdba0b343c8541865c8540ed5" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::model::RegistrationRecord</scope><name>clone</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1model_1_1_registration_record_1a3d1c9a0cdba0b343c8541865c8540ed5" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::model::RegistrationRecord</scope><name>clone</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1model_1_1_registration_record_1a1c1d099da55bc6115ff5304d2e51f38d" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::model::RegistrationRecord</scope><name>getRegId</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1model_1_1_registration_record_1a1c1d099da55bc6115ff5304d2e51f38d" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::model::RegistrationRecord</scope><name>getRegId</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1model_1_1_registration_record_1ab10f58f85fe0fa02e02eb5b76e39d5bf" prot="private" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::model::RegistrationRecord</scope><name>regId</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1model_1_1_registration_record_1ab4265735c9094486ce28ec8550c9004b" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::model::RegistrationRecord</scope><name>set</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1model_1_1_registration_record_1ab4265735c9094486ce28ec8550c9004b" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::model::RegistrationRecord</scope><name>set</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1model_1_1_registration_record_1ab975baa1a071f0df0e1ca7cfaf7038c7" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::model::RegistrationRecord</scope><name>setRegId</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1model_1_1_registration_record_1ab975baa1a071f0df0e1ca7cfaf7038c7" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::model::RegistrationRecord</scope><name>setRegId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

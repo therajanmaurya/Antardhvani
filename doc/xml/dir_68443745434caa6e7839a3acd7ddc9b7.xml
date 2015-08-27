@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_68443745434caa6e7839a3acd7ddc9b7" kind="dir">
+    <compoundname>app/src/main/java/antardhvani/du/ac/in/Schedule</compoundname>
+    <innerfile refid="_schedule__20th___f_e_b__2015_8java">Schedule_20th_FEB_2015.java</innerfile>
+    <innerfile refid="_schedule__21__viewpager_8java">Schedule_21_viewpager.java</innerfile>
+    <innerfile refid="_schedule__21st___feb__2015_8java">Schedule_21st_Feb_2015.java</innerfile>
+    <innerfile refid="_schedule__22__viewpager_8java">Schedule_22_viewpager.java</innerfile>
+    <innerfile refid="_schedule__22nd___f_e_b_r_u_a_r_y__2015_8java">Schedule_22nd_FEBRUARY_2015.java</innerfile>
+    <innerfile refid="_schedule__pre__event_8java">Schedule_pre_event.java</innerfile>
+    <innerfile refid="_schedule__viewpager_8java">Schedule_viewpager.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/"/>
+  </compounddef>
+</doxygen>

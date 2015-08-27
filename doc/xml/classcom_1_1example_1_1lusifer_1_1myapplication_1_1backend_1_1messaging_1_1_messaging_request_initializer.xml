@@ -1,0 +1,304 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_request_initializer" kind="class" language="Java" prot="public">
+    <compoundname>com::example::lusifer::myapplication::backend::messaging::MessagingRequestInitializer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">CommonGoogleJsonClientRequestInitializer</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">CommonGoogleJsonClientRequestInitializer</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_request_initializer_1a346598c99beb4b9c54e5f1b90af8b53d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.example.lusifer.myapplication.backend.messaging.MessagingRequestInitializer.MessagingRequestInitializer</definition>
+        <argsstring>()</argsstring>
+        <name>MessagingRequestInitializer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/MessagingRequestInitializer.java" line="84" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/MessagingRequestInitializer.java" bodystart="84" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_request_initializer_1ad7db0db950cd64697d07c47a5f17367e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.example.lusifer.myapplication.backend.messaging.MessagingRequestInitializer.MessagingRequestInitializer</definition>
+        <argsstring>(String key)</argsstring>
+        <name>MessagingRequestInitializer</name>
+        <param>
+          <type>String</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>API key or<programlisting><codeline><highlight class="normal">null<sp/></highlight></codeline>
+</programlisting> to leave it unchanged </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/MessagingRequestInitializer.java" line="91" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/MessagingRequestInitializer.java" bodystart="91" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_request_initializer_1a6d7b24f5969de628fed4fbb73fc64d92" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.example.lusifer.myapplication.backend.messaging.MessagingRequestInitializer.MessagingRequestInitializer</definition>
+        <argsstring>(String key, String userIp)</argsstring>
+        <name>MessagingRequestInitializer</name>
+        <param>
+          <type>String</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>userIp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>API key or<programlisting><codeline><highlight class="normal">null<sp/></highlight></codeline>
+</programlisting> to leave it unchanged </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>userIp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>user IP or<programlisting><codeline><highlight class="normal">null<sp/></highlight></codeline>
+</programlisting> to leave it unchanged </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/MessagingRequestInitializer.java" line="99" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/MessagingRequestInitializer.java" bodystart="99" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_request_initializer_1aded39367cdfa4465fc73237d85f267fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void com.example.lusifer.myapplication.backend.messaging.MessagingRequestInitializer.initializeJsonRequest</definition>
+        <argsstring>(com.google.api.client.googleapis.services.json.AbstractGoogleJsonClientRequest&lt;?&gt; request)</argsstring>
+        <name>initializeJsonRequest</name>
+        <param>
+          <type>com.google.api.client.googleapis.services.json.AbstractGoogleJsonClientRequest&lt;?&gt;</type>
+          <declname>request</declname>
+        </param>
+        <exceptions> throws java.io.IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/MessagingRequestInitializer.java" line="104" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/MessagingRequestInitializer.java" bodystart="104" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_request_initializer_1a346598c99beb4b9c54e5f1b90af8b53d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.example.lusifer.myapplication.backend.messaging.MessagingRequestInitializer.MessagingRequestInitializer</definition>
+        <argsstring>()</argsstring>
+        <name>MessagingRequestInitializer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/MessagingRequestInitializer.java" line="84" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/MessagingRequestInitializer.java" bodystart="84" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_request_initializer_1ad7db0db950cd64697d07c47a5f17367e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.example.lusifer.myapplication.backend.messaging.MessagingRequestInitializer.MessagingRequestInitializer</definition>
+        <argsstring>(String key)</argsstring>
+        <name>MessagingRequestInitializer</name>
+        <param>
+          <type>String</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>API key or<programlisting><codeline><highlight class="normal">null<sp/></highlight></codeline>
+</programlisting> to leave it unchanged </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/MessagingRequestInitializer.java" line="91" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/MessagingRequestInitializer.java" bodystart="91" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_request_initializer_1a6d7b24f5969de628fed4fbb73fc64d92" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.example.lusifer.myapplication.backend.messaging.MessagingRequestInitializer.MessagingRequestInitializer</definition>
+        <argsstring>(String key, String userIp)</argsstring>
+        <name>MessagingRequestInitializer</name>
+        <param>
+          <type>String</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>userIp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>API key or<programlisting><codeline><highlight class="normal">null<sp/></highlight></codeline>
+</programlisting> to leave it unchanged </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>userIp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>user IP or<programlisting><codeline><highlight class="normal">null<sp/></highlight></codeline>
+</programlisting> to leave it unchanged </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/MessagingRequestInitializer.java" line="99" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/MessagingRequestInitializer.java" bodystart="99" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_request_initializer_1aded39367cdfa4465fc73237d85f267fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void com.example.lusifer.myapplication.backend.messaging.MessagingRequestInitializer.initializeJsonRequest</definition>
+        <argsstring>(com.google.api.client.googleapis.services.json.AbstractGoogleJsonClientRequest&lt;?&gt; request)</argsstring>
+        <name>initializeJsonRequest</name>
+        <param>
+          <type>com.google.api.client.googleapis.services.json.AbstractGoogleJsonClientRequest&lt;?&gt;</type>
+          <declname>request</declname>
+        </param>
+        <exceptions> throws java.io.IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/MessagingRequestInitializer.java" line="104" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/MessagingRequestInitializer.java" bodystart="104" bodyend="107"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_request_initializer_1a597f3f87016ec81927193e0d61b10a02" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.example.lusifer.myapplication.backend.messaging.MessagingRequestInitializer.initializeMessagingRequest</definition>
+        <argsstring>(MessagingRequest&lt;?&gt; request)</argsstring>
+        <name>initializeMessagingRequest</name>
+        <param>
+          <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_request" kindref="compound">MessagingRequest</ref>&lt;?&gt;</type>
+          <declname>request</declname>
+        </param>
+        <exceptions> throws java.io.IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initializes <ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging" kindref="compound">Messaging</ref> request.</para><para>Default implementation does nothing. Called from <ref refid="" kindref="compound">initializeJsonRequest(com.google.api.client.googleapis.services.json.AbstractGoogleJsonClientRequest)</ref>. </para><para><parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>java.io.IOException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>I/O exception </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/MessagingRequestInitializer.java" line="119" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/MessagingRequestInitializer.java" bodystart="119" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_request_initializer_1a597f3f87016ec81927193e0d61b10a02" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.example.lusifer.myapplication.backend.messaging.MessagingRequestInitializer.initializeMessagingRequest</definition>
+        <argsstring>(MessagingRequest&lt;?&gt; request)</argsstring>
+        <name>initializeMessagingRequest</name>
+        <param>
+          <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_request" kindref="compound">MessagingRequest</ref>&lt;?&gt;</type>
+          <declname>request</declname>
+        </param>
+        <exceptions> throws java.io.IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initializes <ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging" kindref="compound">Messaging</ref> request.</para><para>Default implementation does nothing. Called from <ref refid="" kindref="compound">initializeJsonRequest(com.google.api.client.googleapis.services.json.AbstractGoogleJsonClientRequest)</ref>. </para><para><parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>java.io.IOException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>I/O exception </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/MessagingRequestInitializer.java" line="119" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/MessagingRequestInitializer.java" bodystart="119" bodyend="120"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Override public void initializeMessagingRequest(<ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_request" kindref="compound">MessagingRequest</ref>{ &lt;}?{ &gt;} request) throws IOException { // custom logic } } </para><para>Subclasses should be thread-safe. </para><para><simplesect kind="since"><para>1.12 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="154">
+        <label>com.example.lusifer.myapplication.backend.messaging.MessagingRequestInitializer</label>
+        <link refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_request_initializer"/>
+        <childnode refid="155" relation="public-inheritance">
+        </childnode>
+        <childnode refid="156" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="155">
+        <label>com::google::api::client::googleapis::services::json::CommonGoogleJsonClientRequestInitializer</label>
+      </node>
+      <node id="156">
+        <label>CommonGoogleJsonClientRequestInitializer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="157">
+        <label>com.example.lusifer.myapplication.backend.messaging.MessagingRequestInitializer</label>
+        <link refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_request_initializer"/>
+        <childnode refid="158" relation="public-inheritance">
+        </childnode>
+        <childnode refid="159" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="158">
+        <label>com::google::api::client::googleapis::services::json::CommonGoogleJsonClientRequestInitializer</label>
+      </node>
+      <node id="159">
+        <label>CommonGoogleJsonClientRequestInitializer</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/MessagingRequestInitializer.java" line="82" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/MessagingRequestInitializer.java" bodystart="82" bodyend="121"/>
+    <listofallmembers>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_request_initializer_1aded39367cdfa4465fc73237d85f267fb" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::MessagingRequestInitializer</scope><name>initializeJsonRequest</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_request_initializer_1aded39367cdfa4465fc73237d85f267fb" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::MessagingRequestInitializer</scope><name>initializeJsonRequest</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_request_initializer_1a597f3f87016ec81927193e0d61b10a02" prot="protected" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::MessagingRequestInitializer</scope><name>initializeMessagingRequest</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_request_initializer_1a597f3f87016ec81927193e0d61b10a02" prot="protected" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::MessagingRequestInitializer</scope><name>initializeMessagingRequest</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_request_initializer_1a346598c99beb4b9c54e5f1b90af8b53d" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::MessagingRequestInitializer</scope><name>MessagingRequestInitializer</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_request_initializer_1ad7db0db950cd64697d07c47a5f17367e" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::MessagingRequestInitializer</scope><name>MessagingRequestInitializer</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_request_initializer_1a6d7b24f5969de628fed4fbb73fc64d92" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::MessagingRequestInitializer</scope><name>MessagingRequestInitializer</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_request_initializer_1a346598c99beb4b9c54e5f1b90af8b53d" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::MessagingRequestInitializer</scope><name>MessagingRequestInitializer</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_request_initializer_1ad7db0db950cd64697d07c47a5f17367e" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::MessagingRequestInitializer</scope><name>MessagingRequestInitializer</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_request_initializer_1a6d7b24f5969de628fed4fbb73fc64d92" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::MessagingRequestInitializer</scope><name>MessagingRequestInitializer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classantardhvani_1_1du_1_1ac_1_1in_1_1_flower_show_1_1_flower_show_1_1_screen_slide_pager_adapter" kind="class" language="Java" prot="private">
+    <compoundname>antardhvani::du::ac::in::FlowerShow::FlowerShow::ScreenSlidePagerAdapter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">FragmentStatePagerAdapter</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_flower_show_1_1_flower_show_1_1_screen_slide_pager_adapter_1a49e8edd2e195351ba275cd7840258a75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>antardhvani.du.ac.in.FlowerShow.FlowerShow.ScreenSlidePagerAdapter.ScreenSlidePagerAdapter</definition>
+        <argsstring>(FragmentManager fm)</argsstring>
+        <name>ScreenSlidePagerAdapter</name>
+        <param>
+          <type>FragmentManager</type>
+          <declname>fm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/FlowerShow/FlowerShow.java" line="136" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/FlowerShow/FlowerShow.java" bodystart="136" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_flower_show_1_1_flower_show_1_1_screen_slide_pager_adapter_1a86dccb3d64937908554b7ba2d5fe38b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Fragment</type>
+        <definition>Fragment antardhvani.du.ac.in.FlowerShow.FlowerShow.ScreenSlidePagerAdapter.getItem</definition>
+        <argsstring>(int position)</argsstring>
+        <name>getItem</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/FlowerShow/FlowerShow.java" line="141" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/FlowerShow/FlowerShow.java" bodystart="141" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_flower_show_1_1_flower_show_1_1_screen_slide_pager_adapter_1ac5e202e51a0a754f8b17e59e8a1baf65" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int antardhvani.du.ac.in.FlowerShow.FlowerShow.ScreenSlidePagerAdapter.getCount</definition>
+        <argsstring>()</argsstring>
+        <name>getCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/FlowerShow/FlowerShow.java" line="146" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/FlowerShow/FlowerShow.java" bodystart="146" bodyend="148"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="305">
+        <label>FragmentStatePagerAdapter</label>
+      </node>
+      <node id="304">
+        <label>antardhvani.du.ac.in.FlowerShow.FlowerShow.ScreenSlidePagerAdapter</label>
+        <childnode refid="305" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="307">
+        <label>FragmentStatePagerAdapter</label>
+      </node>
+      <node id="306">
+        <label>antardhvani.du.ac.in.FlowerShow.FlowerShow.ScreenSlidePagerAdapter</label>
+        <childnode refid="307" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/FlowerShow/FlowerShow.java" line="135" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/FlowerShow/FlowerShow.java" bodystart="135" bodyend="149"/>
+    <listofallmembers>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_flower_show_1_1_flower_show_1_1_screen_slide_pager_adapter_1ac5e202e51a0a754f8b17e59e8a1baf65" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::FlowerShow::FlowerShow::ScreenSlidePagerAdapter</scope><name>getCount</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_flower_show_1_1_flower_show_1_1_screen_slide_pager_adapter_1a86dccb3d64937908554b7ba2d5fe38b4" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::FlowerShow::FlowerShow::ScreenSlidePagerAdapter</scope><name>getItem</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_flower_show_1_1_flower_show_1_1_screen_slide_pager_adapter_1a49e8edd2e195351ba275cd7840258a75" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::FlowerShow::FlowerShow::ScreenSlidePagerAdapter</scope><name>ScreenSlidePagerAdapter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

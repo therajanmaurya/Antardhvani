@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_962defcbbabff8e96a4bc228f6cf31bd" kind="dir">
+    <compoundname>backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration</compoundname>
+    <innerdir refid="dir_f312dd2079ca2590d5a78d93cd83280e">backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/"/>
+  </compounddef>
+</doxygen>

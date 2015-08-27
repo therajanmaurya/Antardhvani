@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classantardhvani_1_1du_1_1ac_1_1in_1_1_event_1_1viewpager" kind="class" language="Java" prot="public">
+    <compoundname>antardhvani::du::ac::in::Event::viewpager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Fragment</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">MaterialTabListener</basecompoundref>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_event_1_1viewpager_1_1_view_pager_adapter" prot="package">antardhvani::du::ac::in::Event::viewpager::ViewPagerAdapter</innerclass>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_event_1_1viewpager_1adc87a91e25558cda82f59a1079b9f76b" prot="public" static="yes" mutable="no">
+        <type>TabHost</type>
+        <definition>TabHost antardhvani.du.ac.in.Event.viewpager.oldTabHost</definition>
+        <argsstring></argsstring>
+        <name>oldTabHost</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Event/viewpager.java" line="23" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Event/viewpager.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_event_1_1viewpager_1a5a05220e091321a5ed3c40e1b03eb047" prot="public" static="yes" mutable="no">
+        <type>ViewPager</type>
+        <definition>ViewPager antardhvani.du.ac.in.Event.viewpager.viewPager</definition>
+        <argsstring></argsstring>
+        <name>viewPager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Event/viewpager.java" line="24" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Event/viewpager.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_event_1_1viewpager_1a0ef1d3006f6c5bb16d514f206ae9bdf1" prot="public" static="no" mutable="no">
+        <type>PagerTabStrip</type>
+        <definition>PagerTabStrip antardhvani.du.ac.in.Event.viewpager.tabHost</definition>
+        <argsstring></argsstring>
+        <name>tabHost</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Event/viewpager.java" line="25" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Event/viewpager.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_event_1_1viewpager_1a75014da637297ebaf2eb148f99dfd3d2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_event_1_1viewpager" kindref="compound">viewpager</ref></type>
+        <definition>static viewpager antardhvani.du.ac.in.Event.viewpager.getInstance</definition>
+        <argsstring>(int position)</argsstring>
+        <name>getInstance</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Event/viewpager.java" line="29" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Event/viewpager.java" bodystart="29" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_event_1_1viewpager_1ac3806238fa249569dcb67c6257724930" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>View</type>
+        <definition>View antardhvani.du.ac.in.Event.viewpager.onCreateView</definition>
+        <argsstring>(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)</argsstring>
+        <name>onCreateView</name>
+        <param>
+          <type>LayoutInflater</type>
+          <declname>inflater</declname>
+        </param>
+        <param>
+          <type>ViewGroup</type>
+          <declname>container</declname>
+        </param>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Event/viewpager.java" line="38" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Event/viewpager.java" bodystart="38" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_event_1_1viewpager_1a9b445f4ca8e5470503403f7fe575e65c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.Event.viewpager.onTabSelected</definition>
+        <argsstring>(MaterialTab materialTab)</argsstring>
+        <name>onTabSelected</name>
+        <param>
+          <type>MaterialTab</type>
+          <declname>materialTab</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Event/viewpager.java" line="55" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Event/viewpager.java" bodystart="55" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_event_1_1viewpager_1a594de4a427009c3775a91ee24d1fe509" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.Event.viewpager.onTabReselected</definition>
+        <argsstring>(MaterialTab materialTab)</argsstring>
+        <name>onTabReselected</name>
+        <param>
+          <type>MaterialTab</type>
+          <declname>materialTab</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Event/viewpager.java" line="60" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Event/viewpager.java" bodystart="60" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_event_1_1viewpager_1a57f9cd3ce918bccfb307391400452bc9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.Event.viewpager.onTabUnselected</definition>
+        <argsstring>(MaterialTab materialTab)</argsstring>
+        <name>onTabUnselected</name>
+        <param>
+          <type>MaterialTab</type>
+          <declname>materialTab</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Event/viewpager.java" line="65" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Event/viewpager.java" bodystart="65" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="350">
+        <label>antardhvani.du.ac.in.Event.viewpager</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_event_1_1viewpager"/>
+        <childnode refid="351" relation="public-inheritance">
+        </childnode>
+        <childnode refid="352" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="351">
+        <label>Fragment</label>
+      </node>
+      <node id="352">
+        <label>MaterialTabListener</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="356">
+        <label>TabHost</label>
+      </node>
+      <node id="357">
+        <label>ViewPager</label>
+      </node>
+      <node id="353">
+        <label>antardhvani.du.ac.in.Event.viewpager</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_event_1_1viewpager"/>
+        <childnode refid="354" relation="public-inheritance">
+        </childnode>
+        <childnode refid="355" relation="public-inheritance">
+        </childnode>
+        <childnode refid="356" relation="usage">
+          <edgelabel>oldTabHost</edgelabel>
+        </childnode>
+        <childnode refid="357" relation="usage">
+          <edgelabel>viewPager</edgelabel>
+        </childnode>
+        <childnode refid="358" relation="usage">
+          <edgelabel>tabHost</edgelabel>
+        </childnode>
+      </node>
+      <node id="354">
+        <label>Fragment</label>
+      </node>
+      <node id="358">
+        <label>PagerTabStrip</label>
+      </node>
+      <node id="355">
+        <label>MaterialTabListener</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Event/viewpager.java" line="20" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Event/viewpager.java" bodystart="20" bodyend="125"/>
+    <listofallmembers>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_event_1_1viewpager_1a75014da637297ebaf2eb148f99dfd3d2" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Event::viewpager</scope><name>getInstance</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_event_1_1viewpager_1adc87a91e25558cda82f59a1079b9f76b" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Event::viewpager</scope><name>oldTabHost</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_event_1_1viewpager_1ac3806238fa249569dcb67c6257724930" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Event::viewpager</scope><name>onCreateView</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_event_1_1viewpager_1a594de4a427009c3775a91ee24d1fe509" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Event::viewpager</scope><name>onTabReselected</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_event_1_1viewpager_1a9b445f4ca8e5470503403f7fe575e65c" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Event::viewpager</scope><name>onTabSelected</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_event_1_1viewpager_1a57f9cd3ce918bccfb307391400452bc9" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Event::viewpager</scope><name>onTabUnselected</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_event_1_1viewpager_1a0ef1d3006f6c5bb16d514f206ae9bdf1" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Event::viewpager</scope><name>tabHost</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_event_1_1viewpager_1a5a05220e091321a5ed3c40e1b03eb047" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Event::viewpager</scope><name>viewPager</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

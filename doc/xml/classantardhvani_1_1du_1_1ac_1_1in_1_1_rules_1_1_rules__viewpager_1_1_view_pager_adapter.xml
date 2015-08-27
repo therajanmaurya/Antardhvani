@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__viewpager_1_1_view_pager_adapter" kind="class" language="Java" prot="package">
+    <compoundname>antardhvani::du::ac::in::Rules::Rules_viewpager::ViewPagerAdapter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">FragmentStatePagerAdapter</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__viewpager_1_1_view_pager_adapter_1a2c202ba45fe71663984f3dada96f53ce" prot="public" static="no" mutable="no">
+        <type>Context</type>
+        <definition>Context antardhvani.du.ac.in.Rules.Rules_viewpager.ViewPagerAdapter.context</definition>
+        <argsstring></argsstring>
+        <name>context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_viewpager.java" line="82" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_viewpager.java" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__viewpager_1_1_view_pager_adapter_1ad063f642e2f73d90a0376deb528f6155" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>antardhvani.du.ac.in.Rules.Rules_viewpager.ViewPagerAdapter.ViewPagerAdapter</definition>
+        <argsstring>(FragmentManager fm)</argsstring>
+        <name>ViewPagerAdapter</name>
+        <param>
+          <type>FragmentManager</type>
+          <declname>fm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_viewpager.java" line="84" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_viewpager.java" bodystart="84" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__viewpager_1_1_view_pager_adapter_1ad42adeed51d5c44431a219572a8087a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Fragment</type>
+        <definition>Fragment antardhvani.du.ac.in.Rules.Rules_viewpager.ViewPagerAdapter.getItem</definition>
+        <argsstring>(int num)</argsstring>
+        <name>getItem</name>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_viewpager.java" line="91" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_viewpager.java" bodystart="91" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__viewpager_1_1_view_pager_adapter_1a29c68f170aa39b7ea97c4774e379276c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int antardhvani.du.ac.in.Rules.Rules_viewpager.ViewPagerAdapter.getCount</definition>
+        <argsstring>()</argsstring>
+        <name>getCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_viewpager.java" line="108" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_viewpager.java" bodystart="108" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__viewpager_1_1_view_pager_adapter_1af713c58f1bd7e71810c673f7ce41d028" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>CharSequence</type>
+        <definition>CharSequence antardhvani.du.ac.in.Rules.Rules_viewpager.ViewPagerAdapter.getPageTitle</definition>
+        <argsstring>(int position)</argsstring>
+        <name>getPageTitle</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_viewpager.java" line="113" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_viewpager.java" bodystart="113" bodyend="125"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="370">
+        <label>FragmentStatePagerAdapter</label>
+      </node>
+      <node id="369">
+        <label>antardhvani.du.ac.in.Rules.Rules_viewpager.ViewPagerAdapter</label>
+        <childnode refid="370" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="372">
+        <label>FragmentStatePagerAdapter</label>
+      </node>
+      <node id="373">
+        <label>Context</label>
+      </node>
+      <node id="371">
+        <label>antardhvani.du.ac.in.Rules.Rules_viewpager.ViewPagerAdapter</label>
+        <childnode refid="372" relation="public-inheritance">
+        </childnode>
+        <childnode refid="373" relation="usage">
+          <edgelabel>context</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_viewpager.java" line="79" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_viewpager.java" bodystart="79" bodyend="127"/>
+    <listofallmembers>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__viewpager_1_1_view_pager_adapter_1a2c202ba45fe71663984f3dada96f53ce" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Rules::Rules_viewpager::ViewPagerAdapter</scope><name>context</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__viewpager_1_1_view_pager_adapter_1a29c68f170aa39b7ea97c4774e379276c" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Rules::Rules_viewpager::ViewPagerAdapter</scope><name>getCount</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__viewpager_1_1_view_pager_adapter_1ad42adeed51d5c44431a219572a8087a8" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Rules::Rules_viewpager::ViewPagerAdapter</scope><name>getItem</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__viewpager_1_1_view_pager_adapter_1af713c58f1bd7e71810c673f7ce41d028" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Rules::Rules_viewpager::ViewPagerAdapter</scope><name>getPageTitle</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__viewpager_1_1_view_pager_adapter_1ad063f642e2f73d90a0376deb528f6155" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Rules::Rules_viewpager::ViewPagerAdapter</scope><name>ViewPagerAdapter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

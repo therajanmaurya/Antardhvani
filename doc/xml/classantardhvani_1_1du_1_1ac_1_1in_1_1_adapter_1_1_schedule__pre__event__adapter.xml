@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_schedule__pre__event__adapter" kind="class" language="Java" prot="public">
+    <compoundname>antardhvani::du::ac::in::Adapter::Schedule_pre_event_adapter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BaseExpandableListAdapter</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_schedule__pre__event__adapter_1ae73a370455ccb4052c7c2363b22cab68" prot="private" static="no" mutable="no">
+        <type>Context</type>
+        <definition>Context antardhvani.du.ac.in.Adapter.Schedule_pre_event_adapter.context</definition>
+        <argsstring></argsstring>
+        <name>context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Schedule_pre_event_adapter.java" line="19" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Schedule_pre_event_adapter.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_schedule__pre__event__adapter_1a9c093204c1fb295f28be65834f41bc00" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; <ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_group" kindref="compound">Group</ref> &gt;</type>
+        <definition>ArrayList&lt;Group&gt; antardhvani.du.ac.in.Adapter.Schedule_pre_event_adapter.groups</definition>
+        <argsstring></argsstring>
+        <name>groups</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Schedule_pre_event_adapter.java" line="20" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Schedule_pre_event_adapter.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_schedule__pre__event__adapter_1a1b5ef5121eb003b5d48b35ed768b2244" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>antardhvani.du.ac.in.Adapter.Schedule_pre_event_adapter.Schedule_pre_event_adapter</definition>
+        <argsstring>(Context context, ArrayList&lt; Group &gt; groups)</argsstring>
+        <name>Schedule_pre_event_adapter</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>ArrayList&lt; <ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_group" kindref="compound">Group</ref> &gt;</type>
+          <declname>groups</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Schedule_pre_event_adapter.java" line="22" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Schedule_pre_event_adapter.java" bodystart="22" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_schedule__pre__event__adapter_1a86a2d643f421a9bb4be7b3ee30916de2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Object</type>
+        <definition>Object antardhvani.du.ac.in.Adapter.Schedule_pre_event_adapter.getChild</definition>
+        <argsstring>(int groupPosition, int childPosition)</argsstring>
+        <name>getChild</name>
+        <param>
+          <type>int</type>
+          <declname>groupPosition</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>childPosition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Schedule_pre_event_adapter.java" line="28" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Schedule_pre_event_adapter.java" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_schedule__pre__event__adapter_1a535a19a991f72085f21829ceaf0f3c39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>long antardhvani.du.ac.in.Adapter.Schedule_pre_event_adapter.getChildId</definition>
+        <argsstring>(int groupPosition, int childPosition)</argsstring>
+        <name>getChildId</name>
+        <param>
+          <type>int</type>
+          <declname>groupPosition</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>childPosition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Schedule_pre_event_adapter.java" line="34" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Schedule_pre_event_adapter.java" bodystart="34" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_schedule__pre__event__adapter_1abc72903fbbb266c3d90f7f09e583eac8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>View</type>
+        <definition>View antardhvani.du.ac.in.Adapter.Schedule_pre_event_adapter.getChildView</definition>
+        <argsstring>(int groupPosition, int childPosition, boolean isLastChild, View convertView, ViewGroup parent)</argsstring>
+        <name>getChildView</name>
+        <param>
+          <type>int</type>
+          <declname>groupPosition</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>childPosition</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>isLastChild</declname>
+        </param>
+        <param>
+          <type>View</type>
+          <declname>convertView</declname>
+        </param>
+        <param>
+          <type>ViewGroup</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Schedule_pre_event_adapter.java" line="39" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Schedule_pre_event_adapter.java" bodystart="39" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_schedule__pre__event__adapter_1a9f2db6b2a8fbd3b02a3bf6c3c6c94e4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int antardhvani.du.ac.in.Adapter.Schedule_pre_event_adapter.getChildrenCount</definition>
+        <argsstring>(int groupPosition)</argsstring>
+        <name>getChildrenCount</name>
+        <param>
+          <type>int</type>
+          <declname>groupPosition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Schedule_pre_event_adapter.java" line="58" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Schedule_pre_event_adapter.java" bodystart="58" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_schedule__pre__event__adapter_1a832e3acdc9388c58ef9e07e628ca5eff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Object</type>
+        <definition>Object antardhvani.du.ac.in.Adapter.Schedule_pre_event_adapter.getGroup</definition>
+        <argsstring>(int groupPosition)</argsstring>
+        <name>getGroup</name>
+        <param>
+          <type>int</type>
+          <declname>groupPosition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Schedule_pre_event_adapter.java" line="64" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Schedule_pre_event_adapter.java" bodystart="64" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_schedule__pre__event__adapter_1a79e9d5358c233fb7f00a642642efaab4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int antardhvani.du.ac.in.Adapter.Schedule_pre_event_adapter.getGroupCount</definition>
+        <argsstring>()</argsstring>
+        <name>getGroupCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Schedule_pre_event_adapter.java" line="69" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Schedule_pre_event_adapter.java" bodystart="69" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_schedule__pre__event__adapter_1a0d88234b7bf05888f3b59e03a2d107a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>long antardhvani.du.ac.in.Adapter.Schedule_pre_event_adapter.getGroupId</definition>
+        <argsstring>(int groupPosition)</argsstring>
+        <name>getGroupId</name>
+        <param>
+          <type>int</type>
+          <declname>groupPosition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Schedule_pre_event_adapter.java" line="74" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Schedule_pre_event_adapter.java" bodystart="74" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_schedule__pre__event__adapter_1aa18483246d554c5facc16644dcc2b2b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>View</type>
+        <definition>View antardhvani.du.ac.in.Adapter.Schedule_pre_event_adapter.getGroupView</definition>
+        <argsstring>(int groupPosition, boolean isExpanded, View convertView, ViewGroup parent)</argsstring>
+        <name>getGroupView</name>
+        <param>
+          <type>int</type>
+          <declname>groupPosition</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>isExpanded</declname>
+        </param>
+        <param>
+          <type>View</type>
+          <declname>convertView</declname>
+        </param>
+        <param>
+          <type>ViewGroup</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Schedule_pre_event_adapter.java" line="79" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Schedule_pre_event_adapter.java" bodystart="79" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_schedule__pre__event__adapter_1af28ca7ace4745f294444407bf9352a6b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean antardhvani.du.ac.in.Adapter.Schedule_pre_event_adapter.hasStableIds</definition>
+        <argsstring>()</argsstring>
+        <name>hasStableIds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Schedule_pre_event_adapter.java" line="95" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Schedule_pre_event_adapter.java" bodystart="95" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_schedule__pre__event__adapter_1af2d63c02519eff43152139f014e078c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean antardhvani.du.ac.in.Adapter.Schedule_pre_event_adapter.isChildSelectable</definition>
+        <argsstring>(int groupPosition, int childPosition)</argsstring>
+        <name>isChildSelectable</name>
+        <param>
+          <type>int</type>
+          <declname>groupPosition</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>childPosition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Schedule_pre_event_adapter.java" line="100" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Schedule_pre_event_adapter.java" bodystart="100" bodyend="102"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Created by rajanmaurya on 13/2/15. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="287">
+        <label>BaseExpandableListAdapter</label>
+      </node>
+      <node id="286">
+        <label>antardhvani.du.ac.in.Adapter.Schedule_pre_event_adapter</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_schedule__pre__event__adapter"/>
+        <childnode refid="287" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="289">
+        <label>BaseExpandableListAdapter</label>
+      </node>
+      <node id="288">
+        <label>antardhvani.du.ac.in.Adapter.Schedule_pre_event_adapter</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_schedule__pre__event__adapter"/>
+        <childnode refid="289" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Schedule_pre_event_adapter.java" line="17" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/Schedule_pre_event_adapter.java" bodystart="17" bodyend="104"/>
+    <listofallmembers>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_schedule__pre__event__adapter_1ae73a370455ccb4052c7c2363b22cab68" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::Schedule_pre_event_adapter</scope><name>context</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_schedule__pre__event__adapter_1a86a2d643f421a9bb4be7b3ee30916de2" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::Schedule_pre_event_adapter</scope><name>getChild</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_schedule__pre__event__adapter_1a535a19a991f72085f21829ceaf0f3c39" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::Schedule_pre_event_adapter</scope><name>getChildId</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_schedule__pre__event__adapter_1a9f2db6b2a8fbd3b02a3bf6c3c6c94e4b" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::Schedule_pre_event_adapter</scope><name>getChildrenCount</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_schedule__pre__event__adapter_1abc72903fbbb266c3d90f7f09e583eac8" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::Schedule_pre_event_adapter</scope><name>getChildView</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_schedule__pre__event__adapter_1a832e3acdc9388c58ef9e07e628ca5eff" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::Schedule_pre_event_adapter</scope><name>getGroup</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_schedule__pre__event__adapter_1a79e9d5358c233fb7f00a642642efaab4" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::Schedule_pre_event_adapter</scope><name>getGroupCount</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_schedule__pre__event__adapter_1a0d88234b7bf05888f3b59e03a2d107a1" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::Schedule_pre_event_adapter</scope><name>getGroupId</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_schedule__pre__event__adapter_1aa18483246d554c5facc16644dcc2b2b0" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::Schedule_pre_event_adapter</scope><name>getGroupView</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_schedule__pre__event__adapter_1a9c093204c1fb295f28be65834f41bc00" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::Schedule_pre_event_adapter</scope><name>groups</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_schedule__pre__event__adapter_1af28ca7ace4745f294444407bf9352a6b" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::Schedule_pre_event_adapter</scope><name>hasStableIds</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_schedule__pre__event__adapter_1af2d63c02519eff43152139f014e078c8" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::Schedule_pre_event_adapter</scope><name>isChildSelectable</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_schedule__pre__event__adapter_1a1b5ef5121eb003b5d48b35ed768b2244" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::Schedule_pre_event_adapter</scope><name>Schedule_pre_event_adapter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

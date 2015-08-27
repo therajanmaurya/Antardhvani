@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="register_8php" kind="file" language="PHP">
+    <compoundname>register.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="register_8php_1acedd13b51401130848ce18f4d5c52605" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$json</definition>
+        <argsstring></argsstring>
+        <name>$json</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/gcm_server/register.php" line="4" column="1" bodyfile="E:/Git/Antardhvani/gcm_server/register.php" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>response<sp/>json</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">$json<sp/>=<sp/>array();</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(isset($_POST[</highlight><highlight class="stringliteral">&quot;regId&quot;</highlight><highlight class="normal">]))<sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>$gcm_regid<sp/>=<sp/>$_POST[</highlight><highlight class="stringliteral">&quot;regId&quot;</highlight><highlight class="normal">];<sp/></highlight><highlight class="comment">//<sp/>GCM<sp/>Registration<sp/>ID</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Store<sp/>user<sp/>details<sp/>in<sp/>db</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>include_once<sp/></highlight><highlight class="stringliteral">&apos;./db_functions.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>include_once<sp/></highlight><highlight class="stringliteral">&apos;./GCM.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>$db<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_d_b___functions" kindref="compound">DB_Functions</ref>();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>$gcm<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_g_c_m" kindref="compound">GCM</ref>();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>$res<sp/>=<sp/>$db-&gt;storeUser($gcm_regid);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>$registatoin_ids<sp/>=<sp/>array($gcm_regid);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>$message<sp/>=<sp/>array(</highlight><highlight class="stringliteral">&quot;product&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;shirt&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>$result<sp/>=<sp/>$gcm-&gt;send_notification($registatoin_ids,<sp/>$message);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/>$result;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>user<sp/>details<sp/>missing</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Git/Antardhvani/gcm_server/register.php"/>
+  </compounddef>
+</doxygen>

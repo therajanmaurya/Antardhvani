@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="config_8php" kind="file" language="PHP">
+    <compoundname>config.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="config_8php_1a293363d7988627f671958e2d908c202a" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const DB_HOST</definition>
+        <argsstring></argsstring>
+        <name>DB_HOST</name>
+        <initializer>&quot;localhost:9000&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Database config variables </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/gcm_server/config.php" line="5" column="1" bodyfile="E:/Git/Antardhvani/gcm_server/config.php" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="config_8php_1a1d1d99f8e08f387d84fe9848f3357156" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const DB_USER</definition>
+        <argsstring></argsstring>
+        <name>DB_USER</name>
+        <initializer>&quot;root&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/gcm_server/config.php" line="6" column="1" bodyfile="E:/Git/Antardhvani/gcm_server/config.php" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="config_8php_1a4dca144fafcc7bd3f71cb5778afcdd13" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const DB_PASSWORD</definition>
+        <argsstring></argsstring>
+        <name>DB_PASSWORD</name>
+        <initializer>&quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/gcm_server/config.php" line="7" column="1" bodyfile="E:/Git/Antardhvani/gcm_server/config.php" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="config_8php_1a4798f8ff41893eb12308c2b638b8becf" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const DB_DATABASE</definition>
+        <argsstring></argsstring>
+        <name>DB_DATABASE</name>
+        <initializer>&quot;gcm&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/gcm_server/config.php" line="8" column="1" bodyfile="E:/Git/Antardhvani/gcm_server/config.php" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="config_8php_1a790fe630024963ffd7343444ad986bc7" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const GOOGLE_API_KEY</definition>
+        <argsstring></argsstring>
+        <name>GOOGLE_API_KEY</name>
+        <initializer>&quot;AIzaSyAIV62temVL0HWQRAvkEZ5R7Ng-allhnGI&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/gcm_server/config.php" line="13" column="1" bodyfile="E:/Git/Antardhvani/gcm_server/config.php" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">define(</highlight><highlight class="stringliteral">&quot;DB_HOST&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;localhost:9000&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">define(</highlight><highlight class="stringliteral">&quot;DB_USER&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;root&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">define(</highlight><highlight class="stringliteral">&quot;DB_PASSWORD&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">define(</highlight><highlight class="stringliteral">&quot;DB_DATABASE&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;gcm&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>Google<sp/>API<sp/>Key</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">define(</highlight><highlight class="stringliteral">&quot;GOOGLE_API_KEY&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;AIzaSyAIV62temVL0HWQRAvkEZ5R7Ng-allhnGI&quot;</highlight><highlight class="normal">);<sp/></highlight><highlight class="comment">//<sp/>Place<sp/>your<sp/>Google<sp/>API<sp/>Key</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Git/Antardhvani/gcm_server/config.php"/>
+  </compounddef>
+</doxygen>

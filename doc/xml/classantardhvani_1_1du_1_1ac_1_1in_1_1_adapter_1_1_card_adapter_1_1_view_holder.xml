@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_card_adapter_1_1_view_holder" kind="class" language="Java" prot="public">
+    <compoundname>antardhvani::du::ac::in::Adapter::CardAdapter::ViewHolder</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ViewHolder</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_card_adapter_1_1_view_holder_1a835e3c6167c75230be6d5efab787c45f" prot="public" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView antardhvani.du.ac.in.Adapter.CardAdapter.ViewHolder.title</definition>
+        <argsstring></argsstring>
+        <name>title</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/CardAdapter.java" line="77" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/CardAdapter.java" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_card_adapter_1_1_view_holder_1afc71b24f7647b9a00612284bdad4f1d8" prot="public" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView antardhvani.du.ac.in.Adapter.CardAdapter.ViewHolder.subtitle</definition>
+        <argsstring></argsstring>
+        <name>subtitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/CardAdapter.java" line="78" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/CardAdapter.java" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_card_adapter_1_1_view_holder_1a8e48680892cd6529af5420d0f4a901a8" prot="public" static="no" mutable="no">
+        <type>CardView</type>
+        <definition>CardView antardhvani.du.ac.in.Adapter.CardAdapter.ViewHolder.root</definition>
+        <argsstring></argsstring>
+        <name>root</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/CardAdapter.java" line="80" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/CardAdapter.java" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_card_adapter_1_1_view_holder_1adcd785a43b583eaade8ae1cb64d77410" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>antardhvani.du.ac.in.Adapter.CardAdapter.ViewHolder.ViewHolder</definition>
+        <argsstring>(CardView view)</argsstring>
+        <name>ViewHolder</name>
+        <param>
+          <type>CardView</type>
+          <declname>view</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/CardAdapter.java" line="82" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/CardAdapter.java" bodystart="82" bodyend="88"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="344">
+        <label>antardhvani.du.ac.in.Adapter.CardAdapter.ViewHolder</label>
+        <childnode refid="345" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="345">
+        <label>ViewHolder</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="346">
+        <label>antardhvani.du.ac.in.Adapter.CardAdapter.ViewHolder</label>
+        <childnode refid="347" relation="public-inheritance">
+        </childnode>
+        <childnode refid="348" relation="usage">
+          <edgelabel>root</edgelabel>
+        </childnode>
+        <childnode refid="349" relation="usage">
+          <edgelabel>title</edgelabel>
+          <edgelabel>subtitle</edgelabel>
+        </childnode>
+      </node>
+      <node id="349">
+        <label>TextView</label>
+      </node>
+      <node id="348">
+        <label>CardView</label>
+      </node>
+      <node id="347">
+        <label>ViewHolder</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/CardAdapter.java" line="75" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/CardAdapter.java" bodystart="75" bodyend="89"/>
+    <listofallmembers>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_card_adapter_1_1_view_holder_1a8e48680892cd6529af5420d0f4a901a8" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::CardAdapter::ViewHolder</scope><name>root</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_card_adapter_1_1_view_holder_1afc71b24f7647b9a00612284bdad4f1d8" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::CardAdapter::ViewHolder</scope><name>subtitle</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_card_adapter_1_1_view_holder_1a835e3c6167c75230be6d5efab787c45f" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::CardAdapter::ViewHolder</scope><name>title</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_card_adapter_1_1_view_holder_1adcd785a43b583eaade8ae1cb64d77410" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Adapter::CardAdapter::ViewHolder</scope><name>ViewHolder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

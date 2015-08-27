@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="namespaceantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani" kind="namespace" language="Java">
+    <compoundname>antardhvani::du::ac::in::antardhvani</compoundname>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_antardhvani_adapter" prot="public">antardhvani::du::ac::in::antardhvani::AntardhvaniAdapter</innerclass>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_application_test" prot="public">antardhvani::du::ac::in::antardhvani::ApplicationTest</innerclass>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_badge_drawable" prot="public">antardhvani::du::ac::in::antardhvani::BadgeDrawable</innerclass>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_default_item_animator" prot="public">antardhvani::du::ac::in::antardhvani::DefaultItemAnimator</innerclass>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_g_c_m_notification" prot="public">antardhvani::du::ac::in::antardhvani::GCMNotification</innerclass>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_information" prot="public">antardhvani::du::ac::in::antardhvani::Information</innerclass>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_l" prot="public">antardhvani::du::ac::in::antardhvani::L</innerclass>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_main_activity" prot="public">antardhvani::du::ac::in::antardhvani::MainActivity</innerclass>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_my_application" prot="public">antardhvani::du::ac::in::antardhvani::MyApplication</innerclass>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment" prot="public">antardhvani::du::ac::in::antardhvani::NavigationDrawerFragment</innerclass>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_splash" prot="public">antardhvani::du::ac::in::antardhvani::Splash</innerclass>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_sub_activity" prot="public">antardhvani::du::ac::in::antardhvani::SubActivity</innerclass>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_util" prot="public">antardhvani::du::ac::in::antardhvani::Util</innerclass>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_utils" prot="public">antardhvani::du::ac::in::antardhvani::Utils</innerclass>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_vector_test_activity" prot="public">antardhvani::du::ac::in::antardhvani::VectorTestActivity</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Git/Antardhvani/app/src/androidTest/java/antardhvani/du/ac/in/antardhvani/ApplicationTest.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

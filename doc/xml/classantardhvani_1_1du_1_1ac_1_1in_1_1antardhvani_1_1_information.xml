@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_information" kind="class" language="Java" prot="public">
+    <compoundname>antardhvani::du::ac::in::antardhvani::Information</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_information_1a8f8f8bd74052c31ea39d07f89bd521d9" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int antardhvani.du.ac.in.antardhvani.Information.iconId</definition>
+        <argsstring></argsstring>
+        <name>iconId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Information.java" line="7" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Information.java" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_information_1ac957bf40d8be93540aaca0dcc76ebda3" prot="public" static="no" mutable="no">
+        <type>String</type>
+        <definition>String antardhvani.du.ac.in.antardhvani.Information.title</definition>
+        <argsstring></argsstring>
+        <name>title</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Information.java" line="8" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Information.java" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Created by Windows on 22-12-2014. </para>    </detaileddescription>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Information.java" line="6" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/Information.java" bodystart="6" bodyend="9"/>
+    <listofallmembers>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_information_1a8f8f8bd74052c31ea39d07f89bd521d9" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::Information</scope><name>iconId</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_information_1ac957bf40d8be93540aaca0dcc76ebda3" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::Information</scope><name>title</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

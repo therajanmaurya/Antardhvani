@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1_1_recycler_touch_listener" kind="class" language="Java" prot="package">
+    <compoundname>antardhvani::du::ac::in::antardhvani::NavigationDrawerFragment::RecyclerTouchListener</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">OnItemTouchListener</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1_1_recycler_touch_listener_1afb4fbb8d7a9c014c262398fc81d0a7cf" prot="private" static="no" mutable="no">
+        <type>GestureDetector</type>
+        <definition>GestureDetector antardhvani.du.ac.in.antardhvani.NavigationDrawerFragment.RecyclerTouchListener.gestureDetector</definition>
+        <argsstring></argsstring>
+        <name>gestureDetector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" line="384" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" bodystart="384" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1_1_recycler_touch_listener_1a1774cdbce57ba167f17ee40005da792c" prot="private" static="no" mutable="no">
+        <type>ClickListener</type>
+        <definition>ClickListener antardhvani.du.ac.in.antardhvani.NavigationDrawerFragment.RecyclerTouchListener.clickListener</definition>
+        <argsstring></argsstring>
+        <name>clickListener</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" line="385" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" bodystart="385" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1_1_recycler_touch_listener_1adf7fe087669411d9b76c1fdf8b67aa94" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>antardhvani.du.ac.in.antardhvani.NavigationDrawerFragment.RecyclerTouchListener.RecyclerTouchListener</definition>
+        <argsstring>(Context context, final RecyclerView recyclerView, final ClickListener clickListener)</argsstring>
+        <name>RecyclerTouchListener</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>final RecyclerView</type>
+          <declname>recyclerView</declname>
+        </param>
+        <param>
+          <type>final ClickListener</type>
+          <declname>clickListener</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" line="386" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" bodystart="386" bodyend="403"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1_1_recycler_touch_listener_1a95719f61f1c236a8ee45e354d36a7bec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean antardhvani.du.ac.in.antardhvani.NavigationDrawerFragment.RecyclerTouchListener.onInterceptTouchEvent</definition>
+        <argsstring>(RecyclerView rv, MotionEvent e)</argsstring>
+        <name>onInterceptTouchEvent</name>
+        <param>
+          <type>RecyclerView</type>
+          <declname>rv</declname>
+        </param>
+        <param>
+          <type>MotionEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" line="405" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" bodystart="405" bodyend="414"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1_1_recycler_touch_listener_1ae99056027cba8383a09e40ef089f7194" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.antardhvani.NavigationDrawerFragment.RecyclerTouchListener.onTouchEvent</definition>
+        <argsstring>(RecyclerView rv, MotionEvent e)</argsstring>
+        <name>onTouchEvent</name>
+        <param>
+          <type>RecyclerView</type>
+          <declname>rv</declname>
+        </param>
+        <param>
+          <type>MotionEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" line="417" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" bodystart="417" bodyend="418"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="196">
+        <label>antardhvani.du.ac.in.antardhvani.NavigationDrawerFragment.RecyclerTouchListener</label>
+        <childnode refid="197" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="197">
+        <label>RecyclerView::OnItemTouchListener</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="198">
+        <label>antardhvani.du.ac.in.antardhvani.NavigationDrawerFragment.RecyclerTouchListener</label>
+        <childnode refid="199" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="199">
+        <label>RecyclerView::OnItemTouchListener</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" line="382" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/NavigationDrawerFragment.java" bodystart="382" bodyend="419"/>
+    <listofallmembers>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1_1_recycler_touch_listener_1a1774cdbce57ba167f17ee40005da792c" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::NavigationDrawerFragment::RecyclerTouchListener</scope><name>clickListener</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1_1_recycler_touch_listener_1afb4fbb8d7a9c014c262398fc81d0a7cf" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::NavigationDrawerFragment::RecyclerTouchListener</scope><name>gestureDetector</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1_1_recycler_touch_listener_1a95719f61f1c236a8ee45e354d36a7bec" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::NavigationDrawerFragment::RecyclerTouchListener</scope><name>onInterceptTouchEvent</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1_1_recycler_touch_listener_1ae99056027cba8383a09e40ef089f7194" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::NavigationDrawerFragment::RecyclerTouchListener</scope><name>onTouchEvent</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_navigation_drawer_fragment_1_1_recycler_touch_listener_1adf7fe087669411d9b76c1fdf8b67aa94" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::NavigationDrawerFragment::RecyclerTouchListener</scope><name>RecyclerTouchListener</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

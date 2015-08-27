@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="namespaceantardhvani_1_1du_1_1ac_1_1in_1_1_adapter" kind="namespace" language="Java">
+    <compoundname>antardhvani::du::ac::in::Adapter</compoundname>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_card_adapter" prot="public">antardhvani::du::ac::in::Adapter::CardAdapter</innerclass>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_child" prot="public">antardhvani::du::ac::in::Adapter::Child</innerclass>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_event__non__competitive__adapter" prot="public">antardhvani::du::ac::in::Adapter::Event_non_competitive_adapter</innerclass>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_group" prot="public">antardhvani::du::ac::in::Adapter::Group</innerclass>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_schedule__day__adapter" prot="public">antardhvani::du::ac::in::Adapter::Schedule_day_adapter</innerclass>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_schedule__pre__event__adapter" prot="public">antardhvani::du::ac::in::Adapter::Schedule_pre_event_adapter</innerclass>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_screen__slide__gyanodaya" prot="public">antardhvani::du::ac::in::Adapter::Screen_slide_gyanodaya</innerclass>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_screen_slide_page_fragment" prot="public">antardhvani::du::ac::in::Adapter::ScreenSlidePageFragment</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Adapter/CardAdapter.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

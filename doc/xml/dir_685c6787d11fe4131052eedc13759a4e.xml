@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_685c6787d11fe4131052eedc13759a4e" kind="dir">
+    <compoundname>app/src/main/java/antardhvani/du/ac/in/Map</compoundname>
+    <innerfile refid="_map_8java">Map.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Map/"/>
+  </compounddef>
+</doxygen>

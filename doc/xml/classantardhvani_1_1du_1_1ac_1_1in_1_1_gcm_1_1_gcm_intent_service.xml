@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classantardhvani_1_1du_1_1ac_1_1in_1_1_gcm_1_1_gcm_intent_service" kind="class" language="Java" prot="public">
+    <compoundname>antardhvani::du::ac::in::Gcm::GcmIntentService</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IntentService</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_gcm_1_1_gcm_intent_service_1a54b822c5877c73c1664befa0bd753272" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>antardhvani.du.ac.in.Gcm.GcmIntentService.GcmIntentService</definition>
+        <argsstring>()</argsstring>
+        <name>GcmIntentService</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gcm/GcmIntentService.java" line="31" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gcm/GcmIntentService.java" bodystart="31" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_gcm_1_1_gcm_intent_service_1aa69af210a49f9502a2601410dd61d79f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.Gcm.GcmIntentService.onHandleIntent</definition>
+        <argsstring>(Intent intent)</argsstring>
+        <name>onHandleIntent</name>
+        <param>
+          <type>Intent</type>
+          <declname>intent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gcm/GcmIntentService.java" line="36" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gcm/GcmIntentService.java" bodystart="36" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_gcm_1_1_gcm_intent_service_1a0838ea1c29038b5e73c1591851b43766" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.Gcm.GcmIntentService.showToast</definition>
+        <argsstring>(final String message)</argsstring>
+        <name>showToast</name>
+        <param>
+          <type>final String</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gcm/GcmIntentService.java" line="55" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gcm/GcmIntentService.java" bodystart="55" bodyend="108"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_gcm_1_1_gcm_intent_service_1afd5f84dfefe020fb5e4e256ab2174398" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void antardhvani.du.ac.in.Gcm.GcmIntentService.generateNotification</definition>
+        <argsstring>(Context context, String x2, String message)</argsstring>
+        <name>generateNotification</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>x2</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gcm/GcmIntentService.java" line="109" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gcm/GcmIntentService.java" bodystart="109" bodyend="134"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Created by lusifer on 16/2/15. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="86">
+        <label>antardhvani.du.ac.in.Gcm.GcmIntentService</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_gcm_1_1_gcm_intent_service"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="87">
+        <label>IntentService</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="88">
+        <label>antardhvani.du.ac.in.Gcm.GcmIntentService</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_gcm_1_1_gcm_intent_service"/>
+        <childnode refid="89" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="89">
+        <label>IntentService</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gcm/GcmIntentService.java" line="29" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gcm/GcmIntentService.java" bodystart="29" bodyend="136"/>
+    <listofallmembers>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_gcm_1_1_gcm_intent_service_1a54b822c5877c73c1664befa0bd753272" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Gcm::GcmIntentService</scope><name>GcmIntentService</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_gcm_1_1_gcm_intent_service_1afd5f84dfefe020fb5e4e256ab2174398" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Gcm::GcmIntentService</scope><name>generateNotification</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_gcm_1_1_gcm_intent_service_1aa69af210a49f9502a2601410dd61d79f" prot="protected" virt="non-virtual"><scope>antardhvani::du::ac::in::Gcm::GcmIntentService</scope><name>onHandleIntent</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_gcm_1_1_gcm_intent_service_1a0838ea1c29038b5e73c1591851b43766" prot="protected" virt="non-virtual"><scope>antardhvani::du::ac::in::Gcm::GcmIntentService</scope><name>showToast</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

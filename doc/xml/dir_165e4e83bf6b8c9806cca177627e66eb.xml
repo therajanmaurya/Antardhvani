@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_165e4e83bf6b8c9806cca177627e66eb" kind="dir">
+    <compoundname>app/src/main/java/antardhvani/du/ac/in/Rules</compoundname>
+    <innerfile refid="_rules__antardhvani_8java">Rules_antardhvani.java</innerfile>
+    <innerfile refid="_rules__competitive_8java">Rules_competitive.java</innerfile>
+    <innerfile refid="_rules__viewpager_8java">Rules_viewpager.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/"/>
+  </compounddef>
+</doxygen>

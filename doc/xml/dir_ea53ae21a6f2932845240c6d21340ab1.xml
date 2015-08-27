@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_ea53ae21a6f2932845240c6d21340ab1" kind="dir">
+    <compoundname>backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration</compoundname>
+    <innerdir refid="dir_4f991a159a782a3fc35439b7dc532495">backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/model</innerdir>
+    <innerfile refid="generated-source_2endpoints_2java_2com_2example_2lusifer_2myapplication_2backend_2registration_2_registration_8java">Registration.java</innerfile>
+    <innerfile refid="generated-source_2endpoints_2java_2com_2example_2lusifer_2myapplication_2backend_2registration_2_registration_request_8java">RegistrationRequest.java</innerfile>
+    <innerfile refid="generated-source_2endpoints_2java_2com_2example_2lusifer_2myapplication_2backend_2registration_2ef27d48c677d1d3b019bde74e22002aa">RegistrationRequestInitializer.java</innerfile>
+    <innerfile refid="generated-source_2endpoints_2java_2com_2example_2lusifer_2myapplication_2backend_2registration_2_registration_scopes_8java">RegistrationScopes.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_25f8777c0233a8fcb705e1c6e6ec98df" kind="dir">
+    <compoundname>app/src/main/java/antardhvani/du/ac/in</compoundname>
+    <innerdir refid="dir_9a3a3a80e5a9195fa145e7389c71a46e">app/src/main/java/antardhvani/du/ac/in/About</innerdir>
+    <innerdir refid="dir_35d1010a8052d6a63f8fe7c57e256673">app/src/main/java/antardhvani/du/ac/in/Adapter</innerdir>
+    <innerdir refid="dir_68af020bb5f783d1957c11cc2a997e1d">app/src/main/java/antardhvani/du/ac/in/antardhvani</innerdir>
+    <innerdir refid="dir_6c4a574c214d5c535bc76dea5e2be2ab">app/src/main/java/antardhvani/du/ac/in/Contact</innerdir>
+    <innerdir refid="dir_859b3d9ea668ce6933555ed2bfd3904e">app/src/main/java/antardhvani/du/ac/in/Database</innerdir>
+    <innerdir refid="dir_72488164086fe8837fa13a8bef52dea8">app/src/main/java/antardhvani/du/ac/in/Event</innerdir>
+    <innerdir refid="dir_de790a1c6d633395aafec1fdc981b70f">app/src/main/java/antardhvani/du/ac/in/FlowerShow</innerdir>
+    <innerdir refid="dir_14d003e701c41627ec086c54d7854a81">app/src/main/java/antardhvani/du/ac/in/Gcm</innerdir>
+    <innerdir refid="dir_9b64ddd1afb51d8a67889129f83ab093">app/src/main/java/antardhvani/du/ac/in/Gyanodaya</innerdir>
+    <innerdir refid="dir_3213c68b7ca54a741def90eb054372be">app/src/main/java/antardhvani/du/ac/in/Home</innerdir>
+    <innerdir refid="dir_685c6787d11fe4131052eedc13759a4e">app/src/main/java/antardhvani/du/ac/in/Map</innerdir>
+    <innerdir refid="dir_d282b83b4a5fd531897b2a184664c600">app/src/main/java/antardhvani/du/ac/in/Painting</innerdir>
+    <innerdir refid="dir_165e4e83bf6b8c9806cca177627e66eb">app/src/main/java/antardhvani/du/ac/in/Rules</innerdir>
+    <innerdir refid="dir_68443745434caa6e7839a3acd7ddc9b7">app/src/main/java/antardhvani/du/ac/in/Schedule</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/"/>
+  </compounddef>
+</doxygen>

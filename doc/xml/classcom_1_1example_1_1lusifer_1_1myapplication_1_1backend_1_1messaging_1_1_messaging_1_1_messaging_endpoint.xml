@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint" kind="class" language="Java" prot="public">
+    <compoundname>com::example::lusifer::myapplication::backend::messaging::Messaging::MessagingEndpoint</compoundname>
+    <innerclass refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message" prot="public">com::example::lusifer::myapplication::backend::messaging::Messaging::MessagingEndpoint::SendMessage</innerclass>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1ad2abc3d441f43d4fb784ab574ad40950" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message" kindref="compound">SendMessage</ref></type>
+        <definition>SendMessage com.example.lusifer.myapplication.backend.messaging.Messaging.MessagingEndpoint.sendMessage</definition>
+        <argsstring>(java.lang.String message)</argsstring>
+        <name>sendMessage</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>message</declname>
+        </param>
+        <exceptions> throws java.io.IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a request for the method &quot;messagingEndpoint.sendMessage&quot;.</para><para>This request holds the parameters needed by the messaging server. After setting any optional parameters, call the <ref refid="" kindref="compound">SendMessage#execute()</ref> method to invoke the remote operation.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the request </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="148" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="148" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1ad2abc3d441f43d4fb784ab574ad40950" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1_1_send_message" kindref="compound">SendMessage</ref></type>
+        <definition>SendMessage com.example.lusifer.myapplication.backend.messaging.Messaging.MessagingEndpoint.sendMessage</definition>
+        <argsstring>(java.lang.String message)</argsstring>
+        <name>sendMessage</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>message</declname>
+        </param>
+        <exceptions> throws java.io.IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a request for the method &quot;messagingEndpoint.sendMessage&quot;.</para><para>This request holds the parameters needed by the messaging server. After setting any optional parameters, call the <ref refid="" kindref="compound">SendMessage#execute()</ref> method to invoke the remote operation.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the request </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="148" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="148" bodyend="152"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The &quot;messagingEndpoint&quot; collection of methods. </para>    </detaileddescription>
+    <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" line="137" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/Messaging.java" bodystart="137" bodyend="231"/>
+    <listofallmembers>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1ad2abc3d441f43d4fb784ab574ad40950" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::MessagingEndpoint</scope><name>sendMessage</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_1_1_messaging_endpoint_1ad2abc3d441f43d4fb784ab574ad40950" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::Messaging::MessagingEndpoint</scope><name>sendMessage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

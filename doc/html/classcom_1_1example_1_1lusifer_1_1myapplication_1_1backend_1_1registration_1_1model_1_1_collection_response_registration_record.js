@@ -1,0 +1,15 @@
+var classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1model_1_1_collection_response_registration_record =
+[
+    [ "clone", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1model_1_1_collection_response_registration_record.html#a2f79626352ad44bd8e46cd1fe992deb9", null ],
+    [ "clone", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1model_1_1_collection_response_registration_record.html#a2f79626352ad44bd8e46cd1fe992deb9", null ],
+    [ "getItems", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1model_1_1_collection_response_registration_record.html#aa9e745b449a55d45f0dab2b977d0783c", null ],
+    [ "getItems", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1model_1_1_collection_response_registration_record.html#aa9e745b449a55d45f0dab2b977d0783c", null ],
+    [ "getNextPageToken", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1model_1_1_collection_response_registration_record.html#a52f3f21d9601283fa028ffd1b4c3b592", null ],
+    [ "getNextPageToken", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1model_1_1_collection_response_registration_record.html#a52f3f21d9601283fa028ffd1b4c3b592", null ],
+    [ "set", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1model_1_1_collection_response_registration_record.html#a150cef3372c8bace1574e6763437c49b", null ],
+    [ "set", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1model_1_1_collection_response_registration_record.html#a150cef3372c8bace1574e6763437c49b", null ],
+    [ "setItems", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1model_1_1_collection_response_registration_record.html#a0a4fcd38f6e7afb8b0a8954050e3dd2c", null ],
+    [ "setItems", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1model_1_1_collection_response_registration_record.html#a0a4fcd38f6e7afb8b0a8954050e3dd2c", null ],
+    [ "setNextPageToken", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1model_1_1_collection_response_registration_record.html#a69037dfd12cb70fe4993ec3bb7eb8d5e", null ],
+    [ "setNextPageToken", "classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1model_1_1_collection_response_registration_record.html#a69037dfd12cb70fe4993ec3bb7eb8d5e", null ]
+];

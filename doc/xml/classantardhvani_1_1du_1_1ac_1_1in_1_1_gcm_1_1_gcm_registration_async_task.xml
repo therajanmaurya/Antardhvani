@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classantardhvani_1_1du_1_1ac_1_1in_1_1_gcm_1_1_gcm_registration_async_task" kind="class" language="Java" prot="public">
+    <compoundname>antardhvani::du::ac::in::Gcm::GcmRegistrationAsyncTask</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">android::os::AsyncTask&lt; Void, Void, String &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_gcm_1_1_gcm_registration_async_task_1a75948fd5a1485c555b2ceb8be3fe54ed" prot="private" static="no" mutable="no">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration" kindref="compound">Registration</ref></type>
+        <definition>Registration antardhvani.du.ac.in.Gcm.GcmRegistrationAsyncTask.regService</definition>
+        <argsstring></argsstring>
+        <name>regService</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gcm/GcmRegistrationAsyncTask.java" line="21" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gcm/GcmRegistrationAsyncTask.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_gcm_1_1_gcm_registration_async_task_1aef5a85d4f82690e69a24c947ea6320dd" prot="private" static="no" mutable="no">
+        <type>GoogleCloudMessaging</type>
+        <definition>GoogleCloudMessaging antardhvani.du.ac.in.Gcm.GcmRegistrationAsyncTask.gcm</definition>
+        <argsstring></argsstring>
+        <name>gcm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gcm/GcmRegistrationAsyncTask.java" line="22" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gcm/GcmRegistrationAsyncTask.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_gcm_1_1_gcm_registration_async_task_1a0e381cc4e407329013157fff02838995" prot="private" static="no" mutable="no">
+        <type>Context</type>
+        <definition>Context antardhvani.du.ac.in.Gcm.GcmRegistrationAsyncTask.context</definition>
+        <argsstring></argsstring>
+        <name>context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gcm/GcmRegistrationAsyncTask.java" line="23" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gcm/GcmRegistrationAsyncTask.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_gcm_1_1_gcm_registration_async_task_1abdd569b3f05fe57550fa470f62f41715" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String antardhvani.du.ac.in.Gcm.GcmRegistrationAsyncTask.SENDER_ID</definition>
+        <argsstring></argsstring>
+        <name>SENDER_ID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gcm/GcmRegistrationAsyncTask.java" line="26" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gcm/GcmRegistrationAsyncTask.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_gcm_1_1_gcm_registration_async_task_1a7e1f7d9819e3d3d84726eb35bc853650" prot="public" static="yes" mutable="no">
+        <type>boolean</type>
+        <definition>boolean antardhvani.du.ac.in.Gcm.GcmRegistrationAsyncTask.status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gcm/GcmRegistrationAsyncTask.java" line="24" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gcm/GcmRegistrationAsyncTask.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_gcm_1_1_gcm_registration_async_task_1a06b35ddc560d85c16d68a99bb8600bc2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>antardhvani.du.ac.in.Gcm.GcmRegistrationAsyncTask.GcmRegistrationAsyncTask</definition>
+        <argsstring>(Context context)</argsstring>
+        <name>GcmRegistrationAsyncTask</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gcm/GcmRegistrationAsyncTask.java" line="28" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gcm/GcmRegistrationAsyncTask.java" bodystart="28" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_gcm_1_1_gcm_registration_async_task_1a7fda0832e3b1891bdefbc1880d1b9ee7" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String antardhvani.du.ac.in.Gcm.GcmRegistrationAsyncTask.doInBackground</definition>
+        <argsstring>(Void...params)</argsstring>
+        <name>doInBackground</name>
+        <param>
+          <type>Void...</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gcm/GcmRegistrationAsyncTask.java" line="34" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gcm/GcmRegistrationAsyncTask.java" bodystart="34" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_gcm_1_1_gcm_registration_async_task_1a7fef1c624f16c575a4e07890972913ba" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.Gcm.GcmRegistrationAsyncTask.onPostExecute</definition>
+        <argsstring>(String msg)</argsstring>
+        <name>onPostExecute</name>
+        <param>
+          <type>String</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gcm/GcmRegistrationAsyncTask.java" line="72" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gcm/GcmRegistrationAsyncTask.java" bodystart="72" bodyend="75"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Created by lusifer on 16/2/15. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="97">
+        <label>android::os::AsyncTask&lt; Void, Void, String &gt;</label>
+      </node>
+      <node id="96">
+        <label>antardhvani.du.ac.in.Gcm.GcmRegistrationAsyncTask</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_gcm_1_1_gcm_registration_async_task"/>
+        <childnode refid="97" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="99">
+        <label>android::os::AsyncTask&lt; Void, Void, String &gt;</label>
+      </node>
+      <node id="98">
+        <label>antardhvani.du.ac.in.Gcm.GcmRegistrationAsyncTask</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_gcm_1_1_gcm_registration_async_task"/>
+        <childnode refid="99" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gcm/GcmRegistrationAsyncTask.java" line="20" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gcm/GcmRegistrationAsyncTask.java" bodystart="20" bodyend="76"/>
+    <listofallmembers>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_gcm_1_1_gcm_registration_async_task_1a0e381cc4e407329013157fff02838995" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Gcm::GcmRegistrationAsyncTask</scope><name>context</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_gcm_1_1_gcm_registration_async_task_1a7fda0832e3b1891bdefbc1880d1b9ee7" prot="protected" virt="non-virtual"><scope>antardhvani::du::ac::in::Gcm::GcmRegistrationAsyncTask</scope><name>doInBackground</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_gcm_1_1_gcm_registration_async_task_1aef5a85d4f82690e69a24c947ea6320dd" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Gcm::GcmRegistrationAsyncTask</scope><name>gcm</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_gcm_1_1_gcm_registration_async_task_1a06b35ddc560d85c16d68a99bb8600bc2" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Gcm::GcmRegistrationAsyncTask</scope><name>GcmRegistrationAsyncTask</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_gcm_1_1_gcm_registration_async_task_1a7fef1c624f16c575a4e07890972913ba" prot="protected" virt="non-virtual"><scope>antardhvani::du::ac::in::Gcm::GcmRegistrationAsyncTask</scope><name>onPostExecute</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_gcm_1_1_gcm_registration_async_task_1a75948fd5a1485c555b2ceb8be3fe54ed" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Gcm::GcmRegistrationAsyncTask</scope><name>regService</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_gcm_1_1_gcm_registration_async_task_1abdd569b3f05fe57550fa470f62f41715" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Gcm::GcmRegistrationAsyncTask</scope><name>SENDER_ID</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_gcm_1_1_gcm_registration_async_task_1a7e1f7d9819e3d3d84726eb35bc853650" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Gcm::GcmRegistrationAsyncTask</scope><name>status</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,71 @@
+\hypertarget{classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_registration_endpoint}{}\section{com.\+example.\+lusifer.\+myapplication.\+backend.\+Registration\+Endpoint Class Reference}
+\label{classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_registration_endpoint}\index{com.\+example.\+lusifer.\+myapplication.\+backend.\+Registration\+Endpoint@{com.\+example.\+lusifer.\+myapplication.\+backend.\+Registration\+Endpoint}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_registration_endpoint_a82f4fa1f68e580bee5893ece486e2b53}{register\+Device} (@Named(\char`\"{}reg\+Id\char`\"{}) String reg\+Id)
+\item 
+void \hyperlink{classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_registration_endpoint_ab5076a535feedc7c197fc6dffeb595e8}{unregister\+Device} (@Named(\char`\"{}reg\+Id\char`\"{}) String reg\+Id)
+\item 
+Collection\+Response$<$ \hyperlink{classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_registration_record}{Registration\+Record} $>$ \hyperlink{classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_registration_endpoint_a54eda87a4f4c1cea9a4b5694033152b1}{list\+Devices} (@Named(\char`\"{}count\char`\"{}) int count)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A registration endpoint class we are exposing for a device\textquotesingle{}s \hyperlink{class_g_c_m}{G\+C\+M} registration id on the backend 
+
+For more information, see \href{https://developers.google.com/appengine/docs/java/endpoints/}{\tt https\+://developers.\+google.\+com/appengine/docs/java/endpoints/} 
+
+N\+O\+T\+E\+: This endpoint does not use any form of authorization or authentication! If this app is deployed, anyone can access this endpoint! If you\textquotesingle{}d like to add authentication, take a look at the documentation. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_registration_endpoint_a54eda87a4f4c1cea9a4b5694033152b1}{}\index{com\+::example\+::lusifer\+::myapplication\+::backend\+::\+Registration\+Endpoint@{com\+::example\+::lusifer\+::myapplication\+::backend\+::\+Registration\+Endpoint}!list\+Devices@{list\+Devices}}
+\index{list\+Devices@{list\+Devices}!com\+::example\+::lusifer\+::myapplication\+::backend\+::\+Registration\+Endpoint@{com\+::example\+::lusifer\+::myapplication\+::backend\+::\+Registration\+Endpoint}}
+\subsubsection[{list\+Devices}]{\setlength{\rightskip}{0pt plus 5cm}Collection\+Response$<${\bf Registration\+Record}$>$ com.\+example.\+lusifer.\+myapplication.\+backend.\+Registration\+Endpoint.\+list\+Devices (
+\begin{DoxyParamCaption}
+\item[{@Named(\char`\"{}count\char`\"{}) int}]{count}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_registration_endpoint_a54eda87a4f4c1cea9a4b5694033152b1}
+Return a collection of registered devices
+
+
+\begin{DoxyParams}{Parameters}
+{\em count} & The number of devices to list \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a list of Google Cloud Messaging registration Ids 
+\end{DoxyReturn}
+\hypertarget{classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_registration_endpoint_a82f4fa1f68e580bee5893ece486e2b53}{}\index{com\+::example\+::lusifer\+::myapplication\+::backend\+::\+Registration\+Endpoint@{com\+::example\+::lusifer\+::myapplication\+::backend\+::\+Registration\+Endpoint}!register\+Device@{register\+Device}}
+\index{register\+Device@{register\+Device}!com\+::example\+::lusifer\+::myapplication\+::backend\+::\+Registration\+Endpoint@{com\+::example\+::lusifer\+::myapplication\+::backend\+::\+Registration\+Endpoint}}
+\subsubsection[{register\+Device}]{\setlength{\rightskip}{0pt plus 5cm}void com.\+example.\+lusifer.\+myapplication.\+backend.\+Registration\+Endpoint.\+register\+Device (
+\begin{DoxyParamCaption}
+\item[{@Named(\char`\"{}reg\+Id\char`\"{}) String}]{reg\+Id}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_registration_endpoint_a82f4fa1f68e580bee5893ece486e2b53}
+Register a device to the backend
+
+
+\begin{DoxyParams}{Parameters}
+{\em reg\+Id} & The Google Cloud Messaging registration Id to add \\
+\hline
+\end{DoxyParams}
+\hypertarget{classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_registration_endpoint_ab5076a535feedc7c197fc6dffeb595e8}{}\index{com\+::example\+::lusifer\+::myapplication\+::backend\+::\+Registration\+Endpoint@{com\+::example\+::lusifer\+::myapplication\+::backend\+::\+Registration\+Endpoint}!unregister\+Device@{unregister\+Device}}
+\index{unregister\+Device@{unregister\+Device}!com\+::example\+::lusifer\+::myapplication\+::backend\+::\+Registration\+Endpoint@{com\+::example\+::lusifer\+::myapplication\+::backend\+::\+Registration\+Endpoint}}
+\subsubsection[{unregister\+Device}]{\setlength{\rightskip}{0pt plus 5cm}void com.\+example.\+lusifer.\+myapplication.\+backend.\+Registration\+Endpoint.\+unregister\+Device (
+\begin{DoxyParamCaption}
+\item[{@Named(\char`\"{}reg\+Id\char`\"{}) String}]{reg\+Id}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_registration_endpoint_ab5076a535feedc7c197fc6dffeb595e8}
+Unregister a device from the backend
+
+
+\begin{DoxyParams}{Parameters}
+{\em reg\+Id} & The Google Cloud Messaging registration Id to remove \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+backend/src/main/java/com/example/lusifer/myapplication/backend/Registration\+Endpoint.\+java\end{DoxyCompactItemize}

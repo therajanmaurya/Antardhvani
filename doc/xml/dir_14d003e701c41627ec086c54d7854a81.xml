@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_14d003e701c41627ec086c54d7854a81" kind="dir">
+    <compoundname>app/src/main/java/antardhvani/du/ac/in/Gcm</compoundname>
+    <innerfile refid="_gcm_broadcast_receiver_8java">GcmBroadcastReceiver.java</innerfile>
+    <innerfile refid="_gcm_intent_service_8java">GcmIntentService.java</innerfile>
+    <innerfile refid="_gcm_registration_async_task_8java">GcmRegistrationAsyncTask.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Gcm/"/>
+  </compounddef>
+</doxygen>

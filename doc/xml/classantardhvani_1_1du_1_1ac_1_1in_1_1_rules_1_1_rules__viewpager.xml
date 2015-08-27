@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__viewpager" kind="class" language="Java" prot="public">
+    <compoundname>antardhvani::du::ac::in::Rules::Rules_viewpager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ActionBarActivity</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">MaterialTabListener</basecompoundref>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__viewpager_1_1_view_pager_adapter" prot="package">antardhvani::du::ac::in::Rules::Rules_viewpager::ViewPagerAdapter</innerclass>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__viewpager_1aa8eafba15478f26e2ca5316003c21c10" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String antardhvani.du.ac.in.Rules.Rules_viewpager.TAG</definition>
+        <argsstring></argsstring>
+        <name>TAG</name>
+        <initializer>= &quot;VIVZ&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_viewpager.java" line="24" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_viewpager.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__viewpager_1a1a461026f3ab7b2b3451048061cf4b6a" prot="private" static="no" mutable="no">
+        <type>Toolbar</type>
+        <definition>Toolbar antardhvani.du.ac.in.Rules.Rules_viewpager.toolbar</definition>
+        <argsstring></argsstring>
+        <name>toolbar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_viewpager.java" line="26" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_viewpager.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__viewpager_1ac67f25677ffa85c594d825e5dcf6988a" prot="private" static="no" mutable="no">
+        <type>PagerTabStrip</type>
+        <definition>PagerTabStrip antardhvani.du.ac.in.Rules.Rules_viewpager.tabHost</definition>
+        <argsstring></argsstring>
+        <name>tabHost</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_viewpager.java" line="27" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_viewpager.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__viewpager_1a1a9104d9d6e71efa918d9e8734be3294" prot="private" static="no" mutable="no">
+        <type>ViewPager</type>
+        <definition>ViewPager antardhvani.du.ac.in.Rules.Rules_viewpager.viewPager</definition>
+        <argsstring></argsstring>
+        <name>viewPager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_viewpager.java" line="28" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_viewpager.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__viewpager_1ad299625d7f5baf2003346bc964b9fd5e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.Rules.Rules_viewpager.onCreate</definition>
+        <argsstring>(Bundle savedInstanceState)</argsstring>
+        <name>onCreate</name>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_viewpager.java" line="31" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_viewpager.java" bodystart="31" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__viewpager_1a09f338b54341174baa0f5c41472619a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean antardhvani.du.ac.in.Rules.Rules_viewpager.onOptionsItemSelected</definition>
+        <argsstring>(MenuItem item)</argsstring>
+        <name>onOptionsItemSelected</name>
+        <param>
+          <type>MenuItem</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_viewpager.java" line="49" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_viewpager.java" bodystart="49" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__viewpager_1ad8bbe8937d526d7f0e01aefbcc0472f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.Rules.Rules_viewpager.onTabSelected</definition>
+        <argsstring>(MaterialTab materialTab)</argsstring>
+        <name>onTabSelected</name>
+        <param>
+          <type>MaterialTab</type>
+          <declname>materialTab</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_viewpager.java" line="64" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_viewpager.java" bodystart="64" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__viewpager_1adf1e7481079215663e69307de4caa99d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.Rules.Rules_viewpager.onTabReselected</definition>
+        <argsstring>(MaterialTab materialTab)</argsstring>
+        <name>onTabReselected</name>
+        <param>
+          <type>MaterialTab</type>
+          <declname>materialTab</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_viewpager.java" line="69" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_viewpager.java" bodystart="69" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__viewpager_1a32f72a3fd78aaaaf97651450c0c06453" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.Rules.Rules_viewpager.onTabUnselected</definition>
+        <argsstring>(MaterialTab materialTab)</argsstring>
+        <name>onTabUnselected</name>
+        <param>
+          <type>MaterialTab</type>
+          <declname>materialTab</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_viewpager.java" line="74" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_viewpager.java" bodystart="74" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Created by rajanmaurya on 14/2/15. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="236">
+        <label>antardhvani.du.ac.in.Rules.Rules_viewpager</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__viewpager"/>
+        <childnode refid="237" relation="public-inheritance">
+        </childnode>
+        <childnode refid="238" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="237">
+        <label>ActionBarActivity</label>
+      </node>
+      <node id="238">
+        <label>MaterialTabListener</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="239">
+        <label>antardhvani.du.ac.in.Rules.Rules_viewpager</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__viewpager"/>
+        <childnode refid="240" relation="public-inheritance">
+        </childnode>
+        <childnode refid="241" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="240">
+        <label>ActionBarActivity</label>
+      </node>
+      <node id="241">
+        <label>MaterialTabListener</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_viewpager.java" line="22" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Rules/Rules_viewpager.java" bodystart="22" bodyend="128"/>
+    <listofallmembers>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__viewpager_1ad299625d7f5baf2003346bc964b9fd5e" prot="protected" virt="non-virtual"><scope>antardhvani::du::ac::in::Rules::Rules_viewpager</scope><name>onCreate</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__viewpager_1a09f338b54341174baa0f5c41472619a9" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Rules::Rules_viewpager</scope><name>onOptionsItemSelected</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__viewpager_1adf1e7481079215663e69307de4caa99d" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Rules::Rules_viewpager</scope><name>onTabReselected</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__viewpager_1ad8bbe8937d526d7f0e01aefbcc0472f1" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Rules::Rules_viewpager</scope><name>onTabSelected</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__viewpager_1a32f72a3fd78aaaaf97651450c0c06453" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Rules::Rules_viewpager</scope><name>onTabUnselected</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__viewpager_1ac67f25677ffa85c594d825e5dcf6988a" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Rules::Rules_viewpager</scope><name>tabHost</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__viewpager_1aa8eafba15478f26e2ca5316003c21c10" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Rules::Rules_viewpager</scope><name>TAG</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__viewpager_1a1a461026f3ab7b2b3451048061cf4b6a" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Rules::Rules_viewpager</scope><name>toolbar</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_rules_1_1_rules__viewpager_1a1a9104d9d6e71efa918d9e8734be3294" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Rules::Rules_viewpager</scope><name>viewPager</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

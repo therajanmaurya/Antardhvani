@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_view_pager_adapter" kind="class" language="Java" prot="package">
+    <compoundname>antardhvani::du::ac::in::Schedule::ViewPagerAdapter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">FragmentStatePagerAdapter</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_view_pager_adapter_1a8ba662d9532859e3e867e312a1af0ce9" prot="public" static="no" mutable="no">
+        <type>Context</type>
+        <definition>Context antardhvani.du.ac.in.Schedule.ViewPagerAdapter.context</definition>
+        <argsstring></argsstring>
+        <name>context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_viewpager.java" line="82" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_viewpager.java" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_view_pager_adapter_1a863af1022785768b933efb27fd597017" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>antardhvani.du.ac.in.Schedule.ViewPagerAdapter.ViewPagerAdapter</definition>
+        <argsstring>(FragmentManager fm)</argsstring>
+        <name>ViewPagerAdapter</name>
+        <param>
+          <type>FragmentManager</type>
+          <declname>fm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_viewpager.java" line="83" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_viewpager.java" bodystart="83" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_view_pager_adapter_1abe94f858f29af9d1dce1e3b3ca8aa8ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Fragment</type>
+        <definition>Fragment antardhvani.du.ac.in.Schedule.ViewPagerAdapter.getItem</definition>
+        <argsstring>(int num)</argsstring>
+        <name>getItem</name>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_viewpager.java" line="90" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_viewpager.java" bodystart="90" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_view_pager_adapter_1afeff1b349f4c62545ad775a4388dbcbf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int antardhvani.du.ac.in.Schedule.ViewPagerAdapter.getCount</definition>
+        <argsstring>()</argsstring>
+        <name>getCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_viewpager.java" line="98" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_viewpager.java" bodystart="98" bodyend="100"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="365">
+        <label>FragmentStatePagerAdapter</label>
+      </node>
+      <node id="364">
+        <label>antardhvani.du.ac.in.Schedule.ViewPagerAdapter</label>
+        <childnode refid="365" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="367">
+        <label>FragmentStatePagerAdapter</label>
+      </node>
+      <node id="368">
+        <label>Context</label>
+      </node>
+      <node id="366">
+        <label>antardhvani.du.ac.in.Schedule.ViewPagerAdapter</label>
+        <childnode refid="367" relation="public-inheritance">
+        </childnode>
+        <childnode refid="368" relation="usage">
+          <edgelabel>context</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_viewpager.java" line="78" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Schedule/Schedule_viewpager.java" bodystart="78" bodyend="102"/>
+    <listofallmembers>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_view_pager_adapter_1a8ba662d9532859e3e867e312a1af0ce9" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Schedule::ViewPagerAdapter</scope><name>context</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_view_pager_adapter_1afeff1b349f4c62545ad775a4388dbcbf" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Schedule::ViewPagerAdapter</scope><name>getCount</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_view_pager_adapter_1abe94f858f29af9d1dce1e3b3ca8aa8ba" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Schedule::ViewPagerAdapter</scope><name>getItem</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_schedule_1_1_view_pager_adapter_1a863af1022785768b933efb27fd597017" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Schedule::ViewPagerAdapter</scope><name>ViewPagerAdapter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

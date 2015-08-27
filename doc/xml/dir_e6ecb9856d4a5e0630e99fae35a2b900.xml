@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_e6ecb9856d4a5e0630e99fae35a2b900" kind="dir">
+    <compoundname>backend/build</compoundname>
+    <innerdir refid="dir_31db99e3b1220e400b8d8cd6d1dcaf8a">backend/build/generated-source</innerdir>
+    <innerdir refid="dir_97f6d886d822231e4277ff4461a7e1a5">backend/build/tmp</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Git/Antardhvani/backend/build/"/>
+  </compounddef>
+</doxygen>

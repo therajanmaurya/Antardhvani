@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_g_c_m_notification" kind="class" language="Java" prot="public">
+    <compoundname>antardhvani::du::ac::in::antardhvani::GCMNotification</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ActionBarActivity</basecompoundref>
+    <innerclass refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_g_c_m_notification_1_1_read_from_data" prot="private">antardhvani::du::ac::in::antardhvani::GCMNotification::ReadFromData</innerclass>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_g_c_m_notification_1afc330bea24c6c95308ea42dc9de1a4af" prot="package" static="no" mutable="no">
+        <type>ArrayList&lt; String &gt;</type>
+        <definition>ArrayList&lt;String&gt; antardhvani.du.ac.in.antardhvani.GCMNotification.nonCom</definition>
+        <argsstring></argsstring>
+        <name>nonCom</name>
+        <initializer>=new ArrayList&lt;String&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/GCMNotification.java" line="22" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/GCMNotification.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_g_c_m_notification_1a0dd73407acff5b95c6d1babf56d6404f" prot="package" static="no" mutable="no">
+        <type>ArrayList&lt; String &gt;</type>
+        <definition>ArrayList&lt;String&gt; antardhvani.du.ac.in.antardhvani.GCMNotification.nonCom1</definition>
+        <argsstring></argsstring>
+        <name>nonCom1</name>
+        <initializer>=new ArrayList&lt;String&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/GCMNotification.java" line="23" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/GCMNotification.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_g_c_m_notification_1a5c9e931f7657f452f1290ad970506c24" prot="package" static="no" mutable="no">
+        <type>Toolbar</type>
+        <definition>Toolbar antardhvani.du.ac.in.antardhvani.GCMNotification.toolbar</definition>
+        <argsstring></argsstring>
+        <name>toolbar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/GCMNotification.java" line="30" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/GCMNotification.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_g_c_m_notification_1a52341654bf3d24ac8c5f403ef408061b" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String antardhvani.du.ac.in.antardhvani.GCMNotification.TAG</definition>
+        <argsstring></argsstring>
+        <name>TAG</name>
+        <initializer>= &quot;NotificationActivity&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/GCMNotification.java" line="25" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/GCMNotification.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_g_c_m_notification_1af6e66dd2483ceebe6a1f46f2a2854880" prot="private" static="no" mutable="no">
+        <type>RecyclerView</type>
+        <definition>RecyclerView antardhvani.du.ac.in.antardhvani.GCMNotification.mRecyclerView</definition>
+        <argsstring></argsstring>
+        <name>mRecyclerView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/GCMNotification.java" line="27" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/GCMNotification.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_g_c_m_notification_1a1cd2173caa57ce305fe8f06a25542c2d" prot="private" static="no" mutable="no">
+        <type><ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_adapter_1_1_card_adapter" kindref="compound">CardAdapter</ref></type>
+        <definition>CardAdapter antardhvani.du.ac.in.antardhvani.GCMNotification.mAdapter</definition>
+        <argsstring></argsstring>
+        <name>mAdapter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/GCMNotification.java" line="28" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/GCMNotification.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_g_c_m_notification_1a0b155099ec0bc695cdb5ec103f4bbbcc" prot="private" static="no" mutable="no">
+        <type>LinearLayoutManager</type>
+        <definition>LinearLayoutManager antardhvani.du.ac.in.antardhvani.GCMNotification.mLayoutManager</definition>
+        <argsstring></argsstring>
+        <name>mLayoutManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/GCMNotification.java" line="29" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/GCMNotification.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_g_c_m_notification_1a9d8e914359259a00051097f7063ca1fd" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.antardhvani.GCMNotification.onCreate</definition>
+        <argsstring>(Bundle savedInstanceState)</argsstring>
+        <name>onCreate</name>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/GCMNotification.java" line="32" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/GCMNotification.java" bodystart="32" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="90">
+        <label>antardhvani.du.ac.in.antardhvani.GCMNotification</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_g_c_m_notification"/>
+        <childnode refid="91" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="91">
+        <label>ActionBarActivity</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="92">
+        <label>antardhvani.du.ac.in.antardhvani.GCMNotification</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_g_c_m_notification"/>
+        <childnode refid="93" relation="public-inheritance">
+        </childnode>
+        <childnode refid="94" relation="usage">
+          <edgelabel>toolbar</edgelabel>
+        </childnode>
+        <childnode refid="95" relation="usage">
+          <edgelabel>nonCom</edgelabel>
+          <edgelabel>nonCom1</edgelabel>
+        </childnode>
+      </node>
+      <node id="93">
+        <label>ActionBarActivity</label>
+      </node>
+      <node id="94">
+        <label>Toolbar</label>
+      </node>
+      <node id="95">
+        <label>ArrayList&lt; String &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/GCMNotification.java" line="21" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/antardhvani/GCMNotification.java" bodystart="21" bodyend="110"/>
+    <listofallmembers>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_g_c_m_notification_1a1cd2173caa57ce305fe8f06a25542c2d" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::GCMNotification</scope><name>mAdapter</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_g_c_m_notification_1a0b155099ec0bc695cdb5ec103f4bbbcc" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::GCMNotification</scope><name>mLayoutManager</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_g_c_m_notification_1af6e66dd2483ceebe6a1f46f2a2854880" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::GCMNotification</scope><name>mRecyclerView</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_g_c_m_notification_1afc330bea24c6c95308ea42dc9de1a4af" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::GCMNotification</scope><name>nonCom</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_g_c_m_notification_1a0dd73407acff5b95c6d1babf56d6404f" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::GCMNotification</scope><name>nonCom1</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_g_c_m_notification_1a9d8e914359259a00051097f7063ca1fd" prot="protected" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::GCMNotification</scope><name>onCreate</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_g_c_m_notification_1a52341654bf3d24ac8c5f403ef408061b" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::GCMNotification</scope><name>TAG</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1antardhvani_1_1_g_c_m_notification_1a5c9e931f7657f452f1290ad970506c24" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::antardhvani::GCMNotification</scope><name>toolbar</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

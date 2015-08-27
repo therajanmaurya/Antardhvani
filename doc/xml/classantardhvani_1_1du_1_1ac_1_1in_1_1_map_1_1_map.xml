@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classantardhvani_1_1du_1_1ac_1_1in_1_1_map_1_1_map" kind="class" language="Java" prot="public">
+    <compoundname>antardhvani::du::ac::in::Map::Map</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Fragment</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">LocationListener</basecompoundref>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_map_1_1_map_1a2d30199fa08e13602a6bdbbfc11dfd8d" prot="package" static="no" mutable="no">
+        <type>MapView</type>
+        <definition>MapView antardhvani.du.ac.in.Map.Map.mapView</definition>
+        <argsstring></argsstring>
+        <name>mapView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Map/Map.java" line="30" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Map/Map.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_map_1_1_map_1a0f03ff6d4ca17b574735439800833709" prot="package" static="no" mutable="no">
+        <type>GoogleMap</type>
+        <definition>GoogleMap antardhvani.du.ac.in.Map.Map.googleMap</definition>
+        <argsstring></argsstring>
+        <name>googleMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Map/Map.java" line="32" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Map/Map.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_map_1_1_map_1aec9e39bf6218cd175be86b8f18e32abb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_map_1_1_map" kindref="compound">Map</ref></type>
+        <definition>static Map antardhvani.du.ac.in.Map.Map.getInstance</definition>
+        <argsstring>(int position)</argsstring>
+        <name>getInstance</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Map/Map.java" line="34" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Map/Map.java" bodystart="34" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_map_1_1_map_1a07f4ed8eabb305d04d49104d18efc9c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>View</type>
+        <definition>View antardhvani.du.ac.in.Map.Map.onCreateView</definition>
+        <argsstring>(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)</argsstring>
+        <name>onCreateView</name>
+        <param>
+          <type>LayoutInflater</type>
+          <declname>inflater</declname>
+        </param>
+        <param>
+          <type>ViewGroup</type>
+          <declname>container</declname>
+        </param>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Map/Map.java" line="43" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Map/Map.java" bodystart="43" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_map_1_1_map_1aeaec445deabfba77cdaf79cb7c21092d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.Map.Map.onResume</definition>
+        <argsstring>()</argsstring>
+        <name>onResume</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Map/Map.java" line="71" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Map/Map.java" bodystart="71" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_map_1_1_map_1a06f5976d3e6e78b48ad4144573add047" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.Map.Map.onDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>onDestroy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Map/Map.java" line="78" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Map/Map.java" bodystart="78" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_map_1_1_map_1a19a980b4de355ee0bb386707f79b9b23" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.Map.Map.onLowMemory</definition>
+        <argsstring>()</argsstring>
+        <name>onLowMemory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Map/Map.java" line="85" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Map/Map.java" bodystart="85" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_map_1_1_map_1aeaf349e81080c5386ddc3114619365a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void antardhvani.du.ac.in.Map.Map.onLocationChanged</definition>
+        <argsstring>(Location location)</argsstring>
+        <name>onLocationChanged</name>
+        <param>
+          <type>Location</type>
+          <declname>location</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Map/Map.java" line="94" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Map/Map.java" bodystart="94" bodyend="104"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classantardhvani_1_1du_1_1ac_1_1in_1_1_map_1_1_map_1a25cb5e1af9ec1a02f0bf204fb823cbb2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean antardhvani.du.ac.in.Map.Map.isGooglePlayServicesAvailable</definition>
+        <argsstring>()</argsstring>
+        <name>isGooglePlayServicesAvailable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Map/Map.java" line="106" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Map/Map.java" bodystart="106" bodyend="114"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Created by rajanmaurya on 10/2/15. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="130">
+        <label>antardhvani.du.ac.in.Map.Map</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_map_1_1_map"/>
+        <childnode refid="131" relation="public-inheritance">
+        </childnode>
+        <childnode refid="132" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="132">
+        <label>LocationListener</label>
+      </node>
+      <node id="131">
+        <label>Fragment</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="136">
+        <label>GoogleMap</label>
+      </node>
+      <node id="133">
+        <label>antardhvani.du.ac.in.Map.Map</label>
+        <link refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_map_1_1_map"/>
+        <childnode refid="134" relation="public-inheritance">
+        </childnode>
+        <childnode refid="135" relation="public-inheritance">
+        </childnode>
+        <childnode refid="136" relation="usage">
+          <edgelabel>googleMap</edgelabel>
+        </childnode>
+        <childnode refid="137" relation="usage">
+          <edgelabel>mapView</edgelabel>
+        </childnode>
+      </node>
+      <node id="135">
+        <label>LocationListener</label>
+      </node>
+      <node id="134">
+        <label>Fragment</label>
+      </node>
+      <node id="137">
+        <label>MapView</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Map/Map.java" line="28" column="1" bodyfile="E:/Git/Antardhvani/app/src/main/java/antardhvani/du/ac/in/Map/Map.java" bodystart="28" bodyend="115"/>
+    <listofallmembers>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_map_1_1_map_1aec9e39bf6218cd175be86b8f18e32abb" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Map::Map</scope><name>getInstance</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_map_1_1_map_1a0f03ff6d4ca17b574735439800833709" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::Map::Map</scope><name>googleMap</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_map_1_1_map_1a25cb5e1af9ec1a02f0bf204fb823cbb2" prot="private" virt="non-virtual"><scope>antardhvani::du::ac::in::Map::Map</scope><name>isGooglePlayServicesAvailable</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_map_1_1_map_1a2d30199fa08e13602a6bdbbfc11dfd8d" prot="package" virt="non-virtual"><scope>antardhvani::du::ac::in::Map::Map</scope><name>mapView</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_map_1_1_map_1a07f4ed8eabb305d04d49104d18efc9c1" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Map::Map</scope><name>onCreateView</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_map_1_1_map_1a06f5976d3e6e78b48ad4144573add047" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Map::Map</scope><name>onDestroy</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_map_1_1_map_1aeaf349e81080c5386ddc3114619365a5" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Map::Map</scope><name>onLocationChanged</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_map_1_1_map_1a19a980b4de355ee0bb386707f79b9b23" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Map::Map</scope><name>onLowMemory</name></member>
+      <member refid="classantardhvani_1_1du_1_1ac_1_1in_1_1_map_1_1_map_1aeaec445deabfba77cdaf79cb7c21092d" prot="public" virt="non-virtual"><scope>antardhvani::du::ac::in::Map::Map</scope><name>onResume</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

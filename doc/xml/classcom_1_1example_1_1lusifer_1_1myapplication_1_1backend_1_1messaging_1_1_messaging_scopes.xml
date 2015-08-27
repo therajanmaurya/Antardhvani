@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_scopes" kind="class" language="Java" prot="public">
+    <compoundname>com::example::lusifer::myapplication::backend::messaging::MessagingScopes</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_scopes_1a2356e72a6d956bb15f7c6317c83e536a" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>static final String com.example.lusifer.myapplication.backend.messaging.MessagingScopes::USERINFO_EMAIL</definition>
+        <argsstring></argsstring>
+        <name>USERINFO_EMAIL</name>
+        <initializer>= &quot;https://www.googleapis.com/auth/userinfo.email&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>View your email address. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/MessagingScopes.java" line="29" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/MessagingScopes.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_scopes_1a7414200f95cf8893670c50a6bf587ef2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>java.util.Set&lt; String &gt;</type>
+        <definition>static java.util.Set&lt;String&gt; com.example.lusifer.myapplication.backend.messaging.MessagingScopes.all</definition>
+        <argsstring>()</argsstring>
+        <name>all</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns an unmodifiable set that contains all scopes declared by this class.</para><para><simplesect kind="since"><para>1.16 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/MessagingScopes.java" line="36" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/MessagingScopes.java" bodystart="36" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_scopes_1a7414200f95cf8893670c50a6bf587ef2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>java.util.Set&lt; String &gt;</type>
+        <definition>static java.util.Set&lt;String&gt; com.example.lusifer.myapplication.backend.messaging.MessagingScopes.all</definition>
+        <argsstring>()</argsstring>
+        <name>all</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns an unmodifiable set that contains all scopes declared by this class.</para><para><simplesect kind="since"><para>1.16 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/MessagingScopes.java" line="36" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/MessagingScopes.java" bodystart="36" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_scopes_1a2090e589b6fa7e0772f85f0021685f6b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.example.lusifer.myapplication.backend.messaging.MessagingScopes.MessagingScopes</definition>
+        <argsstring>()</argsstring>
+        <name>MessagingScopes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/MessagingScopes.java" line="42" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/MessagingScopes.java" bodystart="42" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_scopes_1a2090e589b6fa7e0772f85f0021685f6b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.example.lusifer.myapplication.backend.messaging.MessagingScopes.MessagingScopes</definition>
+        <argsstring>()</argsstring>
+        <name>MessagingScopes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/MessagingScopes.java" line="42" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/messaging-v1-java.zip-unzipped/messaging/src/main/java/com/example/lusifer/myapplication/backend/messaging/MessagingScopes.java" bodystart="42" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Available OAuth 2.0 scopes for use with the messaging.</para><para><simplesect kind="since"><para>1.4 </para></simplesect>
+</para>    </detaileddescription>
+    <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/MessagingScopes.java" line="26" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/messaging/MessagingScopes.java" bodystart="26" bodyend="44"/>
+    <listofallmembers>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_scopes_1a7414200f95cf8893670c50a6bf587ef2" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::MessagingScopes</scope><name>all</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_scopes_1a7414200f95cf8893670c50a6bf587ef2" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::MessagingScopes</scope><name>all</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_scopes_1a2090e589b6fa7e0772f85f0021685f6b" prot="private" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::MessagingScopes</scope><name>MessagingScopes</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_scopes_1a2090e589b6fa7e0772f85f0021685f6b" prot="private" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::MessagingScopes</scope><name>MessagingScopes</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1messaging_1_1_messaging_scopes_1a2356e72a6d956bb15f7c6317c83e536a" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::messaging::MessagingScopes</scope><name>USERINFO_EMAIL</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_registration_endpoint" kind="class" language="Java" prot="public">
+    <compoundname>com::example::lusifer::myapplication::backend::RegistrationEndpoint</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_registration_endpoint_1a3f0e179e2b8b8fcddbb7d09673e14384" prot="private" static="yes" mutable="no">
+        <type>final Logger</type>
+        <definition>final Logger com.example.lusifer.myapplication.backend.RegistrationEndpoint.log</definition>
+        <argsstring></argsstring>
+        <name>log</name>
+        <initializer>= Logger.getLogger(RegistrationEndpoint.class.getName())</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/src/main/java/com/example/lusifer/myapplication/backend/RegistrationEndpoint.java" line="34" column="1" bodyfile="E:/Git/Antardhvani/backend/src/main/java/com/example/lusifer/myapplication/backend/RegistrationEndpoint.java" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_registration_endpoint_1a82f4fa1f68e580bee5893ece486e2b53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.example.lusifer.myapplication.backend.RegistrationEndpoint.registerDevice</definition>
+        <argsstring>(@Named(&quot;regId&quot;) String regId)</argsstring>
+        <name>registerDevice</name>
+        <param>
+          <type>@Named(&quot;regId&quot;) String</type>
+          <declname>regId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Register a device to the backend</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>regId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The Google Cloud Messaging registration Id to add </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/src/main/java/com/example/lusifer/myapplication/backend/RegistrationEndpoint.java" line="42" column="1" bodyfile="E:/Git/Antardhvani/backend/src/main/java/com/example/lusifer/myapplication/backend/RegistrationEndpoint.java" bodystart="42" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_registration_endpoint_1ab5076a535feedc7c197fc6dffeb595e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.example.lusifer.myapplication.backend.RegistrationEndpoint.unregisterDevice</definition>
+        <argsstring>(@Named(&quot;regId&quot;) String regId)</argsstring>
+        <name>unregisterDevice</name>
+        <param>
+          <type>@Named(&quot;regId&quot;) String</type>
+          <declname>regId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Unregister a device from the backend</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>regId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The Google Cloud Messaging registration Id to remove </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/src/main/java/com/example/lusifer/myapplication/backend/RegistrationEndpoint.java" line="58" column="1" bodyfile="E:/Git/Antardhvani/backend/src/main/java/com/example/lusifer/myapplication/backend/RegistrationEndpoint.java" bodystart="58" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_registration_endpoint_1a54eda87a4f4c1cea9a4b5694033152b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>CollectionResponse&lt; <ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_registration_record" kindref="compound">RegistrationRecord</ref> &gt;</type>
+        <definition>CollectionResponse&lt;RegistrationRecord&gt; com.example.lusifer.myapplication.backend.RegistrationEndpoint.listDevices</definition>
+        <argsstring>(@Named(&quot;count&quot;) int count)</argsstring>
+        <name>listDevices</name>
+        <param>
+          <type>@Named(&quot;count&quot;) int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return a collection of registered devices</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of devices to list </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a list of Google Cloud Messaging registration Ids </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/src/main/java/com/example/lusifer/myapplication/backend/RegistrationEndpoint.java" line="74" column="1" bodyfile="E:/Git/Antardhvani/backend/src/main/java/com/example/lusifer/myapplication/backend/RegistrationEndpoint.java" bodystart="74" bodyend="77"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_registration_endpoint_1a79ecb42b1e5d6adadc44a260a5ac2b0b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_registration_record" kindref="compound">RegistrationRecord</ref></type>
+        <definition>RegistrationRecord com.example.lusifer.myapplication.backend.RegistrationEndpoint.findRecord</definition>
+        <argsstring>(String regId)</argsstring>
+        <name>findRecord</name>
+        <param>
+          <type>String</type>
+          <declname>regId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/src/main/java/com/example/lusifer/myapplication/backend/RegistrationEndpoint.java" line="79" column="1" bodyfile="E:/Git/Antardhvani/backend/src/main/java/com/example/lusifer/myapplication/backend/RegistrationEndpoint.java" bodystart="79" bodyend="81"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A registration endpoint class we are exposing for a device&apos;s <ref refid="class_g_c_m" kindref="compound">GCM</ref> registration id on the backend </para><para>For more information, see <ulink url="https://developers.google.com/appengine/docs/java/endpoints/">https://developers.google.com/appengine/docs/java/endpoints/</ulink> </para><para>NOTE: This endpoint does not use any form of authorization or authentication! If this app is deployed, anyone can access this endpoint! If you&apos;d like to add authentication, take a look at the documentation. </para>    </detaileddescription>
+    <location file="E:/Git/Antardhvani/backend/src/main/java/com/example/lusifer/myapplication/backend/RegistrationEndpoint.java" line="32" column="1" bodyfile="E:/Git/Antardhvani/backend/src/main/java/com/example/lusifer/myapplication/backend/RegistrationEndpoint.java" bodystart="32" bodyend="83"/>
+    <listofallmembers>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_registration_endpoint_1a79ecb42b1e5d6adadc44a260a5ac2b0b" prot="private" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::RegistrationEndpoint</scope><name>findRecord</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_registration_endpoint_1a54eda87a4f4c1cea9a4b5694033152b1" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::RegistrationEndpoint</scope><name>listDevices</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_registration_endpoint_1a3f0e179e2b8b8fcddbb7d09673e14384" prot="private" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::RegistrationEndpoint</scope><name>log</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_registration_endpoint_1a82f4fa1f68e580bee5893ece486e2b53" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::RegistrationEndpoint</scope><name>registerDevice</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1_registration_endpoint_1ab5076a535feedc7c197fc6dffeb595e8" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::RegistrationEndpoint</scope><name>unregisterDevice</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

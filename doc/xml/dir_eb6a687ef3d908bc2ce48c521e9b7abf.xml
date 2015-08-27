@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_eb6a687ef3d908bc2ce48c521e9b7abf" kind="dir">
+    <compoundname>backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration</compoundname>
+    <innerdir refid="dir_69de7fff3deaa3254c3d4821952812de">backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/model</innerdir>
+    <innerfile refid="tmp_2appengine_endpoints_expand_client_libs_2registration-v1-java_8zip-unzipped_2registration_2sa349ac443c0647857b0fadb24d7486a3">Registration.java</innerfile>
+    <innerfile refid="tmp_2appengine_endpoints_expand_client_libs_2registration-v1-java_8zip-unzipped_2registration_2s9905e5eb1f2ef49be8a7726d687682b0">RegistrationRequest.java</innerfile>
+    <innerfile refid="tmp_2appengine_endpoints_expand_client_libs_2registration-v1-java_8zip-unzipped_2registration_2sdaa59911851d17f012ce0c759efec649">RegistrationRequestInitializer.java</innerfile>
+    <innerfile refid="tmp_2appengine_endpoints_expand_client_libs_2registration-v1-java_8zip-unzipped_2registration_2sd7aa70d757db6db2297a082b0e40d71b">RegistrationScopes.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/"/>
+  </compounddef>
+</doxygen>

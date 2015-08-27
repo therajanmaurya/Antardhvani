@@ -1,0 +1,494 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister" kind="class" language="Java" prot="public">
+    <compoundname>com::example::lusifer::myapplication::backend::registration::Registration::Unregister</compoundname>
+    <basecompoundref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request" prot="public" virt="non-virtual">com.example.lusifer.myapplication.backend.registration.RegistrationRequest&lt; Void &gt;</basecompoundref>
+    <basecompoundref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request" prot="public" virt="non-virtual">com.example.lusifer.myapplication.backend.registration.RegistrationRequest&lt; Void &gt;</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1a4d69d3eda0bc93f92852758ca625533e" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>static final String com.example.lusifer.myapplication.backend.registration.Registration.Unregister::REST_PATH</definition>
+        <argsstring></argsstring>
+        <name>REST_PATH</name>
+        <initializer>= &quot;unregisterDevice/{regId}&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="330" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="330" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1a0271d382174cd4887b937a67f25506c5" prot="private" static="no" mutable="no">
+        <type>.google.api.client.util.Key java.lang.String</type>
+        <definition>google api client util Key java lang String com.example.lusifer.myapplication.backend.registration.Registration.Unregister::regId</definition>
+        <argsstring></argsstring>
+        <name>regId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="385" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="385" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1a85704a6f14dc296e80aa917c374b896c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.example.lusifer.myapplication.backend.registration.Registration.Unregister.Unregister</definition>
+        <argsstring>(java.lang.String regId)</argsstring>
+        <name>Unregister</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>regId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a request for the method &quot;unregister&quot;.</para><para>This request holds the parameters needed by the the registration server. After setting any optional parameters, call the <ref refid="" kindref="compound">Unregister#execute()</ref> method to invoke the remote operation. </para><para><ref refid="" kindref="compound">Unregister#initialize(com.google.api.client.googleapis.services.AbstractGoogleClientRequest)</ref> must be called to initialize this instance immediately after invoking the constructor. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>regId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="since"><para>1.13 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="344" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="344" bodyend="347"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1a85704a6f14dc296e80aa917c374b896c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.example.lusifer.myapplication.backend.registration.Registration.Unregister.Unregister</definition>
+        <argsstring>(java.lang.String regId)</argsstring>
+        <name>Unregister</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>regId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a request for the method &quot;unregister&quot;.</para><para>This request holds the parameters needed by the the registration server. After setting any optional parameters, call the <ref refid="" kindref="compound">Unregister#execute()</ref> method to invoke the remote operation. </para><para><ref refid="" kindref="compound">Unregister#initialize(com.google.api.client.googleapis.services.AbstractGoogleClientRequest)</ref> must be called to initialize this instance immediately after invoking the constructor. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>regId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="since"><para>1.13 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="344" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="344" bodyend="347"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1ae759e061916ccf4b2d2534b23934e7c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister" kindref="compound">Unregister</ref></type>
+        <definition>Unregister com.example.lusifer.myapplication.backend.registration.Registration.Unregister.setAlt</definition>
+        <argsstring>(java.lang.String alt)</argsstring>
+        <name>setAlt</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>alt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="350" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="350" bodyend="352"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1aa346f56c26ec21eb7f4c9308df3e631b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister" kindref="compound">Unregister</ref></type>
+        <definition>Unregister com.example.lusifer.myapplication.backend.registration.Registration.Unregister.setFields</definition>
+        <argsstring>(java.lang.String fields)</argsstring>
+        <name>setFields</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>fields</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="355" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="355" bodyend="357"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1aa3ccb917634b47b0f231ad00bf2eb8ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister" kindref="compound">Unregister</ref></type>
+        <definition>Unregister com.example.lusifer.myapplication.backend.registration.Registration.Unregister.setKey</definition>
+        <argsstring>(java.lang.String key)</argsstring>
+        <name>setKey</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="360" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="360" bodyend="362"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1a01afe8c3ea852a203d20629ed1e52845" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister" kindref="compound">Unregister</ref></type>
+        <definition>Unregister com.example.lusifer.myapplication.backend.registration.Registration.Unregister.setOauthToken</definition>
+        <argsstring>(java.lang.String oauthToken)</argsstring>
+        <name>setOauthToken</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>oauthToken</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="365" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="365" bodyend="367"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1ae41d7caa36ec3b9b205ea630c229cb91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister" kindref="compound">Unregister</ref></type>
+        <definition>Unregister com.example.lusifer.myapplication.backend.registration.Registration.Unregister.setPrettyPrint</definition>
+        <argsstring>(java.lang.Boolean prettyPrint)</argsstring>
+        <name>setPrettyPrint</name>
+        <param>
+          <type>java.lang.Boolean</type>
+          <declname>prettyPrint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="370" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="370" bodyend="372"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1acb97e1879018b393b6d696e80af21d8e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister" kindref="compound">Unregister</ref></type>
+        <definition>Unregister com.example.lusifer.myapplication.backend.registration.Registration.Unregister.setQuotaUser</definition>
+        <argsstring>(java.lang.String quotaUser)</argsstring>
+        <name>setQuotaUser</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>quotaUser</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="375" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="375" bodyend="377"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1a0427d93990d322def60641c202e96bef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister" kindref="compound">Unregister</ref></type>
+        <definition>Unregister com.example.lusifer.myapplication.backend.registration.Registration.Unregister.setUserIp</definition>
+        <argsstring>(java.lang.String userIp)</argsstring>
+        <name>setUserIp</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>userIp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="380" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="380" bodyend="382"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1a8d8d4962fcacc998e419dd990afdc666" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>java.lang.String</type>
+        <definition>java.lang.String com.example.lusifer.myapplication.backend.registration.Registration.Unregister.getRegId</definition>
+        <argsstring>()</argsstring>
+        <name>getRegId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="390" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="390" bodyend="392"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1a62363aac6f6fefa80cc375d1ace5d56f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister" kindref="compound">Unregister</ref></type>
+        <definition>Unregister com.example.lusifer.myapplication.backend.registration.Registration.Unregister.setRegId</definition>
+        <argsstring>(java.lang.String regId)</argsstring>
+        <name>setRegId</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>regId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="394" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="394" bodyend="397"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1a045b0fb74f90d5534d7ceb7f1aaa2925" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister" kindref="compound">Unregister</ref></type>
+        <definition>Unregister com.example.lusifer.myapplication.backend.registration.Registration.Unregister.set</definition>
+        <argsstring>(String parameterName, Object value)</argsstring>
+        <name>set</name>
+        <param>
+          <type>String</type>
+          <declname>parameterName</declname>
+        </param>
+        <param>
+          <type>Object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="400" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="400" bodyend="402"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1ae759e061916ccf4b2d2534b23934e7c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister" kindref="compound">Unregister</ref></type>
+        <definition>Unregister com.example.lusifer.myapplication.backend.registration.Registration.Unregister.setAlt</definition>
+        <argsstring>(java.lang.String alt)</argsstring>
+        <name>setAlt</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>alt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="350" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="350" bodyend="352"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1aa346f56c26ec21eb7f4c9308df3e631b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister" kindref="compound">Unregister</ref></type>
+        <definition>Unregister com.example.lusifer.myapplication.backend.registration.Registration.Unregister.setFields</definition>
+        <argsstring>(java.lang.String fields)</argsstring>
+        <name>setFields</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>fields</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="355" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="355" bodyend="357"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1aa3ccb917634b47b0f231ad00bf2eb8ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister" kindref="compound">Unregister</ref></type>
+        <definition>Unregister com.example.lusifer.myapplication.backend.registration.Registration.Unregister.setKey</definition>
+        <argsstring>(java.lang.String key)</argsstring>
+        <name>setKey</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="360" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="360" bodyend="362"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1a01afe8c3ea852a203d20629ed1e52845" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister" kindref="compound">Unregister</ref></type>
+        <definition>Unregister com.example.lusifer.myapplication.backend.registration.Registration.Unregister.setOauthToken</definition>
+        <argsstring>(java.lang.String oauthToken)</argsstring>
+        <name>setOauthToken</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>oauthToken</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="365" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="365" bodyend="367"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1ae41d7caa36ec3b9b205ea630c229cb91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister" kindref="compound">Unregister</ref></type>
+        <definition>Unregister com.example.lusifer.myapplication.backend.registration.Registration.Unregister.setPrettyPrint</definition>
+        <argsstring>(java.lang.Boolean prettyPrint)</argsstring>
+        <name>setPrettyPrint</name>
+        <param>
+          <type>java.lang.Boolean</type>
+          <declname>prettyPrint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="370" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="370" bodyend="372"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1acb97e1879018b393b6d696e80af21d8e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister" kindref="compound">Unregister</ref></type>
+        <definition>Unregister com.example.lusifer.myapplication.backend.registration.Registration.Unregister.setQuotaUser</definition>
+        <argsstring>(java.lang.String quotaUser)</argsstring>
+        <name>setQuotaUser</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>quotaUser</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="375" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="375" bodyend="377"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1a0427d93990d322def60641c202e96bef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister" kindref="compound">Unregister</ref></type>
+        <definition>Unregister com.example.lusifer.myapplication.backend.registration.Registration.Unregister.setUserIp</definition>
+        <argsstring>(java.lang.String userIp)</argsstring>
+        <name>setUserIp</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>userIp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="380" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="380" bodyend="382"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1a8d8d4962fcacc998e419dd990afdc666" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>java.lang.String</type>
+        <definition>java.lang.String com.example.lusifer.myapplication.backend.registration.Registration.Unregister.getRegId</definition>
+        <argsstring>()</argsstring>
+        <name>getRegId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="390" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="390" bodyend="392"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1a62363aac6f6fefa80cc375d1ace5d56f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister" kindref="compound">Unregister</ref></type>
+        <definition>Unregister com.example.lusifer.myapplication.backend.registration.Registration.Unregister.setRegId</definition>
+        <argsstring>(java.lang.String regId)</argsstring>
+        <name>setRegId</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>regId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="394" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="394" bodyend="397"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1a045b0fb74f90d5534d7ceb7f1aaa2925" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister" kindref="compound">Unregister</ref></type>
+        <definition>Unregister com.example.lusifer.myapplication.backend.registration.Registration.Unregister.set</definition>
+        <argsstring>(String parameterName, Object value)</argsstring>
+        <name>set</name>
+        <param>
+          <type>String</type>
+          <declname>parameterName</declname>
+        </param>
+        <param>
+          <type>Object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="400" column="1" bodyfile="E:/Git/Antardhvani/backend/build/tmp/appengineEndpointsExpandClientLibs/registration-v1-java.zip-unzipped/registration/src/main/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="400" bodyend="402"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="330">
+        <label>com.example.lusifer.myapplication.backend.registration.Registration.Unregister</label>
+        <link refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister"/>
+        <childnode refid="331" relation="public-inheritance">
+        </childnode>
+        <childnode refid="331" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="331">
+        <label>com.example.lusifer.myapplication.backend.registration.RegistrationRequest&lt; Void &gt;</label>
+        <link refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="332">
+        <label>com.example.lusifer.myapplication.backend.registration.Registration.Unregister</label>
+        <link refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister"/>
+        <childnode refid="333" relation="public-inheritance">
+        </childnode>
+        <childnode refid="333" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="333">
+        <label>com.example.lusifer.myapplication.backend.registration.RegistrationRequest&lt; Void &gt;</label>
+        <link refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_request"/>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" line="328" column="1" bodyfile="E:/Git/Antardhvani/backend/build/generated-source/endpoints/java/com/example/lusifer/myapplication/backend/registration/Registration.java" bodystart="328" bodyend="403"/>
+    <listofallmembers>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1a8d8d4962fcacc998e419dd990afdc666" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Unregister</scope><name>getRegId</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1a8d8d4962fcacc998e419dd990afdc666" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Unregister</scope><name>getRegId</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1a0271d382174cd4887b937a67f25506c5" prot="private" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Unregister</scope><name>regId</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1a4d69d3eda0bc93f92852758ca625533e" prot="private" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Unregister</scope><name>REST_PATH</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1a045b0fb74f90d5534d7ceb7f1aaa2925" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Unregister</scope><name>set</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1a045b0fb74f90d5534d7ceb7f1aaa2925" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Unregister</scope><name>set</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1ae759e061916ccf4b2d2534b23934e7c0" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Unregister</scope><name>setAlt</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1ae759e061916ccf4b2d2534b23934e7c0" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Unregister</scope><name>setAlt</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1aa346f56c26ec21eb7f4c9308df3e631b" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Unregister</scope><name>setFields</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1aa346f56c26ec21eb7f4c9308df3e631b" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Unregister</scope><name>setFields</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1aa3ccb917634b47b0f231ad00bf2eb8ae" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Unregister</scope><name>setKey</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1aa3ccb917634b47b0f231ad00bf2eb8ae" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Unregister</scope><name>setKey</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1a01afe8c3ea852a203d20629ed1e52845" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Unregister</scope><name>setOauthToken</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1a01afe8c3ea852a203d20629ed1e52845" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Unregister</scope><name>setOauthToken</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1ae41d7caa36ec3b9b205ea630c229cb91" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Unregister</scope><name>setPrettyPrint</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1ae41d7caa36ec3b9b205ea630c229cb91" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Unregister</scope><name>setPrettyPrint</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1acb97e1879018b393b6d696e80af21d8e" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Unregister</scope><name>setQuotaUser</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1acb97e1879018b393b6d696e80af21d8e" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Unregister</scope><name>setQuotaUser</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1a62363aac6f6fefa80cc375d1ace5d56f" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Unregister</scope><name>setRegId</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1a62363aac6f6fefa80cc375d1ace5d56f" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Unregister</scope><name>setRegId</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1a0427d93990d322def60641c202e96bef" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Unregister</scope><name>setUserIp</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1a0427d93990d322def60641c202e96bef" prot="public" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Unregister</scope><name>setUserIp</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1a85704a6f14dc296e80aa917c374b896c" prot="protected" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Unregister</scope><name>Unregister</name></member>
+      <member refid="classcom_1_1example_1_1lusifer_1_1myapplication_1_1backend_1_1registration_1_1_registration_1_1_unregister_1a85704a6f14dc296e80aa917c374b896c" prot="protected" virt="non-virtual"><scope>com::example::lusifer::myapplication::backend::registration::Registration::Unregister</scope><name>Unregister</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
